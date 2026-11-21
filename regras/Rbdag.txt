@@ -10515,3 +10515,37 @@ ESCOPO EXCLUSIVO DE ALTERAÇÃO: lexicons/bdag-part-0241.js; lexicon-modules.jso
 PENDÊNCIAS NÃO CERTIFICADAS: SHA bruto HTML, revisão facsimilar/impresso, revisão semântica/morfológica/bibliográfica independente individual, HTTP real dos links, testes em navegador/DOM, pesquisa, teclado, foco, acessibilidade, GitHub Actions/CI e regressão global, integração, homologação e checklist A–J. AUDITORIA_CONCLUIDA=NÃO para os 20 artigos; NÃO incrementar total_auditoria_concluida.
 PROGRESSO APÓS CONFIRMAÇÃO DO HEAD REMOTO: BDAG 5024 → 5044 / 8287 = 60,87%; 3243 artigos restantes. Próximo lema Ναγγαί, ὁ, linha 52874.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 242 — 20/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO INICIAL / PAI / EXPECTED_SHA: 0623df1d454600bad6589f7fb8b27f7da98d86f3. Regras relidas integralmente no HEAD remoto: regras/Rbdag.txt, blob f80f2cc69e2d976e34009055420756a8825cb3df; regras/Rauditoria.txt, blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67. Um único commit em chat-gpt-bdag, parent_sha/expected_sha iguais ao HEAD anterior, force=false, sem PR, merge, rebase ou deploy.
+FONTE CANÔNICA EXCLUSIVA: arquivo HTML do mantenedor "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html"; linhas 52874–53009, exatamente 20 artigos autônomos de Ναγγαί, ὁ a ναύτης, ου, ὁ. Próximo artigo EXCLUÍDO: Ναχώρ, ὁ, linha 53010. Leitura direta da fonte até a linha 53010 sem alertas. SHA bruto do HTML, fac-símile e edição impressa não certificados.
+TRADUÇÃO: os vinte artigos foram traduzidos integralmente ao português brasileiro, conservando lemas, grafias e paradigmas gregos, hebraico quando presente, variantes, remissões, bibliografia, citações, distinções semânticas e referências. Ναζαρά conserva variantes de Nazaré e bibliografia; Ναζαρηνός e Ναζωραῖος permanecem distintos e o último explicita a dificuldade etimológica e hipóteses concorrentes, sem elevar hipótese a certeza; Ναθαναήλ registra tentativas históricas de identificação; ναί mantém subacepções e construções afirmativas e contrastivas; ναός preserva os empregos referentes a santuários pagãos, templo de Jerusalém, santuário celestial, corpo/comunidade e J 2:19–21; νάρδος distingue planta e óleo e sua bibliografia; νάρκη preserva restauração textual rejeitada; ναυαγέω distingue naufrágio literal e figurado; ναύκληρος conserva a diversidade funcional proprietário, afretador, comandante.
+COLAÇÃO FORMAL INDIVIDUAL HTML → TRADUÇÃO → CARTÃO: por correspondência exata de tokens normalizados Unicode NFC, 441 sequências gregas, 6 hebraicas e 1007 numéricas, idênticas em ordem e conteúdo nos 20 artigos, nenhuma divergência; nenhum token de escrita aramaica distinto no intervalo. Foram corrigidos ANTES da publicação três numerais introduzidos indevidamente pela tradução nos artigos 04 e 06, obtendo-se coincidência exata. A colação formal não constitui revisão semântica independente nem auditoria atômica A–J.
+ARTIGOS (número | lema | linhas canônicas | G/H/N fonte=tradução=cartão):
+01 | Ναγγαί, ὁ | 52874–52877 | 2/0/2
+02 | Ναζαρά, ἡ | 52878–52881 | 14/0/97
+03 | Ναζαρηνός, ή, όν | 52882–52885 | 8/0/15
+04 | Ναζωραῖος, ου, ὁ | 52886–52889 | 21/0/170
+05 | Ναθάμ, ὁ | 52890–52893 | 5/1/13
+06 | Ναθαναήλ, ὁ | 52894–52898 | 5/1/44
+07 | ναί | 52899–52924 | 87/0/164
+08 | Ναιμάν, ὁ | 52925–52928 | 2/1/10
+09 | Ναί̈ν, ἡ | 52929–52933 | 3/0/16
+10 | ναός, οῦ, ὁ | 52934–52953 | 201/0/278
+11 | Ναούμ, ὁ | 52954–52957 | 3/1/6
+12 | ναοφόρος, ον | 52958–52962 | 7/0/4
+13 | νάρδος, ου, ἡ | 52963–52973 | 15/0/67
+14 | νάρκη, ης, ἡ | 52974–52977 | 14/0/11
+15 | Νάρκισσος, ου, ὁ | 52978–52982 | 12/0/19
+16 | ναυαγέω | 52983–52993 | 22/0/17
+17 | Ναυή, ὁ | 52994–52997 | 4/2/19
+18 | ναύκληρος, ου, ὁ | 52998–53001 | 7/0/32
+19 | ναῦς, ἡ | 53002–53005 | 4/0/9
+20 | ναύτης, ου, ὁ | 53006–53009 | 5/0/14
+VALIDAÇÃO ESTÁTICA: window.ScripturaLexicons.BDAG_PART_0242 possui source=BDAG, searchAnchorId=bdag-search-anchor e entryAnchorId=bdag-entry-anchor; exatamente 20 tr.search-row e 20 article.entry-card, IDs únicos entry-bdag-0242-01 a -20, bijeção data-target/id, HTML equilibrado, cartões com o texto integral igual às traduções. 74 âncoras NA28, 61 URLs diferentes, sintaxe aprovada; HTTP não testado. Manifesto recebe somente lexicons/bdag-part-0242.js imediatamente após bdag-part-0241.js e antes de leh.js. Preservados metadados bibliographicTerms em bdag.js.
+ESCOPO EXCLUSIVO DOS TRÊS ARQUIVOS ALTERADOS: lexicons/bdag-part-0242.js; lexicon-modules.json; regras/Rbdag.txt (somente anexação). Preservados regras/Rauditoria.txt, módulos anteriores, outros léxicos e infraestrutura. Publicação protegida com parent_sha=0623df1d454600bad6589f7fb8b27f7da98d86f3, expected_sha=0623df1d454600bad6589f7fb8b27f7da98d86f3 e force=false.
+PENDÊNCIAS NÃO CERTIFICADAS: SHA bruto do HTML, cotejo facsimilar/impresso, revisão semântica/morfológica/bibliográfica independente por verbete, teste HTTP real das âncoras NA28, navegação/DOM, pesquisa, teclado, foco, acessibilidade, GitHub Actions/CI, regressão global, auditoria atômica A–J e homologação. AUDITORIA_CONCLUIDA=NÃO nos 20 artigos; não incrementar total_auditoria_concluida.
+PROGRESSO APÓS HEAD CONFIRMADO: BDAG 5044 → 5064 / 8287 = 61,11%; 3223 artigos restantes. Próximo lema: Ναχώρ, ὁ, linha 53010.
+================================================================================
