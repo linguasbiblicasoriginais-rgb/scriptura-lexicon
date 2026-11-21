@@ -10648,3 +10648,36 @@ ESCOPO EXCLUSIVO: lexicons/bdag-part-0245.js, lexicon-modules.json e regras/Rbda
 PENDÊNCIAS: hash bruto HTML, confronto facsimilar/impresso, revisão independente semântica e bibliográfica por verbete, HTTP real dos links, DOM/navegador (pesquisa, teclado, foco, popups e acessibilidade), GitHub Actions/CI, regressão global, homologação, integração e checklist A–J. AUDITORIA_CONCLUIDA=NÃO para os 20; não incrementar total_auditoria_concluida. Após commit, a existência do módulo na branch de origem ainda não constitui integração.
 PROGRESSO CONDICIONADO À VERIFICAÇÃO REMOTA FINAL: BDAG 5104 → 5124 / 8287 = 61,83%; 3163 artigos restantes. Próximo lema: Νινευής, linha 53415.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 246 — 21/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO INICIAL / PAI / EXPECTED_SHA: 2a2ecace942c90ffa18b0f465e9b17a984aeef53; árvore inicial 2064221bec1436c6a6880707d71c03914cfaccf3. Normas consultadas: regras/Rbdag.txt blob c5b5ef6fefad41cc41bb7d1d51b54531b718bdc6 e regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67. Publicação de um único commit exclusivo em chat-gpt-bdag, com expected_sha exato, force=false; sem PR, merge, rebase ou deploy.
+FONTE CANÔNICA EXCLUSIVA: HTML do mantenedor "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html" (Files/Library), linhas 53415–53619, 20 artigos autônomos consecutivos desde Νινευής até νόσημα, ατος, τό. Próximo artigo excluído: νόσος, ου, ἡ, linha 53620. Fonte efetivamente lida no intervalo; hash bruto do arquivo HTML e cotejo com fac-símile da edição impressa não realizados.
+TRADUÇÃO: tradução integral dos vinte artigos para português brasileiro, preservando as acepções e subacepções, as formas gregas, os paradigmas e detalhes gramaticais, os testemunhos em hebraico, as alternativas textuais, as remissões lexicais, as referências bíblicas/extrabíblicas e a bibliografia. νίπτω preserva a distinção ativo/médio/serviço de lavar pés; νοέω mantém ①ⓐⓑⓒⓓⓔ e ②③④, incluindo acusativo, infinitivo, ὅτι e perguntas indiretas; νόμος mantém a introdução histórica e os grupos ①ⓐⓑ, ②ⓐⓑ, ③ⓐⓑ, com referências a lei/costume/princípio, lei mosaica e Escrituras. ν. em Paulo não é interpretado como um sentido único. Uma omissão preliminar de Μωϋσῆς na discussão de νόμος foi corrigida antes da publicação.
+COLAÇÃO FORMAL INDIVIDUAL FONTE HTML → TRADUÇÃO → TEXTO EXTRAÍDO DOS CARTÕES: total de 1170 sequências gregas, 2 hebraicas e 1891 numéricas, preservadas em conteúdo e ordem após Unicode NFC, sem divergências finais em 20/20 artigos. A colação por tokens não equivale a auditoria semântica independente, cotejo facsimilar ou protocolo atômico A–J.
+ARTIGOS (nº | lema | linhas canônicas | G/H/N):
+01 | Νινευής | 53415–53418 | 4/0/26
+02 | Νινευίτης, ου, ὁ | 53419–53422 | 6/0/8
+03 | νιπτήρ, ῆρος, ὁ | 53423–53427 | 10/0/21
+04 | νίπτω | 53428–53451 | 45/0/106
+05 | νοέω | 53452–53484 | 175/0/255
+06 | νόημα, ατος, τό | 53485–53501 | 45/0/50
+07 | νόθος, η, ον | 53502–53506 | 10/0/10
+08 | νομή, ῆς, ἡ | 53507–53518 | 25/0/61
+09 | νομίζω | 53519–53530 | 71/0/155
+10 | νομικός, ή, όν | 53531–53541 | 22/0/71
+11 | νόμιμος, η, ον | 53542–53545 | 44/0/47
+12 | νομίμως | 53546–53549 | 24/0/29
+13 | νόμισμα, ατος, τό | 53550–53553 | 22/0/26
+14 | νομοδιδάσκαλος, ου, ὁ | 53554–53557 | 8/0/26
+15 | νομοθεσία, ας, ἡ | 53558–53562 | 9/0/42
+16 | νομοθετέω | 53563–53573 | 70/0/77
+17 | νομοθέτης, ου, ὁ | 53574–53578 | 30/0/56
+18 | νόμος, ου, ὁ | 53579–53610 | 525/2/779
+19 | νοσέω | 53611–53614 | 15/0/30
+20 | νόσημα, ατος, τό | 53615–53619 | 10/0/16
+VALIDAÇÕES ESTÁTICAS: window.ScripturaLexicons.BDAG_PART_0246 apresenta source=BDAG, searchAnchorId=bdag-search-anchor e entryAnchorId=bdag-entry-anchor; 20 tr.search-row e 20 article.entry-card, com IDs entry-bdag-0246-01 a -20 exclusivos, correspondência 1:1 entre data-target e id, HTML estruturalmente equilibrado, textos integrais dos cartões iguais às traduções; 176 links NA28, 149 URLs distintas, sintaxe verificada, HTTP de destinos não testado. Manifesto contém exclusivamente uma entrada para bdag-part-0246.js logo após bdag-part-0245.js e antes de leh.js, sem duplicações. Preservados bibliographicTerms de bdag.js e demais módulos.
+ESCOPO EXCLUSIVO DE MODIFICAÇÃO: lexicons/bdag-part-0246.js, lexicon-modules.json, regras/Rbdag.txt (apenas acrescentar checkpoint). Não alterar regras/Rauditoria.txt, módulos anteriores, demais léxicos ou infraestrutura.
+PENDÊNCIAS: SHA bruto da fonte HTML, colação facsimilar/impresso, revisão filológica/semântica/bibliográfica independente por artigo, verificação real HTTP dos links, navegador/DOM, pesquisa, foco, teclado, acessibilidade e popups, execução GitHub Actions/CI e testes globais, homologação, integração e auditoria atômica A–J. AUDITORIA_CONCLUIDA=NÃO para os vinte artigos; NÃO incrementar total_auditoria_concluida.
+PROGRESSO CONDICIONADO À VERIFICAÇÃO REMOTA FINAL: BDAG 5124 → 5144 / 8287 = 62,07%; 3143 artigos restantes. Próximo artigo: νόσος, ου, ἡ, linha 53620.
+================================================================================
