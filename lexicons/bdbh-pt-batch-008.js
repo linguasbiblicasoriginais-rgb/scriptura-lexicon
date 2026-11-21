@@ -604,6 +604,66 @@ window.ScripturaBDBHpt.batch008={
       "integration_status": "NAO_INTEGRADO",
       "source_blob_sha": "39d09d21a0e6212b9c058b6b2192bc0150eddda3",
       "editorial_evidence": "relatorios/bdbh-pt-2026-11-21-ordinais-00728-00740.md"
+    },
+    {
+      "ordinal": 741,
+      "headword": "אוֹפַן",
+      "ref": "BDB, אוֹפַן",
+      "preview": "אוֹפַן: roda; flexões, carro de guerra, debulha, visão de Ezequiel e bases das pias do templo.",
+      "html": "† <big><span dir=\"rtl\">אוֹפַן</span>, <span dir=\"rtl\">אוֹפָן</span></big>  <strong>s.m.</strong><sup><a data-ref=\"Ezekiel 1:20\" href=\"/Ezekiel.1.20\">Ez 1:20</a></sup> <strong>roda</strong>. — Forma absoluta: <span dir=\"rtl\">אוֹפַן</span> <a data-ref=\"I Kings 7:32\" href=\"/I_Kings.7.32\">1 K 7:32</a> +; <span dir=\"rtl\">אוֹפָן</span> <a data-ref=\"Ezekiel 1:16\" href=\"/Ezekiel.1.16\">Ez 1:16</a> +; construto: <span dir=\"rtl\">אוֹפַן</span> <a data-ref=\"I Kings 7:33\" href=\"/I_Kings.7.33\">1 K 7:33</a> <a data-ref=\"Isaiah 28:27\" href=\"/Isaiah.28.27\">Is 28:27</a>; <span dir=\"rtl\">אֹפַן</span> <a data-ref=\"Exodus 14:25\" href=\"/Exodus.14.25\">Ex 14:25</a>; plural: <span dir=\"rtl\">אוֹפַנִּים</span> <a data-ref=\"I Kings 7:32\" href=\"/I_Kings.7.32\">1 K 7:32</a> +; construto: <span dir=\"rtl\">אוֹפַנֵּי</span> <a data-ref=\"I Kings 7:30\" href=\"/I_Kings.7.30\">1 K 7:30</a>; <span dir=\"rtl\">אוֹפַנֵּיהֶם</span> <a data-ref=\"Ezekiel 10:12\" href=\"/Ezekiel.10.12\">Ez 10:12</a>, etc. —<br><strong>a.</strong>  <em>roda</em> de carro de guerra <span dir=\"rtl\">(מֶרְכָּבָה)</span> <a data-ref=\"Exodus 14:25\" href=\"/Exodus.14.25\">Ex 14:25</a> <a data-ref=\"I Kings 7:33\" href=\"/I_Kings.7.33\">1 K 7:33</a> <a data-ref=\"Nahum 3:2\" href=\"/Nahum.3.2\">Na 3:2</a>; de carro (de debulhar) <span dir=\"rtl\">(עֲגָלָה)</span> <a data-ref=\"Isaiah 28:27\" href=\"/Isaiah.28.27\">Is 28:27</a> cf. <a data-ref=\"Proverbs 20:26\" href=\"/Proverbs.20.26\">Pr 20:26</a> (como instrumento de punição).<br><strong>b.</strong>  rodas na visão de Ezequiel <a data-ref=\"Ezekiel 1:15\" href=\"/Ezekiel.1.15\">Ez 1:15</a>, <a data-ref=\"Ezekiel 1:16\" href=\"/Ezekiel.1.16\">16</a><sup>(×3)</sup>, <a data-ref=\"Ezekiel 1:19\" href=\"/Ezekiel.1.19\">19</a><sup>(×2)</sup>, <a data-ref=\"Ezekiel 1:20\" href=\"/Ezekiel.1.20\">20</a><sup>(×2)</sup>, <a data-ref=\"Ezekiel 1:21\" href=\"/Ezekiel.1.21\">21</a>, (Co propõe supressão) <a data-ref=\"Ezekiel 1:21\" href=\"/Ezekiel.1.21\">21</a>; <a data-ref=\"Ezekiel 3:13\" href=\"/Ezekiel.3.13\">3:13</a>; <a data-ref=\"Ezekiel 10:6\" href=\"/Ezekiel.10.6\">10:6</a>, <a data-ref=\"Ezekiel 10:9\" href=\"/Ezekiel.10.9\">9</a><sup>(×4)</sup>, <a data-ref=\"Ezekiel 10:10\" href=\"/Ezekiel.10.10\">10</a><sup>(×2)</sup>, <a data-ref=\"Ezekiel 10:12\" href=\"/Ezekiel.10.12\">12</a><sup>(×3)</sup>, <a data-ref=\"Ezekiel 10:13\" href=\"/Ezekiel.10.13\">13</a>, <a data-ref=\"Ezekiel 10:16\" href=\"/Ezekiel.10.16\">16</a><sup>(×2)</sup>, <a data-ref=\"Ezekiel 10:19\" href=\"/Ezekiel.10.19\">19</a>; <a data-ref=\"Ezekiel 11:22\" href=\"/Ezekiel.11.22\">11:22</a>.<br><strong>c.</strong>  rodas das dez bases sob as pias do templo de Salomão <a data-ref=\"I Kings 7:30\" href=\"/I_Kings.7.30\">1 K 7:30</a>, <a data-ref=\"I Kings 7:32\" href=\"/I_Kings.7.32\">32</a><sup>(×3)</sup>, <a data-ref=\"I Kings 7:33\" href=\"/I_Kings.7.33\">33</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "39d09d21a0e6212b9c058b6b2192bc0150eddda3",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-21-ordinais-00741-00744.md"
+    },
+    {
+      "ordinal": 742,
+      "headword": "אֹ֫פֶן",
+      "ref": "BDB, אֹ֫פֶן",
+      "preview": "אֹ֫פֶן: circunstância, condição; forma dual ou plural com sufixo; interpretação figurada.",
+      "html": "† <big>[<span dir=\"rtl\">אֹ֫פֶן</span>]</big>  <strong>s.</strong>[<strong>m.</strong>] <strong>circunstância, condição (</strong>talvez literalmente <em>rotação</em><strong>)</strong> apenas na forma dual (ou plural), com sufixo, <span dir=\"rtl\">עַל־אָפְנָיו</span> = <em>nas</em> (devidas) <em>circunstâncias</em> <a data-ref=\"Proverbs 25:11\" href=\"/Proverbs.25.11\">Pr 25:11</a> (cf. Str, no comentário ao versículo; também Orelli<sup>Syn. d. Zeit u. Ewigkelt 38 f.</sup>).",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "39d09d21a0e6212b9c058b6b2192bc0150eddda3",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-21-ordinais-00741-00744.md"
+    },
+    {
+      "ordinal": 743,
+      "headword": "אָפ֑וּנָה",
+      "ref": "BDB, אָפ֑וּנָה",
+      "preview": "אָפ֑וּנָה: vocábulo de Sl 88.16; explicações assírias e árabes duvidosas, variantes e objeção de GFM.",
+      "html": "† <big><span dir=\"rtl\">אָפ֑וּנָה</span></big>  <a data-ref=\"Psalms 88:16\" href=\"/Psalms.88.16\">ψ 88:16</a> <strong>(</strong>ἅπ. λεγ. Dl<sup>Pr 135 f.</sup> compara com o assírio <em>appuna(ma)</em> advérbio = <em>maʾdiš</em>, <em>muito, muito intensamente</em>, mas duvidoso; Thes e MV derivam a forma da raiz √ <span dir=\"rtl\">פון</span>, e comparam o árabe <span dir=\"rtl\">أَفَنَ</span> <em>diminuit, mente diminuit</em> (Frey), daí <em>ficar confuso, desamparado</em>, cf. 𝔊 ἐξηπορήθην; 𝔙 <em>conturbatus sum;</em> outros propõem emendar para <span dir=\"rtl\">אָפוּגָה</span> ou <span dir=\"rtl\">אֶפּוֹגָה</span> a partir de <span dir=\"rtl\">פּוּג</span> (veja-se o verbete correspondente), mas não é necessário um verbo para o paralelismo. Na realidade, o árabe <span dir=\"rtl\">أَفَنَ</span> significa <em>leite</em> (de camela etc.) <em>seco, esgotado;</em> <span dir=\"rtl\">مأفون</span> = <em>homem de cabeça vazia;</em> isto não sustenta a interpretação <em>ficar confuso, desamparado</em> (GFM, em comunicação particular)<strong>)</strong>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "39d09d21a0e6212b9c058b6b2192bc0150eddda3",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-21-ordinais-00741-00744.md"
+    },
+    {
+      "ordinal": 744,
+      "headword": "אָפֵס",
+      "ref": "BDB, אָפֵס",
+      "preview": "אָפֵס: cessar, faltar, chegar ao fim; ocorrências do Qal e paralelismos.",
+      "html": "† <big><big><span dir=\"rtl\">אָפֵס</span></big></big>  <strong>(</strong>cf. <a data-ref=\"BDB, פָּסַס\" href=\"/BDB,_פָּסַס\", dir=\"rtl\">II. פָּסַס</a><strong>) v. cessar, faltar, chegar ao fim</strong>: apenas <strong>Qal</strong> perfeito, terceira pessoa masculina singular; <a data-ref=\"Genesis 47:15\" href=\"/Genesis.47.15\">Gn 47:15</a>, <a data-ref=\"Genesis 47:16\" href=\"/Genesis.47.16\">16</a> (referente ao dinheiro, <span dir=\"rtl\">כֶּסֶף</span>), <a data-ref=\"Isaiah 16:4\" href=\"/Isaiah.16.4\">Is 16:4</a> (referente ao opressor: ‖ <span dir=\"rtl\">כָּלָה</span>, <span dir=\"rtl\">תַּם</span>), <a data-ref=\"Isaiah 29:20\" href=\"/Isaiah.29.20\">29:20</a> (referente ao homem terrível: ‖ <span dir=\"rtl\">כָּלָה</span>, <span dir=\"rtl\">נִכְרַת</span>), <a data-ref=\"Psalms 77:9\" href=\"/Psalms.77.9\">ψ 77:9</a> (<span dir=\"rtl\">חַסְדּוֹ</span>: ‖ <span dir=\"rtl\">גָּמַר</span>).",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "39d09d21a0e6212b9c058b6b2192bc0150eddda3",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-21-ordinais-00741-00744.md"
     }
   ]
 };
