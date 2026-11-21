@@ -10447,3 +10447,37 @@ ESCOPO DOS TRÊS ÚNICOS ARQUIVOS ALTERADOS: lexicons/bdag-part-0239.js, lexicon
 PENDÊNCIAS NÃO CERTIFICADAS: SHA bruto do HTML canônico, confronto facsimilar/impresso, revisão semântica/morfológica/bibliográfica independente artigo a artigo, acesso HTTP dos links, navegador/DOM real, pesquisa, teclado, foco, acessibilidade, GitHub Actions/CI, regressão global, homologação e checklist completo A–J. AUDITORIA_CONCLUIDA=NÃO nos 20; não incrementar total_auditoria_concluida.
 PROGRESSO APÓS CONFIRMAÇÃO DO HEAD REMOTO: BDAG 4984 → 5004 / 8287 = 60,38%; 3283 artigos restantes. Próximo artigo: μυελός, οῦ, ὁ, linha 52630.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 240 — 20/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO INICIAL/PAI/EXPECTED_SHA: 0a3a40c8570708687c9677d5f48999047e2e6c52. Normas efetivamente relidas neste HEAD: regras/Rbdag.txt (blob 6b0f96c27b4ebe4145abd649c490892e7579b4a3) e regras/Rauditoria.txt (blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67). Publicação somente em um commit diretamente na branch chat-gpt-bdag, expected_sha idêntico ao HEAD inicial e force=false, sem PR, merge, rebase ou deploy.
+FONTE CANÔNICA EXCLUSIVA: HTML do mantenedor "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", linhas 52630–52725, exatamente 20 artigos autônomos consecutivos, de μυελός, οῦ, ὁ até Μύρτη, ης, η. Próximo artigo EXCLUÍDO: μῦς, μυός, ὁ, linha 52726. Leitura direta da fonte canônica nas linhas 52630–52726, sem avisos. SHA bruto do HTML canônico e cotejo com fac-símile não certificados; nenhum outro léxico substituído pela fonte.
+TRADUÇÃO: os vinte artigos traduzidos integralmente para português brasileiro, preservando lemas, paradigmas, morfologia, sintaxe, todas as acepções e subacepções, variantes e notas textuais, remissões, citações gregas, referências bíblicas e extrabíblicas e bibliografia. μυέω distingue iniciação em mistérios, batismo e aprendizagem figurada; μῦθος preserva o desenvolvimento da narrativa neutra até o relato ficcional; μύλος distingue moinho e mó, incluindo descrição técnica; μυλών e μυλωνικός são artigos autônomos; Μύρα preserva a forma neutra plural e a variante Μύραν, e Μύρρα mantém remissão independente; μυριάς distingue 10,000 de numeral indefinidamente grande; μύριοι distingue dez mil e hipérbole; μυρίος significa incontável; μύρον conserva o uso e a origem por empréstimo semítico; Μύρτη é nome próprio autônomo.
+COLAÇÃO FORMAL INDIVIDUAL HTML CANÔNICO → TRADUÇÃO → TEXTO EXTRAÍDO DOS CARTÕES: 269 sequências gregas, zero sequências em escrita hebraica/aramaica neste intervalo e 487 sequências numéricas, idênticas em conteúdo e ordem, normalizadas em Unicode NFC, para 20/20 artigos. Nenhuma divergência encontrada. Não equivale a revisão semântica independente, cotejo facsimilar nem auditoria atômica A–J.
+ARTIGOS (nº | lema | linhas canônicas | contagens G/H/N fonte=tradução=cartão):
+01 | μυελός, οῦ, ὁ | 52630–52633 | 16/0/25
+02 | μυέω | 52634–52637 | 25/0/26
+03 | μύθευμα, ατος, τό | 52638–52641 | 8/0/11
+04 | μυθικός, ή, όν | 52642–52645 | 7/0/2
+05 | μῦθος, ου, ὁ | 52646–52649 | 49/0/68
+06 | μυκάομαι | 52650–52653 | 2/0/12
+07 | μυκτηρίζω | 52654–52657 | 10/0/33
+08 | μυλικός, ή, όν | 52658–52661 | 11/0/10
+09 | μύλινος, η, ον | 52662–52666 | 10/0/6
+10 | μύλος, ου, ὁ | 52667–52677 | 32/0/52
+11 | μυλών, ῶνος, ὁ | 52678–52681 | 4/0/21
+12 | μυλωνικός, ή, όν | 52682–52685 | 11/0/9
+13 | Μύρα | 52686–52690 | 5/0/31
+14 | μυριάς, άδος, ἡ | 52691–52701 | 30/0/58
+15 | μυρίζω | 52702–52705 | 12/0/9
+16 | μύριοι, αι, α | 52706–52709 | 9/0/19
+17 | μυρίος, α, ον | 52710–52713 | 9/0/19
+18 | μύρον, ου, τό | 52714–52717 | 14/0/70
+19 | Μύρρα | 52718–52721 | 2/0/0
+20 | Μύρτη, ης, η | 52722–52725 | 3/0/6
+VERIFICAÇÕES ESTÁTICAS: BDAG_PART_0240 registra source=BDAG, searchAnchorId=bdag-search-anchor, entryAnchorId=bdag-entry-anchor. 20 tr.search-row e 20 article.entry-card, IDs exclusivos entry-bdag-0240-01 a -20 e data-target correspondentes em bijeção, HTML estruturalmente balanceado, texto completo extraído de cartões idêntico às respectivas traduções. 41 âncoras NA28, 35 URLs distintas, sintaxe validada, HTTP não testado. Manifesto inclui somente bdag-part-0240 após bdag-part-0239 e antes de leh.js. bibliographicTerms em bdag.js preservado.
+ESCOPO EXCLUSIVO DE MODIFICAÇÃO: lexicons/bdag-part-0240.js, lexicon-modules.json e regras/Rbdag.txt (somente anexação de checkpoint). Não alterar regras/Rauditoria.txt, módulos prévios, demais léxicos nem infraestrutura. Um commit com parent_sha=0a3a40c8570708687c9677d5f48999047e2e6c52 e expected_sha=0a3a40c8570708687c9677d5f48999047e2e6c52; force=false.
+PENDÊNCIAS NÃO CERTIFICADAS: SHA bruto do HTML canônico, cotejo facsimilar, revisão semântica/morfológica/bibliográfica independente, teste real HTTP das âncoras NA28, navegador/DOM, teclado, foco, pesquisa e acessibilidade, GitHub Actions/CI, regressão global, homologação, integração e auditoria atômica A–J. AUDITORIA_CONCLUIDA=NÃO nos 20 artigos. Não incrementar total_auditoria_concluida.
+PROGRESSO APÓS HEAD REMOTO CONFIRMADO: BDAG 5004 → 5024 / 8287 = 60,63%; 3263 artigos restantes. Próximo lema μῦς, μυός, ὁ, linha 52726.
+================================================================================
