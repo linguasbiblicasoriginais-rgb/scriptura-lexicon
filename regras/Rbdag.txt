@@ -10714,3 +10714,36 @@ ESCOPO EXCLUSIVO: lexicons/bdag-part-0247.js, lexicon-modules.json, regras/Rbdag
 PENDÊNCIAS: hash bruto HTML canônico, cotejo facsimilar/impresso, revisão individual filológica/semântica/bibliográfica independente e aparato, verificação HTTP real dos 154 links, regressão em navegador/DOM incluindo pesquisa/teclado/foco/acessibilidade/popups, execução CI/GitHub Actions/testes globais, homologação, integração e checklist atômico A–J. AUDITORIA_CONCLUIDA=NÃO para todos os 20; não incrementar total_auditoria_concluida.
 PROGRESSO CONDICIONADO À CONFIRMAÇÃO REMOTA: BDAG 5144 → 5164 / 8287 = 62,31%; 3123 artigos restantes. Próximo artigo νυνί, linha 53816.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 248 — 21/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO INICIAL/PAI/EXPECTED_SHA: 52846367495deb8d72c5411a871004a75c1b1a6b; árvore Git inicial bc4f0efa4a0ed4b4b47ac6707a8dc06daef95d09. Normas efetivamente relidas neste HEAD: regras/Rbdag.txt blob 6ebec82237f0ea7b2e5166bda45c30c49bc76af1, regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67. Publicação exclusiva em um commit de chat-gpt-bdag, expected_sha igual ao HEAD real, force=false, sem PR, merge, rebase ou deploy.
+FONTE CANÔNICA EXCLUSIVA: HTML do mantenedor "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html" (Files/Library), linhas 53816–54014, 20 artigos autônomos consecutivos, de νυνί a ξιφίδιον, ου, τό. Próximo artigo EXCLUÍDO: ξίφος, linha 54015. Letra Ξ na linha 53901 é cabeçalho de seção alfabética, não artigo nem parte da tradução de νῶτος. A fonte original foi lida diretamente neste lote, mas hash dos bytes brutos do HTML e cotejo facsimilar/impresso não certificados.
+TRADUÇÃO: texto integral de todos os 20 verbetes em português brasileiro, com lemas, formas, paradigmas, variantes, construções sintáticas, acepções/subacepções, referências bíblicas/extrabíblicas, aparato, bibliografia e remissões. νυνί preserva sentido temporal e situacional e os paralelos com νῦν. νύξ distingue noite literal e figurada, quatro construções por caso (ⓐⓑⓒⓓ) e testemunhos. νύσσω distingue perfuração e toque para despertar; νυστάζω distingue sono literal e inércia figurada. Νῶε preserva hebraico נֹחַ e testemunhos cristãos e judaicos. ξαίνω preserva o aparato relativo ao Códice א e a hipótese textual do Ox 655, sem converter conjectura em certeza. Ξανθικός mantém a incerteza da conversão de data, ξενία distingue hospitalidade e quarto de hóspedes. ξενίζω registra os dois significados e variantes. ξένος mantém adjetivo ①ⓐαβⓑ e substantivo ②ⓐⓑⓒ. ξέστης conserva a hipótese etimológica latina como hipótese. ξηραίνω mantém ①ⓐⓑ, ② e ③ (secagem, paralisia e maturação); ξηρός mantém ① e ②. Uma correção pré-publicação restituiu a ordem de referências de ξενία, incluindo Phlm 22, confirmada por colação.
+COLAÇÃO FORMAL INDIVIDUAL: HTML → tradução → texto do cartão, normalizados Unicode NFC; 569 sequências gregas, 2 em escrita hebraica, 1450 numéricas, iguais em conteúdo e ordem nos 20 artigos; zero divergências finais. A letra Ξ do cabeçalho alfabético foi corretamente excluída da sequência do artigo νῶτος. A equivalência de sequências não equivale a revisão filológica semântica independente, nem garante todos os aspectos de bibliografia ou interpretação.
+ARTIGOS (nº | lema | linhas canônicas | G/H/N):
+01 | νυνί | 53816–53845 | 28/0/123
+02 | νύξ, νυκτός, ἡ | 53846–53869 | 152/0/416
+03 | νύσσω | 53870–53880 | 30/0/39
+04 | νυστάζω | 53881–53884 | 10/0/16
+05 | νυχθήμερον, ου, τό | 53885–53888 | 10/0/40
+06 | Νῶε, ὁ | 53889–53892 | 16/1/67
+07 | νωθρός, ά, όν | 53893–53896 | 23/0/19
+08 | νῶτος, ου, ὁ | 53897–53904 | 18/0/35
+09 | ξαίνω | 53905–53908 | 15/1/40
+10 | Ξανθικός, ου, ὁ | 53909–53912 | 11/0/21
+11 | ξενία, ας, ἡ | 53913–53917 | 18/0/37
+12 | ξενίζω | 53918–53928 | 28/0/94
+13 | ξενισμός, οῦ, ὁ | 53929–53932 | 9/0/14
+14 | ξενοδοχέω | 53933–53937 | 5/0/13
+15 | ξένος, η, ον | 53938–53969 | 103/0/190
+16 | Ξένων, ωνος | 53970–53973 | 2/0/6
+17 | ξέστης, ου, ὁ | 53974–53978 | 7/0/34
+18 | ξηραίνω | 53979–53999 | 45/0/85
+19 | ξηρός, ά, όν | 54000–54010 | 35/0/154
+20 | ξιφίδιον, ου, τό | 54011–54014 | 4/0/7
+VALIDAÇÕES ESTÁTICAS: window.ScripturaLexicons.BDAG_PART_0248 com source=BDAG, searchAnchorId=bdag-search-anchor e entryAnchorId=bdag-entry-anchor. 20 tr.search-row e 20 article.entry-card, IDs exclusivos entry-bdag-0248-01 a -20, correspondência biunívoca data-target/id, HTML estruturalmente equilibrado, texto de 20 cartões igual à tradução. 123 links NA28, 117 URLs distintas com sintaxe validada; destinos HTTP não acessados. Manifesto lexicon-modules.json inclui lexicons/bdag-part-0248.js uma única vez imediatamente depois de part-0247.js e antes de leh.js, sem duplicações. bdag.js e bibliographicTerms preservados.
+ESCOPO EXCLUSIVO: lexicons/bdag-part-0248.js, lexicon-modules.json, regras/Rbdag.txt (acréscimo deste checkpoint em anexo). Não alterar regras/Rauditoria.txt, módulos anteriores, outros léxicos ou infraestrutura.
+PENDÊNCIAS: hash bruto do HTML original, colação facsimilar/impresso, revisão independente integral filológica, semântica, bíblica e bibliográfica por verbete, verificação HTTP dos links, navegação/DOM, pesquisa, teclado/foco/popups/acessibilidade, GitHub Actions e CI, regressão global, homologação e integração, auditoria atômica A–J. AUDITORIA_CONCLUIDA=NÃO para os 20; não incrementar total_auditoria_concluida.
+PROGRESSO CONDICIONADO À CONFIRMAÇÃO REMOTA: BDAG 5164 → 5184 / 8287 = 62,56%; 3103 artigos restantes; próximo artigo ξίφος, linha 54015.
+================================================================================
