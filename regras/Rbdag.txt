@@ -10549,3 +10549,36 @@ ESCOPO EXCLUSIVO DOS TRÊS ARQUIVOS ALTERADOS: lexicons/bdag-part-0242.js; lexic
 PENDÊNCIAS NÃO CERTIFICADAS: SHA bruto do HTML, cotejo facsimilar/impresso, revisão semântica/morfológica/bibliográfica independente por verbete, teste HTTP real das âncoras NA28, navegação/DOM, pesquisa, teclado, foco, acessibilidade, GitHub Actions/CI, regressão global, auditoria atômica A–J e homologação. AUDITORIA_CONCLUIDA=NÃO nos 20 artigos; não incrementar total_auditoria_concluida.
 PROGRESSO APÓS HEAD CONFIRMADO: BDAG 5044 → 5064 / 8287 = 61,11%; 3223 artigos restantes. Próximo lema: Ναχώρ, ὁ, linha 53010.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 243 — 21/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO INICIAL/PAI/EXPECTED_SHA: 67710fad9768cadeacadb42c610754782640559e. Blob de regras/Rbdag.txt antes da alteração: 2f1934bdb235cdb883d8603c40fa164a1c465cff; regras/Rauditoria.txt: 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67. Publicação apenas em chat-gpt-bdag em um commit com parent_sha e expected_sha iguais ao HEAD real e force=false, sem PR, merge ou deploy.
+FONTE EXCLUSIVA: HTML canônico do mantenedor 'A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html', linhas 53010–53181; 20 cabeçalhos lexicográficos autônomos consecutivos de Ναχώρ, ὁ a Νευης. Próximo artigo EXCLUÍDO νεῦρον, ου, τό, linha 53182. Fonte relida diretamente em biblioteca; SHA bruto do arquivo e cotejo facsimilar não verificados.
+TRADUÇÃO: artigos integralmente transpostos a português brasileiro, preservando paradigmas, gregos, hebraico, sentidos ①/②/③ etc., variantes, remissões, referências bíblicas e extrabíblicas, bibliografia, ressalvas e hipóteses. νεκρός mantém os sentidos A/B e subdivisões, além das distinções entre ressurreição, morte espiritual e cadáver. νέος mantém cinco seções incluindo o toponímico Νέα πόλις. νεανίσκος distingue jovem/servidor. νεκρόω mantém paradigma 1º aoristo e particípio perfeito passivo; νέμω, terceira pessoa plural aorista.
+COLAÇÃO FORMAL INDIVIDUAL FONTE → TRADUÇÃO → CARTÃO: 612 sequências gregas, 1 hebraica e 1166 sequências numéricas em ordem e conteúdo idênticos nos 20 artigos (normalização Unicode NFC), nenhuma divergência. As omissões numéricas preliminares em νεκρόω (1º aoristo) e νέμω (3ª pessoa) foram corrigidas ANTES da publicação. Esta colação não equivale a revisão semântica independente nem auditoria A–J.
+ARTIGOS (nº | lema | linhas canônicas | G/H/N):
+01 | Ναχώρ, ὁ | 53010–53013 | 4/1/11
+02 | νεανίας, ου, ὁ | 53014–53017 | 4/0/38
+03 | νεᾶνις, ιδος, ἡ | 53018–53022 | 5/0/14
+04 | νεανίσκος, ου, ὁ | 53023–53033 | 14/0/90
+05 | Νεάπολις | 53034–53037 | 2/0/1
+06 | Νεεμάν | 53038–53041 | 2/0/0
+07 | νεῖκος, εος, τό | 53042–53046 | 5/0/3
+08 | νεκρός, ά, όν | 53047–53078 | 271/0/448
+09 | νεκροφόρος, ον | 53079–53082 | 11/0/10
+10 | νεκρόω | 53083–53087 | 33/0/46
+11 | νέκρωσις, εως, ἡ | 53088–53104 | 46/0/38
+12 | νέμω | 53105–53108 | 13/0/21
+13 | νεομηνία, ας, ἡ | 53109–53113 | 22/0/54
+14 | νέος, α, ον | 53114–53157 | 131/0/285
+15 | νεοσσός | 53158–53161 | 2/0/0
+16 | νεότης, τητος, ἡ | 53162–53165 | 25/0/64
+17 | νεόφυτος, ον | 53166–53169 | 5/0/23
+18 | νέρτερος, α, ον | 53170–53173 | 12/0/9
+19 | Νέρων, ωνος, ὁ | 53174–53177 | 3/0/8
+20 | Νευης | 53178–53181 | 2/0/3
+VALIDAÇÃO ESTÁTICA: window.ScripturaLexicons.BDAG_PART_0243 com source=BDAG e âncoras padrão; exatamente 20 tr.search-row e 20 article.entry-card, IDs distintos entry-bdag-0243-01 a -20, bijeção entre data-target/id, HTML equilibrado, textos extraídos dos cartões correspondendo integralmente aos textos das traduções. 129 links NA28, 119 URLs únicas, sintaxe válida, destinos HTTP não testados. Manifesto lexicon-modules.json contém o módulo uma vez imediatamente depois de part-0242 e antes de leh.js; bibliographicTerms e outros léxicos inalterados.
+ESCOPO EXCLUSIVO: lexicons/bdag-part-0243.js, lexicon-modules.json, regras/Rbdag.txt (anexação desta seção). Sem alterações em regras/Rauditoria.txt, módulos anteriores, demais léxicos ou infraestrutura.
+PENDÊNCIAS: SHA bruto do HTML, colação com edição impressa, revisão semântica/bibliográfica independente por verbete, HTTP real das URLs, testes de navegador/DOM, foco, pesquisa, teclado, acessibilidade, execução CI e regressão global, homologação e integração. AUDITORIA_CONCLUIDA=NÃO para os 20 artigos, não incrementar total_auditoria_concluida.
+PROGRESSO SE PUBLICAÇÃO CONFIRMADA NO HEAD REMOTO: BDAG 5064 → 5084 / 8287 = 61,35%; 3203 artigos restantes. Próximo lema νεῦρον, ου, τό, linha 53182.
+================================================================================
