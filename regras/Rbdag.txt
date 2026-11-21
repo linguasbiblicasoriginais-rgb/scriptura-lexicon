@@ -10780,3 +10780,36 @@ ESCOPO EXCLUSIVO: lexicons/bdag-part-0249.js, lexicon-modules.json, regras/Rbdag
 PENDÊNCIAS: hash bruto do HTML, cotejo fac-símile/edição impressa, revisão filológica/semântica/bibliográfica independente integral por artigo, verificação HTTP real de 354 links, browser/DOM, pesquisa/foco/teclado/popups/acessibilidade, GitHub Actions CI, regressão global, homologação, integração e checklist atômico A–J. AUDITORIA_CONCLUIDA=NÃO para os vinte verbetes; NÃO incrementar contador de auditorias concluídas.
 PROGRESSO CONDICIONADO À VERIFICAÇÃO REMOTA FINAL: BDAG 5184 → 5204 / 8287 = 62,80%; 3083 artigos restantes. Próximo artigo: ὁδός, οῦ, ἡ, linha 54319.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 250 — 21/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO INICIAL/PAI/EXPECTED_SHA: 7f0879f9546870a2113ac02086b3440132b8575d; árvore Git inicial e5400178c086725d3e65bdb47f3d979e7d9b1376. Normas efetivamente consultadas neste HEAD: regras/Rbdag.txt blob be6f89dfb10be43f2542bb3fbbb8b7f2645394a8 e regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67. Publicação em um único commit na branch chat-gpt-bdag, expected_sha igual ao HEAD remoto e force=false, sem PR, merge, rebase ou deploy.
+FONTE CANÔNICA EXCLUSIVA: arquivo HTML "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", Files/Library, linhas 54319–54518, 20 artigos autônomos consecutivos, de ὁδός, οῦ, ἡ até οἴκησις, εως, ἡ. Próximo artigo excluído: οἰκητήριον, ου, τό, linha 54519. Fonte lida efetivamente, mas SHA dos bytes brutos do HTML e colação facsimilar/impressa não realizados.
+TRADUÇÃO INTEGRAL: todos os 20 verbetes traduzidos ao português brasileiro; lemas, paradigmas, flexões, variantes, formas gregas e hebraicas, referências escriturísticas e patrísticas, testemunhos documentais, aparato, bibliografia e remissões preservados. ὁδός distingue ① estrada/via, ② jornada/viagem e ③ⓐⓑⓒ caminho moral, conduta e autodesignação religiosa «o Caminho»; conserva hebraico דֶּרֶךְ e דרך em paralelo de Qumran e ressalvas historiográficas. ὀδυνάω e ὀδύνη preservam oposição físico/mental; ὀδύνω, οῦ, ὁ mantém fielmente a forma morfologicamente peculiar apresentada no HTML, sem emenda especulativa. Ὀζίας conserva עֻזִּיָּהוּ e עֻזִּיָּה, sem harmonizações. ὀθόνιον preserva a incerteza sobre o valor «bandagem». οἶδα preserva paradigma e seis acepções ①ⓐⓑⓒⓓⓔⓕⓖⓗⓘ e ②③④⑤⑥; mantêm-se alternativas exegéticas e discussão sobre possível hebraísmo. οἰκεῖος distingue laços familiares e comunidade de fé. οἴκημα distingue aposento e cela prisional, sem ocultar a divergência com Haenchen.
+COLAÇÃO FORMAL INDIVIDUAL: HTML original → tradução → texto efetivamente inserido nos cartões; sequências em Unicode NFC comparadas por artigo/porções: 1095 gregas, 4 hebraicas e 1844 numéricas, mesmas leituras, conteúdo e ordem; zero divergências finais nos 20 verbetes. ὁδός colacionado em duas partes; οἶδα em três partes. A colação de tokens é controle formal, não certificação independente semântica, textual ou bibliográfica de cada tradução.
+ARTIGOS (nº | lema | linhas canônicas | G/H/N):
+01 | ὁδός, οῦ, ἡ | 54319–54341 | 470/2/589
+02 | ὀδούς, ὀδόντος, ὁ | 54342–54346 | 23/0/38
+03 | ὀδυνάω | 54347–54358 | 28/0/48
+04 | ὀδύνη, ης, ἡ | 54359–54369 | 18/0/31
+05 | ὀδύνω, οῦ, ὁ | 54370–54373 | 7/0/4
+06 | ὀδυρμός, οῦ, ὁ | 54374–54377 | 6/0/18
+07 | ὀδύρομαι | 54378–54381 | 2/0/31
+08 | Ὀζίας, ου, ὁ | 54382–54385 | 6/2/9
+09 | ὄζος, ου, ὁ | 54386–54389 | 10/0/10
+10 | ὄζω | 54390–54394 | 4/0/18
+11 | ὅθεν | 54395–54411 | 19/0/92
+12 | ὀθόνη, ης, ἡ | 54412–54415 | 5/0/21
+13 | ὀθόνιον, ου, τό | 54416–54420 | 6/0/47
+14 | οἶδα | 54421–54471 | 357/0/652
+15 | οἰκεῖος, (α,) ον | 54472–54482 | 50/0/51
+16 | οἰκετεία, ας, ἡ | 54483–54486 | 13/0/24
+17 | οἰκέτης, ου, ὁ | 54487–54491 | 9/0/23
+18 | οἰκέω | 54492–54503 | 44/0/67
+19 | οἴκημα, ατος, τό | 54504–54514 | 13/0/43
+20 | οἴκησις, εως, ἡ | 54515–54518 | 5/0/28
+VALIDAÇÕES ESTÁTICAS: window.ScripturaLexicons.BDAG_PART_0250, source=BDAG, searchAnchorId=bdag-search-anchor, entryAnchorId=bdag-entry-anchor. 20 tr.search-row, 20 article.entry-card, IDs únicos entry-bdag-0250-01 a -20 em correspondência exata data-target/id, estrutura HTML equilibrada, textos de 20 cartões conferidos contra tradução consolidada. 237 links NA28, 223 URLs distintas, sintaxe validada; HTTP real não verificado. Manifesto lexicon-modules.json insere lexicons/bdag-part-0250.js uma vez após part-0249.js e antes de leh.js, sem duplicações, demais módulos intocados.
+ESCOPO EXCLUSIVO: lexicons/bdag-part-0250.js, lexicon-modules.json e regras/Rbdag.txt (anexação append-only deste checkpoint). Não alterar regras/Rauditoria.txt, lexicons/bdag.js, módulos anteriores, outros léxicos e infraestrutura.
+PENDÊNCIAS: hash bruto do HTML, conferência com edição impressa/fac-símile, revisão filológica, bibliográfica e semântica independente integral por artigo, teste HTTP dos links, navegador/DOM, teclado/pesquisa/foco/popups/acessibilidade, GitHub Actions CI, regressão global, homologação, integração e checklist atômico A–J. AUDITORIA_CONCLUIDA=NÃO para os 20; não incrementar contador de auditorias concluídas.
+PROGRESSO CONDICIONADO À CONFIRMAÇÃO REMOTA FINAL: BDAG 5204 → 5224 / 8287 = 63,04%; 3063 artigos restantes; próximo artigo οἰκητήριον, linha 54519.
+================================================================================
