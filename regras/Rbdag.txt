@@ -10481,3 +10481,37 @@ ESCOPO EXCLUSIVO DE MODIFICAÇÃO: lexicons/bdag-part-0240.js, lexicon-modules.j
 PENDÊNCIAS NÃO CERTIFICADAS: SHA bruto do HTML canônico, cotejo facsimilar, revisão semântica/morfológica/bibliográfica independente, teste real HTTP das âncoras NA28, navegador/DOM, teclado, foco, pesquisa e acessibilidade, GitHub Actions/CI, regressão global, homologação, integração e auditoria atômica A–J. AUDITORIA_CONCLUIDA=NÃO nos 20 artigos. Não incrementar total_auditoria_concluida.
 PROGRESSO APÓS HEAD REMOTO CONFIRMADO: BDAG 5004 → 5024 / 8287 = 60,63%; 3263 artigos restantes. Próximo lema μῦς, μυός, ὁ, linha 52726.
 ================================================================================
+
+
+================================================================================
+BDAG — LOTE 241 — 20/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO INICIAL / PARENT / EXPECTED_SHA: 045500d68ec811e022cc6958f88fd2998a0908af. Normas relidas no HEAD real: regras/Rbdag.txt, blob f8dc01ea81df8fb29412df7b104faaaae56e4fce, e regras/Rauditoria.txt, blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67. Condição: um único commit direto em chat-gpt-bdag com expected_sha exato e force=false; sem PR, merge, rebase ou deploy.
+FONTE CANÔNICA EXCLUSIVA: arquivo HTML do mantenedor "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html", linhas 52726–52873, 20 artigos autônomos e consecutivos desde μῦς, μυός, ὁ até Νάβαλ, ὁ. Próximo artigo EXCLUÍDO: Ναγγαί, ὁ, linha 52874. Leitura direta integral das linhas 52726–52874 sem advertência. O cabeçalho alfabético Ν da linha 52862 (<div class="c70">; não é um lexema nem parte de Μωϋσῆς) foi excluído na extração do texto lexical antes da colação. SHA bruto do HTML e cotejo impresso/facsimilar não certificados. Não substituir a fonte por PDFs ou dicionários auxiliares.
+TRADUÇÃO: integral para português brasileiro, com todas as acepções, subacepções, paradigmas, formas gregas e hebraicas, variantes, remissões, bibliografia, citações e referências. μυστήριον distingue os mistérios greco-romanos e ① desígnios secretos divinos (evangelhos, epístolas paulinas, Apocalipse) de ② realidade transcendente (pastorais, Inácio, Didachê, Diogneto); suas subdivisões, bibliografia e 179 sequências gregas e 287 numéricas foram preservadas. μωραίνω mantém a distinção entre tornar insensato e tornar insípido. μωρός conserva as interpretações concorrentes da expressão em Mt 5:22, inclusive hebraico נָבָל e מוֹרֵה, sem decidir conjecturalmente. Μωσῆς permanece uma remissão autônoma a Μωϋσῆς; esta entrada conserva variantes de grafia, declinação, datas, referências e hebraico משֶׁה. Ναασσών e Νάβαλ permanecem lemas individuais com formas hebraicas נַחְשׁוֹן e נָבָל.
+COLAÇÃO INDIVIDUAL FONTE HTML → TRADUÇÃO → TEXTO EXTRAÍDO DOS CARTÕES, com Unicode NFC: 423 sequências gregas, 5 hebraicas e 943 numéricas em ordem e conteúdo idênticos para 20/20 artigos; nenhum token de escrita aramaica exclusivo nesse conjunto. Excluído apenas o cabeçalho alfabético Ν (linha 52862), elemento de navegação/cabeçalho e não material lexical; não alterar tokens dos artigos. Comparação de sequências não equivale à avaliação filológica independente, cotejo facsimilar ou auditoria atômica A–J.
+ARTIGOS (nº | lema | linhas canônicas | G/H/N fonte=tradução=cartão):
+01 | μῦς, μυός, ὁ | 52726–52729 | 4/0/10
+02 | μυσερός, ά, όν | 52730–52733 | 17/0/25
+03 | Μυσία, ας, ἡ | 52734–52738 | 3/0/4
+04 | μυστήριον, ου, τό | 52739–52770 | 179/0/287
+05 | Μυτιλήνη | 52771–52774 | 2/0/0
+06 | μυωπάζω | 52775–52778 | 10/0/11
+07 | Μωδάτ, ὁ | 52779–52782 | 3/0/3
+08 | μώλωψ, ωπος ὁ | 52783–52786 | 24/0/30
+09 | μωμάομαι | 52787–52791 | 8/0/14
+10 | μῶμος, ου, ὁ | 52792–52803 | 12/0/25
+11 | μωμοσκοπέομαι | 52804–52815 | 8/0/12
+12 | μωραίνω | 52816–52826 | 21/0/34
+13 | μωρία, ας, ἡ | 52827–52830 | 21/0/38
+14 | μωρολογία, ας, ἡ | 52831–52835 | 10/0/15
+15 | μωρός, ά, όν | 52836–52849 | 41/2/150
+16 | μωρῶς | 52850–52853 | 3/0/5
+17 | Μωσῆς | 52854–52857 | 2/0/0
+18 | Μωϋσῆς | 52858–52865 | 49/1/264
+19 | Ναασσών, ὁ | 52866–52869 | 2/1/11
+20 | Νάβαλ, ὁ | 52870–52873 | 4/1/5
+VALIDAÇÃO ESTÁTICA: BDAG_PART_0241 com source=BDAG, searchAnchorId=bdag-search-anchor, entryAnchorId=bdag-entry-anchor. 20 tr.search-row e 20 article.entry-card; IDs exclusivos entry-bdag-0241-01 a -20, data-target/id correspondentes 1:1, HTML estruturalmente equilibrado, conteúdo textual dos cartões fiel às traduções. 52 âncoras NA28, 50 URLs distintas, sintaxe validada; HTTP não testado. Manifesto recebe exclusivamente lexicons/bdag-part-0241.js após bdag-part-0240 e antes de leh.js. Metadados bibliographicTerms de bdag.js inalterados.
+ESCOPO EXCLUSIVO DE ALTERAÇÃO: lexicons/bdag-part-0241.js; lexicon-modules.json; regras/Rbdag.txt (somente anexação deste checkpoint). Preservar regras/Rauditoria.txt, todos os módulos anteriores, demais léxicos, infraestrutura. Publicar somente em commit único, com parent_sha=045500d68ec811e022cc6958f88fd2998a0908af, expected_sha=045500d68ec811e022cc6958f88fd2998a0908af e force=false.
+PENDÊNCIAS NÃO CERTIFICADAS: SHA bruto HTML, revisão facsimilar/impresso, revisão semântica/morfológica/bibliográfica independente individual, HTTP real dos links, testes em navegador/DOM, pesquisa, teclado, foco, acessibilidade, GitHub Actions/CI e regressão global, integração, homologação e checklist A–J. AUDITORIA_CONCLUIDA=NÃO para os 20 artigos; NÃO incrementar total_auditoria_concluida.
+PROGRESSO APÓS CONFIRMAÇÃO DO HEAD REMOTO: BDAG 5024 → 5044 / 8287 = 60,87%; 3243 artigos restantes. Próximo lema Ναγγαί, ὁ, linha 52874.
+================================================================================
