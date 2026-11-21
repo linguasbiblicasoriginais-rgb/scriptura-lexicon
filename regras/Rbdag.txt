@@ -10813,3 +10813,36 @@ ESCOPO EXCLUSIVO: lexicons/bdag-part-0250.js, lexicon-modules.json e regras/Rbda
 PENDÊNCIAS: hash bruto do HTML, conferência com edição impressa/fac-símile, revisão filológica, bibliográfica e semântica independente integral por artigo, teste HTTP dos links, navegador/DOM, teclado/pesquisa/foco/popups/acessibilidade, GitHub Actions CI, regressão global, homologação, integração e checklist atômico A–J. AUDITORIA_CONCLUIDA=NÃO para os 20; não incrementar contador de auditorias concluídas.
 PROGRESSO CONDICIONADO À CONFIRMAÇÃO REMOTA FINAL: BDAG 5204 → 5224 / 8287 = 63,04%; 3063 artigos restantes; próximo artigo οἰκητήριον, linha 54519.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 251 — 21/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO INICIAL/PAI/EXPECTED_SHA: babd1b3852f02d377d589211afb872f95ffe04ad; árvore Git base 5e2281833348d977d8054b381615aa290ff2961a. Normas efetivamente relidas: regras/Rbdag.txt blob ac969ace06b742bf76ad34fe5694f3a2c8e99356; regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67. Publicar em exatamente um commit na branch chat-gpt-bdag por expected_sha correspondente ao HEAD remoto, force=false, sem PR, merge ou deploy.
+FONTE CANÔNICA: HTML do mantenedor "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html" (Files/Library), linhas 54519–54770, 20 artigos autônomos consecutivos, de οἰκητήριον, ου, τό a οἰκοφθόρος, ον. Próximo artigo EXCLUÍDO: οἰκτείρω, linha 54771. Fonte HTML efetivamente lida; hash dos bytes brutos não obtido, nem cotejo com fac-símile/impresso.
+TRADUÇÃO COMPLETA AO PORTUGUÊS BRASILEIRO: todos os 20 artigos, com paradigmas, variantes, acepções, subdivisões, construções gregas, testemunhos, abreviaturas, bibliografia e remissões; conservar ressalvas dos autores. οἰκητήριον distingue habitação angelical e corpo glorificado. οἰκία distingue edifício, família e emprego intermediário referente à corte do imperador (Phil 4:22), registrando escravos e libertos, não impondo parentesco. οἰκοδομέω distingue ① construção física, ② construção espiritual e ③ fortalecimento; preserva as alternativas passiva/média de 1 Pt 2:5 e a possibilidade de ironia em 1 Cor 8:10. οἰκοδομή distingue processo de construção, edificação espiritual, edifício literal e espiritual e corpo glorificado; preserve-se o aparato longo de Hermas. οἰκοδομία mantém status de leitura variante de 1 Ti 1:4. οἰκονομία preserva administração ①ⓐⓑ, disposição e plano ②ⓐⓑⓒ, formação ③, variantes textuais e interpretação alternativa de 1 Ti 1:4, sem falsear certeza. οἰκονόμος distingue gestão privada, tesouraria pública e administração de realidades divinas. οἶκος mantém ①ⓐαβγ e ①ⓑαβ, ② família, ③ clã/nação, ④ bens/patrimônio e discussão epigráfica da casa de Davi (probabilidade, não certeza). οἰκουμένη distingue ① terra habitada, ②ⓐⓑ Império Romano, ③ humanidade, ④ usos extraordinários; mantém a possível ambiguidade de Lk 2:1. οἰκουργέω distingue tarefas domésticas da gestão em οἰκοδεσποτέω; οἰκουργός e οἰκουρός mantêm variantes de Tit 2:5. οἰκοφθόρος conserva os sentidos de destruição doméstica/adultério e a hipótese distinta de Bauer sobre destruição do templo.
+COLAÇÃO FORMAL INDIVIDUAL E GLOBAL: sequências Unicode NFC do HTML fonte comparadas com tradução e texto de cartões, para cada artigo e, quando longo, em seções; 1334 sequências gregas, 0 hebraicas, 2067 numéricas e 0 em escrita siríaca/aramaica, todas preservadas integralmente na mesma ordem, sem divergências finais. Em οἰκία houve correção comprovada da ordem de numerais antes de geração do módulo. A colação formal não equivale a auditoria semântica/bibliográfica independente.
+ARTIGOS (nº | lema | linhas canônicas | G/H/N):
+01 | οἰκητήριον, ου, τό | 54519–54522 | 25/0/46
+02 | οἰκήτωρ, ορος, ὁ | 54523–54527 | 11/0/23
+03 | οἰκία, ας, ἡ | 54528–54547 | 159/0/233
+04 | οἰκιακός, οῦ, ὁ | 54548–54551 | 6/0/11
+05 | οἰκοδεσποτέω | 54552–54555 | 4/0/16
+06 | οἰκοδεσπότης, ου, ὁ | 54556–54560 | 14/0/71
+07 | οἰκοδομέω | 54561–54593 | 180/0/296
+08 | οἰκοδομή, ῆς, ἡ | 54594–54622 | 209/0/342
+09 | οἰκοδομητός, ή, όν | 54623–54626 | 8/0/12
+10 | οἰκοδομία, ας, ἡ | 54627–54630 | 12/0/32
+11 | οἰκοδόμος, ου, ὁ | 54631–54635 | 8/0/10
+12 | οἰκονομέω | 54636–54647 | 33/0/25
+13 | οἰκονομία, ας, ἡ | 54648–54677 | 121/0/125
+14 | οἰκονόμος, ου, ὁ | 54678–54692 | 70/0/129
+15 | οἶκος, ου, ὁ | 54693–54731 | 328/0/514
+16 | οἰκουμένη, ης, ἡ | 54732–54754 | 89/0/129
+17 | οἰκουργέω | 54755–54758 | 18/0/18
+18 | οἰκουργός, όν | 54759–54762 | 18/0/11
+19 | οἰκουρός, όν | 54763–54766 | 7/0/5
+20 | οἰκοφθόρος, ον | 54767–54770 | 14/0/19
+TESTES ESTÁTICOS APROVADOS: window.ScripturaLexicons.BDAG_PART_0251; source=BDAG, searchAnchorId=bdag-search-anchor, entryAnchorId=bdag-entry-anchor. 20 tr.search-row, 20 article.entry-card, IDs únicos entry-bdag-0251-01 a -20, correspondência entre data-target e id, HTML equilibrado, igualdade entre o texto dos 20 cartões e traduções. 203 links NA28, 181 destinos únicos, sintaxe validada; HTTP não verificado. Manifesto lexicon-modules.json contém lexicons/bdag-part-0251.js uma vez, após part-0250.js e antes de leh.js, sem duplicações. bdag.js e módulos anteriores inalterados.
+ESCOPO EXCLUSIVO DO COMMIT: lexicons/bdag-part-0251.js, lexicon-modules.json, regras/Rbdag.txt (somente este acréscimo). Não modificar regras/Rauditoria.txt, outros léxicos, módulos anteriores ou infraestrutura.
+PENDÊNCIAS: SHA bruto do HTML canônico, cotejo facsimilar/edição impressa, revisão independente da tradução, semântica, aparato bibliográfico, variantes e correções eventuais por artigo; testes HTTP reais dos links, navegador/DOM, pesquisa, navegação por teclado, foco, popups e acessibilidade; GitHub Actions/CI, regressão global, homologação e auditoria atômica A–J. AUDITORIA_CONCLUIDA=NÃO para os 20; não incrementar contador de auditados.
+PROGRESSO CONDICIONADO À CONFIRMAÇÃO REMOTA FINAL: BDAG 5224 → 5244 / 8287 = 63,28%; 3043 artigos restantes; próximo: οἰκτείρω, linha 54771.
+================================================================================
