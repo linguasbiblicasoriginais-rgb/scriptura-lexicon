@@ -10747,3 +10747,36 @@ ESCOPO EXCLUSIVO: lexicons/bdag-part-0248.js, lexicon-modules.json, regras/Rbdag
 PENDÊNCIAS: hash bruto do HTML original, colação facsimilar/impresso, revisão independente integral filológica, semântica, bíblica e bibliográfica por verbete, verificação HTTP dos links, navegação/DOM, pesquisa, teclado/foco/popups/acessibilidade, GitHub Actions e CI, regressão global, homologação e integração, auditoria atômica A–J. AUDITORIA_CONCLUIDA=NÃO para os 20; não incrementar total_auditoria_concluida.
 PROGRESSO CONDICIONADO À CONFIRMAÇÃO REMOTA: BDAG 5164 → 5184 / 8287 = 62,56%; 3103 artigos restantes; próximo artigo ξίφος, linha 54015.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 249 — 21/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO INICIAL/PAI/EXPECTED_SHA: 85b337732b0d045250922c20d1c279c7007e66db; árvore Git inicial efe8366f7d395879944c994c24555c2940f65b03. Normas lidas efetivamente no HEAD: regras/Rbdag.txt blob 6d839fa29558be4de802065e33815600d1da6d29 e regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67. Publicação planejada em exatamente um commit na branch chat-gpt-bdag, com expected_sha igual ao HEAD real e force=false, sem PR, merge, rebase ou deploy.
+FONTE: HTML canônico do mantenedor "A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html" (Files/Library), linhas 54015–54318, 20 artigos autônomos consecutivos, de ξίφος, εος até ὁδοποιέω. Artigo seguinte EXCLUÍDO: ὁδός, οῦ, ἡ, linha 54319. Letra Ο isolada na linha 54065 é cabeçalho alfabético, não artigo e não pertence ao corpo de ξυράω. Fonte realmente consultada; SHA dos bytes originais do HTML e confronto facsimilar com edição impressa não realizados.
+TRADUÇÃO INTEGRAL: 20 artigos traduzidos para português brasileiro com acepções, subdivisões, formas, variantes, construções sintáticas, testemunhos, referências bíblicas/extrabíblicas, aparato, bibliografia e remissões. ξύλον mantém os sentidos ① madeira, ②ⓐαβⓑⓒ objetos de madeira inclusive cruz e ③ árvore, distinguindo material, instrumentos, cruz e árvore da vida. ξυράω mantém paradigmas e a discussão crítica sobre ξυρᾶσθαι/ξύρασθαι (1 Cor 11:6). O extenso verbete ὁ, ἡ, τό ocupa 155 linhas canônicas (54070–54224) e foi traduzido integralmente em sete blocos; mantêm-se ①ⓐⓑⓒ demonstrativo e ②ⓐαא ב β γ δ ε ζ η θ ι, ②ⓑαβγδ, ②ⓒαβ, ②ⓓαβאבגדהוז, ②ⓔⓕⓖⓗαβⓘαβγⓙαβγⓚ, além das referências e advertências gramaticais. Em particular preserva-se o exemplo de Tit 2:13 e a comparação de partilha do artigo, sem impor interpretação teológica externa. ὄγδοος preserva a construção de 2 Pt 2:5, ὅδε preserva valores deícticos e indefinidos, ὁδηγέω distingue condução espacial e instrutiva, e ὁδοποιέω conserva variante textual de Mk 2:23.
+COLAÇÃO FORMAL INDIVIDUAL: fonte HTML → tradução → texto extraído dos cartões, normalização Unicode NFC; 1857 sequências gregas, 9 hebraicas e 2342 numéricas, iguais em conteúdo e ordem nos 20/20 artigos, zero divergências finais. O artigo ὁ, ἡ, τό responde por 1343/9/1378 e teve os sete blocos cotejados individualmente antes de consolidação; contagens por artigo abaixo. A colação de sequências não constitui auditoria filológica semântica, bibliográfica e facsimilar independente.
+ARTIGOS (nº | lema | linhas canônicas | G/H/N):
+01 | ξίφος, εος | 54015–54018 | 4/0/3
+02 | ξόανον, ου, τό | 54019–54022 | 4/0/16
+03 | ξύλινος, η, ον | 54023–54027 | 19/0/31
+04 | ξύλον, ου, τό | 54028–54056 | 150/0/304
+05 | ξυν- | 54057–54060 | 2/0/0
+06 | ξυράω | 54061–54069 | 32/0/69
+07 | ὁ, ἡ, τό | 54070–54224 | 1343/9/1378
+08 | ὀβελίσκος, ου, ὁ | 54225–54228 | 9/0/11
+09 | ὀγδοήκοντα | 54229–54232 | 7/0/20
+10 | ὄγδοος, η, ον | 54233–54237 | 27/0/48
+11 | ὄγκος, ου, ὁ | 54238–54248 | 10/0/16
+12 | ὀγκόω | 54249–54253 | 13/0/23
+13 | ὅδε, ἥδε, τόδε | 54254–54273 | 64/0/158
+14 | ὁδεύω | 54274–54278 | 24/0/47
+15 | ὁδηγέω | 54279–54290 | 87/0/90
+16 | ὁδηγός, οῦ, ὁ | 54291–54301 | 15/0/39
+17 | ὀδμή | 54302–54305 | 2/0/0
+18 | ὁδοιπορέω | 54306–54309 | 12/0/14
+19 | ὁδοιπορία, ας, ἡ | 54310–54313 | 21/0/41
+20 | ὁδοποιέω | 54314–54318 | 12/0/34
+CONTROLES ESTÁTICOS: window.ScripturaLexicons.BDAG_PART_0249, source=BDAG, searchAnchorId=bdag-search-anchor, entryAnchorId=bdag-entry-anchor. 20 tr.search-row, 20 article.entry-card, IDs exclusivos entry-bdag-0249-01 a -20 em correspondência bijetiva data-target/id, HTML estruturado e equilibrado, textos dos cartões iguais às traduções, 354 links NA28 (340 URLs distintas) com sintaxe verificada. Destinos HTTP não testados. Manifesto inclui lexicons/bdag-part-0249.js uma única vez após part-0248.js e antes de leh.js, preservando os demais módulos. As duas secções alfabéticas são distinguidas de verbetes.
+ESCOPO EXCLUSIVO: lexicons/bdag-part-0249.js, lexicon-modules.json, regras/Rbdag.txt (apenas acrescentar este checkpoint). Não modificar regras/Rauditoria.txt, bdag.js, módulos anteriores, outras línguas/léxicos, nem infraestrutura.
+PENDÊNCIAS: hash bruto do HTML, cotejo fac-símile/edição impressa, revisão filológica/semântica/bibliográfica independente integral por artigo, verificação HTTP real de 354 links, browser/DOM, pesquisa/foco/teclado/popups/acessibilidade, GitHub Actions CI, regressão global, homologação, integração e checklist atômico A–J. AUDITORIA_CONCLUIDA=NÃO para os vinte verbetes; NÃO incrementar contador de auditorias concluídas.
+PROGRESSO CONDICIONADO À VERIFICAÇÃO REMOTA FINAL: BDAG 5184 → 5204 / 8287 = 62,80%; 3083 artigos restantes. Próximo artigo: ὁδός, οῦ, ἡ, linha 54319.
+================================================================================
