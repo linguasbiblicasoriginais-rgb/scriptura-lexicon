@@ -10945,3 +10945,36 @@ ALTERAÇÕES EXCLUSIVAS: lexicons/bdag-part-0254.js, lexicon-modules.json, regra
 PENDÊNCIAS: SHA original bruto do HTML, cotejo independente com edição impressa, revisão filológica e bibliográfica individual A–J, exame externo dos testemunhos, testes HTTP reais dos links, navegador/DOM/teclado/foco/popups/acessibilidade, CI, regressão global e integração posterior pelo integrador autorizado. AUDITORIA_CONCLUIDA=NÃO, contador de auditorias não incrementado.
 PROGRESSO CONDICIONADO À PUBLICAÇÃO E RECONSULTA REMOTA: 5284 → 5304 artigos de 8287 (64,00%); restantes 2983. Próximo artigo ὅμοιος, οία, οιον, linha 55137.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 255 — 22/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+BASE/HEAD/PAI/EXPECTED_SHA: 10efd5f3c1b909d40d2fb14e17de7d7dbddc7537; árvore inicial a7aba0a9848edfaa6eedc4ae3aefe685b2f90916. Normas remotas efetivamente relidas: regras/Rbdag.txt blob 38d1fb65feafce5ef13c81ba54a5bb2f05d0bd22; regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67. Publicar no único ramo autorizado chat-gpt-bdag, um commit, expected_sha e force=false; sem PR, merge, rebase ou deploy.
+FONTE ÚNICA: HTML canônico do BDAG, Project Files identificação file_00000000429c820eb5aa2bcab96f1572, linhas 55137–55302. Delimitação exata de 20 artigos autônomos consecutivos começando em ὅμοιος, οία, οιον e terminando em ὄμφαξ, ακος. Próximo excluído ὅμως, linha 55303. Não foi usado PDF substitutivo; não houve acesso a hash bruto do HTML integral, fac-símile ou páginas da edição impressa.
+TRADUÇÃO INTEGRAL: 20 artigos ao português, preservando lemas, paradigmas, regências, flexões, formas gregas, variantes textuais, testemunhos, numerais, referências, bibliografia, sentidos e remissões. ὅμοιος conserva os usos por dativo, genitivo, acusativo irregular e absoluto; ὁμοιόω conserva duas acepções; ὁμοίωμα conserva três grandes acepções, inclusive alternativas interpretativas de Phil 2:7 e Ro 8:3, sem harmonização teológica; ὁμολογέω conserva ① promessa ② acordo ③ admissão/confissão judicial/pecado ④ reconhecimento público/confissão cristológica/louvor com todas as subdivisões gramaticais. ὁμολογία mantém distinção entre ato e conteúdo da confissão; ὁμοῦ mantém usos local e temporal; ὄμφαξ mantém gêneros gramaticais alternativos.
+COLAÇÃO FORMAL INDIVIDUAL Unicode NFC em ordem HTML→tradução→texto visível do cartão: 933 tokens gregos, 0 hebraicos, 956 numéricos. Divergências finais ZERO nos 20 artigos. O intervalo não contém sequência em escrita hebraica nem aramaica identificada. Conferência formal não é auditoria semântica independente.
+ARTIGOS (nº | lema | linhas canônicas | gregos/hebraicos/numéricos):
+01 | ὅμοιος, οία, οιον | 55137–55153 | 157/0/141
+02 | ὁμοιότης, ητος, ἡ | 55154–55157 | 31/0/53
+03 | ὁμοιοτρόπως | 55158–55162 | 6/0/7
+04 | ὁμοιόω | 55163–55174 | 79/0/79
+05 | ὁμοίωμα, ατος, τό | 55175–55194 | 91/0/74
+06 | ὁμοίως | 55195–55198 | 69/0/48
+07 | ὁμοίωσις, εως, ἡ | 55199–55203 | 18/0/35
+08 | ὁμολογέω | 55204–55238 | 275/0/220
+09 | ὁμολόγησις, ήσεως, ἡ | 55239–55243 | 5/0/6
+10 | ὁμολογία, ας, ἡ | 55244–55254 | 41/0/42
+11 | ὁμολογουμένως | 55255–55258 | 2/0/43
+12 | ὁμονοέω | 55259–55262 | 6/0/22
+13 | ὁμόνοια, ας, ἡ | 55263–55266 | 63/0/87
+14 | ὁμόσε | 55267–55270 | 7/0/10
+15 | ὁμότεχνος, ον | 55271–55275 | 5/0/20
+16 | ὁμοῦ | 55276–55286 | 48/0/25
+17 | ὁμόφρων, ον | 55287–55290 | 12/0/11
+18 | ὁμόφυλος, ον | 55291–55294 | 8/0/17
+19 | ὁμοφωνία, ας, ἡ | 55295–55298 | 6/0/8
+20 | ὄμφαξ, ακος | 55299–55302 | 4/0/8
+TESTES ESTÁTICOS: 20 linhas tr.search-row, 20 cartões article.entry-card; 20 IDs exclusivos e pareados via data-target, HTML estruturalmente equilibrado, texto integral recuperado igual ao texto da tradução, 85 referências NA28 com sintaxe validada (sem HTTP), manifesto com lexicons/bdag-part-0255.js uma vez depois da parte 0254 e antes de leh.js; fonte BDAG e âncoras preservadas. Sem introdução de bibliographicTerms em duplicidade.
+MODIFICAÇÕES EXCLUSIVAS: lexicons/bdag-part-0255.js, lexicon-modules.json e regras/Rbdag.txt (somente acréscimo documental). Não alterar módulos prévios ou outros léxicos.
+PENDÊNCIAS NÃO OMITIDAS: SHA bruto dos bytes da fonte HTML, fac-símile e paginação impressa, revisão independente filológica/gramatical/bibliográfica e auditoria A–J, teste HTTP de links, DOM/browser, teclado, foco, acessibilidade e popups, CI, regressão funcional global e integração apenas pela rotina autorizada. AUDITORIA_CONCLUIDA=NÃO; nenhum verbete incrementa contador de auditorias concluídas.
+PROGRESSO APÓS PUBLICAÇÃO E RECONSULTA REMOTA: 5304 → 5324 / 8287 = 64.25%; restantes 2963; próximo lema ὅμως, HTML linha 55303.
+================================================================================
