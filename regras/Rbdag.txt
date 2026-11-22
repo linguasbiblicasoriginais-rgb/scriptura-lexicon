@@ -10846,3 +10846,36 @@ ESCOPO EXCLUSIVO DO COMMIT: lexicons/bdag-part-0251.js, lexicon-modules.json, re
 PENDÊNCIAS: SHA bruto do HTML canônico, cotejo facsimilar/edição impressa, revisão independente da tradução, semântica, aparato bibliográfico, variantes e correções eventuais por artigo; testes HTTP reais dos links, navegador/DOM, pesquisa, navegação por teclado, foco, popups e acessibilidade; GitHub Actions/CI, regressão global, homologação e auditoria atômica A–J. AUDITORIA_CONCLUIDA=NÃO para os 20; não incrementar contador de auditados.
 PROGRESSO CONDICIONADO À CONFIRMAÇÃO REMOTA FINAL: BDAG 5224 → 5244 / 8287 = 63,28%; 3043 artigos restantes; próximo: οἰκτείρω, linha 54771.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 252 — 22/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD REMOTO INICIAL/PAI/EXPECTED_SHA: 1c1e19480e01d3e5dbe70a69b4a6544bc86f3a05; árvore base 944deaace8fbd4a3ce1a468b391241daae18c802. Regras: Rbdag SHA 1073c7f19f25d54889cb7e37f7919c470ae75e6e; Rauditoria conforme HEAD remoto. Publicação atômica com expected_sha e force=false, somente em chat-gpt-bdag; sem PR, merge ou deploy.
+FONTE EXCLUSIVA: HTML canônico no acervo Scriptura Lexicon/Files, arquivo A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html, fonte identificada file_00000000429c820eb5aa2bcab96f1572, linhas 54771–54869. Primeiro lema οἰκτείρω; último ὀλεθρευτής, ὀλεθρεύω; artigo 21 excluído ὀλέθριος, ον, linha 54870. Não utilizado PDF como substituto. Hash dos bytes originais da fonte e paginação impressa não obtidos.
+TRADUÇÃO: 20 artigos integralmente vertidos ao português brasileiro, conservando formas, paradigmas e grafias, sentidos, construções, exemplos, evidências textuais, ressalvas, bibliografia, remissões e fontes secundárias da própria entrada. οἶνος mantém ① vinho literal, ② vinho da ira divina, ③ videira/vinha e a discussão sobre consumo moderado. οἷος conserva a análise das formas correlativas e variante textualmente incerta J 5:3 [4]. ὀκνηρός mantém as acepções ① ocioso e ② causador de relutância.
+COLAÇÃO LEXICAL FORMAL POR ARTIGO, NFC e ordem integral HTML→tradução→cartão: 369 tokens gregos, 1 hebraico e 522 numéricos, divergências ZERO. Sequências mantidas em cada um dos 20 verbetes. Esta conferência formal não substitui auditoria filológica independente.
+ARTIGOS (número | lema | linhas HTML | gregos/hebraicos/numéricos):
+01 | οἰκτείρω | 54771–54774 | 4/0/11
+02 | οἰκτιρμός, οῦ, ὁ | 54775–54778 | 35/1/31
+03 | οἰκτίρμων, ον | 54779–54782 | 13/0/29
+04 | οἰκτίρω | 54783–54786 | 15/0/37
+05 | οἶμαι | 54787–54790 | 2/0/0
+06 | οἴμοι | 54791–54794 | 4/0/21
+07 | οἰνόμελι, ιτος, τό | 54795–54798 | 14/0/22
+08 | οἰνοπότης, ου, ὁ | 54799–54803 | 8/0/17
+09 | οἶνος, ου, ὁ | 54804–54817 | 84/0/97
+10 | οἰνοφλυγία, ας, ἡ | 54818–54821 | 14/0/17
+11 | οἴομαι | 54822–54825 | 19/0/69
+12 | οἷος, α, ον | 54826–54829 | 74/0/91
+13 | οἱοσδηποτοῦν | 54830–54833 | 2/0/0
+14 | οἴσω | 54834–54837 | 2/0/0
+15 | οἰωνοσκόπος, ου, ὁ | 54838–54841 | 7/0/9
+16 | ὀκνέω | 54842–54846 | 23/0/27
+17 | ὀκνηρός, ά, όν | 54847–54857 | 16/0/21
+18 | ὀκταήμερος, ον | 54858–54861 | 11/0/8
+19 | ὀκτώ | 54862–54865 | 18/0/15
+20 | ὀλεθρευτής, ὀλεθρεύω | 54866–54869 | 4/0/0
+TESTES ESTÁTICOS: 20 linhas, 20 cartões, 20 IDs únicos e pareados, HTML estruturalmente equilibrado, texto integral recuperado idêntico à tradução, 56 links NA28 com sintaxe verificada; manifesto insere lexicons/bdag-part-0252.js uma vez, depois da parte 0251 e antes de leh.js. Os módulos anteriores e bibliographicTerms não são alterados.
+ARQUIVOS PERMITIDOS: lexicons/bdag-part-0252.js; lexicon-modules.json; regras/Rbdag.txt (somente acréscimo documental).
+PENDÊNCIAS: hash bruto HTML integral; comparação com fac-símile e paginação; auditoria independente A–J de semântica, sintaxe, variantes e citações; testes HTTP dos links, DOM/navegador, teclado, foco, acessibilidade e popups; regressão funcional global, CI e integração pelo integrador autorizado. AUDITORIA_CONCLUIDA=NÃO; nenhum contador de auditados foi incrementado.
+PROGRESSO APÓS PUBLICAÇÃO E CONFIRMAÇÃO REMOTA: BDAG 5244 → 5264 / 8287 = 63,52%; 3023 artigos restantes; próximo artigo ὀλέθριος, ον, linha 54870.
+================================================================================
