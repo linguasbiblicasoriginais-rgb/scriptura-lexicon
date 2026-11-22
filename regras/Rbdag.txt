@@ -11011,3 +11011,36 @@ ESCOPO EXCLUSIVO: lexicons/bdag-part-0256.js, lexicon-modules.json e regras/Rbda
 PENDÊNCIAS: hash bruto da fonte canônica integral, fac-símile e paginação impressa, revisão independente de filologia/semântica/citações e auditoria atômica A–J, verificação HTTP dos links, testes navegador/DOM/teclado/foco/popups/acessibilidade, CI e regressão global, integração futura apenas pelo integrador autorizado. AUDITORIA_CONCLUIDA=NÃO; não incrementar qualquer contador de auditorias.
 PROGRESSO CONDICIONADO À PUBLICAÇÃO E CONFIRMAÇÃO REMOTA: 5324 → 5344 / 8287 = 64.49%; restam 2943 artigos. Próximo lema ὀξύς, εῖα, ύ na linha 55490.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 257 — 22/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD inicial/pai/expected_sha 610a8bd0555559ce7b3d26e4fa1c182c67601534; árvore e5910ec1bad2bc1056bad47a9637f64bb3a13132. Regras remotas relidas: regras/Rbdag.txt SHA a869662929b1eec2b3088ec1508ae8192105b36f; regras/Rauditoria.txt SHA 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67. Escopo: apenas branch chat-gpt-bdag, um commit protegido expected_sha e force=false, sem PR/merge/rebase/deploy.
+FONTE: HTML canônico do BDAG disponível no Project Files file_00000000429c820eb5aa2bcab96f1572, linhas 55490–55682. Total exato 20 artigos autônomos consecutivos ὀξύς, εῖα, ύ a ὀπτός, ή, όν; próximo excluído ὄπυσις, εως, ἡ, linha 55683. Sem substituição por PDF. Hash bruto do arquivo canônico e página da edição impressa não verificáveis.
+TRADUÇÃO AO PORTUGUÊS: 20 artigos integrais, preservados lemas, paradigmas, morfologia, regências, grego e hebraico, variantes, notas, argumentos semânticos, autores antigos, bibliografia e remissões. ὄπισθεν e ὀπίσω conservam uso adverbial/preposicional e sentidos espaciais/temporais; ὅπλον conserva sentidos ferramenta/armamento literal/figurativo; ὅπου conserva a interpretação espacial, concessiva e causal e seus subitens, com a expressão hebraica preservada; ὀπτασία conserva visão e transe, sem equipará-los.
+COLAÇÃO FORMAL INDIVIDUAL Unicode NFC fonte→tradução→cartão: 525 tokens gregos, 2 hebraicos, 704 numéricos; divergências ZERO nas 20 entradas. A colação token a token não configura auditoria filológica independente.
+ARTIGOS (ordem | lema | linhas canônicas | G/H/N):
+01 | ὀξύς, εῖα, ύ | 55490–55500 | 23/0/28
+02 | ὀξυχολέω | 55501–55504 | 8/0/4
+03 | ὀξυχολία, ας, ἡ | 55505–55508 | 26/0/34
+04 | ὀξύχολος, ον | 55509–55512 | 13/0/17
+05 | ὀπή, ῆς, ἡ | 55513–55517 | 8/0/15
+06 | ὄπισθεν | 55518–55544 | 36/0/49
+07 | ὀπίσω | 55545–55573 | 120/0/150
+08 | ὁπλή, ῆς, ἡ | 55574–55577 | 5/0/12
+09 | ὁπλίζω | 55578–55582 | 28/0/22
+10 | ὅπλον, ου, τό | 55583–55599 | 66/0/46
+11 | ὁπόθεν | 55600–55603 | 3/0/3
+12 | ὁποῖος, οία, οῖον | 55604–55607 | 25/0/39
+13 | ὁπόσος, η, ον | 55608–55611 | 12/0/18
+14 | ὁπόταν | 55612–55615 | 8/0/18
+15 | ὁπότε | 55616–55620 | 3/0/16
+16 | ὅπου | 55621–55658 | 91/2/145
+17 | ὀπτάνομαι | 55659–55663 | 6/0/28
+18 | ὀπτασία, ας, ἡ | 55664–55674 | 26/0/29
+19 | ὀπτάω | 55675–55678 | 9/0/18
+20 | ὀπτός, ή, όν | 55679–55682 | 9/0/13
+VALIDAÇÕES ESTÁTICAS: 20 tr.search-row, 20 article.entry-card, 20 IDs únicos e data-target correspondente; HTML equilibrado, texto de todos os cartões recuperado igual à tradução, 96 links NA28 sintaticamente válidos (não testados por HTTP), 2 tokens hebraicos com dir=rtl; manifesto contém lexicons/bdag-part-0257.js uma vez, imediatamente após 0256 e antes de leh.js. Sem bibliographicTerms em duplicidade.
+ARQUIVOS ÚNICOS ALTERADOS: lexicons/bdag-part-0257.js, lexicon-modules.json (uma inclusão), regras/Rbdag.txt (checkpoint acrescentado). Preservadas outras fontes e infraestrutura.
+PENDÊNCIAS: SHA bruto do HTML, cotejo fac-similar com paginação impressa, auditoria independente de todos os testemunhos e bibliografia A–J, testes HTTP, navegador/DOM/teclado/foco/popups/acessibilidade, CI e regressão global e integração pelo processo autorizado. AUDITORIA_CONCLUIDA=NÃO; contador de auditorias não alterado.
+PROGRESSO CONDICIONADO À PUBLICAÇÃO E RECONSULTA REMOTA: 5344 → 5364 / 8287 = 64.73%; restantes 2923. Próximo artigo ὄπυσις, εως, ἡ, linha 55683.
+================================================================================
