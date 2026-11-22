@@ -10978,3 +10978,36 @@ MODIFICAÇÕES EXCLUSIVAS: lexicons/bdag-part-0255.js, lexicon-modules.json e re
 PENDÊNCIAS NÃO OMITIDAS: SHA bruto dos bytes da fonte HTML, fac-símile e paginação impressa, revisão independente filológica/gramatical/bibliográfica e auditoria A–J, teste HTTP de links, DOM/browser, teclado, foco, acessibilidade e popups, CI, regressão funcional global e integração apenas pela rotina autorizada. AUDITORIA_CONCLUIDA=NÃO; nenhum verbete incrementa contador de auditorias concluídas.
 PROGRESSO APÓS PUBLICAÇÃO E RECONSULTA REMOTA: 5304 → 5324 / 8287 = 64.25%; restantes 2963; próximo lema ὅμως, HTML linha 55303.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 256 — 22/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD REMOTO INICIAL/PAI/EXPECTED_SHA: 5cea6d153ef322459998aa74458e16a46306f19d; árvore base 13f2cd49759f7cb3d702f97c510dafa0c897d606. Regras lidas novamente do remoto: Rbdag blob 3501cfb829a03c961d993bc9df45668d05f6fadc; Rauditoria blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67. Publicação protegida expected_sha e force=false, um commit somente em chat-gpt-bdag, sem PR, merge, rebase ou deploy.
+FONTE CANÔNICA EXCLUSIVA: HTML A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html, Project Files file_00000000429c820eb5aa2bcab96f1572, linhas 55303–55489. 20 artigos autônomos consecutivos de ὅμως a ὀξύπτερος, ον; próximo artigo EXCLUÍDO ὀξύς, εῖα, ύ (linha 55490). Não utilizado PDF como substituto, hash bruto do HTML integral e página impressa não disponíveis.
+TRADUÇÃO: vinte textos em português com preservação integral das formas gregas/hebraicas, paradigmas, variantes, abreviaturas, citações, bibliografia, comentários e remissões. ὅμως mantém discussão do uso de Paulo; ὀνειδίζω distingue injúria humilhante e repreensão justificada; Ὀνήσιμος mantém escravo de Filemom e bispo de Éfeso como referentes distintos; ὄνομα preserva integralmente as cinco acepções (nome, pessoa, categoria, reputação, cargo), as construções sintáticas e preposicionais (διά, εἰς, ἐν, ἕνεκα, ἐπί, περί, πρός, ὑπέρ), variantes exegéticas, uso do Nome Divino e todas as fontes. Sem harmonização editorial de testemunhos contraditórios.
+COLAÇÃO INDIVIDUAL: sequências Unicode NFC comparadas fonte HTML → tradução → texto visível dos cartões; 1725 tokens gregos, 14 hebraicos, 1416 numéricos; divergências ZERO em 20/20 artigos. Os 14 tokens hebraicos pertencem ao grande artigo ὄνομα, incluindo marcadores hebraicos de seções e לְשֵׁם. Colação formal não equivale a auditoria filológica independente.
+ARTIGOS (nº | lema | linhas | grego/hebraico/numérico):
+01 | ὅμως | 55303–55306 | 31/0/21
+02 | ὀναίμην | 55307–55310 | 2/0/0
+03 | ὄναρ, τό | 55311–55314 | 19/0/73
+04 | ὀνάριον, ου, τό | 55315–55319 | 8/0/22
+05 | ὀνειδίζω | 55320–55330 | 66/0/92
+06 | ὀνειδισμός, οῦ, ὁ | 55331–55334 | 34/0/25
+07 | ὄνειδος, ους, τό | 55335–55338 | 13/0/30
+08 | ὄνειρον, ου, τό | 55339–55343 | 30/0/13
+09 | Ὀνήσιμος, ου, ὁ | 55344–55354 | 12/0/37
+10 | Ὀνησίφορος, ου, ὁ | 55355–55358 | 4/0/10
+11 | ὀνικός, ή, όν | 55359–55362 | 15/0/27
+12 | ὀνίνημι | 55363–55367 | 35/0/27
+13 | ὄνομα, ατος, τό | 55368–55442 | 1276/14/809
+14 | ὀνομάζω | 55443–55456 | 72/0/72
+15 | ὀνομαστός, η, ον | 55457–55460 | 12/0/7
+16 | ὄνος, ου | 55461–55465 | 27/0/30
+17 | ὄντως | 55466–55476 | 36/0/44
+18 | ὀξίζω | 55477–55480 | 8/0/24
+19 | ὄξος, ους, τό | 55481–55484 | 19/0/47
+20 | ὀξύπτερος, ον | 55485–55489 | 6/0/6
+TESTES ESTÁTICOS APROVADOS: 20 tr.search-row, 20 article.entry-card, 20 IDs exclusivos e emparelhados com data-target, HTML estruturalmente equilibrado, 20 textos completos recuperados idênticos às traduções, 180 links NA28 sintaticamente corretos (sem teste HTTP), 14 tokens com dir=rtl, manifesto registrando lexicons/bdag-part-0256.js após 0255 e antes de leh.js, sem alteração de módulos anteriores/bibliographicTerms.
+ESCOPO EXCLUSIVO: lexicons/bdag-part-0256.js, lexicon-modules.json e regras/Rbdag.txt por acrescentamento de checkpoint.
+PENDÊNCIAS: hash bruto da fonte canônica integral, fac-símile e paginação impressa, revisão independente de filologia/semântica/citações e auditoria atômica A–J, verificação HTTP dos links, testes navegador/DOM/teclado/foco/popups/acessibilidade, CI e regressão global, integração futura apenas pelo integrador autorizado. AUDITORIA_CONCLUIDA=NÃO; não incrementar qualquer contador de auditorias.
+PROGRESSO CONDICIONADO À PUBLICAÇÃO E CONFIRMAÇÃO REMOTA: 5324 → 5344 / 8287 = 64.49%; restam 2943 artigos. Próximo lema ὀξύς, εῖα, ύ na linha 55490.
+================================================================================
