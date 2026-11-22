@@ -10912,3 +10912,36 @@ ESCOPO EXCLUSIVO AUTORIZADO: lexicons/bdag-part-0253.js, lexicon-modules.json e 
 PENDÊNCIAS DOCUMENTADAS: SHA bruto da fonte HTML e fac-símile/edição impressa, revisor filológico e bibliográfico independente, verificação histórica das referências, testes HTTP, navegador e DOM real (busca, teclado, foco, acessibilidade e popups), CI GitHub Actions, regressão global e integração posterior exclusivamente pelo responsável. AUDITORIA_CONCLUIDA=NÃO; não incrementar contador de auditados.
 PROGRESSO SUJEITO À CONFIRMAÇÃO DA PUBLICAÇÃO REMOTA: 5264 → 5284 artigos de 8287 = 63,76%, remanescentes 3003; próximo artigo ὁλοτελῶς, linha 55024.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 254 — 22/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO INICIAL/PAI/EXPECTED_SHA: 0d3671ff3665b15698f585d08038e2ed500b4795; árvore Git de base 194289c66f7985ab3404f0da4670e1c0685d3c15. Normas canônicas relidas no HEAD: regras/Rbdag.txt blob 0556c67e96260054fae8d274ab9029e620e6eae1; regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67. Publicação direta em um único commit de chat-gpt-bdag, expected_sha=HEAD de base e force=false; sem PR, merge, rebase ou deploy.
+FONTE: arquivo HTML canônico 'A Greek-English Lexicon of the New Testament and Other Early Christian Literature - Frederick William Danker, Walter Bauer.html', Files do projeto, identificação file_00000000429c820eb5aa2bcab96f1572, linhas 55024–55136. Exatamente 20 artigos autônomos consecutivos, de ὁλοτελῶς a ὁμοιοπαθής, ές; próximo excluído: ὅμοιος, οία, οιον, linha 55137. Não obtido SHA bruto dos bytes do HTML, fac-símile ou paginação da edição impressa; PDF não usado como substituto.
+TRADUÇÃO AO PORTUGUÊS: preservação integral dos 20 artigos, incluindo variantes e formas flexionadas, gramática, sentidos e subdivisões, construções gregas, hebraico, citações e fontes antigas, remissões, bibliografia e ressalvas de incerteza. ὅλως conserva as leituras alternativas ① extensão máxima e ② 'de fato'; ὁμαλός distingue superfície literal e uso ético figurado; ὁμιλία distingue companhia/convivência e conversa, discurso ou pregação; ὄμμα distingue olho físico e visão metafórica da alma. ὀμνύω mantém variantes, paradigmas e regências por acusativo, ἐν + dativo, κατά + genitivo, construções com dativo, infinitivo e discurso direto, bibliografia e discussão do juramento.
+COLAÇÃO INDIVIDUAL EM ORDEM, NFC, HTML→TRADUÇÃO→CARTÃO: 441 tokens gregos, 2 hebraicos, 564 numéricos; divergências ZERO nos 20 artigos. Não confundir identidade formal dos tokens com auditoria independente de semântica, variantes ou aparato.
+ARTIGOS (nº | lema | linhas canônicas | gregos/hebraicos/numéricos):
+01 | ὁλοτελῶς | 55024–55027 | 3/0/10
+02 | Ὀλοφέρνης, ου, ὁ | 55028–55031 | 3/0/9
+03 | Ὀλυμπᾶς, ᾶ, ὁ | 55032–55035 | 4/0/7
+04 | ὄλυνθος, ου, ὁ | 55036–55040 | 3/0/12
+05 | ὅλως | 55041–55051 | 29/0/55
+06 | ὁμαλίζω | 55052–55056 | 5/0/8
+07 | ὁμαλός, ή, όν | 55057–55067 | 22/0/19
+08 | ὁμαλῶς | 55068–55071 | 4/0/6
+09 | ὄμβρος, ου, ὁ | 55072–55075 | 3/0/6
+10 | ὁμείρομαι | 55076–55079 | 14/0/28
+11 | ὁμιλέω | 55080–55084 | 64/0/44
+12 | ὁμιλία, ας, ἡ | 55085–55095 | 40/0/70
+13 | ὅμιλος, ου, ὁ | 55096–55099 | 14/0/6
+14 | ὁμίχλη, ης, ἡ | 55100–55104 | 14/0/18
+15 | ὄμμα, ατος, τό | 55105–55115 | 17/0/36
+16 | ὀμνύω | 55116–55119 | 154/2/178
+17 | ὁμοήθεια, ας, ἡ | 55120–55123 | 12/0/10
+18 | ὁμοθυμαδόν | 55124–55127 | 13/0/22
+19 | ὁμοιάζω | 55128–55131 | 17/0/6
+20 | ὁμοιοπαθής, ές | 55132–55136 | 6/0/14
+TESTES ESTÁTICOS APROVADOS: 20 tr.search-row, 20 article.entry-card, 20 IDs únicos entry-bdag-0254-01 a -20, data-target/id pareados, HTML equilibrado, texto recuperado idêntico à tradução, 41 links NA28 com sintaxe conferida (sem teste HTTP), duas sequências hebraicas com dir=rtl; manifesto inclui lexicons/bdag-part-0254.js uma vez após part-0253.js e antes de leh.js.
+ALTERAÇÕES EXCLUSIVAS: lexicons/bdag-part-0254.js, lexicon-modules.json, regras/Rbdag.txt (somente checkpoint acrescentado). Sem alteração de outros léxicos, módulos anteriores, bibliographicTerms e infraestrutura.
+PENDÊNCIAS: SHA original bruto do HTML, cotejo independente com edição impressa, revisão filológica e bibliográfica individual A–J, exame externo dos testemunhos, testes HTTP reais dos links, navegador/DOM/teclado/foco/popups/acessibilidade, CI, regressão global e integração posterior pelo integrador autorizado. AUDITORIA_CONCLUIDA=NÃO, contador de auditorias não incrementado.
+PROGRESSO CONDICIONADO À PUBLICAÇÃO E RECONSULTA REMOTA: 5284 → 5304 artigos de 8287 (64,00%); restantes 2983. Próximo artigo ὅμοιος, οία, οιον, linha 55137.
+================================================================================
