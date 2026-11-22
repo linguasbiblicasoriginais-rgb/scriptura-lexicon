@@ -10879,3 +10879,36 @@ ARQUIVOS PERMITIDOS: lexicons/bdag-part-0252.js; lexicon-modules.json; regras/Rb
 PENDÊNCIAS: hash bruto HTML integral; comparação com fac-símile e paginação; auditoria independente A–J de semântica, sintaxe, variantes e citações; testes HTTP dos links, DOM/navegador, teclado, foco, acessibilidade e popups; regressão funcional global, CI e integração pelo integrador autorizado. AUDITORIA_CONCLUIDA=NÃO; nenhum contador de auditados foi incrementado.
 PROGRESSO APÓS PUBLICAÇÃO E CONFIRMAÇÃO REMOTA: BDAG 5244 → 5264 / 8287 = 63,52%; 3023 artigos restantes; próximo artigo ὀλέθριος, ον, linha 54870.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 253 — 22/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA ATÔMICA A–J NÃO CONCLUÍDA
+HEAD REMOTO DE BASE/PAI/EXPECTED_SHA: 8ebaf62801c0b4342d838561645436715f95d9a9; árvore inicial 07cdb9e38f041a0358bec142c2f859119510245e. Normas canônicas efetivamente relidas no HEAD remoto: regras/Rbdag.txt blob 63aa442cd2c8d9bbc1aa411b562c265806b376b9; regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67. Publicação em apenas um commit na branch chat-gpt-bdag, force=false e expected_sha real, sem PR, merge ou deploy.
+FONTE EXCLUSIVA: HTML canônico do BDAG presente no acervo Files do projeto, identificação file_00000000429c820eb5aa2bcab96f1572, linhas HTML 54870–55023; 20 artigos autônomos consecutivos de ὀλέθριος, ον a ὁλοτελής, ές. O artigo imediatamente posterior ὁλοτελῶς começa na linha 55024 e fica excluído. PDF não utilizado. Não obtidos hash dos bytes HTML originais, edição impressa nem paginação física.
+TRADUÇÃO: textos completos vertidos para o português, preservados paradigmas, flexões, formas alternativas, remissões, testemunhos, dúvidas, equivalências, bibliografia, subdivisões semânticas e sintáticas. ὀλίγος preserva ①ⓐⓑ, ②ⓐⓑαβⓒ e ③; ὅλος preserva ①ⓐⓑαβγ, ②, ③. ὄλεθρος distingue o estado de destruição e o ato; ὁλοκαύτωμα conserva emprego cultual literal e extensão figurada em MPol 14:1; ὀλοθρευτής mantém a alternativa anjo destruidor ou possivelmente Satanás.
+COLAÇÃO ESTÁTICA INDIVIDUAL: tokens Unicode NFC e ordem fonte→tradução→cartão: 557 gregos, 2 hebraicos e 689 numéricos; ZERO diferenças finais em 20/20 artigos. Uma discrepância de espaçamento em B-D-F § 176, 2 foi corrigida antes de preparar os arquivos.
+ARTIGOS (nº | lema | linhas canônicas | G/H/N):
+01 | ὀλέθριος, ον | 54870–54874 | 6/0/8
+02 | ὄλεθρος, ου, ὁ | 54875–54885 | 50/0/37
+03 | ὀλιγόβιος, ον | 54886–54889 | 7/0/7
+04 | ὀλιγοπιστία, ας, ἡ | 54890–54893 | 5/0/10
+05 | ὀλιγόπιστος, ον | 54894–54898 | 2/0/10
+06 | ὀλίγος, η, ον | 54899–54933 | 143/0/249
+07 | ὀλιγοχρόνιος, ον | 54934–54937 | 21/0/9
+08 | ὀλιγοψυχέω | 54938–54941 | 5/0/17
+09 | ὀλιγόψυχος, ον | 54942–54945 | 4/0/12
+10 | ὀλιγωρέω | 54946–54949 | 15/0/28
+11 | ὀλίγως | 54950–54953 | 13/0/14
+12 | ὄλλυμι | 54954–54957 | 12/0/10
+13 | ὀλοθρευτής, οῦ, ὁ | 54958–54961 | 8/1/11
+14 | ὀλοθρεύω | 54962–54966 | 10/0/20
+15 | ὁλοκαύτωμα, ατος, τό | 54967–54977 | 28/0/25
+16 | ὁλοκληρία, ας, ἡ | 54978–54981 | 21/0/19
+17 | ὁλόκληρος, ον | 54982–54985 | 21/0/51
+18 | ὀλολύζω | 54986–54990 | 11/1/8
+19 | ὅλος, η, ον | 54991–55019 | 157/0/123
+20 | ὁλοτελής, ές | 55020–55023 | 18/0/21
+TESTES ESTÁTICOS: 20 tr.search-row, 20 article.entry-card, 20 IDs únicos com pares data-target/id, HTML equilibrado, identidade textual dos cartões, 88 referências com sintaxe de link NA28 verificada (não houve teste HTTP), dir=rtl nas duas ocorrências hebraicas, manifesto com lexicons/bdag-part-0253.js uma vez após part-0252 e antes de lexicons/leh.js. Preserve-se todo o conteúdo anterior e bibliographicTerms.
+ESCOPO EXCLUSIVO AUTORIZADO: lexicons/bdag-part-0253.js, lexicon-modules.json e regras/Rbdag.txt (somente acréscimo deste checkpoint).
+PENDÊNCIAS DOCUMENTADAS: SHA bruto da fonte HTML e fac-símile/edição impressa, revisor filológico e bibliográfico independente, verificação histórica das referências, testes HTTP, navegador e DOM real (busca, teclado, foco, acessibilidade e popups), CI GitHub Actions, regressão global e integração posterior exclusivamente pelo responsável. AUDITORIA_CONCLUIDA=NÃO; não incrementar contador de auditados.
+PROGRESSO SUJEITO À CONFIRMAÇÃO DA PUBLICAÇÃO REMOTA: 5264 → 5284 artigos de 8287 = 63,76%, remanescentes 3003; próximo artigo ὁλοτελῶς, linha 55024.
+================================================================================
