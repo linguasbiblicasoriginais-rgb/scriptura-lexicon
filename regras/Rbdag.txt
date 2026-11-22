@@ -11110,3 +11110,36 @@ ESCOPO: somente lexicons/bdag-part-0259.js, lexicon-modules.json (uma linha) e r
 PENDÊNCIAS: SHA bruto da fonte HTML integral; fac-símile e paginação impressa; auditoria atômica A–J, conferência independente de todos os testemunhos, traduções e referências, verificações HTTP dos links, testes reais em navegador/DOM/teclado/foco/popups/acessibilidade, CI e regressão global e integração apenas pelo integrador autorizado. AUDITORIA_CONCLUIDA=NÃO; não incrementar contador de auditorias.
 PROGRESSO CONDICIONADO À PUBLICAÇÃO E CONFIRMAÇÃO REMOTA: 5384 → 5404 / 8287 = 65.21%; restantes 2883 artigos. Próximo lema ὅρος, ου, ὁ, linha HTML 55983.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 260 — 22/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD inicial/pai/expected_sha e9578e0b4772ab36bd7bf6b40ab509c076e8e65d; árvore base 9b0d93bf0a884ca71be84f0c35f70a5c524dfda9. Normas remotas relidas: regras/Rbdag.txt blob 4807551d91191d524af64a5ba0901024fb7c32eb; regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67. Publicação exclusiva em chat-gpt-bdag, um commit protegido expected_sha e force=false, sem PR, merge, rebase, deploy.
+FONTE EXCLUSIVA: BDAG HTML canônico da coleção Project Files file_00000000429c820eb5aa2bcab96f1572, linhas 55983–56390. Exatamente vinte artigos autônomos consecutivos, de ὅρος, ου, ὁ a ὅταν; próximo artigo EXCLUÍDO ὅτε, linha 56391. Nenhuma fonte substituta; hash dos bytes brutos do HTML original e paginação impressa não verificados.
+TRADUÇÃO INTEGRAL: 20 artigos em português com todas as acepções, subacepções, paradigmas, variantes, grego, hebraico e aramaico se houver, autores antigos, bibliografia e remissões. ὅς mantém distinção relativo/demonstrativo, concordância, atração, usos semíticos, diferentes hipóteses de Mt 26:50 e combinações preposicionais; ὅσιος preserva os três grupos semânticos e história cultual; ὅστις preserva seis grupos, relação com ὅς e variantes; ὅταν preserva subjuntivo e indicativo com tempos e valores distintos; ὀσφῦς preserva frase hebraica. Sem harmonização editorial arbitrária.
+COLAÇÃO INDIVIDUAL Unicode NFC, fonte HTML → tradução → texto visível do cartão: 1647 tokens gregos, 16 hebraicos, 1648 numéricos, ZERO divergências finais em 20 artigos. Em ὅς foram corrigidas antes de publicar a segmentação de 293 –97 e a forma grega ὸ̔ς. Colação formal não equivale a auditoria filológica independente.
+ARTIGOS (nº | lema | linhas | grego/hebraico/numérico):
+01 | ὅρος, ου, ὁ | 55983–55987 | 18/0/5
+02 | ὀρύσσω | 55988–56002 | 25/0/47
+03 | ὀρφανός, ή, όν | 56003–56013 | 61/0/54
+04 | ὀρχέομαι | 56014–56018 | 10/0/23
+05 | ὅς, ἥ, ὅ | 56019–56179 | 743/12/527
+06 | ὁσάκις | 56180–56183 | 4/0/15
+07 | ὅσγε | 56184–56188 | 5/0/1
+08 | ὅσιος, ία, ον | 56189–56214 | 103/0/133
+09 | ὁσιότης, τητος, ἡ | 56215–56218 | 44/0/43
+10 | ὁσίως | 56219–56223 | 48/0/34
+11 | ὀσμή, ῆς, ἡ | 56224–56241 | 56/0/45
+12 | ὅσος, η, ον | 56242–56261 | 132/0/168
+13 | ὅσπερ | 56262–56265 | 3/0/1
+14 | ὀστέον, ου | 56266–56270 | 23/0/85
+15 | ὅστις, ἥτις, ὅ τι | 56271–56326 | 219/1/216
+16 | ὀστράκινος, η, ον | 56327–56330 | 17/0/27
+17 | ὄστρακον, ου, τό | 56331–56334 | 9/0/21
+18 | ὄσφρησις, εως, ἡ | 56335–56339 | 10/0/16
+19 | ὀσφῦς | 56340–56351 | 41/3/43
+20 | ὅταν | 56352–56390 | 76/0/144
+TESTES ESTÁTICOS APROVADOS: 20 tr.search-row e 20 article.entry-card; 20 IDs exclusivos e pareados com data-target; HTML equilibrado; texto integral dos 20 cartões idêntico ao traduzido; 385 links NA28 com sintaxe correta (não verificados por HTTP); 16 tokens hebraicos com dir=rtl; manifesto com lexicons/bdag-part-0260.js uma única vez após 0259 e antes de leh.js, sem duplicação de bibliographicTerms.
+ARQUIVOS EXCLUSIVOS: lexicons/bdag-part-0260.js, lexicon-modules.json (+uma linha), regras/Rbdag.txt (checkpoint acrescido sem exclusões). Outros léxicos e infraestrutura intocados.
+PENDÊNCIAS: hash bruto do HTML original; fac-símile e paginação impressa; auditoria independente A–J de interpretação, testemunhos, filologia, bibliografia e remissões; verificação HTTP dos links, testes reais de navegador/DOM/teclado/foco/popups/acessibilidade, CI e regressão global. Integração futura somente pelo integrador autorizado. AUDITORIA_CONCLUIDA=NÃO e não incrementar contador.
+PROGRESSO SUJEITO À PUBLICAÇÃO/CONFIRMAÇÃO REMOTA: 5404 → 5424 / 8287 = 65.45%; restam 2863 artigos. Próximo ὅτε, linha HTML 56391.
+================================================================================
