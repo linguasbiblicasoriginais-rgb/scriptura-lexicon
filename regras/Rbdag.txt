@@ -11044,3 +11044,36 @@ ARQUIVOS ÚNICOS ALTERADOS: lexicons/bdag-part-0257.js, lexicon-modules.json (um
 PENDÊNCIAS: SHA bruto do HTML, cotejo fac-similar com paginação impressa, auditoria independente de todos os testemunhos e bibliografia A–J, testes HTTP, navegador/DOM/teclado/foco/popups/acessibilidade, CI e regressão global e integração pelo processo autorizado. AUDITORIA_CONCLUIDA=NÃO; contador de auditorias não alterado.
 PROGRESSO CONDICIONADO À PUBLICAÇÃO E RECONSULTA REMOTA: 5344 → 5364 / 8287 = 64.73%; restantes 2923. Próximo artigo ὄπυσις, εως, ἡ, linha 55683.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 258 — 22/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD inicial/pai/expected_sha 7857852fcf02c3c59a8ba57bccc43f1b31dbb60b; árvore 75ef4089ad6d10382136309a4c8c89c69f3439e0. Normas remotas efetivamente relidas: regras/Rbdag.txt blob 45c09322b61aaf56800d6f88cce24e02107fe256; regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67. Publicação apenas em chat-gpt-bdag, um commit com expected_sha e force=false, sem PR/merge/rebase/deploy.
+FONTE ÚNICA: HTML canônico BDAG acessado via Project Files file_00000000429c820eb5aa2bcab96f1572, linhas 55683–55882. 20 artigos autônomos consecutivos de ὄπυσις, εως, ἡ a ὀρθόω; próximo EXCLUÍDO ὀρθρίζω, linha 55883. Não substituir fonte por PDF. SHA dos bytes brutos do HTML e páginas impressas não disponíveis.
+TRADUÇÃO: texto completo de todos os 20 artigos em português preservando grego, hebraico, formas gramaticais, alternativas, construções, notas, referências, testemunhos extrabíblicos, bibliografia e remissões. ὄπυσις mantém a conjectura disputa com δύσεως; ὅπως preserva modalidades sintáticas e variantes; ὁράω conserva quatro sentidos transitivos e três intransitivos, paradigmas e hebraico; ὀργή conserva a distinção entre ira emocional e julgamento punitivo, presente e escatológico; ὀρθοτομέω mantém interpretações alternativas. Não harmonizar interpretação teológica.
+COLAÇÃO INDIVIDUAL em Unicode NFC da sequência fonte HTML→tradução→texto do cartão: 1030 tokens gregos, 6 hebraicos, 1405 numéricos. Divergências finais ZERO. Diferenças iniciais localizadas em ὅραμα (νυκτός, TestJud 3:10) e ὀργυιά (1.85 versus 1,85), corrigidas antes da gravação e novamente colacionadas. Contagem não equivale à auditoria semântica independente.
+ARTIGOS (nº | lema | linhas | G/H/N):
+01 | ὄπυσις, εως, ἡ | 55683–55686 | 10/0/11
+02 | ὀπώρα, ας, ἡ | 55687–55691 | 10/0/14
+03 | ὅπως | 55692–55715 | 77/0/197
+04 | ὅραμα, ατος, τό | 55716–55727 | 94/0/71
+05 | ὅρασις, εως, ἡ | 55728–55747 | 39/0/115
+06 | ὁρατός, ή, όν | 55748–55752 | 27/0/21
+07 | ὁράω | 55753–55802 | 317/6/384
+08 | ὄργανον, ου, τό | 55803–55807 | 23/0/25
+09 | ὀργή, ῆς, ἡ | 55808–55824 | 209/0/230
+10 | ὀργίζω | 55825–55828 | 25/0/96
+11 | ὀργίλος, η, ον | 55829–55832 | 35/0/40
+12 | ὀργίλως | 55833–55836 | 2/0/8
+13 | ὀργυιά | 55837–55840 | 7/0/11
+14 | ὀρέγω | 55841–55844 | 18/0/46
+15 | ὀρεινός, ή, όν | 55845–55848 | 32/0/21
+16 | ὄρεξις, εως, ἡ | 55849–55852 | 19/0/26
+17 | ὀρθοποδέω | 55853–55857 | 19/0/16
+18 | ὀρθός, ή, όν | 55858–55874 | 42/0/47
+19 | ὀρθοτομέω | 55875–55878 | 15/0/15
+20 | ὀρθόω | 55879–55882 | 10/0/11
+TESTES ESTÁTICOS APROVADOS: 20 linhas tr.search-row, 20 cartões article.entry-card, 20 IDs únicos, pares data-target corretos, HTML estruturalmente equilibrado, 20 textos traduzidos idênticos após recuperação do HTML, 166 links NA28 com sintaxe válida (sem HTTP), 6 tokens hebraicos com span dir=rtl, manifesto contendo lexicons/bdag-part-0258.js uma vez após 0257 e antes de leh.js. Não duplicar bibliographicTerms.
+MODIFICAR EXCLUSIVAMENTE: lexicons/bdag-part-0258.js, lexicon-modules.json (uma linha), regras/Rbdag.txt (checkpoint append-only). Sem efeitos em outros léxicos ou infraestrutura.
+PENDÊNCIAS: hash bruto do HTML original e edição/fac-símile/paginação física; colação filológica, semântica, gramatical e de referências em auditoria A–J independente; verificação HTTP dos links, testes reais em navegador, DOM/teclado/foco/popups/acessibilidade, CI e regressão global, integração apenas pela rotina autorizada. AUDITORIA_CONCLUIDA=NÃO; contador de auditorias não incrementado.
+PROGRESSO CONDICIONADO À PUBLICAÇÃO E RECONSULTA REMOTA: 5364 → 5384 / 8287 = 64.97%; restantes 2903; próximo artigo ὀρθρίζω, HTML linha 55883.
+================================================================================
