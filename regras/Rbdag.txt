@@ -11143,3 +11143,36 @@ ARQUIVOS EXCLUSIVOS: lexicons/bdag-part-0260.js, lexicon-modules.json (+uma linh
 PENDÊNCIAS: hash bruto do HTML original; fac-símile e paginação impressa; auditoria independente A–J de interpretação, testemunhos, filologia, bibliografia e remissões; verificação HTTP dos links, testes reais de navegador/DOM/teclado/foco/popups/acessibilidade, CI e regressão global. Integração futura somente pelo integrador autorizado. AUDITORIA_CONCLUIDA=NÃO e não incrementar contador.
 PROGRESSO SUJEITO À PUBLICAÇÃO/CONFIRMAÇÃO REMOTA: 5404 → 5424 / 8287 = 65.45%; restam 2863 artigos. Próximo ὅτε, linha HTML 56391.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 261 — 22/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD remoto inicial/pai/expected_sha 01391f285a76fb666621d2ff8abee5c380de51cd; árvore 4e69f82b63cea48686db193c0445ec420b8493f4. Normas efetivamente relidas: regras/Rbdag.txt blob 04f7dd36de8b28942d8284326fa21a09dd519a48; regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67. Publicação exclusivamente em chat-gpt-bdag, commit único protegido por expected_sha, force=false, sem PR/merge/rebase/deploy.
+FONTE EXCLUSIVA: BDAG HTML canônico Project Files file_00000000429c820eb5aa2bcab96f1572, linhas 56391–56745, vinte artigos autônomos consecutivos de ὅτε a οὐ μεν οὖν. Artigo seguinte 21 EXCLUÍDO: οὐ μή na linha 56746. SHA bruto do HTML e páginas impressas não disponíveis. Fonte lida diretamente antes de tradução; nova leitura de intervalo isolado falhou por problema da ferramenta após primeira colação.
+TRADUÇÃO INTEGRAL: vinte artigos em português preservando paradigmas, variantes, grego e hebraico (4 tokens, inclusive הוֹי e אוֹי), bibliografia antiga, remissões, construções, alternativas e divisões. ὅτι conserva cinco categorias sintáticas (conteúdo, explicação, discurso direto, causalidade, usos especiais); οὐ conserva três categorias (negações e particípios, orações subordinadas, perguntas com resposta afirmativa); οὐαί preserva usos interjetivos e substantivais; οὐδέ e οὐδείς mantêm escopo de negação, litotes, combinações e exceções. Não confundir remissão do artigo seguinte com o presente.
+COLAÇÃO INDIVIDUAL: HTML fonte -> português, sequência Unicode NFC grego, hebraico e números. Primeira colação: 18 artigos coincidentes; os artigos 06 οὐ e 20 οὐ μεν οὖν apresentaram diferença pontual. Correção 06: restituído δ da remissão 'ver também δ adiante'; correção 20: removida expressão que pertencia ao começo do artigo seguinte, 'οὐ μή, ver μή 4'. Os tokens dos dois textos corrigidos foram recontados e igualam em número o original: 1469 gregos, 4 hebraicos, 1553 numéricos em todo o lote. Releitura pós-correção da fonte foi tentada, mas indisponível por falha do provedor Files; permanece PENDENTE reexecução completa da comparação token por token dos artigos 06 e 20. NÃO declarar prova integral após falha de infraestrutura.
+ARTIGOS (nº | lema | linhas | grego/hebraico/numérico):
+01 | ὅτε | 56391–56428 | 56/0/88
+02 | ὁτέ | 56429–56433 | 11/0/14
+03 | ὅτι | 56434–56492 | 335/0/343
+04 | ὅτου | 56493–56497 | 2/0/1
+05 | οὗ | 56498–56521 | 68/0/50
+06 | οὐ | 56522–56622 | 435/2/304
+07 | οὐά | 56623–56627 | 8/0/19
+08 | οὐαί | 56628–56647 | 85/2/110
+09 | Οὐαλέριος, ου, ὁ | 56648–56651 | 3/0/14
+10 | οὐδαμῶς | 56652–56656 | 2/0/13
+11 | οὐδέ | 56657–56671 | 110/0/138
+12 | οὐδείς, οὐδεμία, οὐδέν | 56672–56697 | 237/0/247
+13 | οὐδέποτε | 56698–56701 | 9/0/47
+14 | οὐδέπω | 56702–56705 | 9/0/22
+15 | οὐθείς | 56706–56710 | 3/0/0
+16 | οὐκέτι | 56711–56722 | 78/0/83
+17 | οὐκοῦν | 56723–56733 | 7/0/37
+18 | Οὐλαμμαούς | 56734–56737 | 2/0/4
+19 | οὖλος, η, ον | 56738–56741 | 5/0/10
+20 | οὐ μεν οὖν | 56742–56745 | 4/0/9
+TESTES ESTRUTURAIS PRÉ-PUBLICAÇÃO: 20 linhas tr.search-row e 20 cartões article.entry-card; IDs únicos pareados em data-target; HTML equilibrado; recuperação da tradução integral dos 20 cartões, 444 links NA28 sintaticamente válidos sem HTTP; 4 tokens hebraicos com span dir=rtl. Manifesto com 0261 exatamente uma vez depois de 0260 e antes de leh.js; bibliographicTerms não duplicado.
+ESCOPO: somente lexicons/bdag-part-0261.js, lexicon-modules.json (+uma linha), regras/Rbdag.txt (checkpoint sem remoções). Nenhuma mudança em outros léxicos, ferramentas, infraestrutura.
+PENDÊNCIAS: reexecutar colação sequencial integral dos artigos 06 e 20 contra HTML canônico após recuperação do Files; SHA bruto HTML, fac-símile, paginação; auditoria independente A–J semântica/gramática/bibliografia/variantes/testemunhos, HTTP dos links, navegação/DOM/teclado/foco/popups/acessibilidade, CI e regressão global; integração pelo integrador autorizado. AUDITORIA_CONCLUIDA=NÃO; contador sem acréscimos.
+PROGRESSO CONDICIONADO À PUBLICAÇÃO/RECONSULTA REMOTA: 5424 → 5444 / 8287 = 65.69%; restam 2843 artigos. Próximo início: οὐ μή, linha 56746.
+================================================================================
