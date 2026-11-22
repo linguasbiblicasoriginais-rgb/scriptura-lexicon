@@ -11077,3 +11077,36 @@ MODIFICAR EXCLUSIVAMENTE: lexicons/bdag-part-0258.js, lexicon-modules.json (uma 
 PENDÊNCIAS: hash bruto do HTML original e edição/fac-símile/paginação física; colação filológica, semântica, gramatical e de referências em auditoria A–J independente; verificação HTTP dos links, testes reais em navegador, DOM/teclado/foco/popups/acessibilidade, CI e regressão global, integração apenas pela rotina autorizada. AUDITORIA_CONCLUIDA=NÃO; contador de auditorias não incrementado.
 PROGRESSO CONDICIONADO À PUBLICAÇÃO E RECONSULTA REMOTA: 5364 → 5384 / 8287 = 64.97%; restantes 2903; próximo artigo ὀρθρίζω, HTML linha 55883.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 259 — 22/11/2026 — 20 ARTIGOS INCORPORADOS; AUDITORIA A–J NÃO CONCLUÍDA
+HEAD remoto inicial/pai/expected_sha 47b149eab89c98aa7556c493467e4a75d20530c4; árvore inicial fd2db455fc3731f408e223e2edc4c1ba9b33e939. Normas relidas: regras/Rbdag.txt blob fd8b62862498d3cdce2308430ef236f28b473c4c; regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67. Um commit com expected_sha e force=false somente em chat-gpt-bdag; sem PR, merge, rebase ou deploy.
+FONTE EXCLUSIVA: BDAG HTML canônico do Project Files file_00000000429c820eb5aa2bcab96f1572, linhas 55883–55982, 20 artigos consecutivos de ὀρθρίζω a ὄρος, ους, τό; próximo artigo EXCLUÍDO ὅρος, ου, ὁ, linha 55983. Não substituído por PDF. SHA bruto dos bytes HTML e página impressa não comprovados.
+TRADUÇÃO: 20 artigos completos em português com lemas, flexões, variantes, grego, hebraico e aramaico quando presentes (nenhum token hebraico neste lote), bibliografia e remissões. ὁρίζω conserva limites semânticos/tempos/pessoas e passivas; ὁρκίζω conserva estruturas de duplo acusativo; ὄρνιξ mantém variante dórica; ὄρος conserva todas as referências topográficas, bíblicas, as bibliografias extensas sobre o Sermão do Monte e alusões apocalípticas. Sem harmonização de fontes.
+COLAÇÃO INDIVIDUAL fonte HTML → tradução → conteúdo visível do cartão: Unicode NFC, 646 tokens gregos, 0 hebraicos, 811 numéricos em 20 entradas; divergências finais ZERO. Diferença inicial em ὄρνεον (IG IV 2 /1) corrigida antes de publicar. Colação formal não equivale a auditoria filológica independente.
+ARTIGOS (nº | lema | linhas | G/H/N):
+01 | ὀρθρίζω | 55883–55886 | 23/0/22
+02 | ὀρθρινός, ή, όν | 55887–55890 | 15/0/12
+03 | ὄρθριος, ία, ιον | 55891–55894 | 5/0/5
+04 | ὄρθρος, ου, ὁ | 55895–55898 | 20/0/40
+05 | ὀρθῶς | 55899–55903 | 55/0/71
+06 | ὁρίζω | 55904–55926 | 104/0/103
+07 | ὅριον, ου, τό | 55927–55930 | 50/0/25
+08 | ὁρισμός, οῦ, ὁ | 55931–55934 | 11/0/6
+09 | ὁρκίζω | 55935–55938 | 49/0/40
+10 | ὅρκιον, ου, τό | 55939–55942 | 6/0/9
+11 | ὅρκος, ου, ὁ | 55943–55946 | 55/0/77
+12 | ὁρκωμοσία, ας, ἡ | 55947–55950 | 11/0/20
+13 | ὁρμάω | 55951–55954 | 22/0/40
+14 | ὁρμή, ῆς, ἡ | 55955–55958 | 24/0/14
+15 | ὅρμημα, ατος, τό | 55959–55962 | 9/0/2
+16 | ὄρνεον, ου, τό | 55963–55966 | 14/0/29
+17 | ὄρνιξ | 55967–55970 | 4/0/29
+18 | ὄρνις, ιθος, ὁ | 55971–55974 | 10/0/25
+19 | ὁροθεσία, ας, ἡ | 55975–55978 | 23/0/18
+20 | ὄρος, ους, τό | 55979–55982 | 136/0/224
+VALIDAÇÕES ESTÁTICAS: 20 linhas tr.search-row; 20 cartões article.entry-card; 20 IDs exclusivos, data-target correspondente, HTML equilibrado; 20 textos completos recuperados idênticos à tradução; 90 links NA28 sintaticamente válidos (sem HTTP); 0 spans hebraicos com dir=rtl porque não existem tokens hebraicos; manifesto contém lexicons/bdag-part-0259.js uma vez após 0258 e antes de leh.js. bibliographicTerms não duplicado.
+ESCOPO: somente lexicons/bdag-part-0259.js, lexicon-modules.json (uma linha) e regras/Rbdag.txt (checkpoint acrescentado). Nenhum outro léxico ou infraestrutura alterado.
+PENDÊNCIAS: SHA bruto da fonte HTML integral; fac-símile e paginação impressa; auditoria atômica A–J, conferência independente de todos os testemunhos, traduções e referências, verificações HTTP dos links, testes reais em navegador/DOM/teclado/foco/popups/acessibilidade, CI e regressão global e integração apenas pelo integrador autorizado. AUDITORIA_CONCLUIDA=NÃO; não incrementar contador de auditorias.
+PROGRESSO CONDICIONADO À PUBLICAÇÃO E CONFIRMAÇÃO REMOTA: 5384 → 5404 / 8287 = 65.21%; restantes 2883 artigos. Próximo lema ὅρος, ου, ὁ, linha HTML 55983.
+================================================================================
