@@ -11475,3 +11475,40 @@ PENDÊNCIAS: AUDITORIA_CONCLUIDA=NÃO; nenhum item tem certificação de auditor
 PROGRESSO APENAS APÓS PUBLICAÇÃO REMOTA: 5824 → 5844 de 8287 artigos = 70.52%; faltam 2443; próximo lema περιέχω, linha 60406.
 ESTADO DAS OUTRAS FONTES: DGP HEAD chat-gpt-dgp 581ad921b47e3b0e7f28b279b83ed19e508da68b, total não verificado nesta execução; LEH e PEREIRA refs chat-gpt-leh e chat-gpt-pereira resultaram 404, totais não verificados. Não atribuir contadores de incorporação/auditoria por inferência.
 ================================================================================
+
+================================================================================
+RETIFICAÇÃO DOCUMENTAL DO LOTE 281 — 23/11/2026 — APPEND-ONLY
+O registro histórico anterior contou equivocadamente 9 remissões. O lote 281 tem 11 remissões independentes e 9 artigos não remissivos, total 20. Remissões: περιέδραμον; περιεζωσμένος; περιέθηκα; περιελεῖν; περιελθών; περιελών; περιέπεσον; περιέστησαν; περιεστώς; περιέτεμον; περιετμήθην. Corrige-se somente este dado editorial pelo presente acréscimo, sem apagar o texto anterior nem alterar o módulo 0281.
+================================================================================
+BDAG — LOTE 282 — 23/11/2026 — INCORPORAÇÃO DE 20 ARTIGOS (AUDITORIA A–J NÃO CONCLUÍDA)
+REPOSITÓRIO linguasbiblicasoriginais-rgb/scriptura-lexicon, branch chat-gpt-bdag. HEAD-pai inicial/expected_sha c6ec6754237074364b477655fb77190e1c057b5e; árvore 8d3ea97fd00adbdb89ea58bc83e8677c7a75baee. Rbdag anterior blob dd447cf3a8d78f0b9b7dbdbf8b1480dd136f203a; Rauditoria blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67. Normas relidas.
+FONTE EXCLUSIVA: HTML canônico file_00000000429c820eb5aa2bcab96f1572, linhas 60406–60569, com cabeçalho 21 (fora do lote) περιοικέω em 60570. 20 artigos de περιέχω a πέριξ. Não se utilizou BDAG PDF ou outros léxicos. SHA bruto do HTML, fac-símile e página impressa pendentes.
+TRADUÇÃO: preparação corrigida Git blob 2a0cec8aff26de94483d66337591257c81bad431, 20 artigos integrais com flexão, regência, sentidos, exemplos, ressalvas, variantes e testemunhos. Foi eliminado ② indevidamente duplicado na tradução preliminar de περιζώννυμι; preliminar supersedido blob 54226174f8aea39ccf487348996b3392e57757a9. Sem conjecturas.
+COLAÇÃO AUTOMÁTICA INDIVIDUAL: confronto do texto do HTML extraído de cada artigo (tags removidas, entidades decodificadas e Unicode NFC) contra o português; sequência de tokens gregos, hebraicos, numéricos, marcadores, siglas bibliográficas e contagens dos indicadores de variantes:
+01 περιέχω (l.60406): G 57/57; H 0/0; N 98/98; M 7/7; B 13/13; V 1/1.
+02 περιζώννυμι (l.60433): G 33/33; H 0/0; N 121/121; M 5/5; B 14/14; V 0/0.
+03 περίθεσις, εως, ἡ (l.60453): G 7/7; H 0/0; N 11/11; M 0/0; B 1/1; V 0/0.
+04 περιίστημι (l.60458): G 32/32; H 0/0; N 63/63; M 4/4; B 5/5; V 1/1.
+05 περικαθαίρω (l.60475): G 9/9; H 0/0; N 14/14; M 0/0; B 4/4; V 0/0.
+06 περικάθαρμα, ατος, τό (l.60479): G 23/23; H 0/0; N 15/15; M 0/0; B 4/4; V 0/0.
+07 περικαθίζω (l.60483): G 8/8; H 0/0; N 18/18; M 0/0; B 3/3; V 1/1.
+08 περικαλύπτω (l.60487): G 18/18; H 0/0; N 19/19; M 0/0; B 1/1; V 0/0.
+09 περίκειμαι (l.60492): G 47/47; H 0/0; N 79/79; M 7/7; B 14/14; V 1/1.
+10 περικεφαλαία, ας, ἡ (l.60518): G 15/15; H 0/0; N 28/28; M 0/0; B 8/8; V 0/0.
+11 περικόπτω (l.60523): G 19/19; H 0/0; N 30/30; M 2/2; B 0/0; V 0/0.
+12 περικρατής, ές (l.60534): G 15/15; H 0/0; N 11/11; M 0/0; B 3/3; V 0/0.
+13 περικρύβω (l.60538): G 8/8; H 0/0; N 16/16; M 0/0; B 4/4; V 0/0.
+14 περικυκλόω (l.60542): G 8/8; H 0/0; N 31/31; M 0/0; B 10/10; V 0/0.
+15 περιλάμπω (l.60546): G 11/11; H 0/0; N 25/25; M 0/0; B 1/1; V 0/0.
+16 περιλείπομαι (l.60550): G 8/8; H 0/0; N 41/41; M 0/0; B 12/12; V 0/0.
+17 περιλείχω (l.60554): G 10/10; H 0/0; N 10/10; M 0/0; B 1/1; V 1/1.
+18 περίλυπος, ον (l.60558): G 17/17; H 0/0; N 34/34; M 0/0; B 5/5; V 0/0.
+19 περιμένω (l.60562): G 7/7; H 0/0; N 49/49; M 0/0; B 5/5; V 0/0.
+20 πέριξ (l.60566): G 13/13; H 0/0; N 15/15; M 0/0; B 4/4; V 0/0.
+TOTAIS G 365/365, H 0/0, N 728/728, M 25/25, B 112/112, V 5/5; nenhuma divergência remanescente nesses controles. Isto não certifica revisão semântica humana ou auditoria independente A–J.
+MÓDULO lexicons/bdag-part-0282.js preparado Git blob 6dc1eec1013e41d9d739b6d110d39fed40cf1c15: 20 linhas tr.search-row e 20 cartões article.entry-card, 20 IDs/data-target únicos e pareados, 20 lemas e traduções reextraídas iguais às preparações; HTML balanceado; 365 spans gregos, zero hebraicos, 40 links NA28 de sintaxe válida sem teste HTTP; sem bibliographicTerms duplicado. Manifesto lexicon-modules.json preparado blob e372304095dedaf960e19b02ba6c5f50d76223e0: 2309 módulos, única inserção bdag-part-0282.js entre 0281 e lexicons/leh.js, 2308 módulos anteriores idênticos.
+PUBLICAÇÃO SEGURA CONDICIONAL: um commit com exclusivamente lexicons/bdag-part-0282.js, lexicon-modules.json e este apêndice append-only de regras/Rbdag.txt, criado com pai c6ec6754237074364b477655fb77190e1c057b5e e atualização de chat-gpt-bdag com expected_sha=pai, force=false. Verificar HEAD, árvore, diff, blobs e pai. Sem PR, merge, deploy ou alterações em lotes anteriores.
+PENDÊNCIAS: auditoria independente A–J não concluída, contador não incrementado. SHA bruto e fac-símile/página impressa; teste HTTP de 40 links; DOM, teclado, foco, popups, acessibilidade, CI/regressão global e integração permanecem não testados. Não atribuir selo indevido.
+PROGRESSO CONDICIONAL: 5844 → 5864 / 8287 = 70.76%; faltam 2423. PRÓXIMO LEMA περιοικέω, linha 60570 do HTML.
+TOTAIS TRANSVERSAIS: BDAG 5844 antes/5864 condicionado a publicação; DGP não verificado, HEAD consultado 581ad921b47e3b0e7f28b279b83ed19e508da68b; LEH e PEREIRA não verificados, refs chat-gpt-leh e chat-gpt-pereira retornaram 404. chat-gpt-commits HEAD consultado 6431c564757d1bec7c50dc10b1686617aa598e58.
+================================================================================
