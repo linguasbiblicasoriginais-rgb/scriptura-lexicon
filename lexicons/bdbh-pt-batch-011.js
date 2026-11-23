@@ -844,6 +844,51 @@ window.ScripturaBDBHpt.batch011={
       "integration_status": "NAO_INTEGRADO",
       "source_blob_sha": "c26a1116bd5fc7a3af03a9761dc03b8bfeeaba45",
       "editorial_evidence": "relatorios/bdbh-pt-2026-11-23-ordinais-01050-01056.md"
+    },
+    {
+      "ordinal": 1057,
+      "headword": "בהר",
+      "ref": "BDB, בהר",
+      "preview": "בהר: comparação com hebraico pós-bíblico, aramaico, etíope e árabe; luminosidade.",
+      "html": "<big><big><span dir=\"rtl\">בהר</span></big></big>  <strong>(</strong>hebraico pós-bíblico, Hifil: <em>ser luminoso, brilhar;</em> cf. aramaico <span dir=\"rtl\">בְּהַר</span>, <span dir=\"rtl\">ܒܗܪ</span> (não Peal) e derivados; etíope በርሀ, árabe <span dir=\"rtl\">بَهَرَ</span> <em>sobressair</em>, especialmente em luminosidade; <em>resplandecer</em><strong>)</strong>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c26a1116bd5fc7a3af03a9761dc03b8bfeeaba45",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-23-ordinais-01057-01059.md"
+    },
+    {
+      "ordinal": 1058,
+      "headword": "בַּהֶ֫רֶת",
+      "ref": "BDB, בַּהֶ֫רֶת",
+      "preview": "בַּהֶ֫רֶת: brilho, mancha brilhante da pele; possibilidades diagnósticas no texto bíblico.",
+      "html": "† <big><span dir=\"rtl\">בַּהֶ֫רֶת</span></big>  <strong>substantivo feminino: brilho, mancha brilhante</strong>, de erupção na pele <strong>(</strong>hebraico pós-bíblico <em>idem</em>, aramaico <span dir=\"rtl\">בַּהְרָא</span><strong>)</strong>—<span dir=\"rtl\">בּ׳</span> em uso absoluto <a data-ref=\"Leviticus 13:2\" href=\"/Leviticus.13.2\">Lv 13:2</a> + 7 vezes; <span dir=\"rtl\">בֶּהָ֑רֶת</span> <a data-ref=\"Leviticus 14:56\" href=\"/Leviticus.14.56\">Lv 14:56</a>; plural absoluto <span dir=\"rtl\">בֶּהָרוֹת</span> <a data-ref=\"Leviticus 13:38\" href=\"/Leviticus.13.38\">Lv 13:38</a>, <a data-ref=\"Leviticus 13:39\" href=\"/Leviticus.13.39\">39</a>;—<em>mancha brilhante</em> (ferida, cicatriz etc.), pura ou impura <a data-ref=\"Leviticus 14:56\" href=\"/Leviticus.14.56\">Lv 14:56</a>; após uma queimadura (causada pelo fogo) <a data-ref=\"Leviticus 13:24\" href=\"/Leviticus.13.24\">Lv 13:24</a>, <a data-ref=\"Leviticus 13:25\" href=\"/Leviticus.13.25\">25</a>, <a data-ref=\"Leviticus 13:26\" href=\"/Leviticus.13.26\">26</a>, <a data-ref=\"Leviticus 13:28\" href=\"/Leviticus.13.28\">28</a>; possível início de lepra <a data-ref=\"Leviticus 13:2\" href=\"/Leviticus.13.2\">Lv 13:2</a>, <a data-ref=\"Leviticus 13:4\" href=\"/Leviticus.13.4\">4</a>, <a data-ref=\"Leviticus 13:19\" href=\"/Leviticus.13.19\">19</a>, <a data-ref=\"Leviticus 13:23\" href=\"/Leviticus.13.23\">23</a>; mas possivelmente uma erupção (passageira) <span dir=\"rtl\">מִסְפַּחַת</span> v. <a data-ref=\"Leviticus 13:6\" href=\"/Leviticus.13.6\">6</a>; ou decorrente de uma úlcera <span dir=\"rtl\">שְׁחִין</span> v. <a data-ref=\"Leviticus 13:19\" href=\"/Leviticus.13.19\">19</a>, <a data-ref=\"Leviticus 13:23\" href=\"/Leviticus.13.23\">23</a>;—decorrente de <span dir=\"rtl\">בֹּהַק</span> (veja-se o respectivo verbete) <a data-ref=\"Leviticus 13:38\" href=\"/Leviticus.13.38\">Lv 13:38</a>, <a data-ref=\"Leviticus 13:39\" href=\"/Leviticus.13.39\">39</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c26a1116bd5fc7a3af03a9761dc03b8bfeeaba45",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-23-ordinais-01057-01059.md"
+    },
+    {
+      "ordinal": 1059,
+      "headword": "בָּהִיר",
+      "ref": "BDB, בָּהִיר",
+      "preview": "בָּהִיר: claro, brilhante; adjetivo referido à luz.",
+      "html": "† <big><span dir=\"rtl\">בָּהִיר</span></big>  <strong>adjetivo: claro, brilhante</strong>, a respeito da luz; somente <a data-ref=\"Job 37:21\" href=\"/Job.37.21\">Jb 37:21</a> <span dir=\"rtl\">לֹא רָאוּ אוֹר בּ׳ הוּא בַּשְּׁחָקִים</span>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "c26a1116bd5fc7a3af03a9761dc03b8bfeeaba45",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-23-ordinais-01057-01059.md"
     }
   ]
 };
