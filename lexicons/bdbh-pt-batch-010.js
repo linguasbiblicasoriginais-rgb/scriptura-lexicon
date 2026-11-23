@@ -1189,6 +1189,21 @@ window.ScripturaBDBHpt.batch010={
       "integration_status": "NAO_INTEGRADO",
       "source_blob_sha": "2b94193730743a2b26696bc764c8a5c02fdf6156",
       "editorial_evidence": "relatorios/bdbh-pt-2026-11-23-ordinais-00961-00979.md"
+    },
+    {
+      "ordinal": 980,
+      "headword": "ב",
+      "ref": "BDB, ב",
+      "preview": "ב, בּ: Bêth, segunda letra; número 2 no hebraico pós-bíblico; notação para 2.000, sem atestação veterotestamentária.",
+      "html": "<big><span dir=\"rtl\">ב</span>, <span dir=\"rtl\">בּ</span></big>  <em>Bêth,</em> segunda letra; no hebraico pós-bíblico = numeral 2 (também nas margens do texto massorético impresso); ב̈<em>̈</em> = 2.000; não há evidência desse uso nos tempos do Antigo Testamento.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "2b94193730743a2b26696bc764c8a5c02fdf6156",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-23-ordinal-00980.md"
     }
   ]
 };
