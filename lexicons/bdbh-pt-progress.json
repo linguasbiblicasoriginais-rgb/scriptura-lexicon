@@ -35,7 +35,7 @@
     "pending_ordinals": []
   },
   "unintegrated": true,
-  "publication_note": "954/11.015 traduções colacionadas digitalmente; PT 010 com 54 registros (901–954); próximo 955 — אֵת²; BDBH-FONTE-00934 pendente, auditoria BLOQUEADA.",
+  "publication_note": "954/11.015 traduzidos e colacionados digitalmente; no ordinal 954, uma remissão BDB Aramaic sem destino certificado foi preservada como texto com proveniência, sem link ativo. BDBH-FONTE-00934 pendente; auditoria BLOQUEADA.",
   "untouched_original": true,
   "last_source_blob_verified": "2b94193730743a2b26696bc764c8a5c02fdf6156",
   "last_working_commit_parent": "8dcc07f67255e75baa61a94b87500fc5078883e3",
@@ -52,9 +52,11 @@
   "last_round_verified_scope": "954 (I. אֵת): um artigo integral sem divisão, 164 âncoras, 69 spans e 20 superscritos preservados. 953 anteriores, quatro SHA protegidos, irregularidade 821, inglês e pendência BDBH-FONTE-00934 inalterados. Auditoria BLOQUEADA.",
   "presentation_canonical_version": "2026-11-15-bdbh-pt-02",
   "presentation_canonical_rule": "regras/Rbdbh-pt.txt",
-  "last_fix_status": "BDBH_PT_00482_00483_UNMAPPED_REFERENCES_FAIL_CLOSED",
-  "last_fix_commit_parent": "221a62ed2d51603497ed975f03df2fe00ff60c51",
-  "last_fix_evidence": "relatorios/bdbh-pt-2026-11-17-pos-merge-fail-closed-00482-00483.md",
+  "last_fix_status": "BDBH_PT_00954_REMISSAO_ARAMAICA_FAIL_CLOSED",
+  "last_fix_commit_parent": "2ed56b009524a339f03ff81d29c09f8fa7c9a868",
+  "last_fix_evidence": "relatorios/bdbh-pt-2026-11-23-corrigenda-00954-remissao-aramaica.md",
   "last_failed_deployment": "dpl_DuwGkicsFQMb5FhbL7DD6uCXYix4",
-  "last_failed_deployment_error": "BDB-H/PT: referência sem mapeamento certificado: I Samuel 4-5"
+  "last_failed_deployment_error": "BDB-H/PT: referência sem mapeamento certificado: I Samuel 4-5",
+  "last_fix_source_ref": "BDB Aramaic, וְ",
+  "last_fix_scope": "somente a remissão em 954; 953 anteriores idênticos, 163 links restantes e 69 spans/20 sup originais intocados; sem incremento de tradução"
 }
