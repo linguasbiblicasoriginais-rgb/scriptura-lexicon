@@ -904,6 +904,66 @@ window.ScripturaBDBHpt.batch012={
       "integration_status": "NAO_INTEGRADO",
       "source_blob_sha": "d26ed123e3d03c4ad3c32b8e3b9147f1a4b918e5",
       "editorial_evidence": "relatorios/bdbh-pt-2026-11-24-ordinais-01151-01160.md"
+    },
+    {
+      "ordinal": 1161,
+      "headword": "בֵּיצָה²",
+      "ref": "BDB, בֵּיצָה²",
+      "preview": "בֵּיצָה: remissão a בוץ.",
+      "html": "<big><span dir=\"rtl\">בֵּיצָה</span></big>  ver sob <a data-ref=\"BDB, בוץ\" href=\"/BDB,_בוץ\", dir=\"rtl\">בוץ</a>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "d26ed123e3d03c4ad3c32b8e3b9147f1a4b918e5",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-24-ordinais-01161-01164.md"
+    },
+    {
+      "ordinal": 1162,
+      "headword": "בַּיִר²",
+      "ref": "BDB, בַּיִר²",
+      "preview": "בַּיִר: remissão a בור sob באר; destinos digitais suspensos.",
+      "html": "<big><span dir=\"rtl\">בַּיִר</span></big>  ver <span data-ref=\"BDB, בַּיִר\" data-bdbh-source-href=\"/BDB,_בַּיִר\" data-bdbh-suspended=\"LEXICAL_LABEL_TARGET_MISMATCH\" lang=\"he\" dir=\"rtl\">בור</span> sob <span data-ref=\"BDB, בַּיִר\" data-bdbh-source-href=\"/BDB,_בַּיִר\" data-bdbh-suspended=\"LEXICAL_LABEL_TARGET_MISMATCH\" lang=\"he\" dir=\"rtl\">באר</span>.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "d26ed123e3d03c4ad3c32b8e3b9147f1a4b918e5",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-24-ordinais-01161-01164.md"
+    },
+    {
+      "ordinal": 1163,
+      "headword": "בִּירָה",
+      "ref": "BDB, בִּירָה",
+      "preview": "בִּירָה: castelo, palácio; templo, fortaleza.",
+      "html": "† <big><span dir=\"rtl\">בִּירָה</span></big>  <strong>substantivo feminino: castelo, palácio (</strong>tardio e provavelmente empréstimo; cf. assírio <em>bîrtu</em>, <em>fortaleza</em> Dl<sup>HA 22</sup>; persa <em>bâru</em> = sânscrito <em>bura, bari</em>, ver Ry <a data-ref=\"Nehemiah 2:8\" href=\"/Nehemiah.2.8\">Ne 2.8</a><strong>)</strong>—<br><strong>1.</strong>  do <em>templo</em> em Jerusalém <a data-ref=\"I Chronicles 29:1\" href=\"/I_Chronicles.29.1\">1Cr 29.1</a>, <a data-ref=\"I Chronicles 29:19\" href=\"/I_Chronicles.29.19\">1Cr 29.19</a> <span dir=\"rtl\">הַבִּירָה</span>; da fortaleza próxima ao templo <a data-ref=\"Nehemiah 2:8\" href=\"/Nehemiah.2.8\">Ne 2.8</a>; <a data-ref=\"Nehemiah 7:2\" href=\"/Nehemiah.7.2\">Ne 7.2</a> (cf. βᾶρις 𝔊L <a data-ref=\"Nehemiah 1:1\" href=\"/Nehemiah.1.1\">Ne 1.1</a>; <a data-ref=\"Nehemiah 2:8\" href=\"/Nehemiah.2.8\">Ne 2.8</a>; <a data-ref=\"Nehemiah 7:2\" href=\"/Nehemiah.7.2\">Ne 7.2</a>—B ἁβιρά, βειρά—e posteriormente βᾶρις Jos<sup>Ant.</sup> xv, 11, 4).<br><strong>2.</strong>  <span dir=\"rtl\">בְּשׁוּשַׁן הַבִּירָה</span> <a data-ref=\"Nehemiah 1:1\" href=\"/Nehemiah.1.1\">Ne 1.1</a> <a data-ref=\"Esther 1:2\" href=\"/Esther.1.2\">Et 1.2</a>, <a data-ref=\"Esther 1:5\" href=\"/Esther.1.5\">Et 1.5</a>; <a data-ref=\"Esther 2:3\" href=\"/Esther.2.3\">Et 2.3</a>, <a data-ref=\"Esther 2:5\" href=\"/Esther.2.5\">Et 2.5</a>, <a data-ref=\"Esther 2:8\" href=\"/Esther.2.8\">Et 2.8</a>; <a data-ref=\"Esther 3:15\" href=\"/Esther.3.15\">Et 3.15</a>; <a data-ref=\"Esther 8:14\" href=\"/Esther.8.14\">Et 8.14</a>; <a data-ref=\"Esther 9:6\" href=\"/Esther.9.6\">Et 9.6</a>, <a data-ref=\"Esther 9:11\" href=\"/Esther.9.11\">Et 9.11</a>, <a data-ref=\"Esther 9:12\" href=\"/Esther.9.12\">Et 9.12</a> <a data-ref=\"Daniel 8:2\" href=\"/Daniel.8.2\">Dn 8.2</a>; nessas passagens, aparentemente significa uma fortaleza na cidade que tem o mesmo nome (cf. especialmente <a data-ref=\"Esther 3:15\" href=\"/Esther.3.15\">Et 3.15</a>; <a data-ref=\"Esther 8:14\" href=\"/Esther.8.14\">Et 8.14</a>, <a data-ref=\"Esther 8:15\" href=\"/Esther.8.15\">Et 8.15</a>; <a data-ref=\"Esther 9:6\" href=\"/Esther.9.6\">Et 9.6</a>, <a data-ref=\"Esther 9:12\" href=\"/Esther.9.12\">Et 9.12</a>, <a data-ref=\"Esther 9:15\" href=\"/Esther.9.15\">Et 9.15</a>, <a data-ref=\"Esther 9:18\" href=\"/Esther.9.18\">Et 9.18</a>).",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "d26ed123e3d03c4ad3c32b8e3b9147f1a4b918e5",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-24-ordinais-01161-01164.md"
+    },
+    {
+      "ordinal": 1164,
+      "headword": "בִּירָנִית",
+      "ref": "BDB, בִּירָנִית",
+      "preview": "בִּירָנִית: fortaleza, lugar fortificado; somente plural absoluto.",
+      "html": "† <big>[<span dir=\"rtl\">בִּירָנִית</span>]</big>  <strong>substantivo feminino: fortaleza, lugar fortificado</strong> (tardio); somente plural absoluto <span dir=\"rtl\">בִּירָנִיּוֹת וְעָרֵי מִסְכְּנוֹת</span> <a data-ref=\"II Chronicles 17:12\" href=\"/II_Chronicles.17.12\">2Cr 17.12</a> construídos por Josafá; <span dir=\"rtl\">בּ׳ וּמִגְדָּלִים</span> <a data-ref=\"II Chronicles 27:4\" href=\"/II_Chronicles.27.4\">2Cr 27.4</a> construídos por Jotão.",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "d26ed123e3d03c4ad3c32b8e3b9147f1a4b918e5",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-24-ordinais-01161-01164.md"
     }
   ]
 };
