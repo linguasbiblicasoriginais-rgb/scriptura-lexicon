@@ -12538,3 +12538,37 @@ Módulo 25cbcf5682a1f89a3b22142898aba2baf2a71c42; manifesto d2ebb992662362c80a5a
 Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global dos cartões, revisão semântica independente ou integração. A auditoria independente A–J não está concluída; não alterar o contador respectivo.
 Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0310, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6424/8287; antes 6404/8287. Sem PR, merge ou deploy.
 === FIM LOTE 0310 ===
+
+
+=== LOTE 0311 — INCORPORAÇÃO / COLAÇÃO PRÉ-PUBLICAÇÃO — 2026-11-24 ===
+HEAD-base: c29f54f8cde43dac48afacaffa37f711d882b33f; árvore-base a394f4df4be76f953b8f57ac94b350ad9498dc1c.
+Fonte exclusiva: file_00000000429c820eb5aa2bcab96f1572, HTML linhas 65710–65819; cabeçalhos 65711–65817. Recorte textual HTML: blob 4eeec655f7774c7faa3855e8c860d1548521cf1d (recuperado e comparado; não representa hash integral do HTML).
+20 artigos: πτοέω–πυκνῶς. Próximo: πυκτεύω, linha 65821 (excluído).
+Checkpoints: 01–10 30c389ddb151b7e9253fec890bba8df9581146e1; 11–20 e290efa779452c34b5da3cfbe5fbebed1bc26266; consolidado revisado b2c299f342c36d6013ab0e37382d801842b36236. Recuperados com igualdade textual; objetos sem referência de árvore sujeitos à coleta.
+Colação editorial de cada artigo e revisão da tradução. Igualdade ordenada de tokens gregos (incluindo combinantes), grupos numéricos ASCII, marcadores circulados e tokens hebraicos por artigo e parágrafo: 28 parágrafos, 313/659/8/2 tokens; zero divergências. Preservadas as duas interpretações de πτόησις em 1 Pt 3:6, com a preferência indicada pelo BDAG; as quatro acepções de πτωχός e o hebraico de 1QM 14:7; as alternativas de interpretação de πυγμή em Mk 7:3; a distinção entre a tradição mitológica, a adivinhação e a variante textual em πύθων; a remissão autônoma πυθόμενος,-εσθαι. Mantidas as grafias da fonte, inclusive πτοηθησομαι e Πτολεμαί̈ς, sem emenda conjectural.
+Revisões da tradução preliminar (7 substituições): 04 pá em forma de forcado; 09 termo mais digno; 10 foi designado/está destinado; 14 pobres aos olhos do mundo e não se mostrou miserável; 18 assim também como empréstimo; 19 assim denominada. Comparações de tokens não certificam equivalência semântica nem toda sigla latina.
+Evidências individuais (G/N/M/H):
+01 | πτοέω | HTML 65711 | 1 parágrafo(s) | G/N/M/H 16/41/0/0 | colação e roundtrip OK | entry-bdag-0311-01
+02 | πτόησις, εως, ἡ | HTML 65716 | 3 parágrafo(s) | G/N/M/H 11/10/2/0 | colação e roundtrip OK | entry-bdag-0311-02
+03 | Πτολεμαί̈ς, ί̈δος, ἡ | HTML 65727 | 1 parágrafo(s) | G/N/M/H 3/23/0/0 | colação e roundtrip OK | entry-bdag-0311-03
+04 | πτύον, ου, τό | HTML 65731 | 1 parágrafo(s) | G/N/M/H 4/14/0/0 | colação e roundtrip OK | entry-bdag-0311-04
+05 | πτύρω | HTML 65735 | 1 parágrafo(s) | G/N/M/H 12/22/0/0 | colação e roundtrip OK | entry-bdag-0311-05
+06 | πτύσμα, ατος, τό | HTML 65739 | 1 parágrafo(s) | G/N/M/H 5/30/0/0 | colação e roundtrip OK | entry-bdag-0311-06
+07 | πτύσσω | HTML 65743 | 1 parágrafo(s) | G/N/M/H 6/15/0/0 | colação e roundtrip OK | entry-bdag-0311-07
+08 | πτύω | HTML 65747 | 1 parágrafo(s) | G/N/M/H 13/22/0/0 | colação e roundtrip OK | entry-bdag-0311-08
+09 | πτῶμα, ατος, τό | HTML 65751 | 1 parágrafo(s) | G/N/M/H 13/52/0/0 | colação e roundtrip OK | entry-bdag-0311-09
+10 | πτῶσις, εως, ἡ | HTML 65755 | 1 parágrafo(s) | G/N/M/H 14/40/0/0 | colação e roundtrip OK | entry-bdag-0311-10
+11 | πτωχεία, ας, ἡ | HTML 65759 | 1 parágrafo(s) | G/N/M/H 16/12/0/0 | colação e roundtrip OK | entry-bdag-0311-11
+12 | πτωχεύω | HTML 65763 | 1 parágrafo(s) | G/N/M/H 20/23/0/0 | colação e roundtrip OK | entry-bdag-0311-12
+13 | πτωχίζω | HTML 65767 | 1 parágrafo(s) | G/N/M/H 3/6/0/0 | colação e roundtrip OK | entry-bdag-0311-13
+14 | πτωχός, ή, όν | HTML 65772 | 5 parágrafo(s) | G/N/M/H 67/186/4/2 | colação e roundtrip OK | entry-bdag-0311-14
+15 | πτωχότης, ητος, ἡ | HTML 65789 | 1 parágrafo(s) | G/N/M/H 4/5/0/0 | colação e roundtrip OK | entry-bdag-0311-15
+16 | πυγμή, ῆς, ἡ | HTML 65794 | 3 parágrafo(s) | G/N/M/H 27/42/2/0 | colação e roundtrip OK | entry-bdag-0311-16
+17 | πυθόμενος,-εσθαι | HTML 65805 | 1 parágrafo(s) | G/N/M/H 3/0/0/0 | colação e roundtrip OK | entry-bdag-0311-17
+18 | πύθων, ωνος, ὁ | HTML 65809 | 1 parágrafo(s) | G/N/M/H 49/37/0/0 | colação e roundtrip OK | entry-bdag-0311-18
+19 | πυκνός, ή, ον | HTML 65813 | 1 parágrafo(s) | G/N/M/H 24/60/0/0 | colação e roundtrip OK | entry-bdag-0311-19
+20 | πυκνῶς | HTML 65817 | 1 parágrafo(s) | G/N/M/H 3/19/0/0 | colação e roundtrip OK | entry-bdag-0311-20
+Módulo c0f117c0f30c44ddaf3a168a313448ca72fcbfb7; manifesto e3951df0193cae699a65450d40f6bf28a28db6d5; recuperados e comparados. 20 linhas/20 cartões, 20 IDs e destinos únicos e correspondentes em ordem, 28 parágrafos em roundtrip textual após serialização e recuperação, 120/599 tags equilibradas por pilha, 56 links NA28 sintaticamente válidos; sem teste HTTP individual, CI ou DOM. Nenhum popup novo; bibliographicTerms não duplicado. Manifesto 2337→2338 caminhos, inclusão única após 0310; ordem e demais caminhos preservados. IDs seguem convenção dos módulos vizinhos.
+Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global dos cartões, revisão semântica independente ou integração. A auditoria independente A–J não está concluída; não alterar o contador respectivo.
+Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0311, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6444/8287; antes 6424/8287. Sem PR, merge ou deploy.
+=== FIM LOTE 0311 ===
