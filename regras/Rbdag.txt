@@ -11824,3 +11824,35 @@ Validações: módulo serializado em JSON e recuperado por parse, 20 pares linha
 Limitações: sem revisão semântica independente integral adicional à tradução editorial, sem cotejo fac-similar, sem hash bruto do HTML completo, sem execução CI/DOM/HTTP/teclado ou regressão funcional global. Referências ambíguas mantidas como texto; não certificadas por teste HTTP. Auditoria independente A–J não concluída; contador de auditorias não incrementado. Sem PR, merge ou deploy.
 Publicação condicionada à confirmação do commit atômico e atualização do ref com expected_sha e force=false; somente módulo 0291, manifesto e este apêndice. Progresso após confirmação: 6024→6044/8287 = 72,93%; faltam 2243. Próximo lema: πόλις, εως, ἡ, linha 62712.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO DO LOTE 0292 — 24/11/2026
+================================================================================
+HEAD inicial reconfirmado: 559438b4dd0f0bfac70cf751ed6cc352cb9c8a9c
+Branch: chat-gpt-bdag. Fonte exclusiva: HTML canônico file_00000000429c820eb5aa2bcab96f1572; extração preparatória blob e7915f7265fdfe3e484970126d02f6420a4d1f38; linhas 62712–62837; limite antes de πολυλογία. Traduções consolidadas: e95698f1bf34939a2de403c676abaf7cdd8a9f6a.
+Objetos preparatórios: b181627adaacf0a940081c5a501d6e71feede7d9 (01–06), 6ec93a7fd32d700d89b5904f677cd58202219a19 (07–20), ambos recuperados e comparados integralmente após gravação. Colação editorial durante a tradução e confronto automatizado individual com fonte: ordem exata dos tokens gregos e grupos numéricos, marcadores circulados e quantidade de parágrafos. Não certifica semântica integral ou identidade de todas as referências latinas. Fichas individuais (tokens gregos / grupos numéricos / parágrafos):
+01 πόλις, εως, ἡ | HTML 62712–62725 | entry-bdag-0292-01 | 249/420/4 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+02 πολιτάρχης, ου, ὁ | HTML 62726–62730 | entry-bdag-0292-02 | 12/68/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+03 πολιτεία, ας, ἡ | HTML 62731–62744 | entry-bdag-0292-03 | 42/109/4 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+04 πολίτευμα, ατος, τό | HTML 62745–62749 | entry-bdag-0292-04 | 40/60/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+05 πολιτεύομαι | HTML 62750–62770 | entry-bdag-0292-05 | 63/111/6 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+06 πολίτης, ου, ὁ | HTML 62771–62781 | entry-bdag-0292-06 | 10/51/3 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+07 πολῖτις, ιδος, ἡ | HTML 62782–62785 | entry-bdag-0292-07 | 10/3/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+08 πολλά | HTML 62786–62789 | entry-bdag-0292-08 | 3/1/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+09 πολλάκις | HTML 62790–62793 | entry-bdag-0292-09 | 18/50/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+10 πολλαπλασιάζω | HTML 62794–62797 | entry-bdag-0292-10 | 6/9/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+11 πολλαπλασίων, ον, | HTML 62798–62801 | entry-bdag-0292-11 | 8/35/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+12 πολλοστός, ή, όν | HTML 62802–62805 | entry-bdag-0292-12 | 15/13/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+13 πόλος, ου, ὁ | HTML 62806–62809 | entry-bdag-0292-13 | 9/4/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+14 πολυαγάπητος, ον | HTML 62810–62813 | entry-bdag-0292-14 | 4/2/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+15 Πολύβιος, ου, ὁ | HTML 62814–62817 | entry-bdag-0292-15 | 3/5/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+16 πολυευσπλαγχνία, ας, ἡ | HTML 62818–62821 | entry-bdag-0292-16 | 8/3/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+17 πολυεύσπλαγχνος, ον | HTML 62822–62825 | entry-bdag-0292-17 | 3/5/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+18 πολυεύτακτος, ον | HTML 62826–62829 | entry-bdag-0292-18 | 10/2/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+19 Πολύκαρπος, ου, ὁ | HTML 62830–62833 | entry-bdag-0292-19 | 3/46/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+20 πολύλαλος, ον | HTML 62834–62837 | entry-bdag-0292-20 | 8/17/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+Revisão editorial: πόλις «mais de 160 ocorrências» → «160+ ocorrências» (notação da fonte); πολιτεία «que não traz arrependimentos» → «que não traz motivos de pesar» (no regrets); πολλάκις «diversos pontos de tempo relacionados» → «diversos momentos relacionados»; πολυεύτακτος «vosso amor conforme a Deus» → «vosso amor semelhante ao de Deus» (God-like love). Regressão dos testes de sequência aprovada 20/20. Conservados literalmente os elementos gregos e numéricos, inclusive a vírgula terminal do cabeçalho πολλαπλασίων, ον, e a remissão de πολλά, sem conjecturas silenciosas.
+Validações: módulo serializado em JSON e recuperado por parse, 20 pares linha/cartão, 20 IDs únicos, roundtrip de texto 20/20, tags equilibradas (240/1716), 101 URLs NA28 sintaticamente válidas, 524 spans gregos. Manifesto 2318→2319 caminhos, diferença de uma única linha, ordem anterior preservada. Módulo 5eedf1f402fd887217e14d22fd69e5c2989456b6; manifesto f7f57b4d50a3b622b13b730c121978e36a279e07.
+Limitações: sem revisão semântica independente integral adicional à tradução editorial, sem cotejo fac-similar, sem hash bruto do HTML completo, sem execução CI/DOM/HTTP/teclado ou regressão funcional global. Links de referências explícitas gerados por padrão sintático, sem certificação HTTP; remissões implícitas preservadas em texto. Auditoria independente A–J não concluída; contador de auditorias não incrementado. Sem PR, merge ou deploy.
+Publicação condicionada à confirmação do commit atômico e atualização do ref com expected_sha e force=false; somente módulo 0292, manifesto e este apêndice. Progresso após confirmação: 6044→6064/8287 = 73,18%; faltam 2223. Próximo lema: πολυλογία, ας, ἡ, linha 62838.
+================================================================================
