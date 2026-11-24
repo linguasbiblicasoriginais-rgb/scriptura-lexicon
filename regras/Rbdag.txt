@@ -11888,3 +11888,35 @@ Validações: módulo serializado em JSON e recuperado por parse, 20 pares linha
 Limitações: sem revisão semântica independente integral adicional à tradução editorial, sem cotejo fac-similar, sem hash bruto do HTML completo, sem execução CI/DOM/HTTP/teclado ou regressão funcional global. Links de referências explícitas gerados por padrão sintático, sem certificação HTTP; remissões implícitas preservadas em texto. Auditoria independente A–J não concluída; contador de auditorias não incrementado. Sem PR, merge ou deploy.
 Publicação condicionada à confirmação do commit atômico e atualização do ref com expected_sha e force=false; somente módulo 0293, manifesto e este apêndice. Progresso após confirmação: 6064→6084/8287 = 73,42%; faltam 2203. Próximo lema: πονηρεύομαι, linha 63048.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO DO LOTE 0294 — 24/11/2026
+================================================================================
+HEAD inicial reconfirmado: 1fec657fe687789c5b85325bed81846936dc5ea1
+Branch: chat-gpt-bdag. Fonte exclusiva: HTML canônico file_00000000429c820eb5aa2bcab96f1572; extração preparatória blob 62fd979bd7592964b2c4356d8cacd555bc3d2bc1; linhas 63048–63212; limite antes de πόρνη. Traduções consolidadas: edd40b279e82eb7f762e4ea362f43a077583c43f.
+Objetos preparatórios: d66adb4685287ed6226addb429aa589a5a967237 (01, 02, 04–12), 38cf45a4a45de83de88e4226e37063a9114c8ca5 (03, 14–18), 5ed0c2d9592cc77132e0b59943f6b08904c7d71c (13, 19, 20). Recuperação e igualdade dos novos blobs confirmadas. Colação editorial durante a tradução e confronto automatizado individual com fonte: ordem dos tokens gregos, grupos numéricos, marcadores circulados e hebraicos, quantidade de parágrafos. Não certifica semântica integral ou identidade de todas as referências latinas. Fichas individuais (tokens gregos / grupos numéricos / parágrafos):
+01 πονηρεύομαι | HTML 63048–63051 | entry-bdag-0294-01 | 22/56/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+02 πονηρία, ας, ἡ | HTML 63052–63056 | entry-bdag-0294-02 | 71/129/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+03 πονηρός, ά, όν | HTML 63057–63097 | entry-bdag-0294-03 | 200/490/13 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+04 πονηρόφρων, ον, | HTML 63098–63101 | entry-bdag-0294-04 | 7/4/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+05 πονηρῶς | HTML 63102–63106 | entry-bdag-0294-05 | 3/2/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+06 πόνος, ου, ὁ | HTML 63107–63117 | entry-bdag-0294-06 | 58/113/3 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+07 Ποντικός, ή, όν | HTML 63118–63121 | entry-bdag-0294-07 | 7/6/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+08 Πόντιος, ου, ὁ | HTML 63122–63125 | entry-bdag-0294-08 | 4/44/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+09 πόντος, ου, ὁ | HTML 63126–63129 | entry-bdag-0294-09 | 11/15/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+10 Πόντος, ου, ὁ | HTML 63130–63133 | entry-bdag-0294-10 | 5/22/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+11 Πόπλιος, ου, ὁ | HTML 63134–63138 | entry-bdag-0294-11 | 26/34/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+12 πορεία, ας, ἡ | HTML 63139–63150 | entry-bdag-0294-12 | 26/42/3 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+13 πορεύω | HTML 63151–63164 | entry-bdag-0294-13 | 249/424/4 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+14 πορθέω | HTML 63165–63168 | entry-bdag-0294-14 | 27/27/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+15 πορία | HTML 63169–63172 | entry-bdag-0294-15 | 2/0/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+16 πορίζω | HTML 63173–63176 | entry-bdag-0294-16 | 16/10/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+17 πορισμός, οῦ, ὁ | HTML 63177–63180 | entry-bdag-0294-17 | 12/21/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+18 Πόρκιος, ου, ὁ | HTML 63181–63185 | entry-bdag-0294-18 | 4/7/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+19 πορνεία, ας, ἡ | HTML 63186–63200 | entry-bdag-0294-19 | 57/181/4 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+20 πορνεύω | HTML 63201–63212 | entry-bdag-0294-20 | 9/54/3 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+Revisão editorial: πονηρός «condição física insalubre» → «condição física mórbida»; πορνεία «imoralidade apaixonada» → «imoralidade ardente» e «incontinência sexual» → «impudicícia». Preservados πονηρόφρων, ον, com vírgula terminal, a remissão πορία, a distinção gráfica πόντος/Πόντος e elementos gregos e numéricos da fonte, sem conjecturas silenciosas. Regressão de sequência aprovada 20/20.
+Validações: módulo serializado em JSON e recuperado por parse, 20 pares linha/cartão, 20 IDs únicos, roundtrip de texto 20/20, tags equilibradas (240/2460), 170 URLs NA28 sintaticamente válidas, 816 spans gregos. Manifesto 2320→2321 caminhos, diferença de uma única linha, ordem anterior preservada. Módulo 1c08e46e9b56973e759c34f15cfb8a1259d29cf3; manifesto 071e7b855011f98be96f911555b3f4a27478ff69.
+Limitações: sem revisão semântica independente integral adicional à tradução editorial, sem cotejo fac-similar, sem hash bruto do HTML completo, sem execução CI/DOM/HTTP/teclado ou regressão funcional global. Links de referências explícitas gerados por padrão sintático, sem certificação HTTP; remissões implícitas preservadas em texto. Normas consultadas parcialmente na fase inicial. Auditoria independente A–J não concluída; contador de auditorias não incrementado. Sem PR, merge ou deploy.
+Publicação condicionada à confirmação do commit atômico e atualização do ref com expected_sha e force=false; somente módulo 0294, manifesto e este apêndice. Progresso após confirmação: 6084→6104/8287 = 73,66%; faltam 2183. Próximo lema: πόρνη, ης, ἡ, linha 63213.
+================================================================================
