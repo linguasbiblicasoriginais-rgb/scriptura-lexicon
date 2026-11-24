@@ -11684,3 +11684,36 @@ PUBLICAÇÃO CONDICIONAL: somente três arquivos, lexicons/bdag-part-0287.js, le
 AUDITORIA INDEPENDENTE A–J: NÃO REALIZADA/NÃO CONCLUÍDA; contador total_auditoria_concluida não incrementado. Não foram realizados ensaios em navegador/DOM/foco/teclado/popup, requisições HTTP para as referências, CI nem regressão global, nem colação do fac-símile impresso. A incorporação não equivale à auditoria atômica canônica nem prova integração PR/merge.
 PROGRESSO DE INCORPORAÇÃO (CONDICIONADO À CONFIRMAÇÃO REMOTA DO COMMIT): 5944→5964/8287 = 71.97%; faltam 2323. Próximo lema πλάξ, πλακός, ἡ, linha 61611. DGP, LEH e PEREIRA: totais não verificados neste lote; não inferir números a partir de outras branches.
 ================================================================================
+
+================================================================================
+BDAG — LOTE 288 — 24/11/2026 — INCORPORAÇÃO E COLAÇÃO CANÔNICA DOS 20 ARTIGOS (DISTINTA DA AUDITORIA A–J)
+REPOSITÓRIO: linguasbiblicasoriginais-rgb/scriptura-lexicon, branch chat-gpt-bdag. HEAD inicial conferido 0d327ff4e450dfa378ac9aa38f1d3986febc8d86; árvore base bc39d48b1fc10e7964cf695106cc92e1ab1b6a9a; regras/Rbdag.txt base blob 6582e193988ad7b5c2d60b72a5d59ed890bb6655 e regras/Rauditoria.txt blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67, normas relidas.
+FONTE ÚNICA: HTML canônico file_00000000429c820eb5aa2bcab96f1572, extraído diretamente e cotejado nas linhas 61611–61753, de πλάξ, πλακός, ἡ (61611) até πλέω (61749), 20 artigos. O próximo, πληγή, ῆς, ἡ (61754), excluído. Nenhum PDF nem outro léxico foi substituto do HTML.
+TRADUÇÃO: 20 artigos traduzidos integralmente PT-BR, preservando estrutura das acepções, construções, referências antigas e bíblicas, formas gregas, variantes, observações históricas e bibliografia, incluindo duas remissões a πολύς (πλείων, πλειόνως, πλεῖστος; πλέον). Consolidação Git blob 2fcfed75cc9cde56966e803836984b5835b13485. Traduções segmentadas em blobs 45e0d3fd639a75f34750f48fd2b62b35c93a4ab6, 6cb4553ffe758a4ef03cb438533eea8a9e96d9e1, e0ef9c6f9b9bc2367f9c47ca3506670ddd038f57, 3a95f39af2f921b4c128acf29267684006c6760b.
+COLAÇÃO DIRETA POR ARTIGO: remoção das marcas HTML e decodificação de entidades, normalização Unicode NFC, cotejo das sequências completas de tokens gregos, hebraicos, algarismos, marcadores de acepções, siglas latinas bibliográficas maiúsculas e contagem de indicadores de variantes. Primeira leitura: 18 entradas sem divergências, 2 com questões comprovadas. Correções antes da publicação: em πλέκω, códice indicado como «cód. A», mantendo a abreviatura da fonte; em πλεονεκτέω, restituída a referência omitida Just., A I, 16, 4. SEGUNDA COLAÇÃO DIRETA contra o HTML canônico: nenhuma divergência nas categorias verificadas em nenhum dos 20 artigos, com evidências individuais a seguir.
+01 πλάξ, πλακός, ἡ (HTML l.61611): G 35/35; H 0/0; N 45/45; M 0/0; B 7/7; V 1/1; sequências conferidas sem divergências.
+02 πλάσις, εως, ἡ (HTML l.61615): G 27/27; H 0/0; N 23/23; M 0/0; B 3/3; V 0/0; sequências conferidas sem divergências.
+03 πλάσμα, ατος, τό (HTML l.61619): G 33/33; H 0/0; N 35/35; M 0/0; B 7/7; V 0/0; sequências conferidas sem divergências.
+04 πλάσσω (HTML l.61624): G 48/48; H 0/0; N 77/77; M 4/4; B 9/9; V 0/0; sequências conferidas sem divergências.
+05 πλαστός, ή, όν (HTML l.61650): G 13/13; H 0/0; N 21/21; M 0/0; B 10/10; V 0/0; sequências conferidas sem divergências.
+06 πλατεῖα, ας, ἡ (HTML l.61654): G 19/19; H 0/0; N 58/58; M 0/0; B 5/5; V 0/0; sequências conferidas sem divergências.
+07 πλάτος, ους, τό (HTML l.61658): G 40/40; H 0/0; N 53/53; M 0/0; B 9/9; V 0/0; sequências conferidas sem divergências.
+08 πλατύνω (HTML l.61662): G 24/24; H 0/0; N 37/37; M 0/0; B 5/5; V 2/2; sequências conferidas sem divergências.
+09 πλατύς, εῖα, ύ (HTML l.61666): G 26/26; H 0/0; N 29/29; M 0/0; B 7/7; V 3/3; sequências conferidas sem divergências.
+10 πλατυσμός, οῦ, ὁ (HTML l.61671): G 7/7; H 0/0; N 19/19; M 2/2; B 2/2; V 0/0; sequências conferidas sem divergências.
+11 πλέγμα, ατος, τό (HTML l.61682): G 3/3; H 0/0; N 7/7; M 0/0; B 0/0; V 0/0; sequências conferidas sem divergências.
+12 πλείων, πλειόνως, πλεῖστος (HTML l.61686): G 4/4; H 0/0; N 0/0; M 0/0; B 0/0; V 0/0; sequências conferidas sem divergências.
+13 πλέκω (HTML l.61690): G 10/10; H 0/0; N 35/35; M 0/0; B 9/9; V 1/1; sequências conferidas sem divergências.
+14 πλέον (HTML l.61694): G 3/3; H 0/0; N 2/2; M 0/0; B 0/0; V 0/0; sequências conferidas sem divergências.
+15 πλεονάζω (HTML l.61699): G 36/36; H 0/0; N 84/84; M 5/5; B 8/8; V 0/0; sequências conferidas sem divergências.
+16 πλεονεκτέω (HTML l.61720): G 48/48; H 0/0; N 50/50; M 4/4; B 6/6; V 0/0; sequências conferidas sem divergências.
+17 πλεονέκτης, ου, ὁ (HTML l.61737): G 25/25; H 0/0; N 57/57; M 0/0; B 5/5; V 0/0; sequências conferidas sem divergências.
+18 πλεονεξία, ας, ἡ (HTML l.61741): G 40/40; H 0/0; N 121/121; M 0/0; B 16/16; V 0/0; sequências conferidas sem divergências.
+19 πλευρά, ᾶς, ἡ (HTML l.61745): G 5/5; H 0/0; N 16/16; M 0/0; B 1/1; V 1/1; sequências conferidas sem divergências.
+20 πλέω (HTML l.61749): G 56/56; H 0/0; N 71/71; M 0/0; B 15/15; V 3/3; sequências conferidas sem divergências.
+TOTAIS: G 502/502; H 0/0; N 840/840; M 15/15; B 124/124; V 11/11. Estes controles são mecânicos e não certificam, isoladamente, equivalência semântica exaustiva.
+VALIDAÇÕES ESTRUTURAIS: lexicons/bdag-part-0288.js blob 2d5c2bbbb06095769598877b0f4914fe387ddcd8: 20 tr.search-row, 20 article.entry-card, 20 IDs exclusivos e data-target pareados; tradução recuperada dos cartões idêntica a cada uma das 20 preparações; HTML equilibrado; 502 spans gregos, 0 hebraicos; 54 links NA28 de sintaxe válida (não submetidos a teste HTTP); metadados bibliographicTerms não duplicados. lexicon-modules.json blob 1322e5af1551190e41959825a7372bd2f611d5a3: 2315 módulos; único caminho incluído lexicons/bdag-part-0288.js após 0287 e antes de lexicons/leh.js; os 2314 caminhos anteriores conservados integralmente.
+PUBLICAÇÃO PREVISTA E CONDICIONAL: árvore derivada de bc39d48b1fc10e7964cf695106cc92e1ab1b6a9a alterando exatamente os três arquivos: novo lexicons/bdag-part-0288.js, lexicon-modules.json e regras/Rbdag.txt somente por este apêndice. Commit único com parent=0d327ff4e450dfa378ac9aa38f1d3986febc8d86; antes do update revalidar HEAD remoto, atualizar branch chat-gpt-bdag com expected_sha=parent e force=false; depois verificar HEAD, pai, árvore, blobs e diff. Não fazer PR, merge, deploy ou escrever em outros léxicos.
+LIMITAÇÕES: não houve auditoria independente A–J nem incremento de total_auditoria_concluida; sem cotejo com fac-símile impresso, hash bruto HTML, CI, testes em navegador/DOM, foco/teclado, teste HTTP das 54 URLs ou regressão geral. A incorporação e sua colação não são homologação integral segundo regras/Rauditoria.txt.
+PROGRESSO CONDICIONAL À PUBLICAÇÃO COMPROVADA: 5964 → 5984 de 8287 artigos = 72.21%; faltam 2303. Próximo lema πληγή, ῆς, ἡ, linha 61754.
+================================================================================
