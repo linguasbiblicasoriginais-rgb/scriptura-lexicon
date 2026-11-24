@@ -12395,3 +12395,46 @@ Validações: JSON parse/serialização, 20 pares linha/cartão, IDs e destinos 
 Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais pertinentes e checkpoint recente, não releitura integral do histórico de 12355 linhas; Rauditoria consultada. Leitura por linhas do HTML, sem SHA bruto do arquivo integral. Sem recontagem global independente de cartões, revisão semântica independente, CI/DOM/HTTP/teclado ou integração. Comparação de tokens não certifica cada sigla latina nem equivalência semântica. IDs seguem padrão efetivo dos módulos vizinhos. Auditoria independente A–J permanece não concluída; não incrementar contador auditado. Sem PR, merge ou deploy.
 Publicação condicionada à comparação integral das árvores Git e confirmação do ref com expected_sha e force=false. Somente módulo 0306, manifesto e este apêndice. Progresso após confirmação: 6324→6344/8287 (76,55%); faltam 1943. Próximo lema πρόσοψις, εως, ἡ, cabeçalho linha 65080.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO DO LOTE 0307 — 24/11/2026
+================================================================================
+HEAD inicial reconfirmado: 63a7b4f52d3a87cefd70c1bcd71df0821f190637
+Árvore base: 12c09a434311a2b5af7a3898d18b4073af02e3a9. Branch chat-gpt-bdag.
+Fonte exclusiva: HTML file_00000000429c820eb5aa2bcab96f1572; extração delimitada d16b7cf69aab2dc8a1cf23ae6b55f4aaa6d8f0e4, linhas 65079–65231 inclusive (153 linhas). Primeiro cabeçalho 65080, último 65198, próximo προσφεύγω 65233 excluído. 20 artigos, 20 cabeçalhos.
+Checkpoints recuperados: 4cb5f59ad678ce5bca23678e24aa49f604ffd4da (01–09), d5e536a516d031312c8174eacd58626702c93556 (10–13), bc720a061c8ce6868d8e4645c6905299996ccb98 (14–19), 1836bb1187b5fdf4a46a27999a0bf6290e0aaeb0 (20), consolidação revisada 4c891be31c6b5cdb9454cc745a38478eba5d923e. Blobs sem referência de árvore sujeitos à coleta Git.
+Colação editorial durante tradução e revisão; igualdade de sequências gregas (incluindo marcas combinantes), grupos de dígitos ASCII, marcadores circulados e tokens hebraicos por artigo e por parágrafo: 41 parágrafos, 601 tokens gregos, 1063 grupos numéricos, 18 marcadores, 0 tokens hebraicos. Subdivisões gregas também verificadas na sequência de tokens gregos. Fichas individuais (grego/números/marcadores/hebraico/parágrafos):
+01 πρόσοψις, εως, ἡ | cabeçalho HTML 65080 | entry-bdag-0307-01 | 4/16/0/0/1 | igualdade ordenada e roundtrip textual OK
+02 προσπαίω | cabeçalho HTML 65084 | entry-bdag-0307-02 | 4/15/0/0/1 | igualdade ordenada e roundtrip textual OK
+03 πρόσπεινος, ον | cabeçalho HTML 65088 | entry-bdag-0307-03 | 9/4/0/0/1 | igualdade ordenada e roundtrip textual OK
+04 προσπήγνυμι | cabeçalho HTML 65092 | entry-bdag-0307-04 | 2/11/0/0/1 | igualdade ordenada e roundtrip textual OK
+05 προσπίπτω | cabeçalho HTML 65097 | entry-bdag-0307-05 | 37/100/2/0/3 | igualdade ordenada e roundtrip textual OK
+06 προσποιέω | cabeçalho HTML 65109 | entry-bdag-0307-06 | 17/45/2/0/3 | igualdade ordenada e roundtrip textual OK
+07 προσπορεύομαι | cabeçalho HTML 65120 | entry-bdag-0307-07 | 5/19/0/0/1 | igualdade ordenada e roundtrip textual OK
+08 προσρήγνυμι | cabeçalho HTML 65124 | entry-bdag-0307-08 | 2/0/0/0/1 | igualdade ordenada e roundtrip textual OK
+09 προσρήσσω | cabeçalho HTML 65129 | entry-bdag-0307-09 | 30/32/2/0/3 | igualdade ordenada e roundtrip textual OK
+10 πρόσταγμα, ατος, τό | cabeçalho HTML 65140 | entry-bdag-0307-10 | 50/64/0/0/1 | igualdade ordenada e roundtrip textual OK
+11 προστάσσω | cabeçalho HTML 65144 | entry-bdag-0307-11 | 58/97/0/0/1 | igualdade ordenada e roundtrip textual OK
+12 προστάτης, ου, ὁ | cabeçalho HTML 65148 | entry-bdag-0307-12 | 23/44/0/0/1 | igualdade ordenada e roundtrip textual OK
+13 προστάτις, ιδος, ἡ | cabeçalho HTML 65152 | entry-bdag-0307-13 | 16/38/0/0/1 | igualdade ordenada e roundtrip textual OK
+14 προστίθημι | cabeçalho HTML 65157 | entry-bdag-0307-14 | 125/201/5/0/6 | igualdade ordenada e roundtrip textual OK
+15 πρόστιμον, ου, τό | cabeçalho HTML 65177 | entry-bdag-0307-15 | 8/18/0/0/1 | igualdade ordenada e roundtrip textual OK
+16 προστρέχω | cabeçalho HTML 65181 | entry-bdag-0307-16 | 5/33/0/0/1 | igualdade ordenada e roundtrip textual OK
+17 προσφάγιον, ου, τό | cabeçalho HTML 65185 | entry-bdag-0307-17 | 18/22/0/0/1 | igualdade ordenada e roundtrip textual OK
+18 πρόσφατος, ον | cabeçalho HTML 65189 | entry-bdag-0307-18 | 12/18/0/0/1 | igualdade ordenada e roundtrip textual OK
+19 προσφάτως | cabeçalho HTML 65193 | entry-bdag-0307-19 | 6/24/0/0/1 | igualdade ordenada e roundtrip textual OK
+20 προσφέρω | cabeçalho HTML 65198 | entry-bdag-0307-20 | 170/262/7/0/11 | igualdade ordenada e roundtrip textual OK
+Revisões da tradução preliminar:
+03: “faminto” → “com fome” no corpo.
+05: “abraçar os joelhos” → “agarrar os joelhos”.
+06: “transmitir determinada intenção” → “expressar determinada intenção”.
+09: “para que não naufraguemos contra a lei deles” → “para que não nos destrocemos contra a lei deles”.
+10: “empréstimo no rabínico” → “empréstimo na literatura rabínica”.
+14: “sua [de Ana] criança [Maria] crescia mês a mês” → “a filha [Maria] dela [Ana] crescia mês a mês”.
+17: “não tendes peixe para comer, tendes?” → “não tendes peixe para comer, não é?”.
+20: “a morte infligida aos cristãos” → “o ato de matar cristãos”; “ir ao encontro de, tratar” → “lidar com, tratar”.
+Preservadas a conjectura de Lachmann em προσπαίω, a remissão autônoma προσρήγνυμι, a distinção entre patronato grego e sistema romano em προστάτις, as alternativas de interpretação de Lc 17:5 e de At 5:14 em προστίθημι e o valor conativo ou incoativo do imperfeito em Hb 11:17 em προσφέρω. Mantidas as grafias anômalas τῷ θεῶ., προσταχθένται e a referência Hb l0:20 (letra l na fonte, sem link conjectural). Não se fez emenda ao HTML canônico.
+Validações: JSON parse/serialização, 20 pares linha/cartão, IDs e destinos únicos no lote, correspondência ordenada, roundtrip 20/20 após recuperação dos blobs, tags equilibradas (120/915), 73 links NA28 sintaticamente válidos para referências explícitas, remissões implícitas mantidas em texto, nenhum popup novo, bibliographicTerms não duplicado. Manifesto 2333→2334 caminhos, inclusão única após 0306, ordem anterior preservada. Módulo 337a5d6fc49ab092d1fa3df78b1598588b099cae; manifesto d693954d856eda94fa62e97545fda7cf082e9ee4. Ambos recuperados.
+Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico de 12398 linhas; Rauditoria consultada. Leitura por linhas do HTML, sem SHA bruto do arquivo integral. Sem recontagem global independente de cartões, revisão semântica independente, CI/DOM/HTTP/teclado ou integração. Comparação de tokens não certifica cada sigla latina nem equivalência semântica. IDs seguem padrão efetivo dos módulos vizinhos. Auditoria independente A–J permanece não concluída; não incrementar contador auditado. Sem PR, merge ou deploy.
+Publicação condicionada à comparação integral das árvores Git e confirmação do ref com expected_sha e force=false. Somente módulo 0307, manifesto e este apêndice. Progresso após confirmação: 6344→6364/8287 (76,80%); faltam 1923. Próximo lema προσφεύγω, cabeçalho linha 65233.
+================================================================================
