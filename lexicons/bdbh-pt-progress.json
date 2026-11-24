@@ -7,12 +7,12 @@
   "source_module": "lexicons/bdbh-batch-001.js",
   "source_module_blob_sha": "02bfca678ac8b6f778306aaabd3f88fe0addd926",
   "registered_translation_drafts": 0,
-  "fully_collated": 1421,
+  "fully_collated": 1428,
   "validated": 0,
   "validated_published": 0,
   "audit_completed": 0,
-  "next_pending_ordinal": 1422,
-  "next_pending_ref": "BDB, בְּקִיעַ",
+  "next_pending_ordinal": 1430,
+  "next_pending_ref": "BDB, בָּקָר",
   "first_unit": {
     "ordinals": [
       1,
@@ -35,21 +35,21 @@
     "pending_ordinals": []
   },
   "unintegrated": true,
-  "publication_note": "1421/11015; PT015 21/100. Próximo 1422 bloqueado por fonte digital truncada; suspensões anteriores preservadas. Auditoria BLOQUEADA.",
+  "publication_note": "1428 traduções registradas/11015, PT015 28/100, lacuna 1422; próximo 1430. Auditoria BLOQUEADA; integração pendente.",
   "untouched_original": true,
   "last_source_blob_verified": "90ec37d3bf449ce5f34054a9de4a588fc65ba3a6",
-  "last_working_commit_parent": "bd61b347d6d18c139ce13c383d1fab22b1098f01",
-  "last_round_status": "BDBH_PT_01416_01421_INTEGRAL_01422_BLOQUEADO",
-  "registered_translation_records": 1421,
-  "editorially_collated": 1421,
-  "validated_statically": 1421,
+  "last_working_commit_parent": "a94149417a994999a41d74a69b648824c46cbce7",
+  "last_round_status": "BDBH_PT_01424_01429_INTEGRAL_01422_ADIADO",
+  "registered_translation_records": 1428,
+  "editorially_collated": 1428,
+  "validated_statically": 1428,
   "last_round_source_sha": "90ec37d3bf449ce5f34054a9de4a588fc65ba3a6",
-  "last_round_parent_head": "bd61b347d6d18c139ce13c383d1fab22b1098f01",
-  "last_round_evidence": "relatorios/bdbh-pt-2026-11-24-ordinais-01416-01421.md",
-  "last_completed_ordinal": 1421,
-  "last_completed_ref": "BDB, בִּקְעָה",
+  "last_round_parent_head": "a94149417a994999a41d74a69b648824c46cbce7",
+  "last_round_evidence": "relatorios/bdbh-pt-2026-11-24-ordinais-01424-01429.md",
+  "last_completed_ordinal": 1429,
+  "last_completed_ref": "BDB, בָּקַר",
   "last_round_translated_count": 6,
-  "last_round_verified_scope": "6 artigos integrais; colação digital e regressão efetiva JS sem DOM; 15 traduções anteriores idênticas, PT014 intacto, 79 cartões/linhas ingleses restantes idênticos; fonte 1422 truncada; auditoria BLOQUEADA.",
+  "last_round_verified_scope": "6 artigos cotejados contra a fonte digital, tokens e referências preservados; regressão efetiva JS; 22 PT anteriores, 94 cartões/linhas e 100 sourceRecords intactos. 3 links suspensos. DOM e fac-símile não testados.",
   "presentation_canonical_version": "2026-11-15-bdbh-pt-02",
   "presentation_canonical_rule": "regras/Rbdbh-pt.txt",
   "last_fix_status": "BDBH_PT_00954_REMISSAO_ARAMAICA_FAIL_CLOSED",
@@ -58,5 +58,17 @@
   "last_failed_deployment": "dpl_DuwGkicsFQMb5FhbL7DD6uCXYix4",
   "last_failed_deployment_error": "BDB-H/PT: referência sem mapeamento certificado: I Samuel 4-5",
   "last_fix_source_ref": "BDB Aramaic, וְ",
-  "last_fix_scope": "somente a remissão em 954; 953 anteriores idênticos, 163 links restantes e 69 spans/20 sup originais intocados; sem incremento de tradução"
+  "last_fix_scope": "somente a remissão em 954; 953 anteriores idênticos, 163 links restantes e 69 spans/20 sup originais intocados; sem incremento de tradução",
+  "next_actionable_ordinal": 1430,
+  "first_unresolved_ordinal": 1422,
+  "last_contiguous_translation_ordinal": 1421,
+  "deferred_source_ordinals": [
+    {
+      "ordinal": 1422,
+      "ref": "BDB, בְּקִיעַ",
+      "status": "ADIADO_FONTE_DIGITAL_TRUNCADA",
+      "reason": "Sefaria reproduz o fragmento; autorização do mantenedor em 24/11/2026 para manter a fonte e continuar. Impresso de 1979 é testemunho independente, não usado como substituto.",
+      "evidence": "relatorios/bdbh-pt-2026-11-24-excecao-01422-retomada-01423.md"
+    }
+  ]
 }
