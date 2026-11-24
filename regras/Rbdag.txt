@@ -12504,3 +12504,37 @@ Módulo 01f8db34c2cb6569a7450da7bdd124f2f586b428; manifesto f06ff8a0629039e5d3e1
 Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global dos cartões, revisão semântica independente ou integração. A auditoria independente A–J não está concluída; não alterar o contador respectivo.
 Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0309, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6404/8287; antes 6384/8287. Sem PR, merge ou deploy.
 === FIM LOTE 0309 ===
+
+
+=== LOTE 0310 — INCORPORAÇÃO / COLAÇÃO PRÉ-PUBLICAÇÃO — 2026-11-24 ===
+HEAD-base: 7177e073dc5de3d656fda0fea12b7d1543477413; árvore-base ed4dc2da187557be8924239f1c09283389bc0719.
+Fonte exclusiva: file_00000000429c820eb5aa2bcab96f1572, HTML linhas 65561–65709; cabeçalhos 65562–65707. Recorte textual HTML: blob 8fc61e9d5fa3c2613611886258db6c9a9645ad44 (recuperado e comparado; não representa hash integral do HTML).
+20 artigos: πρωτεῖος, α, ον–πτηνός, (ή), όν. Próximo: πτοέω, linha 65711 (excluído).
+Checkpoints: 01–07 676790acdbe7dc12ca9fe1291efa931334262ca6; 08 650270d1c817febbfbab156105c0dadf63ca74ed; 09–20 8b0afdf76a524db9592c2281f3abb1868f9a6648; consolidado revisado 135089885e9dd9149521f6029f74fc2a9e130cf4. Recuperados com igualdade textual; objetos sem referência de árvore sujeitos à coleta.
+Colação editorial de cada artigo e revisão da tradução. Igualdade ordenada de tokens gregos (incluindo combinantes), grupos numéricos ASCII, marcadores circulados e tokens hebraicos por artigo e parágrafo: 41 parágrafos, 649/1017/13/0 tokens; zero divergências. Preservada a remissão autônoma πρῶτον, as discussões em πρῶτος acerca de Ac 1:1, Lk 2:2, Eph 6:2 e Mt 10:2; em πρωτότοκος, distinção entre ordem de nascimento e posição especial, inclusive as interpretações de Hb 12:23; em πταίω, a acepção de desastre e a alternativa registrada para 2 Pt 1:10. Mantidas as grafias e referências da fonte, inclusive Is 40:3 em πτεροφυέω, sem emenda conjectural.
+Revisões da tradução preliminar (8 regras de substituição, 9 ocorrências no corpo): 01 acerca da preeminência; 06 que se distingue especialmente; 08 primeiro peixe que aparecer, ordem sintática da glosa de ἐν πρώτοις, homens de maior destaque; 11 herdeiro por direito de primogenitura (duas ocorrências e ajuste correspondente no resumo); 13 perder a firmeza dos pés; 15 desferir um chute malicioso. Comparações de tokens não certificam equivalência semântica nem toda sigla latina.
+Evidências individuais (G/N/M/H):
+01 | πρωτεῖος, α, ον | HTML 65562 | 1 parágrafo(s) | G/N/M/H 9/20/0/0 | colação e roundtrip OK | entry-bdag-0310-01
+02 | πρωτεύω | HTML 65566 | 1 parágrafo(s) | G/N/M/H 11/26/0/0 | colação e roundtrip OK | entry-bdag-0310-02
+03 | πρωτοκαθεδρία, ας, ἡ | HTML 65570 | 1 parágrafo(s) | G/N/M/H 10/14/0/0 | colação e roundtrip OK | entry-bdag-0310-03
+04 | πρωτοκαθεδρίτης, ου, ὁ | HTML 65574 | 1 parágrafo(s) | G/N/M/H 5/5/0/0 | colação e roundtrip OK | entry-bdag-0310-04
+05 | πρωτοκλισία, ας, ἡ | HTML 65578 | 1 parágrafo(s) | G/N/M/H 4/11/0/0 | colação e roundtrip OK | entry-bdag-0310-05
+06 | πρωτόμαρτυς, υρος, ὁ | HTML 65582 | 1 parágrafo(s) | G/N/M/H 10/5/0/0 | colação e roundtrip OK | entry-bdag-0310-06
+07 | πρῶτον | HTML 65586 | 1 parágrafo(s) | G/N/M/H 2/0/0/0 | colação e roundtrip OK | entry-bdag-0310-07
+08 | πρῶτος, η, ον | HTML 65591 | 14 parágrafo(s) | G/N/M/H 405/573/7/0 | colação e roundtrip OK | entry-bdag-0310-08
+09 | πρωτοστάτης, ου, ὁ | HTML 65635 | 1 parágrafo(s) | G/N/M/H 11/6/0/0 | colação e roundtrip OK | entry-bdag-0310-09
+10 | πρωτοτόκια, ων, τά | HTML 65639 | 1 parágrafo(s) | G/N/M/H 13/12/0/0 | colação e roundtrip OK | entry-bdag-0310-10
+11 | πρωτότοκος, ον | HTML 65644 | 7 parágrafo(s) | G/N/M/H 58/131/4/0 | colação e roundtrip OK | entry-bdag-0310-11
+12 | πρώτως | HTML 65667 | 1 parágrafo(s) | G/N/M/H 3/37/0/0 | colação e roundtrip OK | entry-bdag-0310-12
+13 | πταίω | HTML 65672 | 3 parágrafo(s) | G/N/M/H 38/62/2/0 | colação e roundtrip OK | entry-bdag-0310-13
+14 | πτελέα, ας, ἡ | HTML 65683 | 1 parágrafo(s) | G/N/M/H 4/4/0/0 | colação e roundtrip OK | entry-bdag-0310-14
+15 | πτέρνα, ης, ἡ | HTML 65687 | 1 parágrafo(s) | G/N/M/H 13/13/0/0 | colação e roundtrip OK | entry-bdag-0310-15
+16 | πτεροφυέω | HTML 65691 | 1 parágrafo(s) | G/N/M/H 6/13/0/0 | colação e roundtrip OK | entry-bdag-0310-16
+17 | πτερύγιον, ου, τό | HTML 65695 | 1 parágrafo(s) | G/N/M/H 11/38/0/0 | colação e roundtrip OK | entry-bdag-0310-17
+18 | πτέρυξ, υγος, ἡ | HTML 65699 | 1 parágrafo(s) | G/N/M/H 12/26/0/0 | colação e roundtrip OK | entry-bdag-0310-18
+19 | πτερωτός, (ή), όν | HTML 65703 | 1 parágrafo(s) | G/N/M/H 16/11/0/0 | colação e roundtrip OK | entry-bdag-0310-19
+20 | πτηνός, (ή), όν | HTML 65707 | 1 parágrafo(s) | G/N/M/H 8/10/0/0 | colação e roundtrip OK | entry-bdag-0310-20
+Módulo 25cbcf5682a1f89a3b22142898aba2baf2a71c42; manifesto d2ebb992662362c80a5a3ded83a1003bd1f8a34c; recuperados e comparados. 20 linhas/20 cartões, 20 IDs e destinos únicos e correspondentes em ordem, 41 parágrafos em roundtrip textual após serialização e recuperação, 120/1012 tags equilibradas por pilha, 122 links NA28 sintaticamente válidos; sem teste HTTP individual, CI ou DOM. Nenhum popup novo; bibliographicTerms não duplicado. Manifesto 2336→2337 caminhos, inclusão única após 0309; ordem e demais caminhos preservados. IDs seguem convenção dos módulos vizinhos.
+Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global dos cartões, revisão semântica independente ou integração. A auditoria independente A–J não está concluída; não alterar o contador respectivo.
+Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0310, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6424/8287; antes 6404/8287. Sem PR, merge ou deploy.
+=== FIM LOTE 0310 ===
