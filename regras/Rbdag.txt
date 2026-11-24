@@ -11920,3 +11920,35 @@ Validações: módulo serializado em JSON e recuperado por parse, 20 pares linha
 Limitações: sem revisão semântica independente integral adicional à tradução editorial, sem cotejo fac-similar, sem hash bruto do HTML completo, sem execução CI/DOM/HTTP/teclado ou regressão funcional global. Links de referências explícitas gerados por padrão sintático, sem certificação HTTP; remissões implícitas preservadas em texto. Normas consultadas parcialmente na fase inicial. Auditoria independente A–J não concluída; contador de auditorias não incrementado. Sem PR, merge ou deploy.
 Publicação condicionada à confirmação do commit atômico e atualização do ref com expected_sha e force=false; somente módulo 0294, manifesto e este apêndice. Progresso após confirmação: 6084→6104/8287 = 73,66%; faltam 2183. Próximo lema: πόρνη, ης, ἡ, linha 63213.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO DO LOTE 0295 — 24/11/2026
+================================================================================
+HEAD inicial reconfirmado: 29a0907bf0f8cb26fd9bbd6d02d188ef6c15c873
+Branch: chat-gpt-bdag. Fonte exclusiva: HTML canônico file_00000000429c820eb5aa2bcab96f1572; extração preparatória blob cde1cf07c8151bb814702616174b75d065ee5615; linhas 63213–63374; limite antes de ποτίζω. Traduções consolidadas: 97ece3c87395edbe3c00bb35a2d7164ea8aa792a.
+Objetos preparatórios: 864ba0d881dd59289488aa77e607f1f045de7ef0 (01–10), c894d588b74e9071fad8ecbdb3a29bf59fd85c91 (11–20). Recuperação e igualdade dos blobs confirmadas. Colação editorial durante tradução e confronto automatizado individual com fonte: ordem dos tokens gregos, grupos numéricos, marcadores circulados e hebraicos, quantidade de parágrafos. Não certifica semântica integral ou identidade de todas as referências latinas. Fichas individuais (tokens gregos / grupos numéricos / parágrafos):
+01 πόρνη, ης, ἡ | HTML 63213–63224 | entry-bdag-0295-01 | 35/87/3 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+02 πόρνος, ου, ὁ | HTML 63225–63236 | entry-bdag-0295-02 | 14/46/3 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+03 πόρρω | HTML 63237–63250 | entry-bdag-0295-03 | 31/71/4 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+04 πόρρωθεν | HTML 63251–63254 | entry-bdag-0295-04 | 13/31/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+05 πορρώτερον/πορρωτέρω | HTML 63255–63258 | entry-bdag-0295-05 | 3/0/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+06 πορφύρα, ας, ἡ | HTML 63259–63262 | entry-bdag-0295-06 | 24/64/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+07 πορφυρόπωλις, ιδος, ἡ | HTML 63263–63266 | entry-bdag-0295-07 | 8/8/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+08 πορφυροῦς, ᾶ, οῦν | HTML 63267–63270 | entry-bdag-0295-08 | 18/26/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+09 ποσάκις | HTML 63271–63275 | entry-bdag-0295-09 | 3/13/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+10 πόσις, εως, ἡ | HTML 63276–63287 | entry-bdag-0295-10 | 18/32/3 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+11 πόσος, η, ον | HTML 63288–63310 | entry-bdag-0295-11 | 65/137/7 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+12 ποσότης, ητος, ἡ | HTML 63311–63315 | entry-bdag-0295-12 | 11/11/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+13 ποταμός, οῦ, ὁ | HTML 63316–63326 | entry-bdag-0295-13 | 30/68/3 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+14 ποταμοφόρητος, ον | HTML 63327–63330 | entry-bdag-0295-14 | 9/16/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+15 ποταπός, ή, όν | HTML 63331–63334 | entry-bdag-0295-15 | 32/66/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+16 ποταπῶς | HTML 63335–63338 | entry-bdag-0295-16 | 2/2/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+17 πότε | HTML 63339–63343 | entry-bdag-0295-17 | 10/55/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+18 ποτέ | HTML 63344–63357 | entry-bdag-0295-18 | 67/124/4 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+19 πότερος, α, ον | HTML 63358–63362 | entry-bdag-0295-19 | 11/42/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+20 ποτήριον, ου, τό | HTML 63363–63374 | entry-bdag-0295-20 | 76/143/3 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+Delimitação: πορρώτερον/πορρωτέρω é uma única remissão, com dois spans de lema unidos por barra no mesmo div, linha 63255. Não dividir nem contar duas vezes. Revisão editorial: πόρνος «prostituto/meretriz do sexo masculino» → «meretriz masculino/prostituto»; ποταπός «que espécie de forma têm» → «que tipo de aparência têm»; ποτέ «quando te tiveres convertido» → «quando tiveres retornado». Preservadas as formas anômalas do HTML, inclusive ὸ̔ em ποτήριον e 1Cl sem espaço em πόρρω, sem conjecturas silenciosas. Regressão de sequência aprovada 20/20.
+Validações: módulo serializado em JSON e recuperado por parse, 20 pares linha/cartão, 20 IDs únicos, roundtrip de texto 20/20, tags equilibradas (240/1692), 124 URLs NA28 sintaticamente válidas, 480 spans gregos. Manifesto 2321→2322 caminhos, diferença de uma única linha, ordem anterior preservada. Módulo 5820373fcce1cc11a7ff6ef59c26ebb4a0f5552a; manifesto df2ec62e805bb84c6c39a54d8b36b698dbfaed23.
+Limitações: sem revisão semântica independente integral adicional à tradução editorial, sem cotejo fac-similar, sem hash bruto do HTML completo, sem execução CI/DOM/HTTP/teclado ou regressão funcional global. Links de referências explícitas gerados por padrão sintático, sem certificação HTTP; remissões implícitas preservadas em texto. Normas consultadas parcialmente. Auditoria independente A–J não concluída; contador de auditorias não incrementado. Sem PR, merge ou deploy.
+Publicação condicionada à confirmação do commit atômico e atualização do ref com expected_sha e force=false; somente módulo 0295, manifesto e este apêndice. Progresso após confirmação: 6104→6124/8287 = 73,90%; faltam 2163. Próximo lema: ποτίζω, linha 63375.
+================================================================================
