@@ -319,6 +319,21 @@ window.ScripturaBDBHpt.batch015={
       "integration_status": "NAO_INTEGRADO",
       "source_blob_sha": "90ec37d3bf449ce5f34054a9de4a588fc65ba3a6",
       "editorial_evidence": "relatorios/bdbh-pt-2026-11-24-ordinais-01416-01421.md"
+    },
+    {
+      "ordinal": 1423,
+      "headword": "בָּקַק",
+      "ref": "BDB, בָּקַק",
+      "preview": "בָּקַק I: verbo, ser viçoso; Qal, particípio.",
+      "html": "† I. <big>[<span dir=\"rtl\">בָּקַק</span>]</big>  <strong>verbo: ser viçoso (</strong>árabe <span dir=\"rtl\">بَقَّ</span> <em>ser copioso, abundante</em> (vejam-se especialmente as conjugações I, IV, Lane<strong>)—</strong><br><strong>Qal</strong>  particípio <span dir=\"rtl\">בֹּקֵק</span> <em>viçoso</em> <a data-ref=\"Hosea 10:1\" href=\"/Hosea.10.1\">Os 10.1</a> (figurado, de Israel como videira).",
+      "translation_status": "TRADUCAO_INTEGRAL",
+      "collation_status": "COLACIONADO",
+      "validation_status": "VALIDADO_ESTATICAMENTE",
+      "audit_status": "BLOQUEADA",
+      "publication_status": "PUBLICADO_ORIGEM",
+      "integration_status": "NAO_INTEGRADO",
+      "source_blob_sha": "90ec37d3bf449ce5f34054a9de4a588fc65ba3a6",
+      "editorial_evidence": "relatorios/bdbh-pt-2026-11-24-excecao-01422-retomada-01423.md"
     }
   ]
 };

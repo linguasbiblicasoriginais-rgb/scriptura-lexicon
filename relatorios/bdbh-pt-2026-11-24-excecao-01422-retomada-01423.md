@@ -1,0 +1,9 @@
+# BDB-H/PT — exceção 1422 e retomada 1423
+
+24/11/2026. HEAD editorial a5e42ef2fef51e0f8e487f858118c8fc9a963008; HEAD integração observado 73f4b21cda206d5058dbf5145c4c3aea249c562a. Fonte Sefaria módulo 015, blob 90ec37d3bf449ce5f34054a9de4a588fc65ba3a6.
+
+O mantenedor forneceu captura da Sefaria em que 1422 termina em n.[m. e identificou seu impresso como edição de 1979 (digital informada como 1907; metadados do corpus indicam 1906, discrepância bibliográfica ainda não resolvida). O cotejo visual da captura com o fragmento armazenado confirma o mesmo corte. Autorizou preservar o texto digital e seguir. Não inserir o conteúdo do impresso na camada digital, nem fabricar tradução integral. Original 1422 permanece inalterado, pendência ADIADO_FONTE_DIGITAL_TRUNCADA. Não houve correção anterior a reverter no corpus.
+
+1423, בָּקַק I: tradução integral do texto digital, preservados †, numeração I, testemunho árabe, referência a Lane, conjugações I e IV, Qal, particípio בֹּקֵק e Os 10.1. Comparação exata dos spans RTL, data-ref e href documentais; regressão JavaScript efetivamente executada: 100 cartões e linhas, 100 sourceRecords idênticos; 21 traduções anteriores e 99 cartões/linhas idênticos; 1423 renderizado em português com href #escrituras/UXLC/HOS.10.1. 1422 não alterado. DOM, teclado, toque, responsividade, fac-símile e destino real NÃO TESTADOS. Auditoria BLOQUEADA, integração pendente. Nenhum outro léxico modificado.
+
+Checkpoint: 1422 traduções registradas (contagem histórica + 1, não certificação global); 1421 último ordinal consecutivo; 1422 primeira lacuna, 1423 último traduzido; 1424 próximo trabalhável. Nunca usar ordinal como contagem. A triagem anterior detectou outros truncamentos e o registro PT934 tem status conflitante: pendências independentes, não resolvidas por esta rodada.
