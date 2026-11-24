@@ -12438,3 +12438,35 @@ Validações: JSON parse/serialização, 20 pares linha/cartão, IDs e destinos 
 Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico de 12398 linhas; Rauditoria consultada. Leitura por linhas do HTML, sem SHA bruto do arquivo integral. Sem recontagem global independente de cartões, revisão semântica independente, CI/DOM/HTTP/teclado ou integração. Comparação de tokens não certifica cada sigla latina nem equivalência semântica. IDs seguem padrão efetivo dos módulos vizinhos. Auditoria independente A–J permanece não concluída; não incrementar contador auditado. Sem PR, merge ou deploy.
 Publicação condicionada à comparação integral das árvores Git e confirmação do ref com expected_sha e force=false. Somente módulo 0307, manifesto e este apêndice. Progresso após confirmação: 6344→6364/8287 (76,80%); faltam 1923. Próximo lema προσφεύγω, cabeçalho linha 65233.
 ================================================================================
+
+
+=== LOTE 0308 — INCORPORAÇÃO / COLAÇÃO PRÉ-PUBLICAÇÃO — 2026-11-24 ===
+HEAD-base: b5a8d08ce27a910d111df78165f5b158f51c8e78; árvore-base 3bdb07d3272ca6dfd4e4b17815562765f412c084.
+Fonte exclusiva: file_00000000429c820eb5aa2bcab96f1572, HTML linhas 65232–65410; cabeçalhos 65233–65401. Extração bruta do recorte: blob ca471b6604190ec494886a556c1c48129448d2a3 (recuperado e comparado).
+20 artigos: προσφεύγω–πρόφασις, εως, ἡ. Próximo: προφέρω, linha 65412 (excluído).
+Checkpoints: 01–10 71744c58773e85777d78cd44b87b2411ef7ec644; 11 b63585708f7636ae0b98c8f246046bcf8b5a02d3; 12–20 e77d547922decdf038ef2c5ea3177134c29cbe8f; consolidado revisado 1033ad36eb134b85d4178d9e849441216e7901c8. Todos recuperados com igualdade textual.
+Colação individual de conteúdo; confronto ordenado dos tokens gregos, grupos numéricos ASCII, marcadores circulados e tokens hebraicos por artigo e por parágrafo: 49 parágrafos, 643/1143/19/14 tokens; zero divergências nessas classes. Preservadas as formas atípicas da fonte, inclusive marcas combinantes e marcadores hebraicos. Revisões: 08 e 10 plural de eds.; 11 explicitação de ἀπορφανισθέντες, ajuste de oposição face a face e da glosa literal de εἰς πρόσωπον. Os tokens não certificam equivalência semântica isoladamente.
+Evidências individuais (G/N/M/H):
+01 | προσφεύγω | HTML 65233 | 1 parágrafo(s) | G/N/M/H 4/32/0/0 | colação e roundtrip OK | entry-bdag-0308-01
+02 | προσφιλής, ές | HTML 65237 | 1 parágrafo(s) | G/N/M/H 12/44/0/0 | colação e roundtrip OK | entry-bdag-0308-02
+03 | προσφορά, ᾶς, ἡ | HTML 65242 | 3 parágrafo(s) | G/N/M/H 44/72/2/0 | colação e roundtrip OK | entry-bdag-0308-03
+04 | προσφωνέω | HTML 65254 | 3 parágrafo(s) | G/N/M/H 12/42/2/0 | colação e roundtrip OK | entry-bdag-0308-04
+05 | προσχαίρω | HTML 65265 | 1 parágrafo(s) | G/N/M/H 1/6/0/0 | colação e roundtrip OK | entry-bdag-0308-05
+06 | πρόσχυσις, εως, ἡ | HTML 65269 | 1 parágrafo(s) | G/N/M/H 9/12/0/0 | colação e roundtrip OK | entry-bdag-0308-06
+07 | προσψαύω | HTML 65273 | 1 parágrafo(s) | G/N/M/H 10/9/0/0 | colação e roundtrip OK | entry-bdag-0308-07
+08 | προσωπολημπτέω | HTML 65277 | 1 parágrafo(s) | G/N/M/H 9/3/0/0 | colação e roundtrip OK | entry-bdag-0308-08
+09 | προσωπολήμπτης, ου, ὁ | HTML 65281 | 1 parágrafo(s) | G/N/M/H 8/7/0/0 | colação e roundtrip OK | entry-bdag-0308-09
+10 | προσωπολημψία, ας, ἡ | HTML 65285 | 1 parágrafo(s) | G/N/M/H 10/13/0/0 | colação e roundtrip OK | entry-bdag-0308-10
+11 | πρόσωπον, ου, τό | HTML 65290 | 15 parágrafo(s) | G/N/M/H 299/535/6/14 | colação e roundtrip OK | entry-bdag-0308-11
+12 | προτάσσω | HTML 65337 | 1 parágrafo(s) | G/N/M/H 6/17/0/0 | colação e roundtrip OK | entry-bdag-0308-12
+13 | προτείνω | HTML 65341 | 1 parágrafo(s) | G/N/M/H 9/8/0/0 | colação e roundtrip OK | entry-bdag-0308-13
+14 | πρότερος, α, ον | HTML 65346 | 7 parágrafo(s) | G/N/M/H 96/140/4/0 | colação e roundtrip OK | entry-bdag-0308-14
+15 | προτίθημι | HTML 65370 | 4 parágrafo(s) | G/N/M/H 28/67/3/0 | colação e roundtrip OK | entry-bdag-0308-15
+16 | προτρέπω | HTML 65384 | 1 parágrafo(s) | G/N/M/H 4/30/0/0 | colação e roundtrip OK | entry-bdag-0308-16
+17 | προτρέχω | HTML 65388 | 1 parágrafo(s) | G/N/M/H 14/17/0/0 | colação e roundtrip OK | entry-bdag-0308-17
+18 | προϋπάρχω | HTML 65392 | 1 parágrafo(s) | G/N/M/H 28/22/0/0 | colação e roundtrip OK | entry-bdag-0308-18
+19 | προφανερόω | HTML 65396 | 1 parágrafo(s) | G/N/M/H 13/11/0/0 | colação e roundtrip OK | entry-bdag-0308-19
+20 | πρόφασις, εως, ἡ | HTML 65401 | 3 parágrafo(s) | G/N/M/H 27/56/2/0 | colação e roundtrip OK | entry-bdag-0308-20
+Módulo ce4224b7a1eaa87866cfb0d4ebc4c59c50b5d0c2; manifesto 2d9900920cc120da654b213f34d6528c8332c594; ambos recuperados e comparados. 20 linhas/20 cartões, 20 IDs distintos e destinos correspondentes na mesma ordem, 49 parágrafos em roundtrip textual após serialização e recuperação, 120/1013 tags abertas e fechadas (pilha), 107 links NA28 sintaticamente válidos; sem teste HTTP individual ou DOM. Manifesto 2334→2335 caminhos, inclusão única após 0307; demais caminhos e ordem preservados. Não houve recontagem integral dos cartões de todos os módulos.
+Publicação condicionada a comparação integral das árvores Git, commit pai igual ao HEAD-base e atualização não forçada com expected_sha. Progresso de incorporação após confirmação remota: 6384/8287; antes 6364/8287. Sem PR, merge ou deploy. Auditoria independente A–J permanece separada, não concluída; não alterar o respectivo contador.
+=== FIM LOTE 0308 ===
