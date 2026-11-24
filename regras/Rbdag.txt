@@ -11759,3 +11759,36 @@ LIMITAÇÕES NÃO HOMOLOGADAS: não houve comparação automatizada de tokens do
 AUDITORIA INDEPENDENTE A–J: MANTIDA SEPARADA; AUDITORIA_CONCLUIDA = NÃO; total_auditoria_concluida não alterado. Não declarar integração efetiva do lote.
 PROGRESSO APÓS PUBLICAÇÃO CONFIRMADA: 5984 → 6004 de 8287 artigos (=72.45%); faltam 2283. PRÓXIMO LEMA: πλόος.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO DO LOTE 0290 — 24/11/2026
+================================================================================
+HEAD inicial reconfirmado: ddaf7089ac840a37906e610bc878572cb5480104
+Branch: chat-gpt-bdag. Fonte exclusiva: HTML canônico file_00000000429c820eb5aa2bcab96f1572; extração preparatória blob 7775fba8744c1f1b8de9cb314fcf512bd6ef76c7; linhas 62027–62349; limite antes de ποθητός. Traduções consolidadas e corrigidas: b2ebb880a6e0fef31f155ccd9ab02e4fbca5da92.
+Objetos de tradução: c0b6d47787140adabc7d6070d4c758c8a19f4e56 (01–03), 8d19870edf6cb9dd04acbaea332fff8b89925f20 (04–07), ab4ce47807e9f59130e92e42ded5b84abbbcc23d (08; 38 segmentos consecutivos), c846574d836ed2aa43fb1adf461180a555833fa2 (09–11), a3976adbe29fa9101db22639d95833ff01d93c51 (12–20).
+Colação editorial direta durante tradução e confronto automatizado individual com fonte: sequência exata dos tokens gregos e grupos de algarismos, marcadores de acepções e número de parágrafos. Estes testes não certificam semântica integral nem a identidade de todas as referências latinas. Fichas individuais (contagens de tokens gregos / grupos numéricos / parágrafos; todos os controles descritos aprovados):
+01 πλόος | HTML 62027–62031 | entry-bdag-0290-01 | 15/30/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+02 πλούσιος, ία, ιον | HTML 62032–62042 | entry-bdag-0290-02 | 77/121/3 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+03 πλουσίως | HTML 62043–62047 | entry-bdag-0290-03 | 9/20/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+04 πλουτέω | HTML 62048–62059 | entry-bdag-0290-04 | 49/81/3 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+05 πλουτίζω | HTML 62060–62071 | entry-bdag-0290-05 | 46/43/3 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+06 πλοῦτος, ου, ὁ | HTML 62072–62083 | entry-bdag-0290-06 | 96/161/3 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+07 πλύνω | HTML 62084–62095 | entry-bdag-0290-07 | 35/50/3 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+08 πνεῦμα, ατος, τό | HTML 62096–62212 | entry-bdag-0290-08 | 1012/1907/38 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+09 πνευματικός, ή, όν | HTML 62213–62248 | entry-bdag-0290-09 | 148/188/11 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+10 πνευματικῶς | HTML 62249–62259 | entry-bdag-0290-10 | 39/24/3 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+11 πνευματοφόρος, ον | HTML 62260–62264 | entry-bdag-0290-11 | 6/15/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+12 πνέω | HTML 62265–62279 | entry-bdag-0290-12 | 30/59/4 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+13 πνίγω | HTML 62280–62302 | entry-bdag-0290-13 | 31/52/7 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+14 πνικτός, ή, όν | HTML 62303–62307 | entry-bdag-0290-14 | 11/97/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+15 πνοή, ῆς, ἡ | HTML 62308–62318 | entry-bdag-0290-15 | 23/59/3 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+16 ποδαπός | HTML 62319–62322 | entry-bdag-0290-16 | 2/0/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+17 ποδήρης, ες | HTML 62323–62326 | entry-bdag-0290-17 | 11/31/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+18 ποδονιπτήρ, ῆρος, ὁ | HTML 62327–62331 | entry-bdag-0290-18 | 5/17/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+19 πόθεν | HTML 62332–62345 | entry-bdag-0290-19 | 36/100/4 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+20 ποθέω | HTML 62346–62349 | entry-bdag-0290-20 | 11/36/1 | ordem, marcadores, par linha/cartão e roundtrip textual OK
+Correções: 02 πλούσιος: condição social → condição (status sem qualificador); 08 πνεῦμα 3b: dá testemunho ao → dá testemunho juntamente com (συμμαρτυρεῖ); 08 πνεῦμα 5f: ordem πνεῦμα ζωτικόν antes de πνοὴν ζωῆς restaurada; 14 πνικτός: construção portuguesa de ἄγχοντες e ἀποπνίγοντες corrigida. Regressão dos testes de sequência aprovada 20/20.
+Validações: módulo serializado em JSON e recuperado por parse, 20 pares linha/cartão, 20 IDs únicos, roundtrip de texto 20/20, tags equilibradas (240/4672), 351 URLs NA28 sintaticamente válidas, 1692 spans gregos. Manifesto 2316→2317 caminhos, diferença de uma única linha, ordem anterior preservada. Módulo dcee656cc666392ef062e238b0669f6055035e20; manifesto 6e9cf9f54ffaca254731bb0575cfc31f4fdced4e.
+Limitações: sem revisão semântica independente integral adicional à tradução editorial, sem cotejo fac-similar, sem hash bruto do HTML completo, sem execução CI/DOM/HTTP/teclado ou regressão funcional global. Referências ambíguas mantidas como texto; não certificadas por teste HTTP. Auditoria independente A–J não concluída; contador de auditorias não incrementado. Sem PR, merge ou deploy.
+Publicação condicionada à confirmação do commit atômico e atualização do ref com expected_sha e force=false; somente módulo 0290, manifesto e este apêndice. Progresso após confirmação: 6004→6024/8287 = 72,69%; faltam 2263. Próximo lema: ποθητός, ή, όν, linha 62350.
+================================================================================
