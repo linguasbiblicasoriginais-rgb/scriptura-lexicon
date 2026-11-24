@@ -12227,3 +12227,45 @@ Validações estáticas efetivas: 20 pares linha/cartão, IDs e destinos únicos
 Limitações: Rbdag recuperado integralmente via blob (leitura dirigida às normas iniciais e checkpoint recente; histórico de 12187 linhas não relido exaustivamente); Rauditoria consultada integralmente. Não houve recontagem global independente de cartões, revisão semântica independente, execução CI/DOM/HTTP/teclado ou integração; igualdade de tokens não certifica cada sigla latina ou equivalência semântica. IDs conforme módulos vizinhos. Auditoria A–J independente permanece não concluída; não incrementar contador auditado. Sem PR, merge ou deploy.
 Publicação condicionada à comparação integral das árvores Git e confirmação do ref com expected_sha e force=false; somente módulo 0302, manifesto e este apêndice. Progresso previsto após confirmação: 6244→6264/8287 (75,59%); faltam 2023. Próximo lema προσαγωγή, ῆς, ἡ, cabeçalho linha 64509.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO DO LOTE 0303 — 24/11/2026
+================================================================================
+HEAD inicial reconfirmado: 978779e000d643d808946edf53130d7a227ecc7e
+Árvore base: 5d6a34e5f8df4b47fc0685a24d08fce6fe139224. Branch chat-gpt-bdag.
+Fonte exclusiva: HTML file_00000000429c820eb5aa2bcab96f1572, linhas 64508–64634 inclusive (127 linhas), extração recuperada 859c96efc017db36aa0ae587b22652f84fceaef9. Primeiro cabeçalho 64509, último 64632, próximo προσδίδωμι 64636 excluído. 20 artigos, 21 spans de cabeçalho, pois προσαναλίσκω/προσαναλόω é um único artigo.
+Checkpoints: 0efee392f5e42bce66aeb6c6d29ad18cc1ca23c8 (01–10), d9528ea68c976c5b6a0f1ed4c363954cbdab450e (11–20), consolidação revisada 4b233680e4edbbbfd9e386e613e26de0c6df0d6b, todos recuperados. Blobs sem referência de árvore sujeitos à coleta Git.
+Colação editorial durante tradução e revisão; igualdade de sequências gregas (incluindo marcas combinantes), grupos de dígitos ASCII, marcadores circulados e tokens hebraicos por artigo e por parágrafo: 33 parágrafos, 219 tokens gregos, 402 grupos numéricos, 13 marcadores, 0 tokens hebraicos. Fichas individuais (grego/números/marcadores/hebraico/parágrafos):
+01 προσαγωγή, ῆς, ἡ | cabeçalho HTML 64509 | entry-bdag-0303-01 | 8/17/0/0/1 | igualdade ordenada e roundtrip textual OK
+02 προσαιτέω | cabeçalho HTML 64513 | entry-bdag-0303-02 | 3/17/0/0/1 | igualdade ordenada e roundtrip textual OK
+03 προσαίτης, ου, ὁ | cabeçalho HTML 64517 | entry-bdag-0303-03 | 5/9/0/0/1 | igualdade ordenada e roundtrip textual OK
+04 προσαναβαίνω | cabeçalho HTML 64521 | entry-bdag-0303-04 | 6/5/0/0/1 | igualdade ordenada e roundtrip textual OK
+05 προσαναλαμβάνω | cabeçalho HTML 64525 | entry-bdag-0303-05 | 3/5/0/0/1 | igualdade ordenada e roundtrip textual OK
+06 προσαναλίσκω/προσαναλόω | cabeçalho HTML 64529 | entry-bdag-0303-06 | 14/13/0/0/1 | igualdade ordenada e roundtrip textual OK
+07 προσαναπληρόω | cabeçalho HTML 64533 | entry-bdag-0303-07 | 18/24/0/0/1 | igualdade ordenada e roundtrip textual OK
+08 προσανατίθημι | cabeçalho HTML 64538 | entry-bdag-0303-08 | 12/19/2/0/3 | igualdade ordenada e roundtrip textual OK
+09 προσανέχω | cabeçalho HTML 64549 | entry-bdag-0303-09 | 6/10/0/0/1 | igualdade ordenada e roundtrip textual OK
+10 προσαπειλέω | cabeçalho HTML 64553 | entry-bdag-0303-10 | 2/11/0/0/1 | igualdade ordenada e roundtrip textual OK
+11 προσαχέω | cabeçalho HTML 64557 | entry-bdag-0303-11 | 4/4/0/0/1 | igualdade ordenada e roundtrip textual OK
+12 προσβαίνω | cabeçalho HTML 64561 | entry-bdag-0303-12 | 4/14/0/0/1 | igualdade ordenada e roundtrip textual OK
+13 προσβιάζομαι | cabeçalho HTML 64565 | entry-bdag-0303-13 | 6/5/0/0/1 | igualdade ordenada e roundtrip textual OK
+14 προσβλέπω | cabeçalho HTML 64570 | entry-bdag-0303-14 | 13/26/2/0/3 | igualdade ordenada e roundtrip textual OK
+15 προσδαπανάω | cabeçalho HTML 64581 | entry-bdag-0303-15 | 3/11/0/0/1 | igualdade ordenada e roundtrip textual OK
+16 προσδεκτός, ή, όν | cabeçalho HTML 64585 | entry-bdag-0303-16 | 11/13/0/0/1 | igualdade ordenada e roundtrip textual OK
+17 προσδέομαι | cabeçalho HTML 64589 | entry-bdag-0303-17 | 15/53/0/0/1 | igualdade ordenada e roundtrip textual OK
+18 προσδέχομαι | cabeçalho HTML 64594 | entry-bdag-0303-18 | 74/102/7/0/8 | igualdade ordenada e roundtrip textual OK
+19 προσδέω | cabeçalho HTML 64621 | entry-bdag-0303-19 | 9/38/2/0/3 | igualdade ordenada e roundtrip textual OK
+20 προσδηλόω | cabeçalho HTML 64632 | entry-bdag-0303-20 | 3/6/0/0/1 | igualdade ordenada e roundtrip textual OK
+Revisões da tradução preliminar:
+01: “um fator de posição social” → “um fator de posição hierárquica”.
+05: “acolher adicionalmente, receber com hospitalidade” → “receber também, acolher”.
+07: “completar ou reabastecer adicionalmente” → “completar ou repor adicionalmente”.
+14: “No grego antigo” → “Em fases anteriores do grego”.
+17: “Deus não necessita de nada [além do que tem] de ninguém” → “Deus não necessita, de ninguém, de coisa alguma [além do que tem]”.
+18: “acolher, receber, dar boas-vindas” → “acolher, receber, dar as boas-vindas”.
+19: “pass. perf. 3.ª pessoa do imper. pl.” → “pass. perf. imper. 3.ª pl.”.
+Preservadas as variantes προσαναλίσκω/προσαναλόω, a interpretação alternativa de Gal 2:6, a forma dórica προσαχέω, a hipótese acerca do valor de πρός em Ac 17:25, a grafia καιρὸμ e a ausência de referência explícita após ἐλπίδα, ἣν καὶ αὐτοὶ οὗτοι προσδέχονται na fonte.
+Validações: JSON parse/serialização, 20 pares linha/cartão, IDs e destinos únicos no lote e correspondência ordenada, roundtrip 20/20 após recuperação dos blobs, tags equilibradas (120/487), 35 links NA28 sintaticamente válidos para referências explícitas, remissões implícitas mantidas em texto, nenhum popup novo, bibliographicTerms não duplicado. Manifesto 2329→2330 caminhos, inclusão única após 0302, ordem anterior preservada. Módulo 8dfd5555ee50f12bce0a7b181dbf9ab9203aa70e; manifesto 2339973a2757b42a88a89ec1d00e2c010f744959. Ambos recuperados.
+Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico de 12230 linhas; Rauditoria consultada. Leitura por linhas do HTML, sem SHA bruto do arquivo integral. Sem recontagem global independente de cartões, revisão semântica independente, CI/DOM/HTTP/teclado ou integração. Comparação de tokens não certifica cada sigla latina nem equivalência semântica. IDs seguem padrão efetivo dos módulos vizinhos. Auditoria independente A–J permanece não concluída; não incrementar contador auditado. Sem PR, merge ou deploy.
+Publicação condicionada à comparação integral das árvores Git e confirmação do ref com expected_sha e force=false. Somente módulo 0303, manifesto e este apêndice. Progresso após confirmação: 6264→6284/8287 (75,83%); faltam 2003. Próximo lema προσδίδωμι, cabeçalho linha 64636.
+================================================================================
