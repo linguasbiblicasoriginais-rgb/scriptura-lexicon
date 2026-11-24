@@ -11650,3 +11650,37 @@ LIMITES: auditoria independente A–J NÃO CONCLUÍDA, contador total_auditoria_
 PROGRESSO APÓS PUBLICAÇÃO REMOTA COMPROVADA: 5924 → 5944 de 8287 = 71.73%; faltam 2343. Próximo lema πίναξ, ακος, ὁ, l. 61270.
 DGP total não verificado, HEAD chat-gpt-dgp 581ad921b47e3b0e7f28b279b83ed19e508da68b; LEH/PEREIRA totais não verificados (refs chat-gpt-leh/chat-gpt-pereira 404).
 ================================================================================
+
+================================================================================
+BDAG — LOTE 287 — 23/11/2026 — INCORPORAÇÃO DOS 20 VERBETES; EVIDÊNCIA FILOLÓGICA LIMITADA, NÃO AUDITORIA ATÔMICA A–J
+REPOSITÓRIO linguasbiblicasoriginais-rgb/scriptura-lexicon, branch chat-gpt-bdag. Base HEAD a6f2d97b721a6e14e020fe2b0aa70c0e80b0eb9f; árvore b894a196d836830d7082165530dafec00fe092d1. Normas regras/Rbdag.txt (blob anterior 136f78d612de056a067c648e3fd622c55a6dc571) e regras/Rauditoria.txt (blob 17c21241ccdcd51a6450d7db5bd8ed799b0f3e67) relidas.
+ÚNICA FONTE: HTML canônico Library file_00000000429c820eb5aa2bcab96f1572, l.61270–61610 (fim antes do vigésimo primeiro cabeçalho). Entradas de πίναξ, ακος, ὁ a πλάνος, ον. Próxima, excluída deste lote: πλάξ, πλακός, ἡ l.61611. Não utilizados outros léxicos ou PDF para preencher conteúdo. Cinco entradas pendentes πλανάω/πλάνη/πλάνης/πλανήτης/πλάνος recuperadas do HTML canônico e traduzidas integralmente; quinze entradas precedentes recuperadas de checkpoint Git blob 1ade7c2653b3615074f5f8ccf2503323f71cd5be. Últimas cinco preparadas em 73b23c4afa95c82a6354fd38e8ea2b979f4883ec. Vinte traduções consolidadas e corrigidas em blob 1ece6d7a83f6f8e7dcccd5cec857f24cff2030a8.
+CONTROLES E CORREÇÕES: na colação sequencial inicial direta do texto extraído do HTML canônico houve 11 entradas sem diferenças e 9 com divergências tipográficas documentáveis (πίνω; πιπράσκω; πίπτω; Πισίδιος; πιστεύω; πιστικός; πίστις; πιστός; πιστόω). Foram executadas 29 substituições controladas no checkpoint de tradução, em especial: algarismos das formas verbais (2.º aoristo, 2.ª e 3.ª pessoas, 1.º aoristo), acentuação de ἀστράπη, restauração de ἐπί τινα e Β. em πίπτω, expressão κτλ. em πίστις, manutenção de OT e I Tr e da distribuição das variantes, substituição de marcadores circundados apenas quando usados para remeter a acepções. As sequências gregas verificáveis a partir do confronto direto inicial e os totais individuais foram preservados ou recompostos com base nas ocorrências identificadas na fonte. Após essas emendas, cada um dos 20 textos foi recontado nas seis categorias com igualdade de números em cada verbete; nenhuma categoria divergente remanesceu.
+LIMITAÇÃO VERIFICÁVEL: uma segunda consulta direta integral ao arquivo HTML canônico falhou repetidamente por erro do serviço Files. Assim, NÃO se afirma uma segunda colação sequencial independente e integral após emendas; a segunda verificação é de contagens, posições das emendas identificadas e consistência estrutural, baseada na extração direta inicial. A conservação dessas evidências não comprova equivalência semântica exaustiva nem substitui auditoria A–J.
+COLAÇÃO INDIVIDUAL — fonte HTML inicial vs. tradução final (G grego, H hebraico, N números, M marcadores circundados, B siglas bibliográficas, V indicadores de variantes):
+01 πίναξ, ακος, ὁ; l. 61270; G 8/8, H 0/0, N 23/23, M 0/0, B 6/6, V 0/0. Diferenças finais de contagem: zero.
+02 πίνω; l. 61275; G 174/174, H 0/0, N 257/257, M 2/2, B 23/23, V 3/3. Diferenças finais de contagem: zero.
+03 Πιόνιος, ου, ὁ; l. 61286; G 3/3, H 0/0, N 7/7, M 0/0, B 5/5, V 0/0. Diferenças finais de contagem: zero.
+04 πιότης, τητος, ἡ; l. 61290; G 8/8, H 0/0, N 13/13, M 0/0, B 6/6, V 0/0. Diferenças finais de contagem: zero.
+05 πιπράσκω; l. 61294; G 24/24, H 0/0, N 51/51, M 0/0, B 3/3, V 0/0. Diferenças finais de contagem: zero.
+06 πίπτω; l. 61299; G 316/316, H 2/2, N 489/489, M 9/9, B 23/23, V 12/12. Diferenças finais de contagem: zero.
+07 Πισιδία, ας, ἡ; l. 61343; G 11/11, H 0/0, N 26/26, M 0/0, B 7/7, V 1/1. Diferenças finais de contagem: zero.
+08 Πισίδιος, ία, ιον; l. 61347; G 18/18, H 0/0, N 20/20, M 0/0, B 1/1, V 1/1. Diferenças finais de contagem: zero.
+09 πιστεύω; l. 61352; G 566/566, H 0/0, N 1156/1156, M 14/14, B 78/78, V 12/12. Diferenças finais de contagem: zero.
+10 πιστικός, ή, όν; l. 61430; G 46/46, H 0/0, N 45/45, M 3/3, B 13/13, V 0/0. Diferenças finais de contagem: zero.
+11 πίστις, εως, ἡ; l. 61445; G 502/502, H 0/0, N 1054/1054, M 10/10, B 133/133, V 1/1. Diferenças finais de contagem: zero.
+12 πιστός, ή, όν; l. 61505; G 229/229, H 0/0, N 412/412, M 4/4, B 29/29, V 3/3. Diferenças finais de contagem: zero.
+13 πιστόω; l. 61529; G 29/29, H 0/0, N 37/37, M 2/2, B 5/5, V 0/0. Diferenças finais de contagem: zero.
+14 πιστῶς; l. 61540; G 5/5, H 0/0, N 17/17, M 0/0, B 5/5, V 0/0. Diferenças finais de contagem: zero.
+15 πίων, πῖον; l. 61544; G 6/6, H 0/0, N 9/9, M 0/0, B 3/3, V 0/0. Diferenças finais de contagem: zero.
+16 πλανάω; l. 61549; G 106/106, H 0/0, N 260/260, M 7/7, B 24/24, V 4/4. Diferenças finais de contagem: zero.
+17 πλάνη, ης, ἡ; l. 61587; G 92/92, H 0/0, N 122/122, M 0/0, B 14/14, V 0/0. Diferenças finais de contagem: zero.
+18 πλάνης, ητος, ὁ; l. 61591; G 6/6, H 0/0, N 9/9, M 0/0, B 2/2, V 1/1. Diferenças finais de contagem: zero.
+19 πλανήτης, ου, ὁ; l. 61595; G 10/10, H 0/0, N 24/24, M 0/0, B 3/3, V 1/1. Diferenças finais de contagem: zero.
+20 πλάνος, ον; l. 61600; G 18/18, H 0/0, N 38/38, M 2/2, B 7/7, V 0/0. Diferenças finais de contagem: zero.
+TOTAIS G 2177/2177, H 2/2, N 4069/4069, M 53/53, B 390/390, V 39/39.
+VALIDAÇÃO TÉCNICA: módulo lexicons/bdag-part-0287.js blob 64639e92e898aa0629468bed82a573368ddcc395; 20 tr.search-row e 20 article.entry-card, IDs exclusivos/destinos pareados, 20 textos reextraídos idênticos, HTML equilibrado; 2177 spans gregos e 2 hebraicos; 464 links NA28 sintaticamente válidos, sem teste HTTP; sem duplicação de bibliographicTerms. Manifesto lexicon-modules.json blob 0c0f78d62571eeaee75f63be6c8575e51e5b5d32 com 2314 módulos, inserção única de 0287 depois de 0286 e antes de lexicons/leh.js; os 2313 caminhos anteriores permanecem na mesma ordem e conteúdo.
+PUBLICAÇÃO CONDICIONAL: somente três arquivos, lexicons/bdag-part-0287.js, lexicon-modules.json, regras/Rbdag.txt, num commit filho do HEAD base. Antes de mover branch, reconfirmar HEAD remoto; usar expected_sha do HEAD base, force=false; verificar depois o commit pai, árvore, blobs e diff sem exclusões. Não criar PR, merge, deploy; nenhuma escrita em outro léxico.
+AUDITORIA INDEPENDENTE A–J: NÃO REALIZADA/NÃO CONCLUÍDA; contador total_auditoria_concluida não incrementado. Não foram realizados ensaios em navegador/DOM/foco/teclado/popup, requisições HTTP para as referências, CI nem regressão global, nem colação do fac-símile impresso. A incorporação não equivale à auditoria atômica canônica nem prova integração PR/merge.
+PROGRESSO DE INCORPORAÇÃO (CONDICIONADO À CONFIRMAÇÃO REMOTA DO COMMIT): 5944→5964/8287 = 71.97%; faltam 2323. Próximo lema πλάξ, πλακός, ἡ, linha 61611. DGP, LEH e PEREIRA: totais não verificados neste lote; não inferir números a partir de outras branches.
+================================================================================
