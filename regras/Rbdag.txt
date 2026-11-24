@@ -12269,3 +12269,43 @@ Validações: JSON parse/serialização, 20 pares linha/cartão, IDs e destinos 
 Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico de 12230 linhas; Rauditoria consultada. Leitura por linhas do HTML, sem SHA bruto do arquivo integral. Sem recontagem global independente de cartões, revisão semântica independente, CI/DOM/HTTP/teclado ou integração. Comparação de tokens não certifica cada sigla latina nem equivalência semântica. IDs seguem padrão efetivo dos módulos vizinhos. Auditoria independente A–J permanece não concluída; não incrementar contador auditado. Sem PR, merge ou deploy.
 Publicação condicionada à comparação integral das árvores Git e confirmação do ref com expected_sha e force=false. Somente módulo 0303, manifesto e este apêndice. Progresso após confirmação: 6264→6284/8287 (75,83%); faltam 2003. Próximo lema προσδίδωμι, cabeçalho linha 64636.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO DO LOTE 0304 — 24/11/2026
+================================================================================
+HEAD inicial reconfirmado: cf0b87ea4438f922e5c79ab8cffbac1a3464d06a
+Árvore base: ac35441dac1b5d7d34c5331a6ea146d0dcf6c654. Branch chat-gpt-bdag.
+Fonte exclusiva: HTML file_00000000429c820eb5aa2bcab96f1572. Extração preliminar c0f079db6713b8e7ab37d893ef8fffc8b56ecbb3 incluía a abertura do próximo artigo na linha 64732; excluída na extração delimitada recuperada b72ca70dc5992c2fe3437c64bb8b90bec45c95dc, linhas 64635–64731 inclusive (97 linhas). Primeiro cabeçalho 64636, último 64729, próximo προσεργάζομαι 64733 excluído. 20 artigos, 20 cabeçalhos. I. πρόσειμι e II. πρόσειμι são artigos distintos; seis formas reunidas no artigo 18 contam como um único cabeçalho.
+Checkpoints: f66e9234c7550cc10df4b5a2573582cdd8667139 (01–10), 3d159672d234707ea9da717b87cebacbb1d0a7f6 (11–20), consolidação revisada 0ba7aefb8773f77978aaf37e8ec64896995bb21f, todos recuperados. Blobs sem referência de árvore sujeitos à coleta Git.
+Colação editorial durante tradução e revisão; igualdade de sequências gregas (incluindo marcas combinantes), grupos de dígitos ASCII, marcadores circulados e tokens hebraicos por artigo e por parágrafo: 25 parágrafos, 129 tokens gregos, 224 grupos numéricos, 5 marcadores, 0 tokens hebraicos. Marcadores romanos I. e II. dos homógrafos preservados na verificação de cabeçalho e corpo. Fichas individuais (grego/números/marcadores/hebraico/parágrafos):
+01 προσδίδωμι | cabeçalho HTML 64636 | entry-bdag-0304-01 | 1/2/0/0/1 | igualdade ordenada e roundtrip textual OK
+02 προσδοκάω | cabeçalho HTML 64641 | entry-bdag-0304-02 | 21/103/5/0/6 | igualdade ordenada e roundtrip textual OK
+03 προσδοκία, ας, ἡ | cabeçalho HTML 64661 | entry-bdag-0304-03 | 18/17/0/0/1 | igualdade ordenada e roundtrip textual OK
+04 προσδραμών | cabeçalho HTML 64665 | entry-bdag-0304-04 | 2/0/0/0/1 | igualdade ordenada e roundtrip textual OK
+05 προσεάω | cabeçalho HTML 64669 | entry-bdag-0304-05 | 2/4/0/0/1 | igualdade ordenada e roundtrip textual OK
+06 προσεγγίζω | cabeçalho HTML 64673 | entry-bdag-0304-06 | 10/25/0/0/1 | igualdade ordenada e roundtrip textual OK
+07 προσεδρεύω | cabeçalho HTML 64677 | entry-bdag-0304-07 | 24/33/0/0/1 | igualdade ordenada e roundtrip textual OK
+08 προσεθέμην | cabeçalho HTML 64681 | entry-bdag-0304-08 | 2/0/0/0/1 | igualdade ordenada e roundtrip textual OK
+09 προσέθηκα | cabeçalho HTML 64685 | entry-bdag-0304-09 | 2/0/0/0/1 | igualdade ordenada e roundtrip textual OK
+10 I. πρόσειμι | cabeçalho HTML 64689 | entry-bdag-0304-10 | 17/23/0/0/1 | igualdade ordenada e roundtrip textual OK
+11 II. πρόσειμι | cabeçalho HTML 64693 | entry-bdag-0304-11 | 2/9/0/0/1 | igualdade ordenada e roundtrip textual OK
+12 προσεκλίθην | cabeçalho HTML 64697 | entry-bdag-0304-12 | 2/0/0/0/1 | igualdade ordenada e roundtrip textual OK
+13 προσελαβόμην | cabeçalho HTML 64701 | entry-bdag-0304-13 | 2/0/0/0/1 | igualdade ordenada e roundtrip textual OK
+14 προσέλευσις, εως, ἡ | cabeçalho HTML 64705 | entry-bdag-0304-14 | 6/6/0/0/1 | igualdade ordenada e roundtrip textual OK
+15 προσελεύσομαι | cabeçalho HTML 64709 | entry-bdag-0304-15 | 2/0/0/0/1 | igualdade ordenada e roundtrip textual OK
+16 προσελήλυθα | cabeçalho HTML 64713 | entry-bdag-0304-16 | 2/0/0/0/1 | igualdade ordenada e roundtrip textual OK
+17 πρόσελθε | cabeçalho HTML 64717 | entry-bdag-0304-17 | 2/0/0/0/1 | igualdade ordenada e roundtrip textual OK
+18 προσενέγκαι,προσένεγκε,προσενεγκεῖν, προσένεγκον, προσενεχθείς, προσενήνοχα | cabeçalho HTML 64721 | entry-bdag-0304-18 | 7/0/0/0/1 | igualdade ordenada e roundtrip textual OK
+19 προσεξομολογέομαι | cabeçalho HTML 64725 | entry-bdag-0304-19 | 3/2/0/0/1 | igualdade ordenada e roundtrip textual OK
+20 προσέπεσον | cabeçalho HTML 64729 | entry-bdag-0304-20 | 2/0/0/0/1 | igualdade ordenada e roundtrip textual OK
+Revisões da tradução preliminar:
+02: “algo considerado como pertencente ao futuro” → “algo considerado como ainda por acontecer”; “uma vez que a guerra era esperada” → “visto que era de esperar a guerra”; “era de esperar a morte” → “era de esperar que sobreviesse a morte”.
+03: “seja bom ou mau” → “quer bom, quer mau”.
+06: “da perspectiva de um marinheiro” → “do ponto de vista de um marinheiro”.
+07: “tem como oficiais” → “tem como seus dignitários”.
+14: “restaurado a partir de” → “reconstituído a partir de”.
+Preservadas as onze entradas de remissão, inclusive προσεξομολογέομαι com referência a D 14:1; o cabeçalho composto com seis formas e sua pontuação original; as diferenças etimológicas dos homógrafos; a observação contextual acerca de anseio, temor ou neutralidade em προσδοκάω; as indicações de variantes e a restauração em προσέλευσις. Colchete de abertura sem fechamento em προσεάω mantido como na fonte, sem emenda conjectural. Rótulos “forma verbal” e “formas verbais” são metadados editoriais, não expansão da remissão original.
+Validações: JSON parse/serialização, 20 pares linha/cartão, IDs e destinos únicos no lote, correspondência ordenada, roundtrip 20/20 após recuperação dos blobs, tags equilibradas (120/370), 16 links NA28 sintaticamente válidos para referências explícitas, remissões implícitas mantidas em texto, nenhum popup novo, bibliographicTerms não duplicado. Manifesto 2330→2331 caminhos, inclusão única após 0303, ordem anterior preservada. Módulo 311ae938cf8ae015f60eecf62b2bcd1559fa959a; manifesto 483f7f624a7171bd9f28cc268b84984300cf706c. Ambos recuperados.
+Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico de 12272 linhas; Rauditoria consultada. Leitura por linhas do HTML, sem SHA bruto do arquivo integral. Sem recontagem global independente de cartões, revisão semântica independente, CI/DOM/HTTP/teclado ou integração. Comparação de tokens não certifica cada sigla latina nem equivalência semântica. IDs seguem padrão efetivo dos módulos vizinhos. Auditoria independente A–J permanece não concluída; não incrementar contador auditado. Sem PR, merge ou deploy.
+Publicação condicionada à comparação integral das árvores Git e confirmação do ref com expected_sha e force=false. Somente módulo 0304, manifesto e este apêndice. Progresso após confirmação: 6284→6304/8287 (76,07%); faltam 1983. Próximo lema προσεργάζομαι, cabeçalho linha 64733.
+================================================================================
