@@ -12092,3 +12092,48 @@ Pré-voo: bdag.js blob b7ed36d53096b903364632d4edcd67b503684c62; módulo 0298 20
 Limitações: Rauditoria consultada integralmente; Rbdag recuperado integralmente via blob, leitura dirigida ao início normativo e checkpoint final, não releitura exaustiva do histórico superior a 1 MB. Sem recontagem global independente de todos os módulos, SHA bruto do HTML completo, revisão semântica independente, execução CI, DOM/HTTP/teclado, teste global ou integração. A comparação de tokens não prova por si equivalência semântica ou identidade de todas as siglas latinas. Auditoria independente A–J não concluída; não incrementar contador auditado. Sem PR, merge ou deploy.
 Publicação condicionada à confirmação do commit atômico e atualização do ref com expected_sha e force=false; somente módulo 0299, manifesto e este apêndice. Progresso após confirmação: 6184→6204/8287 = 74,86%; faltam 2083. Próximo lema: προελεύσομαι, cabeçalho linha 63987.
 ================================================================================
+
+================================================================================
+BDAG — INCORPORAÇÃO DO LOTE 0300 — 24/11/2026
+================================================================================
+HEAD inicial reconfirmado: 40a8a5dedec094ac94523f6cbf5d9fba045ae5f2
+Árvore base: 3134139902a6b8b83da207bffe5c13bb91c14417. Branch chat-gpt-bdag.
+Fonte exclusiva: HTML canônico file_00000000429c820eb5aa2bcab96f1572. Extração preparatória blob 31be0876a2923df35f33b84ccdc427f75f05449a, linhas 63986–64118 (incluindo separador final), primeiro cabeçalho 63987, último 64116. Próximo artigo προί̈ημι, cabeçalho 64120, div externa 64119, excluído.
+Checkpoints: 476cbd1e75ab04c7f0286e04d49c2084acfbe5de (01–08), f507379447fe61697d0f013cf0094b5bd6e96a73 (09–13), deace53358ab2c065d85115be17966dcc78857d1 (14–20), recuperados e reunidos no blob 581de960688661801945fd32471e19a58fa948c5, cuja igualdade textual foi confirmada. Blobs sem referência de árvore podem ser coletados pelo Git.
+Colação editorial durante tradução e revisão; igualdade automatizada de sequências gregas, grupos numéricos, marcadores circulados e tokens hebraicos, por artigo e por parágrafo: 35 parágrafos, 367 tokens gregos, 490 grupos numéricos, 15 marcadores. Fichas individuais (grego/números/marcadores/hebraico/parágrafos):
+01 προελεύσομαι | HTML 63986–63988 (janela de delimitação), cabeçalho 63987 | entry-bdag-0300-01 | 2/0/0/0/1 | igualdade ordenada, par linha/cartão e roundtrip textual OK
+02 προελθών | HTML 63989–63992 (janela de delimitação), cabeçalho 63991 | entry-bdag-0300-02 | 2/0/0/0/1 | igualdade ordenada, par linha/cartão e roundtrip textual OK
+03 προελπίζω | HTML 63993–63996 (janela de delimitação), cabeçalho 63995 | entry-bdag-0300-03 | 13/16/0/0/1 | igualdade ordenada, par linha/cartão e roundtrip textual OK
+04 προενάρχομαι | HTML 63997–64000 (janela de delimitação), cabeçalho 63999 | entry-bdag-0300-04 | 9/6/0/0/1 | igualdade ordenada, par linha/cartão e roundtrip textual OK
+05 προεξομολογέομαι | HTML 64001–64004 (janela de delimitação), cabeçalho 64003 | entry-bdag-0300-05 | 4/3/0/0/1 | igualdade ordenada, par linha/cartão e roundtrip textual OK
+06 προεπαγγέλλω | HTML 64005–64008 (janela de delimitação), cabeçalho 64007 | entry-bdag-0300-06 | 9/13/0/0/1 | igualdade ordenada, par linha/cartão e roundtrip textual OK
+07 προεπικαλέω | HTML 64009–64012 (janela de delimitação), cabeçalho 64011 | entry-bdag-0300-07 | 3/2/0/0/1 | igualdade ordenada, par linha/cartão e roundtrip textual OK
+08 προεπιλακτίζω | HTML 64013–64016 (janela de delimitação), cabeçalho 64015 | entry-bdag-0300-08 | 9/3/0/0/1 | igualdade ordenada, par linha/cartão e roundtrip textual OK
+09 προέρχομαι | HTML 64017–64040 (janela de delimitação), cabeçalho 64020 | entry-bdag-0300-09 | 76/102/6/0/7 | igualdade ordenada, par linha/cartão e roundtrip textual OK
+10 προετοιμάζω | HTML 64041–64044 (janela de delimitação), cabeçalho 64043 | entry-bdag-0300-10 | 27/26/0/0/1 | igualdade ordenada, par linha/cartão e roundtrip textual OK
+11 προευαγγελίζομαι | HTML 64045–64048 (janela de delimitação), cabeçalho 64047 | entry-bdag-0300-11 | 5/7/0/0/1 | igualdade ordenada, par linha/cartão e roundtrip textual OK
+12 προέχω | HTML 64049–64060 (janela de delimitação), cabeçalho 64052 | entry-bdag-0300-12 | 19/57/2/0/3 | igualdade ordenada, par linha/cartão e roundtrip textual OK
+13 προηγέομαι | HTML 64061–64075 (janela de delimitação), cabeçalho 64064 | entry-bdag-0300-13 | 22/38/3/0/4 | igualdade ordenada, par linha/cartão e roundtrip textual OK
+14 πρόθεσις, εως, ἡ | HTML 64076–64093 (janela de delimitação), cabeçalho 64079 | entry-bdag-0300-14 | 66/86/4/0/5 | igualdade ordenada, par linha/cartão e roundtrip textual OK
+15 προθεσμία, ας, ἡ | HTML 64094–64097 (janela de delimitação), cabeçalho 64096 | entry-bdag-0300-15 | 33/19/0/0/1 | igualdade ordenada, par linha/cartão e roundtrip textual OK
+16 προθυμία, ας, ἡ | HTML 64098–64101 (janela de delimitação), cabeçalho 64100 | entry-bdag-0300-16 | 24/50/0/0/1 | igualdade ordenada, par linha/cartão e roundtrip textual OK
+17 πρόθυμος, ον | HTML 64102–64105 (janela de delimitação), cabeçalho 64104 | entry-bdag-0300-17 | 26/45/0/0/1 | igualdade ordenada, par linha/cartão e roundtrip textual OK
+18 προθύμως | HTML 64106–64109 (janela de delimitação), cabeçalho 64108 | entry-bdag-0300-18 | 6/11/0/0/1 | igualdade ordenada, par linha/cartão e roundtrip textual OK
+19 πρόθυρον, ου, τό | HTML 64110–64113 (janela de delimitação), cabeçalho 64112 | entry-bdag-0300-19 | 10/6/0/0/1 | igualdade ordenada, par linha/cartão e roundtrip textual OK
+20 προϊδών | HTML 64114–64117 (janela de delimitação), cabeçalho 64116 | entry-bdag-0300-20 | 2/0/0/0/1 | igualdade ordenada, par linha/cartão e roundtrip textual OK
+Delimitação: três remissões autônomas (προελεύσομαι, προελθών, προϊδών). Preservadas a emenda de Harnack em προεξομολογέομαι, a conjectura de Zahn e a falta de atestação em προεπιλακτίζω, as alternativas interpretativas de Ro 3:9 em προέχω e Ro 12:10 em προηγέομαι, a incerteza jurídica em προθεσμία e as grafias gregas originais, inclusive Ῥωμην e ἀγαθοποιί̈αν. Não houve emenda conjectural silenciosa. Revisões editoriais:
+03 προελπίζω, parágrafo 1: «a esperança é anterior à realização» → «a esperança é anterior à sua realização».
+07 προεπικαλέω, parágrafo 1: «apelar a alguém em relação a algo, solicitar τινά a alguém que faça algo» → «recorrer a alguém para obter algo, solicitar τινά a alguém que faça algo».
+09 προέρχομαι, parágrafo 2: «com acus. de grau ou de caminho» → «com acus. de extensão ou de percurso».
+09 προέρχομαι, parágrafo 4: «ir adiante a vós (antes de mim)» → «ir ter convosco antes (de mim)».
+12 προέχω, parágrafo 3: «que é textualmente incerto do ponto de vista da crítica textual» → «cujo texto é incerto do ponto de vista da crítica textual».
+13 προηγέομαι, parágrafo 4: «estimar mais altamente» → «estimar mais».
+13 προηγέομαι, parágrafo 4: «estime cada um o outro mais altamente» → «estime cada um o outro mais».
+14 πρόθεσις, εως, ἡ, parágrafo 2: «com a qual é idêntica» → «à qual é idêntica».
+17 πρόθυμος, ον, parágrafo 1: «desejo, avidez» → «desejo, ardor».
+18 προθύμως, parágrafo 1: «de boa vontade, avidamente, espontaneamente» → «de boa vontade, com empenho, espontaneamente».
+19 πρόθυρον, ου, τό, parágrafo 1: «τό(Hom.» → «τό (Hom.».
+Validações: módulo serializado em JSON e recuperado por parse; 20 pares linha/cartão, 20 IDs exclusivos no lote, correspondência ordenada de destinos e cartões; roundtrip textual 20/20; tags equilibradas (240/1284); 367 spans gregos; 40 links NA28 com sintaxe válida; nenhuma URL beta.perseus.tufts.edu; nenhum popup novo, bibliographicTerms não duplicado; remissões implícitas mantidas em texto. Manifesto 2326→2327 caminhos, inclusão única após 0299, ordem anterior preservada. Módulo 489de9ee9e87d2588e0e3e3498cedc99521f42da; manifesto 2cb63ae14af65df2ad596c7e10431d1d671c0589; blobs recuperados e comparados integralmente.
+Limitações: Rauditoria consultada integralmente; Rbdag recuperado integralmente via blob, leitura dirigida às normas iniciais e checkpoint recente, não releitura exaustiva do histórico superior a 1 MB. Sem recontagem global independente, SHA bruto do HTML completo, revisão semântica independente, execução CI, DOM/HTTP/teclado ou integração. Comparação de tokens não prova por si equivalência semântica nem identidade de todas as siglas latinas. Auditoria independente A–J não concluída; não incrementar contador auditado. Sem PR, merge ou deploy.
+Publicação condicionada à comparação das árvores Git, confirmação do commit atômico e atualização do ref com expected_sha e force=false; somente módulo 0300, manifesto e este apêndice. Progresso após confirmação: 6204→6224/8287 = 75,11%; faltam 2063. Próximo lema: προί̈ημι, cabeçalho linha 64120.
+================================================================================
