@@ -12470,3 +12470,37 @@ Evidências individuais (G/N/M/H):
 Módulo ce4224b7a1eaa87866cfb0d4ebc4c59c50b5d0c2; manifesto 2d9900920cc120da654b213f34d6528c8332c594; ambos recuperados e comparados. 20 linhas/20 cartões, 20 IDs distintos e destinos correspondentes na mesma ordem, 49 parágrafos em roundtrip textual após serialização e recuperação, 120/1013 tags abertas e fechadas (pilha), 107 links NA28 sintaticamente válidos; sem teste HTTP individual ou DOM. Manifesto 2334→2335 caminhos, inclusão única após 0307; demais caminhos e ordem preservados. Não houve recontagem integral dos cartões de todos os módulos.
 Publicação condicionada a comparação integral das árvores Git, commit pai igual ao HEAD-base e atualização não forçada com expected_sha. Progresso de incorporação após confirmação remota: 6384/8287; antes 6364/8287. Sem PR, merge ou deploy. Auditoria independente A–J permanece separada, não concluída; não alterar o respectivo contador.
 === FIM LOTE 0308 ===
+
+
+=== LOTE 0309 — INCORPORAÇÃO / COLAÇÃO PRÉ-PUBLICAÇÃO — 2026-11-24 ===
+HEAD-base: 27249ca612204ab9f4212b228d1a2430e8dac44c; árvore-base 52c5e7b8ce6b1cf24102e781c71d5a4d5e748420.
+Fonte exclusiva: file_00000000429c820eb5aa2bcab96f1572, HTML linhas 65411–65560; cabeçalhos 65412–65558. Recorte textual HTML: blob fa37eeba1e656e836ecbc9deb304b8847be44f31 (recuperado e comparado; não representa hash integral do HTML).
+20 artigos: προφέρω–πρῷρα. Próximo: πρωτεῖος, α, ον, linha 65562 (excluído).
+Checkpoints: 01–03 9a9c95f936a8e59eaa201a45e64e78acfbbfa0f8; 04 6dd507edf6e85ad65d7c5955ce15ab67f2065c18; 05–20 370a7ccc30d35232310f09a84072edbd33a978c6; consolidado revisado 3ee0af17e9df69cd7be7a0d0d08a9801ca7122d2. Recuperados com igualdade textual; objetos sem referência de árvore sujeitos à coleta.
+Colação editorial de cada artigo e revisão da tradução. Igualdade ordenada de tokens gregos (incluindo combinantes), grupos numéricos ASCII, marcadores circulados e tokens hebraicos por artigo e parágrafo: 40 parágrafos, 488/1182/20/0 tokens; zero divergências. Preservadas variantes, inclusive προϊνων e grafias combinantes em πρωί̈. A remissão πρώϊμος conta autonomamente. Não emendar a fonte. Preservadas distinções entre atividade, dom e enunciado proféticos em προφητεία; revelação, conhecimento oculto e predição em προφητεύω; acepções pessoais e metonímicas em προφήτης, inclusive a possibilidade de referência a profetas do AT em Eph 2:20; alternativas de Ac 3:20 em προχειρίζω.
+Revisões da tradução preliminar (10 substituições): 01 dar como fruto; 03 referência ao futuro pode ou não estar indicada, zombaria dirigida a Euno, algo que pertence ao futuro; 04 por si só; 08 ordem dos equivalentes; 09 explicitação de século II; 15 anoitecer; 16 quando era manhã; 17 espaço antes do sufixo. Comparações de tokens não certificam equivalência semântica nem toda sigla latina.
+Evidências individuais (G/N/M/H):
+01 | προφέρω | HTML 65412 | 1 parágrafo(s) | G/N/M/H 8/16/0/0 | colação e roundtrip OK | entry-bdag-0309-01
+02 | προφητεία, ας, ἡ | HTML 65417 | 6 parágrafo(s) | G/N/M/H 52/117/5/0 | colação e roundtrip OK | entry-bdag-0309-02
+03 | προφητεύω | HTML 65438 | 4 parágrafo(s) | G/N/M/H 75/149/3/0 | colação e roundtrip OK | entry-bdag-0309-03
+04 | προφήτης, ου, ὁ | HTML 65453 | 9 parágrafo(s) | G/N/M/H 156/555/8/0 | colação e roundtrip OK | entry-bdag-0309-04
+05 | προφητικός, ή, όν | HTML 65482 | 1 parágrafo(s) | G/N/M/H 24/37/0/0 | colação e roundtrip OK | entry-bdag-0309-05
+06 | προφητικῶς | HTML 65486 | 1 parágrafo(s) | G/N/M/H 3/4/0/0 | colação e roundtrip OK | entry-bdag-0309-06
+07 | προφῆτις, ιδος, ἡ | HTML 65490 | 1 parágrafo(s) | G/N/M/H 11/19/0/0 | colação e roundtrip OK | entry-bdag-0309-07
+08 | προφθάνω | HTML 65495 | 3 parágrafo(s) | G/N/M/H 15/20/2/0 | colação e roundtrip OK | entry-bdag-0309-08
+09 | προφυλάσσω | HTML 65507 | 3 parágrafo(s) | G/N/M/H 12/28/2/0 | colação e roundtrip OK | entry-bdag-0309-09
+10 | προχειρίζω | HTML 65518 | 1 parágrafo(s) | G/N/M/H 17/51/0/0 | colação e roundtrip OK | entry-bdag-0309-10
+11 | προχειροτονέω | HTML 65522 | 1 parágrafo(s) | G/N/M/H 6/8/0/0 | colação e roundtrip OK | entry-bdag-0309-11
+12 | Πρόχορος, ου, ὁ | HTML 65526 | 1 parágrafo(s) | G/N/M/H 3/2/0/0 | colação e roundtrip OK | entry-bdag-0309-12
+13 | προχωρέω | HTML 65530 | 1 parágrafo(s) | G/N/M/H 10/14/0/0 | colação e roundtrip OK | entry-bdag-0309-13
+14 | πρύμνα, ης, ἡ | HTML 65534 | 1 parágrafo(s) | G/N/M/H 11/18/0/0 | colação e roundtrip OK | entry-bdag-0309-14
+15 | πρωί̈ | HTML 65538 | 1 parágrafo(s) | G/N/M/H 40/59/0/0 | colação e roundtrip OK | entry-bdag-0309-15
+16 | πρωί̈α, ας, ἡ | HTML 65542 | 1 parágrafo(s) | G/N/M/H 16/42/0/0 | colação e roundtrip OK | entry-bdag-0309-16
+17 | πρωί̈θεν | HTML 65546 | 1 parágrafo(s) | G/N/M/H 11/13/0/0 | colação e roundtrip OK | entry-bdag-0309-17
+18 | πρώϊμος | HTML 65550 | 1 parágrafo(s) | G/N/M/H 2/0/0/0 | colação e roundtrip OK | entry-bdag-0309-18
+19 | πρωϊνός, ή, όν | HTML 65554 | 1 parágrafo(s) | G/N/M/H 10/12/0/0 | colação e roundtrip OK | entry-bdag-0309-19
+20 | πρῷρα | HTML 65558 | 1 parágrafo(s) | G/N/M/H 6/18/0/0 | colação e roundtrip OK | entry-bdag-0309-20
+Módulo 01f8db34c2cb6569a7450da7bdd124f2f586b428; manifesto f06ff8a0629039e5d3e15afd0fbb7ab2eb5c32ff; recuperados e comparados. 20 linhas/20 cartões, 20 IDs e destinos únicos e correspondentes em ordem, 40 parágrafos em roundtrip textual após serialização e recuperação, 120/859 tags equilibradas por pilha, 131 links NA28 sintaticamente válidos; sem teste HTTP individual, CI ou DOM. Nenhum popup novo; bibliographicTerms não duplicado. Manifesto 2335→2336 caminhos, inclusão única após 0308; ordem e demais caminhos preservados. IDs seguem convenção dos módulos vizinhos.
+Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global dos cartões, revisão semântica independente ou integração. A auditoria independente A–J não está concluída; não alterar o contador respectivo.
+Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0309, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6404/8287; antes 6384/8287. Sem PR, merge ou deploy.
+=== FIM LOTE 0309 ===
