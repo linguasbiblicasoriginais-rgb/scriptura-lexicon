@@ -13542,3 +13542,31 @@ Tradução de 20 artigos, 34 parágrafos; comparação ordenada por artigo e par
 Módulo 4f071a5fd8eb4a9a3683d733ba96aca315369321; manifesto e2504a29c9cd6c4ec1ed9b952765d24c019e92cc. Roundtrip 34/34, JSON válido, 20 linhas/cartões, IDs únicos e destinos correspondentes, 240/1136 tags equilibradas, 52 links NA28 para referências explícitas conforme padrão anterior, sem HTTP individual; manifesto 2362→2363, inserção após módulo 0335. Sem bibliographicTerms duplicado. Classificações e glosas de índice editoriais. Sem divergências detectadas no controle de tokens; isso não equivale a prova independente de equivalência semântica. Sem DOM real, CI confirmado ou integração; auditoria independente A–J NÃO CONCLUÍDA. Recuperadas as normas vigentes e consultado o histórico recente de Rbdag; não releitura individual de todo o histórico.
 Publicação condicionada a comparação de árvores e proteção de concorrência expected_sha, force=false; exclusivamente lexicons/bdag-part-0336.js, lexicon-modules.json e regras/Rbdag.txt. Progresso de referência 6924→6944/8287 após confirmação remota; sem PR, merge ou deploy.
 === FIM LOTE 0336 ===
+
+=== LOTE 0337 — 25/11/2026 ===
+Base a8aa6c0a9734223a834c174f3aea926bf1c38efc; árvore f3358375be1cde1d0937aead768094a8b4c97d61. Fonte exclusiva HTML file_00000000429c820eb5aa2bcab96f1572 linhas 69368–69541; recorte 8d93d3db20c1c3426a55eed750ae30e931b55729. Primeiro σῦκον, ου, τό; último συμβουλία, ας, ἡ; próximo συμβούλιον, ου, τό linha 69542.
+Checkpoints tradução A 951af7273c9eb81847678691ea86fbaa5d17b496; B c2242132208312e4ca453435e73dad7eb5e21be7; consolidado 1f91c4f8ea24221ce7f151199272f39073483d9a; evidência estruturada b0657ac0e31479b5e1ef71798d79f4097dda8610. Objetos Git não referenciados diretamente, sujeitos à retenção do servidor.
+Tradução de 20 artigos, 47 parágrafos; comparação ordenada por artigo e parágrafo: 371 gregos, 742 grupos numéricos, 27 marcadores, 0 hebraicos; zero divergências nas sequências. Regex grega e hebraica iniciadas por letra do respectivo alfabeto. Nenhum cabeçalho agrupado. Preservados L-S-M-J e L-S-J-M conforme respectivos testemunhos, διασισμοῦ em συκοφαντέω e συλλήμψομαι em συλλαμβάνω, sem emendas conjecturais. Mantidas as quatro acepções principais de συλλαμβάνω, as seis de συμβάλλω e as quatro de συμβιβάζω, inclusive alternativas interpretativas de Col 2:2. Evidências G/N/M/H por artigo e linha de parágrafo:
+1 | σῦκον, ου, τό | entry-bdag-0337-01 | 4/15/0/0 | 69368: 4/15/0/0
+2 | συκοφαντέω | entry-bdag-0337-02 | 24/49/2/0 | 69373: 5/16/0/0; 69376: 11/18/1/0; 69379: 8/15/1/0
+3 | συλαγωγέω | entry-bdag-0337-03 | 9/10/0/0 | 69384: 9/10/0/0
+4 | συλάω | entry-bdag-0337-04 | 9/16/0/0 | 69388: 9/16/0/0
+5 | συλλαβή, ῆς, ἡ | entry-bdag-0337-05 | 16/5/0/0 | 69392: 16/5/0/0
+6 | συλλαλέω | entry-bdag-0337-06 | 12/32/0/0 | 69396: 12/32/0/0
+7 | συλλαμβάνω | entry-bdag-0337-07 | 67/165/6/0 | 69401: 9/6/0/0; 69404: 0/0/1/0; 69407: 1/39/1/0; 69410: 0/4/1/0; 69413: 1/8/1/0; 69416: 42/73/1/0; 69419: 14/35/1/0
+8 | συλλέγω | entry-bdag-0337-08 | 17/26/0/0 | 69424: 17/26/0/0
+9 | σύλλημμα, ατος, τό | entry-bdag-0337-09 | 10/2/0/0 | 69428: 10/2/0/0
+10 | σύλληψις, εως, ἡ | entry-bdag-0337-10 | 4/4/0/0 | 69432: 4/4/0/0
+11 | συλλογίζομαι | entry-bdag-0337-11 | 7/18/0/0 | 69436: 7/18/0/0
+12 | συλλυπέω | entry-bdag-0337-12 | 9/9/0/0 | 69440: 9/9/0/0
+13 | συμβαίνω | entry-bdag-0337-13 | 45/106/2/0 | 69445: 5/1/0/0; 69448: 1/4/1/0; 69451: 39/101/1/0
+14 | συμβάλλω | entry-bdag-0337-14 | 66/113/8/0 | 69457: 7/10/0/0; 69460: 5/13/1/0; 69463: 13/6/1/0; 69466: 4/10/1/0; 69469: 1/12/1/0; 69472: 0/0/1/0; 69475: 7/29/1/0; 69478: 8/4/1/0; 69481: 21/29/1/0
+15 | συμβασιλεύω | entry-bdag-0337-15 | 4/26/0/0 | 69486: 4/26/0/0
+16 | συμβιβάζω | entry-bdag-0337-16 | 28/54/6/0 | 69491: 6/3/0/0; 69494: 0/0/1/0; 69497: 6/7/1/0; 69500: 3/9/1/0; 69503: 1/5/1/0; 69506: 7/16/1/0; 69509: 5/14/1/0
+17 | σύμβιος, ον | entry-bdag-0337-17 | 6/17/0/0 | 69514: 6/17/0/0
+18 | συμβουλεύω | entry-bdag-0337-18 | 12/52/3/0 | 69519: 3/1/0/0; 69522: 6/33/1/0; 69525: 1/10/1/0; 69528: 2/8/1/0
+19 | συμβουλή, ῆς, ἡ | entry-bdag-0337-19 | 8/10/0/0 | 69533: 8/10/0/0
+20 | συμβουλία, ας, ἡ | entry-bdag-0337-20 | 14/13/0/0 | 69537: 14/13/0/0
+Módulo b7258292209fbcf76be6ebb833b88d8379180567; manifesto 9f167f5eca94059cb4b6d8d2f70e7022da700b20. Roundtrip 47/47, JSON válido, 20 linhas/cartões, IDs únicos e destinos correspondentes, 240/1358 tags equilibradas, 61 links NA28 para referências explícitas conforme padrão anterior, sem HTTP individual; manifesto 2363→2364, inserção após módulo 0336. Sem bibliographicTerms duplicado. Classificações e glosas de índice editoriais. Sem divergências detectadas no controle de tokens; isso não equivale a prova independente de equivalência semântica. Sem DOM real, CI confirmado ou integração; auditoria independente A–J NÃO CONCLUÍDA. Recuperadas as normas vigentes e consultado o histórico recente de Rbdag; não releitura individual de todo o histórico.
+Publicação condicionada a comparação de árvores e proteção de concorrência expected_sha, force=false; exclusivamente lexicons/bdag-part-0337.js, lexicon-modules.json e regras/Rbdag.txt. Progresso de referência 6944→6964/8287 após confirmação remota; sem PR, merge ou deploy.
+=== FIM LOTE 0337 ===
