@@ -13280,3 +13280,48 @@ Módulo 99885c6e5b9b830c500957caa606026ab894342e; manifesto 8acd5faace98dcd30a5e
 Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global, revisão semântica independente, teste CI/DOM/HTTP ou integração. Auditoria independente A–J não concluída; não alterar contador respectivo.
 Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0328, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6784/8287; antes 6764/8287. Sem PR, merge ou deploy.
 === FIM LOTE 0328 ===
+
+
+=== LOTE 0329 — INCORPORAÇÃO / COLAÇÃO PRÉ-PUBLICAÇÃO — 2026-11-25 ===
+HEAD-base: e1a9332fa29160d1731441e58c806a3634a0c9f9; árvore-base 685d9a378b15c66f8a3c767189261e221a04ca6e.
+Fonte exclusiva: file_00000000429c820eb5aa2bcab96f1572, HTML linhas 68211–68352; cabeçalhos 68211–68349. Recorte textual HTML e extração estruturada: b64452587643607dccfa9934675a39897e243d5e; releitura da fonte idêntica ao recorte armazenado. Não representa hash integral do HTML.
+20 artigos: σπιλόω–στασιάζω. Próximo: στασιαστής, οῦ, ὁ, linha 68353 (excluído).
+Checkpoints 01–10 e9269dc9ec465b9f287be61569807f09d7d6c944; 11–20 65a048407c49c261b2498a50fef34aec81459c94; consolidado revisado ec95eb0d93c093c9d0bd56fc63474e2e69781544; relatório estruturado 858cf2f740ebb5d755bb83200adbf6d00ad174d6. Objetos recuperados; checkpoints não vinculados à árvore sujeitos à coleta.
+Colação editorial individual e comparação ordenada por artigo e por parágrafo dos tokens gregos (incluindo combinantes), grupos numéricos ASCII, marcadores circulados e subdivisões gregas e hebraicas no início de parágrafo e tokens de escrita hebraica: 36 parágrafos; G/N/M/H 319/891/16/0; zero divergências. Preservadas a dúvida sintática de σπλαγχνίζομαι em Mt 18:27; as três acepções de σπλάγχνον; a alternativa de Selwyn em σπορά; os empregos de σπουδάζω e a possibilidade de sentido 3 nos contextos do sentido 1; o valor cívico e religioso de σπουδή; os dois sentidos de στάδιον, as aproximações metrológicas da fonte, a incerteza em σταθμός e a alternância de gênero em στάμνος. Conservadas as irregularidades textuais do HTML, inclusive atumano, 1 C1, σπόρο e τὰ θηριομαχία, sem emendas conjecturais. Igualdade de tokens não demonstra por si equivalência semântica, exatidão de cada sigla latina ou completude da auditoria independente.
+Revisões da preparação (11 registros):
+2/1 | τοῦ δούλου provavelmente deve antes ser tomado com ὁ κύριος → τοῦ δούλου provavelmente deve antes ser construído com ὁ κύριος
+3/2 | as vísceras, entranhas, partes internas → as vísceras, partes internas, entranhas
+3/3 | da sede das emoções, em nosso uso faz-se uma transposição para a tradução coração → quanto à sede das emoções, em nosso uso passa-se à tradução coração
+4/1 | empréstimo no rabínico → empréstimo na linguagem rabínica
+8/1 | relativo a ser semeado, semeado → relativo ao que foi semeado, semeado
+9/3 | a parte nuclear do fruto → o caroço do fruto
+13/3 | estar muito solícito → mostrar grande solicitude
+14/1 | milagre da alimentação → milagre da multiplicação dos alimentos
+16/3 | em que se realizavam corridas a pé → sobre a qual ou na qual se realizavam corridas a pé
+18/1 | umbrais → batentes de porta
+20/1 | ser faccioso e causar discórdia pública → agir de modo faccioso e provocar discórdia pública
+Evidências individuais (G/N/M/H):
+01 | σπιλόω | HTML 68211 | 1 parágrafo(s) | 4/10/0/0 | colação editorial e roundtrip OK | entry-bdag-0329-01 | por parágrafo: 4/10/0/0
+02 | σπλαγχνίζομαι | HTML 68215 | 1 parágrafo(s) | 17/97/0/0 | colação editorial e roundtrip OK | entry-bdag-0329-02 | por parágrafo: 17/97/0/0
+03 | σπλάγχνον, ου, τό | HTML 68220 | 4 parágrafo(s) | 75/111/3/0 | colação editorial e roundtrip OK | entry-bdag-0329-03 | por parágrafo: 6/13/0/0; 4/17/1/0; 41/53/1/0; 24/28/1/0
+04 | σπόγγος, ου, ὁ | HTML 68234 | 1 parágrafo(s) | 7/14/0/0 | colação editorial e roundtrip OK | entry-bdag-0329-04 | por parágrafo: 7/14/0/0
+05 | σποδός, οῦ, ἡ | HTML 68238 | 1 parágrafo(s) | 6/32/0/0 | colação editorial e roundtrip OK | entry-bdag-0329-05 | por parágrafo: 6/32/0/0
+06 | σπονδίζω | HTML 68242 | 1 parágrafo(s) | 5/3/0/0 | colação editorial e roundtrip OK | entry-bdag-0329-06 | por parágrafo: 5/3/0/0
+07 | σπορά, ᾶς, ἡ | HTML 68246 | 1 parágrafo(s) | 11/35/0/0 | colação editorial e roundtrip OK | entry-bdag-0329-07 | por parágrafo: 11/35/0/0
+08 | σπόριμος, ον | HTML 68250 | 1 parágrafo(s) | 16/22/0/0 | colação editorial e roundtrip OK | entry-bdag-0329-08 | por parágrafo: 16/22/0/0
+09 | σπόρος, ου, ὁ | HTML 68255 | 3 parágrafo(s) | 20/52/2/0 | colação editorial e roundtrip OK | entry-bdag-0329-09 | por parágrafo: 4/0/0/0; 0/8/1/0; 16/44/1/0
+10 | σπουδάζω | HTML 68267 | 4 parágrafo(s) | 34/121/3/0 | colação editorial e roundtrip OK | entry-bdag-0329-10 | por parágrafo: 4/17/0/0; 15/17/1/0; 2/2/1/0; 13/85/1/0
+11 | σπουδαῖος, α, ον | HTML 68281 | 1 parágrafo(s) | 22/34/0/0 | colação editorial e roundtrip OK | entry-bdag-0329-11 | por parágrafo: 22/34/0/0
+12 | σπουδαίως | HTML 68286 | 3 parágrafo(s) | 9/39/2/0 | colação editorial e roundtrip OK | entry-bdag-0329-12 | por parágrafo: 2/6/0/0; 1/4/1/0; 6/29/1/0
+13 | σπουδή, ῆς, ἡ | HTML 68298 | 3 parágrafo(s) | 40/104/2/0 | colação editorial e roundtrip OK | entry-bdag-0329-13 | por parágrafo: 3/0/0/0; 2/35/1/0; 35/69/1/0
+14 | σπυρίς, ίδος, ἡ | HTML 68309 | 1 parágrafo(s) | 5/30/0/0 | colação editorial e roundtrip OK | entry-bdag-0329-14 | por parágrafo: 5/30/0/0
+15 | σταγών, όνος, ἡ | HTML 68313 | 1 parágrafo(s) | 4/3/0/0 | colação editorial e roundtrip OK | entry-bdag-0329-15 | por parágrafo: 4/3/0/0
+16 | στάδιον, ου, τό | HTML 68318 | 3 parágrafo(s) | 23/92/2/0 | colação editorial e roundtrip OK | entry-bdag-0329-16 | por parágrafo: 7/27/0/0; 6/39/1/0; 10/26/1/0
+17 | στάζω | HTML 68330 | 3 parágrafo(s) | 7/12/2/0 | colação editorial e roundtrip OK | entry-bdag-0329-17 | por parágrafo: 2/1/0/0; 5/5/1/0; 0/6/1/0
+18 | σταθμός, οῦ, ὁ | HTML 68341 | 1 parágrafo(s) | 5/21/0/0 | colação editorial e roundtrip OK | entry-bdag-0329-18 | por parágrafo: 5/21/0/0
+19 | στάμνος, ου | HTML 68345 | 1 parágrafo(s) | 4/11/0/0 | colação editorial e roundtrip OK | entry-bdag-0329-19 | por parágrafo: 4/11/0/0
+20 | στασιάζω | HTML 68349 | 1 parágrafo(s) | 5/48/0/0 | colação editorial e roundtrip OK | entry-bdag-0329-20 | por parágrafo: 5/48/0/0
+Módulo fff5e401e8e4400648a8f84c9d357a65e9e839e3; manifesto 07f536fdeccf0e92f4f3f093f4e3e1711cfeca94; recuperados com igualdade textual. 20 linhas/20 cartões, 20 IDs e destinos únicos e correspondentes em ordem no módulo, 36 parágrafos em roundtrip textual após serialização e recuperação, 120/624 tags de abertura equilibradas por pilha, 69 links NA28 explícitos construídos segundo a sintaxe existente (referências abreviadas sem livro explícito mantidas textuais; sem teste HTTP individual). IDs seguem padrão dos módulos imediatamente anteriores, sem sufixo -bdag da regra antiga. Nenhum popup novo, bibliographicTerms não duplicado. Manifesto 2355→2356 caminhos, inclusão única após 0328; demais caminhos e ordem preservados.
+Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global, revisão semântica independente, teste CI/DOM/HTTP ou integração. Auditoria independente A–J não concluída; não alterar contador respectivo.
+Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0329, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6804/8287; antes 6784/8287. Sem PR, merge ou deploy.
+=== FIM LOTE 0329 ===
