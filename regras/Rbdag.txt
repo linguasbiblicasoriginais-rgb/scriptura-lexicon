@@ -12640,3 +12640,36 @@ Módulo 3eb9ea7a924226681d7cbd4f3b83ac9eb809761c; manifesto 74762d32659801d6ce64
 Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global dos cartões, revisão semântica independente ou integração. A auditoria independente A–J não está concluída; não alterar o contador respectivo.
 Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0313, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6484/8287; antes 6464/8287. Sem PR, merge ou deploy.
 === FIM LOTE 0313 ===
+
+
+=== LOTE 0314 — INCORPORAÇÃO / COLAÇÃO PRÉ-PUBLICAÇÃO — 2026-11-25 ===
+HEAD-base: 8d305f9ef31f29e937f751c31eeead5e0a598da6; árvore-base 5e895fe5c21c0565c4af63adcaeffc4551142a19.
+Fonte exclusiva: file_00000000429c820eb5aa2bcab96f1572, HTML linhas 66110–66218, cabeçalhos 66110–66216. Recorte textual HTML: blob 6851b1840296d30b684a49ecf619a80e7f63bfa8 (recuperado com igualdade; não representa hash integral da fonte).
+20 artigos: ῥᾳδίως–ῥάχος. Próximo: Ῥεβέκκα, ας, ἡ, linha 66220 (excluído). Remissões independentes ῥαχά e ῥαχή preservadas.
+Checkpoints: preliminar ae14134d1f94437fd1891960046d10f249abb61d; consolidado revisado 40010b78a8f59abb7c129f20285c5bbd2fc9efa3; relatório estruturado fc1a4f0b0086d328a5e4795d77446606039fd960. Recuperados com igualdade textual; objetos não vinculados à árvore sujeitos à coleta.
+Colação editorial individual e revisão da tradução. Comparação ordenada de tokens gregos com combinantes, grupos numéricos ASCII, marcadores circulados e hebraicos por parágrafo, implicando igualdade por artigo: 28 parágrafos, G/N/M/H 269/374/8/6; zero divergências. Preservadas as variantes de Ῥαιφάν, a controvérsia etimológica e testemunhos patrísticos de ῥακά, distinções de ῥάκος e de ῥαντίζω, a diferença entre golpes instrumentais e bofetadas de ῥαπίζω/ῥάπισμα, e a identificação botânica incerta de ῥαχία/ῥάχος. Revisões da preparação: 03 pontuação antes do exemplo; 11 bochecha; 14 olho de uma agulha; 19–20 silva de amora-preta. Igualdade de tokens não certifica equivalência semântica nem toda sigla latina.
+Evidências individuais (G/N/M/H):
+01 | ῥᾳδίως | HTML 66110 | 1 parágrafo(s) | G/N/M/H 4/24/0/0 | colação editorial e roundtrip OK | entry-bdag-0314-01
+02 | ῥαθυμέω | HTML 66114 | 1 parágrafo(s) | G/N/M/H 5/17/0/0 | colação editorial e roundtrip OK | entry-bdag-0314-02
+03 | ῥαίνω | HTML 66118 | 1 parágrafo(s) | G/N/M/H 8/19/0/0 | colação editorial e roundtrip OK | entry-bdag-0314-03
+04 | Ῥαιφάν, ὁ | HTML 66122 | 1 parágrafo(s) | G/N/M/H 10/17/0/1 | colação editorial e roundtrip OK | entry-bdag-0314-04
+05 | ῥακά | HTML 66126 | 1 parágrafo(s) | G/N/M/H 37/52/0/2 | colação editorial e roundtrip OK | entry-bdag-0314-05
+06 | ῥάκος, ους, τό | HTML 66131 | 3 parágrafo(s) | G/N/M/H 8/37/2/0 | colação editorial e roundtrip OK | entry-bdag-0314-06
+07 | Ῥαμά, ἡ | HTML 66142 | 1 parágrafo(s) | G/N/M/H 8/18/0/1 | colação editorial e roundtrip OK | entry-bdag-0314-07
+08 | ῥαντίζω | HTML 66147 | 5 parágrafo(s) | G/N/M/H 35/49/4/0 | colação editorial e roundtrip OK | entry-bdag-0314-08
+09 | ῥάντισμα, ατος, τό | HTML 66164 | 1 parágrafo(s) | G/N/M/H 11/4/0/0 | colação editorial e roundtrip OK | entry-bdag-0314-09
+10 | ῥαντισμός, οῦ, ὁ | HTML 66168 | 1 parágrafo(s) | G/N/M/H 14/7/0/0 | colação editorial e roundtrip OK | entry-bdag-0314-10
+11 | ῥαπίζω | HTML 66172 | 1 parágrafo(s) | G/N/M/H 40/39/0/0 | colação editorial e roundtrip OK | entry-bdag-0314-11
+12 | ῥάπισμα, ατος, τό | HTML 66177 | 3 parágrafo(s) | G/N/M/H 39/31/2/0 | colação editorial e roundtrip OK | entry-bdag-0314-12
+13 | ῥάσσω | HTML 66188 | 1 parágrafo(s) | G/N/M/H 3/8/0/0 | colação editorial e roundtrip OK | entry-bdag-0314-13
+14 | ῥαφίς, ίδος, ἡ | HTML 66192 | 1 parágrafo(s) | G/N/M/H 13/18/0/0 | colação editorial e roundtrip OK | entry-bdag-0314-14
+15 | ῥαχά | HTML 66196 | 1 parágrafo(s) | G/N/M/H 2/0/0/0 | colação editorial e roundtrip OK | entry-bdag-0314-15
+16 | Ῥαχάβ, ἡ | HTML 66200 | 1 parágrafo(s) | G/N/M/H 7/12/0/1 | colação editorial e roundtrip OK | entry-bdag-0314-16
+17 | ῥαχή, ἡ | HTML 66204 | 1 parágrafo(s) | G/N/M/H 4/0/0/0 | colação editorial e roundtrip OK | entry-bdag-0314-17
+18 | Ῥαχήλ, ἡ | HTML 66208 | 1 parágrafo(s) | G/N/M/H 4/9/0/1 | colação editorial e roundtrip OK | entry-bdag-0314-18
+19 | ῥαχία, ας, ἡ | HTML 66212 | 1 parágrafo(s) | G/N/M/H 9/2/0/0 | colação editorial e roundtrip OK | entry-bdag-0314-19
+20 | ῥάχος | HTML 66216 | 1 parágrafo(s) | G/N/M/H 8/11/0/0 | colação editorial e roundtrip OK | entry-bdag-0314-20
+Módulo 9faf8c54a14df6d846b17d18fcc7e514a846bf80; manifesto df7d90776b7d93f5e413371c8d1af78d12e1b002; recuperados e comparados. 20 linhas/20 cartões, 20 IDs e destinos únicos e correspondentes em ordem, 28 parágrafos em roundtrip textual após serialização e recuperação, 120/528 tags equilibradas por pilha, 25 links NA28 explícitos sintaticamente válidos (referências abreviadas sem livro explícito mantidas textuais); sem teste HTTP individual, CI ou DOM. Nenhum popup novo; bibliographicTerms não duplicado. Manifesto 2340→2341 caminhos, inclusão única após 0313; demais caminhos e ordem preservados.
+Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global, revisão semântica independente ou integração. A auditoria independente A–J não está concluída; não alterar contador respectivo.
+Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0314, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6504/8287; antes 6484/8287. Sem PR, merge ou deploy.
+=== FIM LOTE 0314 ===
