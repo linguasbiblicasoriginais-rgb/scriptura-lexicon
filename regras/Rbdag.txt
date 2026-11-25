@@ -13026,3 +13026,49 @@ Módulo 1b89b04f6427b9ddd1e770f89ce4eb8abb9996e3; manifesto 1378309e4b2ed7a15ef9
 Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global, revisão semântica independente, teste CI/DOM/HTTP ou integração. Auditoria independente A–J não concluída; não alterar contador respectivo.
 Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0322, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6664/8287; antes 6644/8287. Sem PR, merge ou deploy.
 === FIM LOTE 0322 ===
+
+
+=== LOTE 0323 — INCORPORAÇÃO / COLAÇÃO PRÉ-PUBLICAÇÃO — 2026-11-25 ===
+HEAD-base: 5e4719146492815d41a31fa366b98adc2775ac22; árvore-base 35b0446430887dcc6ae45ed15ac3ce303459fa39.
+Fonte exclusiva: file_00000000429c820eb5aa2bcab96f1572, HTML linhas 67252–67379; cabeçalhos 67252–67376. Recorte textual HTML 9b90bce9d390928b498f6e4493297bbda63be918, recuperado com igualdade contra releitura; não representa hash integral do arquivo.
+20 artigos: σίδηρος, ου, ὁ–σιτευτός, ή, όν. Próximo: σιτία, ας, ἡ, linha 67380 (excluído).
+Checkpoints 01–10 6a92c433ac580cb8b64db02ea60b356243c1767c; 11–20 3fb5637c6e14eab1bae3a48a1db7978a1d37e6a6; consolidado revisado 4779ba60b682b27761108d4affb240299635c7ae; relatório estruturado 5774714bcfe4d2f2636355abc9ea417fbe958729. Recuperados com igualdade textual; objetos não vinculados à árvore sujeitos à coleta.
+Colação editorial individual e comparação ordenada de tokens gregos com combinantes, grupos numéricos ASCII, marcadores circulados e subdivisões α./β. no início dos parágrafos, e tokens de escrita hebraica por artigo e parágrafo: 34 parágrafos; G/N/M/H 258/742/14/10; zero divergências. Preservados a distinção material e figurada de σιδηροῦς, o empréstimo latino σικάριος, a origem semítica/acádica e a ressalva sobre teor alcoólico de σίκερα, as hipóteses onomásticas de Σιλᾶς e Σιλουανός e sua identificação, a incerteza interpretativa de σιμικίνθιον, as dez identificações de Σίμων, a incerteza botânica em σίναπι, as distinções de tecido e vestimenta em σινδών, e a variante σιρός. Preservada inclusive a grafia Πέτροσ na fonte de Σίμων, sem emenda conjectural. Igualdade de tokens não comprova sozinha equivalência semântica nem cada sigla latina.
+Revisões da preparação (12 registros):
+2/1 | os gregos áticos têm a forma contraída → os gregos da Ática empregam a forma contraída
+3/1 | combinada em fórmula fixa → associada em expressão formular
+5/1 | homem do punhal → portador de punhal
+7/1 | é usado por um membro respeitado → é portado por um membro respeitado
+10/1 | se tornou disponível para a fortaleza de Davi → passou a abastecer a fortaleza de Davi
+12/1 | mediação indireta da operação de milagres de uma pessoa a outra → transmissão indireta do poder de realizar milagres de uma pessoa a outra
+13/5 | foi constrangido a prestar o serviço de carregar → foi requisitado para carregar
+13/10 | um mágico → um mago
+16/3 | como uma camisa, camisa → semelhante a uma túnica leve, camisa
+16/3 | com sugestão de vestuário escasso → com a ideia de pouca roupa
+16/3 | um iniciado no batismo → um candidato à iniciação batismal
+20/1 | A gordura do bezerro → O fato de o bezerro estar cevado
+Evidências individuais (G/N/M/H):
+01 | σίδηρος, ου, ὁ | HTML 67252 | 1 parágrafo(s) | 6/33/0/0 | colação editorial e roundtrip OK | entry-bdag-0323-01 | por parágrafo: 6/33/0/0
+02 | σιδηροῦς, ᾶ, οῦν | HTML 67256 | 1 parágrafo(s) | 15/38/0/0 | colação editorial e roundtrip OK | entry-bdag-0323-02 | por parágrafo: 15/38/0/0
+03 | Σιδών, ῶνος, ἡ | HTML 67260 | 1 parágrafo(s) | 21/40/0/1 | colação editorial e roundtrip OK | entry-bdag-0323-03 | por parágrafo: 21/40/0/1
+04 | Σιδώνιος, ία, ιον | HTML 67265 | 3 parágrafo(s) | 14/28/2/0 | colação editorial e roundtrip OK | entry-bdag-0323-04 | por parágrafo: 3/0/0/0; 7/7/1/0; 4/21/1/0
+05 | σικάριος, ου, ὁ | HTML 67276 | 1 parágrafo(s) | 5/20/0/0 | colação editorial e roundtrip OK | entry-bdag-0323-05 | por parágrafo: 5/20/0/0
+06 | σίκερα, τό | HTML 67280 | 1 parágrafo(s) | 9/37/0/2 | colação editorial e roundtrip OK | entry-bdag-0323-06 | por parágrafo: 9/37/0/2
+07 | Σιλᾶς | HTML 67284 | 1 parágrafo(s) | 9/28/0/2 | colação editorial e roundtrip OK | entry-bdag-0323-07 | por parágrafo: 9/28/0/2
+08 | Σιλβανός | HTML 67288 | 1 parágrafo(s) | 2/3/0/0 | colação editorial e roundtrip OK | entry-bdag-0323-08 | por parágrafo: 2/3/0/0
+09 | Σιλουανός, οῦ, ὁ | HTML 67292 | 1 parágrafo(s) | 11/55/0/1 | colação editorial e roundtrip OK | entry-bdag-0323-09 | por parágrafo: 11/55/0/1
+10 | Σιλωάμ, ὁ | HTML 67296 | 1 parágrafo(s) | 31/40/0/1 | colação editorial e roundtrip OK | entry-bdag-0323-10 | por parágrafo: 31/40/0/1
+11 | Σιμαίας, ου, ὁ | HTML 67300 | 1 parágrafo(s) | 3/6/0/1 | colação editorial e roundtrip OK | entry-bdag-0323-11 | por parágrafo: 3/6/0/1
+12 | σιμικίνθιον, ου, τό | HTML 67304 | 1 parágrafo(s) | 8/15/0/0 | colação editorial e roundtrip OK | entry-bdag-0323-12 | por parágrafo: 8/15/0/0
+13 | Σίμων, ωνος, ὁ | HTML 67309 | 11 parágrafo(s) | 23/134/10/1 | colação editorial e roundtrip OK | entry-bdag-0323-13 | por parágrafo: 3/16/0/1; 3/6/1/0; 10/17/1/0; 0/4/1/0; 1/15/1/0; 0/7/1/0; 3/9/1/0; 0/3/1/0; 0/6/1/0; 3/49/1/0; 0/2/1/0
+14 | Σινᾶ | HTML 67344 | 1 parágrafo(s) | 24/61/0/1 | colação editorial e roundtrip OK | entry-bdag-0323-14 | por parágrafo: 24/61/0/1
+15 | σίναπι, εως, τό | HTML 67348 | 1 parágrafo(s) | 14/55/0/0 | colação editorial e roundtrip OK | entry-bdag-0323-15 | por parágrafo: 14/55/0/0
+16 | σινδών, όνος, ἡ | HTML 67353 | 3 parágrafo(s) | 18/67/2/0 | colação editorial e roundtrip OK | entry-bdag-0323-16 | por parágrafo: 3/16/0/0; 6/29/1/0; 9/22/1/0
+17 | σινιάζω | HTML 67364 | 1 parágrafo(s) | 17/23/0/0 | colação editorial e roundtrip OK | entry-bdag-0323-17 | por parágrafo: 17/23/0/0
+18 | σιρικός, ή, όν | HTML 67368 | 1 parágrafo(s) | 11/27/0/0 | colação editorial e roundtrip OK | entry-bdag-0323-18 | por parágrafo: 11/27/0/0
+19 | σιρός, οῦ, ὁ | HTML 67372 | 1 parágrafo(s) | 9/12/0/0 | colação editorial e roundtrip OK | entry-bdag-0323-19 | por parágrafo: 9/12/0/0
+20 | σιτευτός, ή, όν | HTML 67376 | 1 parágrafo(s) | 8/20/0/0 | colação editorial e roundtrip OK | entry-bdag-0323-20 | por parágrafo: 8/20/0/0
+Módulo eb35e399a24d016d6bdba90d291ed901093be76c; manifesto 63e08ef3f2007e644683f379df427b31fe9c0262; recuperados com igualdade textual. 20 linhas/20 cartões, 20 IDs e destinos únicos e correspondentes em ordem no módulo, 34 parágrafos em roundtrip textual após serialização e recuperação, 120/560 tags de abertura equilibradas por pilha, 58 links NA28 explícitos com sintaxe verificada (referências abreviadas sem livro explícito mantidas textuais; sem teste HTTP individual). IDs seguem padrão dos módulos imediatamente anteriores, sem sufixo -bdag da regra antiga. Nenhum popup novo, bibliographicTerms não duplicado. Manifesto 2349→2350 caminhos, inclusão única após 0322; demais caminhos e ordem preservados.
+Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global, revisão semântica independente, teste CI/DOM/HTTP ou integração. Auditoria independente A–J não concluída; não alterar contador respectivo.
+Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0323, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6684/8287; antes 6664/8287. Sem PR, merge ou deploy.
+=== FIM LOTE 0323 ===
