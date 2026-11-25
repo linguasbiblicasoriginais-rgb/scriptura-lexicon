@@ -13115,3 +13115,43 @@ Módulo 8a4909cbbfafcda73e485765f9b2f5c503a0cedc; manifesto 4070d04deee898b8ac65
 Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global, revisão semântica independente, teste CI/DOM/HTTP ou integração. Auditoria independente A–J não concluída; não alterar contador respectivo.
 Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0324, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6704/8287; antes 6684/8287. Sem PR, merge ou deploy.
 === FIM LOTE 0324 ===
+
+
+=== LOTE 0325 — INCORPORAÇÃO / COLAÇÃO PRÉ-PUBLICAÇÃO — 2026-11-25 ===
+HEAD-base: 5bd2af1b715a1e6fced1f728130cf36c5b824144; árvore-base d4a4f015e33328d7cfb144b26a14e881cd3e06fe.
+Fonte exclusiva: file_00000000429c820eb5aa2bcab96f1572, HTML linhas 67539–67723; cabeçalhos 67539–67720. Recorte textual HTML e extração estruturada: faacedc32b9fab70f2fa42357180ea9452fbd5c6, recuperados; releitura da fonte idêntica ao recorte armazenado. Materialização integral dos bytes recusada; não se trata de hash integral do HTML.
+20 artigos: σκεπάζω–σκληρότης, ητος, ἡ. Próximo: σκληροτράχηλος, ον, linha 67724 (excluído).
+Checkpoints 01–10 195f094816e8f498f05a5679e11d5f06634b568b; 11–20 2369577cc266a16910d958abce8d62bf04318ab5; consolidado revisado 5a9564a05fd2a5e5e4ba9a5cf7082d69d1f74b7e; relatório estruturado f2f97bd022dbad2399f142f2ed456f83d54fbee0. Objetos recuperados; checkpoints não vinculados à árvore sujeitos à coleta.
+Colação editorial individual e comparação ordenada, por artigo e por parágrafo, dos tokens gregos (incluindo combinantes), grupos numéricos ASCII, marcadores circulados e subdivisões α./β. no início de parágrafo e tokens de escrita hebraica: 50 parágrafos; G/N/M/H 544/1136/30/4; zero divergências. Preservadas a tríplice distinção semântica de σκεπάζω, a forma ativa atestada e incerteza textual de σκέπτομαι, a hipótese de ditografia em Σκευᾶς, as interpretações concorrentes de 1 Th 4:4 em σκεῦος, os sentidos literal, cultual e celestial de σκηνή, as ressalvas e argumentos concorrentes sobre o ofício de Paulo em σκηνοποιός, a variante textual em σκήνωμα e as distinções físicas, figuradas e comportamentais de σκληρός. Conservadas formas e pontuação estranhas como ῎ Αραψ, σκηνοποιί̈α e o ponto e vírgula repetido em σκεῦος, sem emenda conjectural. Igualdade dos tokens não demonstra por si equivalência semântica, exatidão de cada sigla latina ou completude da auditoria independente.
+Revisões da preparação (6 registros):
+1/2 | estender-se sobre algo → estender-se por sobre algo
+8/2 | de determinada espécie → de uma espécie específica
+10/1 | em tisri (aproximadamente=outubro) 15–21 → em tisri (aproximadamente=outubro), nos dias 15–21
+11/3 | coser conjuntamente → coser as peças umas às outras
+17/1 | estas águas ora calmas, ora ondulantes → estas águas, primeiro calmas e depois ondulantes
+19/3 | ἐντολαί duros, difíceis → ἐντολαί duras, difíceis
+Evidências individuais (G/N/M/H):
+01 | σκεπάζω | HTML 67539 | 4 parágrafo(s) | 30/63/3/0 | colação editorial e roundtrip OK | entry-bdag-0325-01 | por parágrafo: 7/7/0/0; 1/20/1/0; 12/28/1/0; 10/8/1/0
+02 | σκέπαρνον, ου, τό | HTML 67553 | 1 parágrafo(s) | 4/2/0/0 | colação editorial e roundtrip OK | entry-bdag-0325-02 | por parágrafo: 4/2/0/0
+03 | σκέπασμα, ατος, τό | HTML 67557 | 1 parágrafo(s) | 12/12/0/0 | colação editorial e roundtrip OK | entry-bdag-0325-03 | por parágrafo: 12/12/0/0
+04 | σκέπη, ης, ἡ | HTML 67561 | 1 parágrafo(s) | 5/34/0/0 | colação editorial e roundtrip OK | entry-bdag-0325-04 | por parágrafo: 5/34/0/0
+05 | σκέπτομαι | HTML 67565 | 1 parágrafo(s) | 2/4/0/0 | colação editorial e roundtrip OK | entry-bdag-0325-05 | por parágrafo: 2/4/0/0
+06 | Σκευᾶς, ᾶ, ὁ | HTML 67569 | 1 parágrafo(s) | 4/28/0/0 | colação editorial e roundtrip OK | entry-bdag-0325-06 | por parágrafo: 4/28/0/0
+07 | σκευή, ῆς, ἡ | HTML 67573 | 1 parágrafo(s) | 15/27/0/0 | colação editorial e roundtrip OK | entry-bdag-0325-07 | por parágrafo: 15/27/0/0
+08 | σκεῦος, ους, τό | HTML 67578 | 4 parágrafo(s) | 112/193/3/0 | colação editorial e roundtrip OK | entry-bdag-0325-08 | por parágrafo: 3/0/0/0; 38/71/1/0; 19/42/1/0; 52/80/1/0
+09 | σκηνή, ῆς, ἡ | HTML 67593 | 7 parágrafo(s) | 107/160/6/0 | colação editorial e roundtrip OK | entry-bdag-0325-09 | por parágrafo: 3/7/0/0; 0/0/1/0; 30/57/1/0; 0/0/1/0; 28/51/1/0; 9/7/1/0; 37/38/1/0
+10 | σκηνοπηγία, ας, ἡ | HTML 67616 | 1 parágrafo(s) | 21/66/0/2 | colação editorial e roundtrip OK | entry-bdag-0325-10 | por parágrafo: 21/66/0/2
+11 | σκηνοποιός, οῦ, ὁ | HTML 67621 | 3 parágrafo(s) | 35/97/2/0 | colação editorial e roundtrip OK | entry-bdag-0325-11 | por parágrafo: 3/0/0/0; 4/13/1/0; 28/84/1/0
+12 | σκῆνος, ους, τό | HTML 67632 | 1 parágrafo(s) | 24/29/0/0 | colação editorial e roundtrip OK | entry-bdag-0325-12 | por parágrafo: 24/29/0/0
+13 | σκηνόω | HTML 67636 | 1 parágrafo(s) | 20/37/0/0 | colação editorial e roundtrip OK | entry-bdag-0325-13 | por parágrafo: 20/37/0/0
+14 | σκήνωμα, ατος, τό | HTML 67641 | 4 parágrafo(s) | 34/41/3/0 | colação editorial e roundtrip OK | entry-bdag-0325-14 | por parágrafo: 4/6/0/0; 6/7/1/0; 3/5/1/0; 21/23/1/0
+15 | σκῆπτρον, ου, τό | HTML 67656 | 3 parágrafo(s) | 10/55/2/0 | colação editorial e roundtrip OK | entry-bdag-0325-15 | por parágrafo: 4/4/0/0; 5/33/1/0; 1/18/1/0
+16 | σκιά, ᾶς, ἡ | HTML 67668 | 6 parágrafo(s) | 54/84/5/0 | colação editorial e roundtrip OK | entry-bdag-0325-16 | por parágrafo: 5/10/0/0; 0/4/1/0; 0/0/1/0; 0/2/1/0; 10/33/1/0; 39/35/1/0
+17 | σκιρτάω | HTML 67688 | 1 parágrafo(s) | 13/49/0/0 | colação editorial e roundtrip OK | entry-bdag-0325-17 | por parágrafo: 13/49/0/0
+18 | σκληροκαρδία, ας, ἡ | HTML 67692 | 1 parágrafo(s) | 4/34/0/2 | colação editorial e roundtrip OK | entry-bdag-0325-18 | por parágrafo: 4/34/0/2
+19 | σκληρός, ά, όν | HTML 67697 | 7 parágrafo(s) | 30/102/6/0 | colação editorial e roundtrip OK | entry-bdag-0325-19 | por parágrafo: 4/0/0/0; 4/19/1/0; 7/41/1/0; 3/5/1/0; 0/0/1/0; 0/19/1/0; 12/18/1/0
+20 | σκληρότης, ητος, ἡ | HTML 67720 | 1 parágrafo(s) | 8/19/0/0 | colação editorial e roundtrip OK | entry-bdag-0325-20 | por parágrafo: 8/19/0/0
+Módulo 8886fd4f66f9641ee482a3e6f25d7160d113c740; manifesto c406e7057478e821010fb9b5b369e12997c1ec19; recuperados com igualdade textual. 20 linhas/20 cartões, 20 IDs e destinos únicos e correspondentes em ordem no módulo, 50 parágrafos em roundtrip textual após serialização e recuperação, 120/868 tags de abertura equilibradas por pilha, 70 links NA28 explícitos construídos segundo a sintaxe existente (referências abreviadas sem livro explícito mantidas textuais; sem teste HTTP individual). IDs seguem padrão dos módulos imediatamente anteriores, sem sufixo -bdag da regra antiga. Nenhum popup novo, bibliographicTerms não duplicado. Manifesto 2351→2352 caminhos, inclusão única após 0324; demais caminhos e ordem preservados.
+Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global, revisão semântica independente, teste CI/DOM/HTTP ou integração. Auditoria independente A–J não concluída; não alterar contador respectivo.
+Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0325, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6724/8287; antes 6704/8287. Sem PR, merge ou deploy.
+=== FIM LOTE 0325 ===
