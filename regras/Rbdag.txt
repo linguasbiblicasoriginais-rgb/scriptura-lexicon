@@ -13072,3 +13072,46 @@ Módulo eb35e399a24d016d6bdba90d291ed901093be76c; manifesto 63e08ef3f2007e644683
 Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global, revisão semântica independente, teste CI/DOM/HTTP ou integração. Auditoria independente A–J não concluída; não alterar contador respectivo.
 Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0323, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6684/8287; antes 6664/8287. Sem PR, merge ou deploy.
 === FIM LOTE 0323 ===
+
+
+=== LOTE 0324 — INCORPORAÇÃO / COLAÇÃO PRÉ-PUBLICAÇÃO — 2026-11-25 ===
+HEAD-base: 4fc1653163891bbae5114283e16c76f2a3af9008; árvore-base 3103b4e8934e7ef425bc6054decc31f6ef217cbc.
+Fonte exclusiva: file_00000000429c820eb5aa2bcab96f1572, HTML linhas 67380–67538; cabeçalhos 67380–67534. Recorte textual HTML b3a368b96efb547fc25eff4eb2285f036107f843, recuperado com igualdade contra releitura; não representa hash integral do arquivo.
+20 artigos: σιτία, ας, ἡ–σκέλος, ους, τό. Próximo: σκεπάζω, linha 67539 (excluído).
+Checkpoints 01–10 b2506a2198b8a5688339268306d2d1f5aa16fcb4; 11–20 13e3e5445b994c573e349720aba90d8c20bda5bc; consolidado revisado 4f7abdb189e76d780952291753596b58853fbd48; relatório estruturado adb1909b49797380b772fee56cc83b45007034b6. Recuperados com igualdade textual; objetos não vinculados à árvore sujeitos à coleta.
+Colação editorial individual e comparação ordenada de tokens gregos com combinantes, grupos numéricos ASCII, marcadores circulados e subdivisões α./β. no início dos parágrafos, e tokens de escrita hebraica por artigo e parágrafo: 42 parágrafos; G/N/M/H 344/655/22/1; zero divergências. Preservada a dúvida etimológica em σιτία, a distinção entre trigo e cereais em σῖτος, as três categorias de referência de Σιών, as distinções de σιωπάω, a passiva permissiva e as interpretações de 2 Cor 11:29 em σκανδαλίζω, os três sentidos e as interpretações concorrentes de 1J 2:10 e Mt 13:41 em σκάνδαλον, as regências de σκάπτω, as variantes de D em Σκαριώθ e Σκαριώτης e os sentidos de recipiente e embarcação em σκάφη. Preservadas as grafias σκάνδαδον, περισκαπφείσης, σκάφο e συντριβέντοσ como no HTML, sem emenda conjectural. Igualdade de tokens não comprova sozinha equivalência semântica nem cada sigla latina.
+Revisões da preparação (9 registros):
+5/1 | um alqueire de grãos → uma medida (bushel) de grãos
+9/1 | Sião, de → Sião, empregado a respeito de
+10/4 | Ficar em silêncio no sentido de perder → Calar-se no sentido de perder
+12/1 | muito frequente em uso metaf. → especialmente empregado em sentido metaf.
+13/4 | sentir repulsa por alguém, de Jesus → sentir repulsa por alguém, referido a Jesus
+14/3 | Jesus censura Pedro, como Satanás → Jesus repreende Pedro como Satanás
+15/5 | cavar, revolver com a pá → cavar, revolver a terra com a pá
+18/3 | cf. nosso ‘tina’ → cf. nosso uso de ‘tina’
+19/1 | κόπος ‘golpear’ → κόπος ‘golpe’
+Evidências individuais (G/N/M/H):
+01 | σιτία, ας, ἡ | HTML 67380 | 1 parágrafo(s) | 8/6/0/0 | colação editorial e roundtrip OK | entry-bdag-0324-01 | por parágrafo: 8/6/0/0
+02 | σιτίον, ου, τό | HTML 67384 | 1 parágrafo(s) | 12/22/0/0 | colação editorial e roundtrip OK | entry-bdag-0324-02 | por parágrafo: 12/22/0/0
+03 | σιτιστός, ή, όν | HTML 67388 | 1 parágrafo(s) | 16/17/0/0 | colação editorial e roundtrip OK | entry-bdag-0324-03 | por parágrafo: 16/17/0/0
+04 | σιτομέτριον, ου, τό | HTML 67392 | 1 parágrafo(s) | 9/23/0/0 | colação editorial e roundtrip OK | entry-bdag-0324-04 | por parágrafo: 9/23/0/0
+05 | σῖτος, ου, ὁ | HTML 67396 | 1 parágrafo(s) | 36/72/0/0 | colação editorial e roundtrip OK | entry-bdag-0324-05 | por parágrafo: 36/72/0/0
+06 | σίφων, ωνος, ὁ | HTML 67400 | 1 parágrafo(s) | 3/12/0/0 | colação editorial e roundtrip OK | entry-bdag-0324-06 | por parágrafo: 3/12/0/0
+07 | σιφωνίζω | HTML 67404 | 1 parágrafo(s) | 3/4/0/0 | colação editorial e roundtrip OK | entry-bdag-0324-07 | por parágrafo: 3/4/0/0
+08 | Σιχάρ | HTML 67408 | 1 parágrafo(s) | 2/0/0/0 | colação editorial e roundtrip OK | entry-bdag-0324-08 | por parágrafo: 2/0/0/0
+09 | Σιών, ἡ | HTML 67413 | 6 parágrafo(s) | 19/53/5/1 | colação editorial e roundtrip OK | entry-bdag-0324-09 | por parágrafo: 2/10/0/1; 13/13/1/0; 4/14/1/0; 0/0/1/0; 0/10/1/0; 0/6/1/0
+10 | σιωπάω | HTML 67434 | 5 parágrafo(s) | 21/73/4/0 | colação editorial e roundtrip OK | entry-bdag-0324-10 | por parágrafo: 6/13/0/0; 11/28/1/0; 0/0/1/0; 0/24/1/0; 4/8/1/0
+11 | σιωπῇ | HTML 67451 | 1 parágrafo(s) | 13/15/0/0 | colação editorial e roundtrip OK | entry-bdag-0324-11 | por parágrafo: 13/15/0/0
+12 | σκάμμα, ατος, τό | HTML 67455 | 1 parágrafo(s) | 10/11/0/0 | colação editorial e roundtrip OK | entry-bdag-0324-12 | por parágrafo: 10/11/0/0
+13 | σκανδαλίζω | HTML 67460 | 5 parágrafo(s) | 35/113/4/0 | colação editorial e roundtrip OK | entry-bdag-0324-13 | por parágrafo: 6/10/0/0; 0/0/1/0; 7/59/1/0; 15/21/1/0; 7/23/1/0
+14 | σκάνδαλον, ου, τό | HTML 67478 | 4 parágrafo(s) | 90/121/3/0 | colação editorial e roundtrip OK | entry-bdag-0324-14 | por parágrafo: 5/8/0/0; 7/25/1/0; 41/57/1/0; 37/31/1/0
+15 | σκάπτω | HTML 67493 | 5 parágrafo(s) | 38/48/4/0 | colação editorial e roundtrip OK | entry-bdag-0324-15 | por parágrafo: 6/7/0/0; 21/18/1/0; 0/0/1/0; 8/5/1/0; 3/18/1/0
+16 | Σκαριώθ | HTML 67510 | 1 parágrafo(s) | 2/4/0/0 | colação editorial e roundtrip OK | entry-bdag-0324-16 | por parágrafo: 2/4/0/0
+17 | Σκαριώτης | HTML 67514 | 1 parágrafo(s) | 2/6/0/0 | colação editorial e roundtrip OK | entry-bdag-0324-17 | por parágrafo: 2/6/0/0
+18 | σκάφη, ης, ἡ | HTML 67519 | 3 parágrafo(s) | 7/25/2/0 | colação editorial e roundtrip OK | entry-bdag-0324-18 | por parágrafo: 6/5/0/0; 0/2/1/0; 1/18/1/0
+19 | σκελοκοπέω | HTML 67530 | 1 parágrafo(s) | 7/7/0/0 | colação editorial e roundtrip OK | entry-bdag-0324-19 | por parágrafo: 7/7/0/0
+20 | σκέλος, ους, τό | HTML 67534 | 1 parágrafo(s) | 11/23/0/0 | colação editorial e roundtrip OK | entry-bdag-0324-20 | por parágrafo: 11/23/0/0
+Módulo 8a4909cbbfafcda73e485765f9b2f5c503a0cedc; manifesto 4070d04deee898b8ac65ef9085d8d7ecde7fccb4; recuperados com igualdade textual. 20 linhas/20 cartões, 20 IDs e destinos únicos e correspondentes em ordem no módulo, 42 parágrafos em roundtrip textual após serialização e recuperação, 120/655 tags de abertura equilibradas por pilha, 68 links NA28 explícitos com sintaxe verificada (referências abreviadas sem livro explícito mantidas textuais; sem teste HTTP individual). IDs seguem padrão dos módulos imediatamente anteriores, sem sufixo -bdag da regra antiga. Nenhum popup novo, bibliographicTerms não duplicado. Manifesto 2350→2351 caminhos, inclusão única após 0323; demais caminhos e ordem preservados.
+Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global, revisão semântica independente, teste CI/DOM/HTTP ou integração. Auditoria independente A–J não concluída; não alterar contador respectivo.
+Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0324, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6704/8287; antes 6684/8287. Sem PR, merge ou deploy.
+=== FIM LOTE 0324 ===
