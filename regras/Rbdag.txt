@@ -12808,3 +12808,47 @@ Módulo efa788d4090bbfce6b3f6e14da356a427048b141; manifesto 11ab4be87a651525bce7
 Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada integralmente. Sem recontagem independente global, revisão semântica independente ou integração. A auditoria independente A–J não está concluída; não alterar contador respectivo.
 Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0317, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6564/8287; antes 6544/8287. Sem PR, merge ou deploy.
 === FIM LOTE 0317 ===
+
+
+=== LOTE 0318 — INCORPORAÇÃO / COLAÇÃO PRÉ-PUBLICAÇÃO — 2026-11-25 ===
+HEAD-base: f047054bc4764c91460c6850011947bb24cf795c; árvore-base decfcf86a1d1082e9ea3afa8b869a26af43b9e84.
+Fonte exclusiva: file_00000000429c820eb5aa2bcab96f1572, HTML linhas 66599–66710, cabeçalhos 66599–66707. Recorte textual HTML: blob e228fb2b46eaaee6b234fbe8c96054d1a79cdb54 (recuperado com igualdade; não representa hash integral da fonte; inclui separador e abertura do bloco seguinte, sem conteúdo lexical deste).
+20 artigos: σάκκος, ου, ὁ–Σαμαρῖτις, ιδος, ἡ. Próximo: Σαμοθρᾴκη, ης, ἡ, linha 66711 (excluído). Remissões autônomas Σαλίμ, τό, Σαλωμών e Σαμαρία preservadas.
+Checkpoints: 01–10 e6d5880db8aa48ea45a4071d4635a00a5c904b16; 11–20 04ff9320b738cf6c9270621b0429eb48c299e2f0; consolidado revisado 9590f964aea27da4e0e18bec26d47be65523e802; relatório estruturado f194bde2a96f69da4989ed42463ee8b2f8093e67. Recuperados com igualdade textual; objetos não vinculados à árvore sujeitos à coleta.
+Colação editorial individual e revisão da tradução. Comparação ordenada de tokens gregos com combinantes, grupos numéricos ASCII, marcadores circulados e subdivisões α./β. no início de parágrafo, e tokens de escrita hebraica por artigo e parágrafo: 28 parágrafos, G/N/M/H 342/692/8/7; zero divergências. Preservadas as citações de penitência em σάκκος, as variantes genealógicas de Σαλά e Σαλμών, a incerteza geográfica de Σαλείμ, os dois sentidos de σαλεύω, σάλπιγξ e σαλπίζω, a ressalva identificatória de Σαλώμη, a distinção entre cidade e província em Σαμάρεια e a bibliografia de Σαμαρίτης. Distâncias de Σαλείμ mantidas numericamente, com vírgula decimal portuguesa. Grafias e referências peculiares da fonte conservadas sem emendas conjecturais. Igualdade de tokens não certifica equivalência semântica nem toda sigla latina.
+Revisões da preparação (10 registros):
+1/1 | propiciaram a deusa → apaziguaram a deusa
+3/1 | é filho de Jeconias, (1 Ch 3:17), em → é filho de Jeconias (1 Ch 3:17); em
+5/1 | Σαλείμ, τό(também → Σαλείμ, τό (também
+5/1 | 12.4 km. → 12,4 km
+5/1 | 5.5 km. → 5,5 km
+6/2 | uma medida sacudida para compactar o conteúdo → uma medida cujo conteúdo foi acomodado por agitação
+12/3 | trombeta soada por ordem de Deus → trombeta tocada por ordem de Deus
+13/3 | diversamente EKlostermann → interpretação diversa em EKlostermann
+17/1 | orig. o nome da cidade → originalmente o nome da cidade
+19/1 | Personagem principal de uma narrativa → Personagem principal de uma história
+Evidências individuais (G/N/M/H):
+01 | σάκκος, ου, ὁ | HTML 66599 | 1 parágrafo(s) | G/N/M/H 98/70/0/1 | colação editorial e roundtrip OK | entry-bdag-0318-01
+02 | Σαλά, ὁ | HTML 66604 | 3 parágrafo(s) | G/N/M/H 3/22/2/1 | colação editorial e roundtrip OK | entry-bdag-0318-02
+03 | Σαλαθιήλ, ὁ | HTML 66615 | 1 parágrafo(s) | G/N/M/H 3/24/0/1 | colação editorial e roundtrip OK | entry-bdag-0318-03
+04 | Σαλαμίς, ῖνος, ἡ | HTML 66619 | 1 parágrafo(s) | G/N/M/H 7/14/0/0 | colação editorial e roundtrip OK | entry-bdag-0318-04
+05 | Σαλείμ, τό | HTML 66623 | 1 parágrafo(s) | G/N/M/H 11/23/0/0 | colação editorial e roundtrip OK | entry-bdag-0318-05
+06 | σαλεύω | HTML 66628 | 3 parágrafo(s) | G/N/M/H 54/109/2/0 | colação editorial e roundtrip OK | entry-bdag-0318-06
+07 | Σαλήμ, ἡ | HTML 66639 | 1 parágrafo(s) | G/N/M/H 15/11/0/1 | colação editorial e roundtrip OK | entry-bdag-0318-07
+08 | Σαλίμ, τό | HTML 66643 | 1 parágrafo(s) | G/N/M/H 3/0/0/0 | colação editorial e roundtrip OK | entry-bdag-0318-08
+09 | Σαλμών, ὁ | HTML 66647 | 1 parágrafo(s) | G/N/M/H 5/10/0/1 | colação editorial e roundtrip OK | entry-bdag-0318-09
+10 | Σαλμώνη, ης, ἡ | HTML 66651 | 1 parágrafo(s) | G/N/M/H 7/7/0/0 | colação editorial e roundtrip OK | entry-bdag-0318-10
+11 | σάλος, ου, ὁ | HTML 66655 | 1 parágrafo(s) | G/N/M/H 5/21/0/0 | colação editorial e roundtrip OK | entry-bdag-0318-11
+12 | σάλπιγξ, ιγγος, ἡ | HTML 66660 | 3 parágrafo(s) | G/N/M/H 32/92/2/0 | colação editorial e roundtrip OK | entry-bdag-0318-12
+13 | σαλπίζω | HTML 66672 | 3 parágrafo(s) | G/N/M/H 35/51/2/0 | colação editorial e roundtrip OK | entry-bdag-0318-13
+14 | σαλπιστής, οῦ, ὁ | HTML 66683 | 1 parágrafo(s) | G/N/M/H 7/24/0/0 | colação editorial e roundtrip OK | entry-bdag-0318-14
+15 | Σαλώμη, ης, ἡ | HTML 66687 | 1 parágrafo(s) | G/N/M/H 4/35/0/0 | colação editorial e roundtrip OK | entry-bdag-0318-15
+16 | Σαλωμών | HTML 66691 | 1 parágrafo(s) | G/N/M/H 2/6/0/0 | colação editorial e roundtrip OK | entry-bdag-0318-16
+17 | Σαμάρεια, ας, ἡ | HTML 66695 | 1 parágrafo(s) | G/N/M/H 19/68/0/2 | colação editorial e roundtrip OK | entry-bdag-0318-17
+18 | Σαμαρία | HTML 66699 | 1 parágrafo(s) | G/N/M/H 2/0/0/0 | colação editorial e roundtrip OK | entry-bdag-0318-18
+19 | Σαμαρίτης, ου, ὁ | HTML 66703 | 1 parágrafo(s) | G/N/M/H 21/93/0/0 | colação editorial e roundtrip OK | entry-bdag-0318-19
+20 | Σαμαρῖτις, ιδος, ἡ | HTML 66707 | 1 parágrafo(s) | G/N/M/H 9/12/0/0 | colação editorial e roundtrip OK | entry-bdag-0318-20
+Módulo be9b863bb21a03738d53be8929524f7b1949748b; manifesto b3afd225dd4f67f596f0e8e52837bccd36a74ff9; recuperados e comparados. 20 linhas/20 cartões, 20 IDs e destinos únicos e correspondentes em ordem no módulo, 28 parágrafos em roundtrip textual após serialização e recuperação, 120/638 tags de abertura equilibradas por pilha, 61 links NA28 explícitos sintaticamente válidos (referências abreviadas sem livro explícito mantidas textuais; validação de padrão URL não comprova destino semântico ou HTTP). IDs seguem o padrão dos módulos imediatamente anteriores, sem sufixo -bdag da regra antiga. Sem teste HTTP individual, CI ou DOM. Nenhum popup novo; bibliographicTerms não duplicado. Manifesto 2344→2345 caminhos, inclusão única após 0317; demais caminhos e ordem preservados.
+Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada integralmente. Sem recontagem independente global, revisão semântica independente ou integração. A auditoria independente A–J não está concluída; não alterar contador respectivo.
+Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0318, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6584/8287; antes 6564/8287. Sem PR, merge ou deploy.
+=== FIM LOTE 0318 ===
