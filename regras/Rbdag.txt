@@ -12979,3 +12979,50 @@ Módulo 8304b7164795206738617f561e64c99fcf59425c; manifesto 4cd110b8efbeb0f54602
 Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada nas seções de definição e precedência. Sem recontagem independente global, revisão semântica independente, teste CI/DOM/HTTP ou integração. Auditoria independente A–J não concluída; não alterar contador respectivo.
 Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0321, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6644/8287; antes 6624/8287. Sem PR, merge ou deploy.
 === FIM LOTE 0321 ===
+
+
+=== LOTE 0322 — INCORPORAÇÃO / COLAÇÃO PRÉ-PUBLICAÇÃO — 2026-11-25 ===
+HEAD-base: 0d4c8da8181fb311fd086ebf9931faad6e06ca4d; árvore-base 14da5159bf931b9aae70f5533d982cf7d03027fb.
+Fonte exclusiva: file_00000000429c820eb5aa2bcab96f1572, HTML linhas 67119–67251; cabeçalhos 67119–67248. Recorte textual HTML 1671735b173374bdd12be84565c2939575e0005c, recuperado com igualdade contra releitura; não representa hash integral do arquivo.
+20 artigos: Σήθ, ὁ–σιγή, ῆς, ἡ. Próximo: σίδηρος, ου, ὁ, linha 67252 (excluído).
+Checkpoints 01–07 5b83e530db42391abc19a318649467238f90edf4; 08–20 d106ae89317c7e2d00309195eb161ef2f630b0ee; consolidado revisado 3a87511fd66a64a7f9a4d93140c8db55d59ceed7; relatório estruturado 5e08ad7fb5ca17459fb2585f25fc589b1ee44d7b. Recuperados com igualdade textual; objetos não vinculados à árvore sujeitos à coleta.
+Colação editorial individual e comparação ordenada de tokens gregos com combinantes, grupos numéricos ASCII, marcadores circulados e subdivisões α./β. no início dos parágrafos, e tokens de escrita hebraica por artigo e parágrafo: 35 parágrafos; G/N/M/H 574/1192/15/2; zero divergências. Preservados os três sentidos de σημαίνω, as distinções de sinal, milagre e portento em σημεῖον, a interpretação probabilística de 1 Cor 14:22 e a possível corrupção textual em B 12:5, a extensão temporal de σήμερον, o emprego intransitivo do perfeito ativo de σήπω, a discussão crítica atribuída a autores específicos em σιγάω e a interpretação de silêncio em σιγή. Remissões autônomas mantidas. Igualdade de tokens não comprova sozinha equivalência semântica nem cada sigla latina.
+Revisões da preparação (13 registros):
+4/3 | seguido de uma interrogativa indireta → com uma oração interrogativa indireta subsequente
+5/2 | a vinda do Humano (Filho do Homem) → a vinda do Ser Humano (Filho do Homem)
+5/2 | Aqui o Humano há de ser → Aqui o Ser Humano há de ser
+5/2 | é melhor entendido como por um sinal → deve ser entendido como ‘por meio de um sinal’
+5/2 | os sinais do (verdadeiro) apóstolo → os sinais do apóstolo (verdadeiro)
+6/3 | tomar especial nota de → prestar especial atenção a
+8/1 | Olhando do presente para o juízo vindouro → Na perspectiva que vai do presente ao juízo vindouro
+11/1 | sofria de secreção auricular → sofria de um corrimento auricular
+13/1 | carunchos, parecem estar em vista → larvas que perfuram a madeira, parecem estar em vista
+18/1 | posteriormente multiplicada → posteriormente concebida como uma pluralidade de pessoas
+19/3 | para uma mulher o silêncio é o melhor e permanecer tranquila em casa → para uma mulher, o melhor é o silêncio e permanecer tranquila em casa
+19/3 | consideram vs. 34f uma glosa secundária → consideram os vs. 34f uma glosa secundária
+20/1 | ausência tanto de som verbal quanto de outros tipos de som → ausência tanto de sons da fala quanto de outros tipos de som
+Evidências individuais (G/N/M/H):
+01 | Σήθ, ὁ | HTML 67119 | 1 parágrafo(s) | 4/17/0/1 | colação editorial e roundtrip OK | entry-bdag-0322-01 | por parágrafo: 4/17/0/1
+02 | σηκός, οῦ, ὁ | HTML 67123 | 1 parágrafo(s) | 4/22/0/0 | colação editorial e roundtrip OK | entry-bdag-0322-02 | por parágrafo: 4/22/0/0
+03 | Σήμ, ὁ | HTML 67127 | 1 parágrafo(s) | 4/17/0/1 | colação editorial e roundtrip OK | entry-bdag-0322-03 | por parágrafo: 4/17/0/1
+04 | σημαίνω | HTML 67132 | 4 parágrafo(s) | 37/84/3/0 | colação editorial e roundtrip OK | entry-bdag-0322-04 | por parágrafo: 8/28/0/0; 2/16/1/0; 9/29/1/0; 18/11/1/0
+05 | σημεῖον, ου, τό | HTML 67147 | 7 parágrafo(s) | 208/487/6/0 | colação editorial e roundtrip OK | entry-bdag-0322-05 | por parágrafo: 3/5/0/0; 98/160/1/0; 0/0/1/0; 0/0/1/0; 80/189/1/0; 4/25/1/0; 23/108/1/0
+06 | σημειόω | HTML 67171 | 3 parágrafo(s) | 20/12/2/0 | colação editorial e roundtrip OK | entry-bdag-0322-06 | por parágrafo: 3/4/0/0; 15/5/1/0; 2/3/1/0
+07 | σημείωσις, εως, ἡ | HTML 67182 | 1 parágrafo(s) | 10/14/0/0 | colação editorial e roundtrip OK | entry-bdag-0322-07 | por parágrafo: 10/14/0/0
+08 | σήμερον | HTML 67186 | 1 parágrafo(s) | 82/146/0/0 | colação editorial e roundtrip OK | entry-bdag-0322-08 | por parágrafo: 82/146/0/0
+09 | σημικίνθιον | HTML 67190 | 1 parágrafo(s) | 2/0/0/0 | colação editorial e roundtrip OK | entry-bdag-0322-09 | por parágrafo: 2/0/0/0
+10 | σηπία, ας, ἡ | HTML 67194 | 1 parágrafo(s) | 5/5/0/0 | colação editorial e roundtrip OK | entry-bdag-0322-10 | por parágrafo: 5/5/0/0
+11 | σήπω | HTML 67198 | 1 parágrafo(s) | 29/39/0/0 | colação editorial e roundtrip OK | entry-bdag-0322-11 | por parágrafo: 29/39/0/0
+12 | σηρικός | HTML 67202 | 1 parágrafo(s) | 2/0/0/0 | colação editorial e roundtrip OK | entry-bdag-0322-12 | por parágrafo: 2/0/0/0
+13 | σής | HTML 67206 | 1 parágrafo(s) | 19/36/0/0 | colação editorial e roundtrip OK | entry-bdag-0322-13 | por parágrafo: 19/36/0/0
+14 | σητόβρωτος, ον | HTML 67210 | 1 parágrafo(s) | 5/10/0/0 | colação editorial e roundtrip OK | entry-bdag-0322-14 | por parágrafo: 5/10/0/0
+15 | σθενόω | HTML 67214 | 1 parágrafo(s) | 4/7/0/0 | colação editorial e roundtrip OK | entry-bdag-0322-15 | por parágrafo: 4/7/0/0
+16 | σιαγών, όνος, ἡ | HTML 67218 | 1 parágrafo(s) | 9/40/0/0 | colação editorial e roundtrip OK | entry-bdag-0322-16 | por parágrafo: 9/40/0/0
+17 | σιαίνομαι | HTML 67222 | 1 parágrafo(s) | 2/12/0/0 | colação editorial e roundtrip OK | entry-bdag-0322-17 | por parágrafo: 2/12/0/0
+18 | Σίβυλλα, ης, ἡ | HTML 67226 | 1 parágrafo(s) | 3/26/0/0 | colação editorial e roundtrip OK | entry-bdag-0322-18 | por parágrafo: 3/26/0/0
+19 | σιγάω | HTML 67231 | 5 parágrafo(s) | 52/139/4/0 | colação editorial e roundtrip OK | entry-bdag-0322-19 | por parágrafo: 5/3/0/0; 0/6/1/0; 28/88/1/0; 5/25/1/0; 14/17/1/0
+20 | σιγή, ῆς, ἡ | HTML 67248 | 1 parágrafo(s) | 73/79/0/0 | colação editorial e roundtrip OK | entry-bdag-0322-20 | por parágrafo: 73/79/0/0
+Módulo 1b89b04f6427b9ddd1e770f89ce4eb8abb9996e3; manifesto 1378309e4b2ed7a15ef9d565514d05ad7b3312fe; recuperados com igualdade textual. 20 linhas/20 cartões, 20 IDs e destinos únicos e correspondentes em ordem no módulo, 35 parágrafos em roundtrip textual após serialização e recuperação, 120/894 tags de abertura equilibradas por pilha, 83 links NA28 explícitos com sintaxe verificada (referências abreviadas sem livro explícito mantidas textuais; sem teste HTTP individual). IDs seguem padrão dos módulos imediatamente anteriores, sem sufixo -bdag da regra antiga. Nenhum popup novo, bibliographicTerms não duplicado. Manifesto 2348→2349 caminhos, inclusão única após 0321; demais caminhos e ordem preservados.
+Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global, revisão semântica independente, teste CI/DOM/HTTP ou integração. Auditoria independente A–J não concluída; não alterar contador respectivo.
+Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0322, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6664/8287; antes 6644/8287. Sem PR, merge ou deploy.
+=== FIM LOTE 0322 ===
