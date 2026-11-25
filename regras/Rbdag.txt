@@ -13369,3 +13369,36 @@ Módulo e46c73f596c819012730ebf81f75dc7ccbfc80c9; manifesto afe9690ffdff7cc2be39
 Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global, revisão semântica independente, teste CI/DOM/HTTP ou integração. Auditoria independente A–J não concluída; não alterar contador respectivo.
 Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0330, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6824/8287; antes 6804/8287. Sem PR, merge ou deploy.
 === FIM LOTE 0330 ===
+
+
+=== LOTE 0331 — INCORPORAÇÃO / COLAÇÃO PRÉ-PUBLICAÇÃO — 2026-11-25 ===
+HEAD-base: 25300fca149520a70d0b5b3976bf46f58c96d8ed; árvore-base 2eb8ea660da6e3623c9dababe77290a22a50b54b.
+Fonte EXCLUSIVA: file_00000000429c820eb5aa2bcab96f1572, HTML linhas 68495–68649, 20 cabeçalhos autônomos nas linhas 68495–68646. Primeiro στενός, ή, όν; vigésimo στιβάς, άδος, ἡ; seguinte στίγμα, ατος, τό, cabeçalho 68650, expressamente excluído.
+Checkpoint de recorte canônico 9a0ceffd2de9b93bcba4968369722c2bbfd6681b. Traduções intermediárias recuperáveis 7ecf7e3bd3141cb3b2e3cffa71b2e7fd8f7803a5, a5653556f68feffefeefa0219429177ac7cbb15f e 62182aa668907f7317990ae21a5c476aa8036584. Consolidação e correção de equivalência numérica de morfologia 360599d453545f364d7972e22ea4e8f2d87e0f3e; relatório estruturado ef931e66357f824f6e32b58fbc68484f2d93390a. Checkpoints são objetos blob Git não vinculados à árvore e, portanto, sujeitos a coleta; registrados para recuperação.
+Tradução integral conferida individualmente: 20 artigos e 39 parágrafos. Comparação ordenada exata por artigo e por parágrafo: G/N/M/H = 417/1001/19/0 (G tokens gregos Unicode, N grupos de algarismos ASCII, M marcadores circulados, H tokens hebraicos); divergências finais ZERO. Uma coincidência de tokens não certifica semântica por si só; houve cotejo editorial de traduções, ainda separado da auditoria A–J independente.
+Ajustes comprovados no preparo: em 68500, repostos numerais morfológicos 1 e 3; em 68532, repostos numerais morfológicos 2, 1, 3, 1; em 68543, repostos numerais morfológicos 3, 1, 3, 3, 1, 3. Nenhuma emenda conjectural aplicada ao HTML de origem.
+Evidências por verbete (G/N/M/H), seguidas da discriminação por parágrafo:
+01 | στενός, ή, όν | HTML 68495 | 1 parágrafo(s) | 30/37/0/0 | entry-bdag-0331-01 | por parágrafo: 30/37/0/0
+02 | στενοχωρέω | HTML 68500 | 3 parágrafo(s) | 24/34/2/0 | entry-bdag-0331-02 | por parágrafo: 4/5/0/0; 13/16/1/0; 7/13/1/0
+03 | στενοχωρία, ας, ἡ | HTML 68511 | 1 parágrafo(s) | 9/71/0/0 | entry-bdag-0331-03 | por parágrafo: 9/71/0/0
+04 | στέργω | HTML 68515 | 1 parágrafo(s) | 3/25/0/0 | entry-bdag-0331-04 | por parágrafo: 3/25/0/0
+05 | στερεός, ά, όν | HTML 68520 | 3 parágrafo(s) | 17/44/2/0 | entry-bdag-0331-05 | por parágrafo: 3/2/0/0; 5/28/1/0; 9/14/1/0
+06 | στερεόω | HTML 68532 | 3 parágrafo(s) | 29/27/2/0 | entry-bdag-0331-06 | por parágrafo: 8/9/0/0; 12/11/1/0; 9/7/1/0
+07 | στερέω | HTML 68543 | 1 parágrafo(s) | 10/23/0/0 | entry-bdag-0331-07 | por parágrafo: 10/23/0/0
+08 | στερέωμα, ατος, τό | HTML 68548 | 3 parágrafo(s) | 8/38/2/0 | entry-bdag-0331-08 | por parágrafo: 4/19/0/0; 0/14/1/0; 4/5/1/0
+09 | Στεφανᾶς, ᾶ, ὁ | HTML 68559 | 1 parágrafo(s) | 6/21/0/0 | entry-bdag-0331-09 | por parágrafo: 6/21/0/0
+10 | Στέφανος, ου, ὁ | HTML 68563 | 1 parágrafo(s) | 4/48/0/0 | entry-bdag-0331-10 | por parágrafo: 4/48/0/0
+11 | στέφανος, ου, ὁ | HTML 68568 | 4 parágrafo(s) | 63/256/3/0 | entry-bdag-0331-11 | por parágrafo: 3/0/0/0; 12/158/1/0; 17/22/1/0; 31/76/1/0
+12 | στεφανόω | HTML 68583 | 3 parágrafo(s) | 37/77/2/0 | entry-bdag-0331-12 | por parágrafo: 7/9/0/0; 10/40/1/0; 20/28/1/0
+13 | στῆθος, ους, τό | HTML 68594 | 1 parágrafo(s) | 20/29/0/0 | entry-bdag-0331-13 | por parágrafo: 20/29/0/0
+14 | στήκω | HTML 68599 | 3 parágrafo(s) | 36/59/2/0 | entry-bdag-0331-14 | por parágrafo: 9/33/0/0; 11/8/1/0; 16/18/1/0
+15 | στήλη, ης, ἡ | HTML 68610 | 1 parágrafo(s) | 18/26/0/0 | entry-bdag-0331-15 | por parágrafo: 18/26/0/0
+16 | στηριγμός, οῦ, ὁ | HTML 68615 | 3 parágrafo(s) | 13/13/2/0 | entry-bdag-0331-16 | por parágrafo: 5/7/0/0; 4/3/1/0; 4/3/1/0
+17 | στηρίζω | HTML 68627 | 3 parágrafo(s) | 72/148/2/0 | entry-bdag-0331-17 | por parágrafo: 12/30/0/0; 12/21/1/0; 48/97/1/0
+18 | στιβάζω | HTML 68638 | 1 parágrafo(s) | 6/5/0/0 | entry-bdag-0331-18 | por parágrafo: 6/5/0/0
+19 | στιβαρός, ά, όν | HTML 68642 | 1 parágrafo(s) | 7/14/0/0 | entry-bdag-0331-19 | por parágrafo: 7/14/0/0
+20 | στιβάς, άδος, ἡ | HTML 68646 | 1 parágrafo(s) | 5/6/0/0 | entry-bdag-0331-20 | por parágrafo: 5/6/0/0
+Módulo preparado 8b208346264861ac141c64eb667d53245c4b5729; manifesto preparado 2bc74f17dc29110549ac205a772c3401264b7180. 20 linhas e 20 cartões, 20 IDs e destinos únicos e correspondentes em ordem, 39 parágrafos no roundtrip textual integral, 240/1434 tags HTML de linhas/cartões equilibradas por pilha, 61 links NA28 gerados para referências explícitas (sem HTTP individual), zero divergências de tokens. 0 popups novos; bibliographicTerms não duplicado. Manifesto 2357→2358 caminhos, nova inclusão exclusivamente após bdag-part-0330.js, demais caminhos e ordem preservados.
+Limitações: sem teste de navegador/DOM real, sem verificação HTTP dos destinos, sem confirmação de execução de CI e sem integração; auditoria independente A–J separada, NÃO CONCLUÍDA e sem incremento de total_auditoria_concluida. Nenhum PR, merge ou deploy autorizado.
+Publicação exclusivamente de lexicons/bdag-part-0331.js, lexicon-modules.json e regras/Rbdag.txt em um único commit, condicionada à comparação de árvores Git, HEAD idêntico à base, expected_sha e force=false. Progresso antes 6824/8287, após publicação e HEAD remoto confirmado 6844/8287. Sem merge.
+=== FIM LOTE 0331 ===
