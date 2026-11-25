@@ -13155,3 +13155,45 @@ Módulo 8886fd4f66f9641ee482a3e6f25d7160d113c740; manifesto c406e7057478e821010f
 Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global, revisão semântica independente, teste CI/DOM/HTTP ou integração. Auditoria independente A–J não concluída; não alterar contador respectivo.
 Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0325, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6724/8287; antes 6704/8287. Sem PR, merge ou deploy.
 === FIM LOTE 0325 ===
+
+
+=== LOTE 0326 — INCORPORAÇÃO / COLAÇÃO PRÉ-PUBLICAÇÃO — 2026-11-25 ===
+HEAD-base: a188eb5acf44264155a88286ac8f9d654da245d0; árvore-base 2ca3c3610f41197439c724aa880c9b3100488056.
+Fonte exclusiva: file_00000000429c820eb5aa2bcab96f1572, HTML linhas 67724–67890; cabeçalhos 67724–67877. Recorte textual HTML e extração estruturada: 159053ee90092f48fe3de3e65fedcaa9adc39641; releitura da fonte idêntica ao recorte armazenado. Não representa hash integral do HTML.
+20 artigos: σκληροτράχηλος, ον–σκύλλω. Próximo: σκῦλον, ου, τό, linha 67891 (excluído).
+Checkpoints 01–10 0bb62285fdb6cca0a8fc6b5bcb57e9d6453f334c; 11–20 b44484418a94e32eefd862d53dbeaa3b693a76b0; consolidado revisado f12053007a0a2fb883ed7731c6645947337f499b; relatório estruturado 14fdb23acde43bd44c3b1711a06e0287e1969e30. Objetos recuperados; checkpoints não vinculados à árvore sujeitos à coleta.
+Colação editorial individual e comparação ordenada por artigo e por parágrafo dos tokens gregos (incluindo combinantes), grupos numéricos ASCII, marcadores circulados e subdivisões α./β. no início de parágrafo e tokens de escrita hebraica: 43 parágrafos; G/N/M/H 479/940/23/1; zero divergências. Preservadas as distinções entre sujeito humano e divino e passiva em σκληρύνω, o contraste físico/moral de σκολιός, a discussão e insuficiência de pormenores para identificar o espinho de Paulo em σκόλοψ, a interpretação interrogativa de μή em σκοπέω, a probabilidade de referência a rebanho em σκορπίζω, as acepções físicas e espirituais de σκοτία e σκότος, a explicitação de registro grosseiro em σκύβαλον e a voz média de σκύλλω. Conservados o rótulo aparentemente irregular part. fut. σκόπησον, o ano 1012 em ZNW e as restituições entre colchetes como no HTML, sem emendas conjecturais. O cabeçalho visível σκυθρωπός segue a marcação c71; as desinências adicionais permanecem no corpo. Igualdade de tokens não demonstra por si equivalência semântica, exatidão de cada sigla latina ou completude da auditoria independente.
+Revisões da preparação (8 registros):
+2/1 | tornar inflexível na resistência à informação → fazer com que alguém se torne inflexível na resistência à informação
+3/3 | perverso, inescrupuloso, desonesto → torto, inescrupuloso, desonesto
+6/1 | prestar cuidadosa atenção a, procurar, observar → prestar cuidadosa atenção a, estar atento a, observar
+7/1 | ‘na reta final’ → ‘em pleno esforço de alcançar o alvo’
+8/2 | uma reunião de pessoas → um conjunto
+14/3 | o estado de ser desconhecido → o estado daquilo que é desconhecido
+16/1 | que se destina ao descarte → sujeito a descarte
+20/2 | fatigar, atormentar → fatigar, molestar
+Evidências individuais (G/N/M/H):
+01 | σκληροτράχηλος, ον | HTML 67724 | 1 parágrafo(s) | 7/23/0/1 | colação editorial e roundtrip OK | entry-bdag-0326-01 | por parágrafo: 7/23/0/1
+02 | σκληρύνω | HTML 67729 | 5 parágrafo(s) | 23/46/4/0 | colação editorial e roundtrip OK | entry-bdag-0326-02 | por parágrafo: 6/8/0/0; 0/0/1/0; 9/14/1/0; 2/10/1/0; 6/14/1/0
+03 | σκολιός, ά, όν | HTML 67747 | 3 parágrafo(s) | 37/50/2/0 | colação editorial e roundtrip OK | entry-bdag-0326-03 | por parágrafo: 4/4/0/0; 16/15/1/0; 17/31/1/0
+04 | σκολιότης, ητος, ἡ | HTML 67758 | 1 parágrafo(s) | 11/7/0/0 | colação editorial e roundtrip OK | entry-bdag-0326-04 | por parágrafo: 11/7/0/0
+05 | σκόλοψ, οπος, ὁ | HTML 67762 | 1 parágrafo(s) | 30/77/0/0 | colação editorial e roundtrip OK | entry-bdag-0326-05 | por parágrafo: 30/77/0/0
+06 | σκοπέω | HTML 67766 | 1 parágrafo(s) | 40/44/0/0 | colação editorial e roundtrip OK | entry-bdag-0326-06 | por parágrafo: 40/44/0/0
+07 | σκοπός, οῦ, ὁ | HTML 67770 | 1 parágrafo(s) | 24/37/0/0 | colação editorial e roundtrip OK | entry-bdag-0326-07 | por parágrafo: 24/37/0/0
+08 | σκορπίζω | HTML 67775 | 3 parágrafo(s) | 60/69/2/0 | colação editorial e roundtrip OK | entry-bdag-0326-08 | por parágrafo: 7/5/0/0; 45/52/1/0; 8/12/1/0
+09 | σκορπίος, ου, ὁ | HTML 67787 | 3 parágrafo(s) | 14/48/2/0 | colação editorial e roundtrip OK | entry-bdag-0326-09 | por parágrafo: 6/9/0/0; 2/23/1/0; 6/16/1/0
+10 | σκορπισμός, οῦ, ὁ | HTML 67798 | 1 parágrafo(s) | 9/22/0/0 | colação editorial e roundtrip OK | entry-bdag-0326-10 | por parágrafo: 9/22/0/0
+11 | σκοτεινός, ή, όν | HTML 67802 | 1 parágrafo(s) | 29/51/0/0 | colação editorial e roundtrip OK | entry-bdag-0326-11 | por parágrafo: 29/51/0/0
+12 | σκοτία, ας, ἡ | HTML 67807 | 3 parágrafo(s) | 16/60/2/0 | colação editorial e roundtrip OK | entry-bdag-0326-12 | por parágrafo: 3/23/0/0; 12/15/1/0; 1/22/1/0
+13 | σκοτίζω | HTML 67819 | 3 parágrafo(s) | 28/54/2/0 | colação editorial e roundtrip OK | entry-bdag-0326-13 | por parágrafo: 7/8/0/0; 0/20/1/0; 21/26/1/0
+14 | σκότος, ους, τό | HTML 67831 | 5 parágrafo(s) | 79/214/4/0 | colação editorial e roundtrip OK | entry-bdag-0326-14 | por parágrafo: 7/19/0/0; 37/90/1/0; 4/3/1/0; 31/91/1/0; 0/11/1/0
+15 | σκοτόω | HTML 67849 | 3 parágrafo(s) | 23/20/2/0 | colação editorial e roundtrip OK | entry-bdag-0326-15 | por parágrafo: 4/4/0/0; 6/6/1/0; 13/10/1/0
+16 | σκύβαλον, ου, τό | HTML 67860 | 1 parágrafo(s) | 9/31/0/0 | colação editorial e roundtrip OK | entry-bdag-0326-16 | por parágrafo: 9/31/0/0
+17 | Σκύθης, ου, ὁ | HTML 67864 | 1 parágrafo(s) | 4/26/0/0 | colação editorial e roundtrip OK | entry-bdag-0326-17 | por parágrafo: 4/26/0/0
+18 | σκυθρωπία, ας, ἡ | HTML 67868 | 1 parágrafo(s) | 12/2/0/0 | colação editorial e roundtrip OK | entry-bdag-0326-18 | por parágrafo: 12/2/0/0
+19 | σκυθρωπός | HTML 67872 | 1 parágrafo(s) | 8/24/0/0 | colação editorial e roundtrip OK | entry-bdag-0326-19 | por parágrafo: 8/24/0/0
+20 | σκύλλω | HTML 67877 | 4 parágrafo(s) | 16/35/3/0 | colação editorial e roundtrip OK | entry-bdag-0326-20 | por parágrafo: 2/0/0/0; 4/10/1/0; 1/14/1/0; 9/11/1/0
+Módulo 5dfc8eaa57ba5ed3699507bb8162fef6534be098; manifesto e5b30560557df51a1368730345ca861df9788a01; recuperados com igualdade textual. 20 linhas/20 cartões, 20 IDs e destinos únicos e correspondentes em ordem no módulo, 43 parágrafos em roundtrip textual após serialização e recuperação, 120/801 tags de abertura equilibradas por pilha, 78 links NA28 explícitos construídos segundo a sintaxe existente (referências abreviadas sem livro explícito mantidas textuais; sem teste HTTP individual). IDs seguem padrão dos módulos imediatamente anteriores, sem sufixo -bdag da regra antiga. Nenhum popup novo, bibliographicTerms não duplicado. Manifesto 2352→2353 caminhos, inclusão única após 0325; demais caminhos e ordem preservados.
+Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global, revisão semântica independente, teste CI/DOM/HTTP ou integração. Auditoria independente A–J não concluída; não alterar contador respectivo.
+Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0326, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6744/8287; antes 6724/8287. Sem PR, merge ou deploy.
+=== FIM LOTE 0326 ===
