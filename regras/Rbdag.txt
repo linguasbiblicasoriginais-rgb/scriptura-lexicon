@@ -13239,3 +13239,44 @@ Módulo a86a7ed36648fc6fd79bc7e9e8adc38aca1d2a69; manifesto 346793578fc5864afb4c
 Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global, revisão semântica independente, teste CI/DOM/HTTP ou integração. Auditoria independente A–J não concluída; não alterar contador respectivo.
 Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0327, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6764/8287; antes 6744/8287. Sem PR, merge ou deploy.
 === FIM LOTE 0327 ===
+
+
+=== LOTE 0328 — INCORPORAÇÃO / COLAÇÃO PRÉ-PUBLICAÇÃO — 2026-11-25 ===
+HEAD-base: ad2dc6b76cfce94d60eab3d0bb3c7dec6e24c720; árvore-base fdfd8f2287998e3eb02000a242de9619f09efc8e.
+Fonte exclusiva: file_00000000429c820eb5aa2bcab96f1572, HTML linhas 67986–68210; cabeçalhos 67986–68207. Recorte textual HTML e extração estruturada: 6d5a5398b84365988069e5891105a804b3bfa913; releitura da fonte idêntica ao recorte armazenado. Não representa hash integral do HTML.
+20 artigos: σοφία, ας, ἡ–σπίλος, ου, ὁ. Próximo: σπιλόω, linha 68211 (excluído).
+Checkpoints 01–03 fb35e0238c3e5d473f22baf8bcf8e1fb8ee994e1; 04–11 abf9118ed9ff00a878ffa803ff5195f9fc479c4b; 12–20 b92cda25b683f39f7be239d04a47f87fc9a32061; consolidado revisado efba29105282042d8999a7793f40dc4c8d55912b; relatório estruturado c53fccdbbbe183787f026cac9264c7cbb2e98a50. Objetos recuperados; checkpoints não vinculados à árvore sujeitos à coleta.
+Colação editorial individual e comparação ordenada por artigo e por parágrafo dos tokens gregos (incluindo combinantes), grupos numéricos ASCII, marcadores circulados e subdivisões gregas e hebraicas no início de parágrafo e tokens de escrita hebraica: 64 parágrafos; G/N/M/H 738/1482/44/3; zero divergências. Os três tokens hebraicos são ocorrências de marcadores de subdivisão ou remissão em σοφία, não étimos hebraicos; dois também contam como marcadores. Preservadas as distinções entre sabedoria natural, transcendente e personificada em σοφία; a divergência bibliográfica sobre a viagem de Paulo à Espanha; os usos literais e figurados de σπείρω; as alternativas interpretativas de σπέρμα em Hb 11:11 e 1J 3:9; os dois sentidos possíveis de σπιλάς e a interrogação final em σπίλος. Conservados os truncamentos e grafias do HTML, inclusive σοφό, ἄγγελο πονηρὸ ἐσόφιζεν αὐτού, ὁ λόγο e Easpagna, sem emendas conjecturais. Igualdade de tokens não demonstra por si equivalência semântica, exatidão de cada sigla latina ou completude da auditoria independente.
+Revisões da preparação (7 registros):
+1/8 | a personificação da sabedoria de Deus → a corporificação da sabedoria de Deus
+2/2 | desenvolva compreensão em grau relativamente elevado de sofisticação → desenvolva compreensão em grau relativamente elevado de complexidade
+4/1 | centros de considerável realização cultural → centros de considerável desenvolvimento cultural
+6/1 | enfaixar crianças de colo → enfaixar bebês
+8/1 | entregar-se a indulgências além dos limites da decência → entregar-se aos prazeres além dos limites da decência
+15/1 | Os sinônimos ingleses incluem ‘mexeriqueiro’, ‘tagarela’, ‘palrador’ → Os sinônimos ingleses incluem ‘mexeriqueiro’, ‘tagarela’, ‘palrador’ (em tradução)
+16/2 | apressar-se, precipitar-se → apressar-se, dar-se pressa
+Evidências individuais (G/N/M/H):
+01 | σοφία, ας, ἡ | HTML 67986 | 10 parágrafo(s) | 192/292/9/3 | colação editorial e roundtrip OK | entry-bdag-0328-01 | por parágrafo: 5/5/0/0; 0/0/1/0; 44/57/1/0; 0/0/1/0; 65/102/1/0; 1/0/1/0; 19/15/1/1; 32/43/1/2; 23/33/1/0; 3/37/1/0
+02 | σοφίζω | HTML 68019 | 5 parágrafo(s) | 22/40/4/0 | colação editorial e roundtrip OK | entry-bdag-0328-02 | por parágrafo: 7/3/0/0; 0/10/1/0; 6/9/1/0; 4/5/1/0; 5/13/1/0
+03 | σοφός, ή, όν | HTML 68037 | 7 parágrafo(s) | 89/147/6/0 | colação editorial e roundtrip OK | entry-bdag-0328-03 | por parágrafo: 3/7/0/0; 17/27/1/0; 0/0/1/0; 0/0/1/0; 24/64/1/0; 17/14/1/0; 28/35/1/0
+04 | Σπανία, ας, ἡ | HTML 68060 | 1 parágrafo(s) | 3/67/0/0 | colação editorial e roundtrip OK | entry-bdag-0328-04 | por parágrafo: 3/67/0/0
+05 | σπαράσσω | HTML 68064 | 1 parágrafo(s) | 24/45/0/0 | colação editorial e roundtrip OK | entry-bdag-0328-05 | por parágrafo: 24/45/0/0
+06 | σπαργανόω | HTML 68068 | 1 parágrafo(s) | 9/25/0/0 | colação editorial e roundtrip OK | entry-bdag-0328-06 | por parágrafo: 9/25/0/0
+07 | σπαρείς | HTML 68072 | 1 parágrafo(s) | 2/0/0/0 | colação editorial e roundtrip OK | entry-bdag-0328-07 | por parágrafo: 2/0/0/0
+08 | σπαταλάω | HTML 68076 | 1 parágrafo(s) | 4/23/0/0 | colação editorial e roundtrip OK | entry-bdag-0328-08 | por parágrafo: 4/23/0/0
+09 | σπάω | HTML 68080 | 1 parágrafo(s) | 6/26/0/0 | colação editorial e roundtrip OK | entry-bdag-0328-09 | por parágrafo: 6/26/0/0
+10 | σπεῖρα | HTML 68084 | 1 parágrafo(s) | 13/73/0/0 | colação editorial e roundtrip OK | entry-bdag-0328-10 | por parágrafo: 13/73/0/0
+11 | σπείρω | HTML 68089 | 12 parágrafo(s) | 141/160/11/0 | colação editorial e roundtrip OK | entry-bdag-0328-11 | por parágrafo: 7/4/0/0; 0/0/1/0; 0/0/1/0; 6/45/1/0; 7/16/1/0; 28/35/1/0; 0/0/1/0; 43/20/1/0; 22/19/1/0; 15/11/1/0; 3/4/1/0; 10/6/1/0
+12 | σπεκουλάτωρ, ορος | HTML 68127 | 1 parágrafo(s) | 4/39/0/0 | colação editorial e roundtrip OK | entry-bdag-0328-12 | por parágrafo: 4/39/0/0
+13 | σπένδω | HTML 68131 | 1 parágrafo(s) | 9/25/0/0 | colação editorial e roundtrip OK | entry-bdag-0328-13 | por parágrafo: 9/25/0/0
+14 | σπέρμα, ατος, τό | HTML 68136 | 8 parágrafo(s) | 115/278/7/0 | colação editorial e roundtrip OK | entry-bdag-0328-14 | por parágrafo: 4/0/0/0; 0/0/1/0; 5/37/1/0; 2/27/1/0; 0/0/1/0; 52/155/1/0; 6/20/1/0; 46/39/1/0
+15 | σπερμολόγος, ον | HTML 68162 | 1 parágrafo(s) | 30/28/0/0 | colação editorial e roundtrip OK | entry-bdag-0328-15 | por parágrafo: 30/28/0/0
+16 | σπεύδω | HTML 68167 | 6 parágrafo(s) | 40/77/5/0 | colação editorial e roundtrip OK | entry-bdag-0328-16 | por parágrafo: 4/2/0/0; 0/0/1/0; 14/45/1/0; 4/7/1/0; 13/20/1/0; 5/3/1/0
+17 | σπήλαιον, ου, τό | HTML 68187 | 1 parágrafo(s) | 6/55/0/0 | colação editorial e roundtrip OK | entry-bdag-0328-17 | por parágrafo: 6/55/0/0
+18 | σπιθαμή, ῆς, ἡ | HTML 68191 | 1 parágrafo(s) | 3/18/0/0 | colação editorial e roundtrip OK | entry-bdag-0328-18 | por parágrafo: 3/18/0/0
+19 | σπιλάς, άδος, ἡ | HTML 68196 | 3 parágrafo(s) | 19/33/2/0 | colação editorial e roundtrip OK | entry-bdag-0328-19 | por parágrafo: 3/1/0/0; 9/13/1/0; 7/19/1/0
+20 | σπίλος, ου, ὁ | HTML 68207 | 1 parágrafo(s) | 7/31/0/0 | colação editorial e roundtrip OK | entry-bdag-0328-20 | por parágrafo: 7/31/0/0
+Módulo 99885c6e5b9b830c500957caa606026ab894342e; manifesto 8acd5faace98dcd30a5ec1b3514a55d8024da660; recuperados com igualdade textual. 20 linhas/20 cartões, 20 IDs e destinos únicos e correspondentes em ordem no módulo, 64 parágrafos em roundtrip textual após serialização e recuperação, 120/1153 tags de abertura equilibradas por pilha, 148 links NA28 explícitos construídos segundo a sintaxe existente (referências abreviadas sem livro explícito mantidas textuais; sem teste HTTP individual). IDs seguem padrão dos módulos imediatamente anteriores, sem sufixo -bdag da regra antiga. Nenhum popup novo, bibliographicTerms não duplicado. Manifesto 2354→2355 caminhos, inclusão única após 0327; demais caminhos e ordem preservados.
+Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global, revisão semântica independente, teste CI/DOM/HTTP ou integração. Auditoria independente A–J não concluída; não alterar contador respectivo.
+Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0328, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6784/8287; antes 6764/8287. Sem PR, merge ou deploy.
+=== FIM LOTE 0328 ===
