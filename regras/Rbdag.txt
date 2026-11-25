@@ -12606,3 +12606,37 @@ Módulo 006b6bce76d195bd78ce9132bd6722f8cf507b8e; manifesto d403437edac31a06bd76
 Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global dos cartões, revisão semântica independente ou integração. A auditoria independente A–J não está concluída; não alterar o contador respectivo.
 Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0312, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6464/8287; antes 6444/8287. Sem PR, merge ou deploy.
 === FIM LOTE 0312 ===
+
+
+=== LOTE 0313 — INCORPORAÇÃO / COLAÇÃO PRÉ-PUBLICAÇÃO — 2026-11-25 ===
+HEAD-base: 7982117acf9419922c5f7a73474858837c7752a0; árvore-base a741052fbfea4e3cd67e3adbbff8a7b9826efe9e.
+Fonte exclusiva: file_00000000429c820eb5aa2bcab96f1572, HTML linhas 65965–66108; cabeçalhos 65966–66106. Recorte textual HTML: blob 39d82db1d4551767a461ad501ee3c2e12f0643ca (recuperado e comparado; não representa hash integral do HTML).
+20 artigos: πωλέω–ῥᾳδιουργία, ας, ἡ. Próximo: ῥᾳδίως, linha 66110 (excluído). Transição Π→Ρ: o cabeçalho alfabético Ρ, linha 66058, classe c69 dentro de c70, foi preservado no recorte e excluído da segmentação de artigos e da contagem de tokens lexicais; ρ´, linha 66062, classe c71, conta como artigo autônomo.
+Checkpoints: 01–06 7b42619dce4696c1a25b99857fce3be4d23a2139; 07–08 80ffdcbb48eb023962af99d7521121d2c84707b5; 09–20 d96f02bc9ba1a5ce9bcf858074fdc25cecb72eaa; consolidado revisado 016d72fe6d3c253a0e6b07f6a268009e57ce948b. Recuperados com igualdade textual; objetos sem referência de árvore sujeitos à coleta.
+Colação editorial individual e revisão da tradução. Igualdade ordenada de tokens gregos (incluindo combinantes), grupos numéricos ASCII, marcadores circulados e tokens hebraicos por artigo e parágrafo: 38 parágrafos, 440/1073/11/9 tokens; zero divergências. Preservadas as duas acepções e a argumentação de πῶλος, a distinção interrogativo/exclamativo πῶς e enclítico πώς, as formas semíticas e variantes de ῥαββί e ῥαββουνί, as distinções jurídicas de ῥαβδίζω, a variante do códice D em ῥαβιθα. e as gradações de ῥᾳδιούργημα e ῥᾳδιουργία. Mantidas grafias da fonte, inclusive catigatio, ραββι θαβιτα e πλατογράφος; não emendar conjecturalmente.
+Revisões da tradução preliminar (10 substituições): 02 restrição no uso popular; 05 perder o brilho; 07 com que provas, falante de grego; 08 três ajustes de construções de temor; 12 Jesus é assim interpelado; 17 com isso se quer dizer; 20 uso coloquial norte-americano. Comparações de tokens não certificam equivalência semântica nem toda sigla latina.
+Evidências individuais (G/N/M/H):
+01 | πωλέω | HTML 65966 | 1 parágrafo(s) | G/N/M/H 25/70/0/0 | colação e roundtrip OK | entry-bdag-0313-01
+02 | πῶλος, ου, ὁ | HTML 65971 | 3 parágrafo(s) | G/N/M/H 26/54/2/0 | colação e roundtrip OK | entry-bdag-0313-02
+03 | πῶλυψ, πος, ὁ | HTML 65982 | 1 parágrafo(s) | G/N/M/H 5/6/0/0 | colação e roundtrip OK | entry-bdag-0313-03
+04 | πώποτε | HTML 65986 | 1 parágrafo(s) | G/N/M/H 14/42/0/0 | colação e roundtrip OK | entry-bdag-0313-04
+05 | πωρόω | HTML 65990 | 1 parágrafo(s) | G/N/M/H 17/35/0/0 | colação e roundtrip OK | entry-bdag-0313-05
+06 | πώρωσις, εως, ἡ | HTML 65994 | 1 parágrafo(s) | G/N/M/H 16/22/0/0 | colação e roundtrip OK | entry-bdag-0313-06
+07 | πῶς | HTML 65999 | 12 parágrafo(s) | G/N/M/H 185/429/4/0 | colação e roundtrip OK | entry-bdag-0313-07
+08 | πώς | HTML 66038 | 6 parágrafo(s) | G/N/M/H 48/90/5/0 | colação e roundtrip OK | entry-bdag-0313-08
+09 | ρ´ | HTML 66062 | 1 parágrafo(s) | G/N/M/H 2/8/0/0 | colação e roundtrip OK | entry-bdag-0313-09
+10 | Ῥαάβ, ἡ | HTML 66066 | 1 parágrafo(s) | G/N/M/H 6/23/0/1 | colação e roundtrip OK | entry-bdag-0313-10
+11 | ῥαββί | HTML 66070 | 1 parágrafo(s) | G/N/M/H 13/65/0/2 | colação e roundtrip OK | entry-bdag-0313-11
+12 | ῥαββουνί | HTML 66074 | 1 parágrafo(s) | G/N/M/H 7/18/0/5 | colação e roundtrip OK | entry-bdag-0313-12
+13 | ῥαβδίζω | HTML 66078 | 1 parágrafo(s) | G/N/M/H 7/30/0/0 | colação e roundtrip OK | entry-bdag-0313-13
+14 | ῥαβδίον, ου, τό | HTML 66082 | 1 parágrafo(s) | G/N/M/H 5/8/0/0 | colação e roundtrip OK | entry-bdag-0313-14
+15 | ῥάβδος, ου, ἡ | HTML 66086 | 1 parágrafo(s) | G/N/M/H 20/97/0/0 | colação e roundtrip OK | entry-bdag-0313-15
+16 | ῥαβδοῦχος, ου, ὁ | HTML 66090 | 1 parágrafo(s) | G/N/M/H 13/24/0/0 | colação e roundtrip OK | entry-bdag-0313-16
+17 | ῥαβιθα. | HTML 66094 | 1 parágrafo(s) | G/N/M/H 6/6/0/0 | colação e roundtrip OK | entry-bdag-0313-17
+18 | Ῥαγαύ | HTML 66098 | 1 parágrafo(s) | G/N/M/H 3/7/0/1 | colação e roundtrip OK | entry-bdag-0313-18
+19 | ῥᾳδιούργημα, ατος, τό | HTML 66102 | 1 parágrafo(s) | G/N/M/H 11/11/0/0 | colação e roundtrip OK | entry-bdag-0313-19
+20 | ῥᾳδιουργία, ας, ἡ | HTML 66106 | 1 parágrafo(s) | G/N/M/H 11/28/0/0 | colação e roundtrip OK | entry-bdag-0313-20
+Módulo 3eb9ea7a924226681d7cbd4f3b83ac9eb809761c; manifesto 74762d32659801d6ce64d42dc7de4bb802e8ee66; recuperados e comparados. 20 linhas/20 cartões, 20 IDs e destinos únicos e correspondentes em ordem, 38 parágrafos em roundtrip textual após serialização e recuperação, 120/829 tags equilibradas por pilha, 142 links NA28 sintaticamente válidos; sem teste HTTP individual, CI ou DOM. Nenhum popup novo; bibliographicTerms não duplicado. Manifesto 2339→2340 caminhos, inclusão única após 0312; ordem e demais caminhos preservados. IDs seguem convenção dos módulos vizinhos.
+Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global dos cartões, revisão semântica independente ou integração. A auditoria independente A–J não está concluída; não alterar o contador respectivo.
+Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0313, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6484/8287; antes 6464/8287. Sem PR, merge ou deploy.
+=== FIM LOTE 0313 ===
