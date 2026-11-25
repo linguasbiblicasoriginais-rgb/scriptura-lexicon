@@ -13325,3 +13325,47 @@ Módulo fff5e401e8e4400648a8f84c9d357a65e9e839e3; manifesto 07f536fdeccf0e92f4f3
 Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global, revisão semântica independente, teste CI/DOM/HTTP ou integração. Auditoria independente A–J não concluída; não alterar contador respectivo.
 Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0329, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6804/8287; antes 6784/8287. Sem PR, merge ou deploy.
 === FIM LOTE 0329 ===
+
+
+=== LOTE 0330 — INCORPORAÇÃO / COLAÇÃO PRÉ-PUBLICAÇÃO — 2026-11-25 ===
+HEAD-base: b26f497dfd3bb515f80cfbeb07d0d5245ce48888; árvore-base 0f097b9ce4b7a1f5c39ebef840febc309087a831.
+Fonte exclusiva: file_00000000429c820eb5aa2bcab96f1572, HTML linhas 68353–68494; cabeçalhos 68353–68484. Recorte textual HTML e extração estruturada: 08c9d3c87f70372e9b8711a78dee103e2f36893d; releitura da fonte idêntica ao recorte armazenado. Não representa hash integral do HTML.
+20 artigos: στασιαστής, οῦ, ὁ–στενάζω. Próximo: στενός, ή, όν, linha 68495 (excluído).
+Checkpoints 01–08 bc13363c021ec7cb873d3467f1c4ac38a1051457; 09–20 5e08c093497e25461d7ecb107de33135b03e1874; consolidado revisado 29425cfd92928c90cd3bf7906fb1b9cb86038bd2; relatório estruturado f23b7d4dc56098b6f4743329f10cba70376ad08f. Objetos recuperados; checkpoints não vinculados à árvore sujeitos à coleta.
+Colação editorial individual e comparação ordenada por artigo e por parágrafo dos tokens gregos (incluindo combinantes), grupos numéricos ASCII, marcadores circulados e subdivisões gregas e hebraicas no início de parágrafo e tokens de escrita hebraica: 36 parágrafos; G/N/M/H 349/807/16/0; zero divergências. Preservados os três sentidos de στάσις; a evolução de στατίων de serviço de guarda a observância de jejum; as formas T e † e os três sentidos de σταυρός; a distinção literal/transcendente de σταυρόω; a distinção entre στάχυς e Στάχυς; as duas possibilidades interpretativas de στέγω em 1 Cor 13:7; a ressalva de que o pecado não era a causa da esterilidade em Lk 1:7; a modalidade probabilística de στενάζω em Mk 7:34. Conservadas as grafias e referências do HTML, sem emendas conjecturais. Igualdade de tokens não demonstra por si equivalência semântica, exatidão de cada sigla latina ou completude da auditoria independente.
+Revisões da preparação (10 registros):
+2/2 | στάσιν ἔχειν estar em existência, estar de pé → στάσιν ἔχειν existir, estar de pé
+2/4 | falta de concordância quanto à orientação adotada → falta de acordo quanto à orientação a seguir
+7/1 | ou ‘paliçada’ → ou ‘estaca de paliçada’
+7/2 | a forma de um T ou esta: † → a forma de um T ou a seguinte: †
+8/2 | Foi Paulo crucificado por vós?1 Cor → Foi Paulo crucificado por vós? 1 Cor
+10/2 | a espiga frutífera de um cereal, espiga (de cereal) → a inflorescência frutífera de um cereal, espiga (de cereal)
+13/1 | sobre o descobrimento do telhado → sobre a remoção da cobertura do telhado
+15/2 | passar em silêncio → passar por alto em silêncio
+17/3 | aquilo que desejam → aquilo em que têm posto o pensamento
+19/1 | suspiro, gemido, gemer → suspiro, gemido, lamentação
+Evidências individuais (G/N/M/H):
+01 | στασιαστής, οῦ, ὁ | HTML 68353 | 1 parágrafo(s) | 5/14/0/0 | colação editorial e roundtrip OK | entry-bdag-0330-01 | por parágrafo: 5/14/0/0
+02 | στάσις, εως, ἡ | HTML 68358 | 4 parágrafo(s) | 53/95/3/0 | colação editorial e roundtrip OK | entry-bdag-0330-02 | por parágrafo: 3/0/0/0; 6/16/1/0; 6/30/1/0; 38/49/1/0
+03 | στατήρ, ῆρος, ὁ | HTML 68372 | 1 parágrafo(s) | 4/18/0/0 | colação editorial e roundtrip OK | entry-bdag-0330-03 | por parágrafo: 4/18/0/0
+04 | Στάτιος, ου, ὁ | HTML 68376 | 1 parágrafo(s) | 6/1/0/0 | colação editorial e roundtrip OK | entry-bdag-0330-04 | por parágrafo: 6/1/0/0
+05 | στατίων, ωνος | HTML 68380 | 1 parágrafo(s) | 6/30/0/0 | colação editorial e roundtrip OK | entry-bdag-0330-05 | por parágrafo: 6/30/0/0
+06 | σταυρίσκω | HTML 68384 | 1 parágrafo(s) | 3/2/0/0 | colação editorial e roundtrip OK | entry-bdag-0330-06 | por parágrafo: 3/2/0/0
+07 | σταυρός, οῦ, ὁ | HTML 68389 | 4 parágrafo(s) | 93/180/3/0 | colação editorial e roundtrip OK | entry-bdag-0330-07 | por parágrafo: 3/8/0/0; 23/104/1/0; 55/50/1/0; 12/18/1/0
+08 | σταυρόω | HTML 68404 | 3 parágrafo(s) | 45/150/2/0 | colação editorial e roundtrip OK | entry-bdag-0330-08 | por parágrafo: 6/2/0/0; 20/141/1/0; 19/7/1/0
+09 | σταφυλή, ῆς, ἡ | HTML 68415 | 1 parágrafo(s) | 8/22/0/0 | colação editorial e roundtrip OK | entry-bdag-0330-09 | por parágrafo: 8/22/0/0
+10 | στάχυς, υος, ὁ | HTML 68420 | 3 parágrafo(s) | 9/21/2/0 | colação editorial e roundtrip OK | entry-bdag-0330-10 | por parágrafo: 3/0/0/0; 3/16/1/0; 3/5/1/0
+11 | Στάχυς, υος, ὁ | HTML 68431 | 1 parágrafo(s) | 3/17/0/0 | colação editorial e roundtrip OK | entry-bdag-0330-11 | por parágrafo: 3/17/0/0
+12 | στέαρ, ατος, τό | HTML 68435 | 1 parágrafo(s) | 3/9/0/0 | colação editorial e roundtrip OK | entry-bdag-0330-12 | por parágrafo: 3/9/0/0
+13 | στέγη, ης, ἡ | HTML 68439 | 1 parágrafo(s) | 12/41/0/0 | colação editorial e roundtrip OK | entry-bdag-0330-13 | por parágrafo: 12/41/0/0
+14 | στέγος, ους, τό | HTML 68443 | 1 parágrafo(s) | 12/11/0/0 | colação editorial e roundtrip OK | entry-bdag-0330-14 | por parágrafo: 12/11/0/0
+15 | στέγω | HTML 68448 | 3 parágrafo(s) | 21/41/2/0 | colação editorial e roundtrip OK | entry-bdag-0330-15 | por parágrafo: 2/2/0/0; 8/17/1/0; 11/22/1/0
+16 | στεῖρα, ας, ἡ | HTML 68459 | 1 parágrafo(s) | 5/36/0/0 | colação editorial e roundtrip OK | entry-bdag-0330-16 | por parágrafo: 5/36/0/0
+17 | στέλλω | HTML 68464 | 3 parágrafo(s) | 27/22/2/0 | colação editorial e roundtrip OK | entry-bdag-0330-17 | por parágrafo: 3/6/0/0; 2/8/1/0; 22/8/1/0
+18 | στέμμα, ατος, τό | HTML 68475 | 1 parágrafo(s) | 9/11/0/0 | colação editorial e roundtrip OK | entry-bdag-0330-18 | por parágrafo: 9/11/0/0
+19 | στεναγμός, οῦ, ὁ | HTML 68479 | 1 parágrafo(s) | 10/51/0/0 | colação editorial e roundtrip OK | entry-bdag-0330-19 | por parágrafo: 10/51/0/0
+20 | στενάζω | HTML 68484 | 3 parágrafo(s) | 15/35/2/0 | colação editorial e roundtrip OK | entry-bdag-0330-20 | por parágrafo: 3/3/0/0; 8/28/1/0; 4/4/1/0
+Módulo e46c73f596c819012730ebf81f75dc7ccbfc80c9; manifesto afe9690ffdff7cc2be393f93cd786e7a0a07ce86; recuperados com igualdade textual. 20 linhas/20 cartões, 20 IDs e destinos únicos e correspondentes em ordem no módulo, 36 parágrafos em roundtrip textual após serialização e recuperação, 120/654 tags de abertura equilibradas por pilha, 69 links NA28 explícitos construídos segundo a sintaxe existente (referências abreviadas sem livro explícito mantidas textuais; sem teste HTTP individual). IDs seguem padrão dos módulos imediatamente anteriores, sem sufixo -bdag da regra antiga. Nenhum popup novo, bibliographicTerms não duplicado. Manifesto 2356→2357 caminhos, inclusão única após 0329; demais caminhos e ordem preservados.
+Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global, revisão semântica independente, teste CI/DOM/HTTP ou integração. Auditoria independente A–J não concluída; não alterar contador respectivo.
+Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0330, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6824/8287; antes 6804/8287. Sem PR, merge ou deploy.
+=== FIM LOTE 0330 ===
