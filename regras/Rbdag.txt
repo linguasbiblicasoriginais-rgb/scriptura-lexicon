@@ -13197,3 +13197,45 @@ Módulo 5dfc8eaa57ba5ed3699507bb8162fef6534be098; manifesto e5b30560557df51a1368
 Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global, revisão semântica independente, teste CI/DOM/HTTP ou integração. Auditoria independente A–J não concluída; não alterar contador respectivo.
 Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0326, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6744/8287; antes 6724/8287. Sem PR, merge ou deploy.
 === FIM LOTE 0326 ===
+
+
+=== LOTE 0327 — INCORPORAÇÃO / COLAÇÃO PRÉ-PUBLICAÇÃO — 2026-11-25 ===
+HEAD-base: dc00e0d2b49ed609138e8e465c72089d6408f447; árvore-base b83105398ef260e810d7a68d344b99d569d3a292.
+Fonte exclusiva: file_00000000429c820eb5aa2bcab96f1572, HTML linhas 67891–67985; cabeçalhos 67891–67981. Recorte textual HTML e extração estruturada: 436c420d087096ee8b75a72dbab5faca5096a783; releitura da fonte idêntica ao recorte armazenado. Não representa hash integral do HTML.
+20 artigos: σκῦλον, ου, τό–Σουσάννα, ης. Próximo: σοφία, ας, ἡ, linha 67986 (excluído).
+Checkpoints 01–10 6b51d2c7d3e84224bd885973bd9b1a8ea79e3903; 11–20 5b91a3a99a5de6f55c6986207e3db44f3eec96a6; consolidado revisado 610ba60417a51f69c4ab8d31ee8bec9dfd2f7379; relatório estruturado 3ad81584c699da9a060e4a6aa756e4320ef8c1b0. Objetos recuperados; checkpoints não vinculados à árvore sujeitos à coleta.
+Colação editorial individual e comparação ordenada por artigo e por parágrafo dos tokens gregos (incluindo combinantes), grupos numéricos ASCII, marcadores circulados e subdivisões α./β. no início de parágrafo e tokens de escrita hebraica: 24 parágrafos; G/N/M/H 163/578/4/2; zero divergências. Preservadas a origem militar e generalização de σκῦλον, a ressalva terminológica de σκωληκόβρωτος, as variantes de Mk 9 em σκώληξ, a hipótese de λίθῳ subentendido em σμαράγδινος, a história do gênero de σμάραγδος, a distinção do topônimo Σμύρνα e do substantivo σμύρνα, as variantes de Σολομών, o emprego contrastivo e substantivado de σός e a origem latina de σουδάριον. Mantida a grafia σμάραγδο e a forma sem acento και na citação de σμάραγδος, conforme o HTML, sem emendas conjecturais. Igualdade de tokens não demonstra por si equivalência semântica, exatidão de cada sigla latina ou completude da auditoria independente.
+Revisões da preparação (8 registros):
+1/1 | armadura e armas retiradas (‘despojadas’) → armadura e armas retiradas (‘arrancadas’)
+2/1 | como Platão segundo Diog. → como no caso de Platão segundo Diog.
+5/1 | deve ter λίθῳ suprido com ele → deve ser entendido com λίθῳ subentendido
+6/1 | uma pedra preciosa transparente de verde brilhante → uma pedra preciosa transparente, de cor verde brilhante
+8/1 | lavaste tua pele exterior → lavaste a parte externa de tua pele
+12/1 | a goma resinosa do arbusto → a goma-resina do arbusto
+15/1 | indulgência consigo mesmos → autoindulgência
+19/1 | correspondendo de certo modo ao nosso → correspondendo aproximadamente ao nosso
+Evidências individuais (G/N/M/H):
+01 | σκῦλον, ου, τό | HTML 67891 | 1 parágrafo(s) | 10/32/0/0 | colação editorial e roundtrip OK | entry-bdag-0327-01 | por parágrafo: 10/32/0/0
+02 | σκωληκόβρωτος, ον | HTML 67895 | 1 parágrafo(s) | 8/40/0/0 | colação editorial e roundtrip OK | entry-bdag-0327-02 | por parágrafo: 8/40/0/0
+03 | σκώληξ, ηκος, ὁ | HTML 67899 | 1 parágrafo(s) | 6/49/0/0 | colação editorial e roundtrip OK | entry-bdag-0327-03 | por parágrafo: 6/49/0/0
+04 | σκωρία, ας, ἡ | HTML 67903 | 1 parágrafo(s) | 4/6/0/0 | colação editorial e roundtrip OK | entry-bdag-0327-04 | por parágrafo: 4/6/0/0
+05 | σμαράγδινος, η, ον | HTML 67907 | 1 parágrafo(s) | 9/13/0/0 | colação editorial e roundtrip OK | entry-bdag-0327-05 | por parágrafo: 9/13/0/0
+06 | σμάραγδος, ου, ὁ | HTML 67911 | 1 parágrafo(s) | 9/34/0/0 | colação editorial e roundtrip OK | entry-bdag-0327-06 | por parágrafo: 9/34/0/0
+07 | σμῆγμα, ατος, τό | HTML 67915 | 1 parágrafo(s) | 5/8/0/0 | colação editorial e roundtrip OK | entry-bdag-0327-07 | por parágrafo: 5/8/0/0
+08 | σμήχω | HTML 67919 | 1 parágrafo(s) | 11/7/0/0 | colação editorial e roundtrip OK | entry-bdag-0327-08 | por parágrafo: 11/7/0/0
+09 | σμίγμα, ατος, τό | HTML 67923 | 1 parágrafo(s) | 4/2/0/0 | colação editorial e roundtrip OK | entry-bdag-0327-09 | por parágrafo: 4/2/0/0
+10 | σμύραινα, ης, ἡ | HTML 67927 | 1 parágrafo(s) | 6/10/0/0 | colação editorial e roundtrip OK | entry-bdag-0327-10 | por parágrafo: 6/10/0/0
+11 | Σμύρνα, ης, ἡ | HTML 67931 | 1 parágrafo(s) | 4/39/0/0 | colação editorial e roundtrip OK | entry-bdag-0327-11 | por parágrafo: 4/39/0/0
+12 | σμύρνα, ης, ἡ | HTML 67935 | 1 parágrafo(s) | 11/57/0/0 | colação editorial e roundtrip OK | entry-bdag-0327-12 | por parágrafo: 11/57/0/0
+13 | Σμυρναῖος, α, ον | HTML 67939 | 1 parágrafo(s) | 5/11/0/0 | colação editorial e roundtrip OK | entry-bdag-0327-13 | por parágrafo: 5/11/0/0
+14 | σμυρνίζω | HTML 67943 | 1 parágrafo(s) | 11/21/0/0 | colação editorial e roundtrip OK | entry-bdag-0327-14 | por parágrafo: 11/21/0/0
+15 | Σόδομα, ων, τά | HTML 67947 | 1 parágrafo(s) | 7/54/0/1 | colação editorial e roundtrip OK | entry-bdag-0327-15 | por parágrafo: 7/54/0/1
+16 | Σολομών, ῶνος, ὁ | HTML 67951 | 1 parágrafo(s) | 16/73/0/1 | colação editorial e roundtrip OK | entry-bdag-0327-16 | por parágrafo: 16/73/0/1
+17 | σορός, οῦ, ἡ | HTML 67955 | 1 parágrafo(s) | 3/24/0/0 | colação editorial e roundtrip OK | entry-bdag-0327-17 | por parágrafo: 3/24/0/0
+18 | σός, σή, σόν | HTML 67960 | 5 parágrafo(s) | 27/59/4/0 | colação editorial e roundtrip OK | entry-bdag-0327-18 | por parágrafo: 4/4/0/0; 14/37/1/0; 0/0/1/0; 3/6/1/0; 6/12/1/0
+19 | σουδάριον, ου, τό | HTML 67977 | 1 parágrafo(s) | 3/31/0/0 | colação editorial e roundtrip OK | entry-bdag-0327-19 | por parágrafo: 3/31/0/0
+20 | Σουσάννα, ης | HTML 67981 | 1 parágrafo(s) | 4/8/0/0 | colação editorial e roundtrip OK | entry-bdag-0327-20 | por parágrafo: 4/8/0/0
+Módulo a86a7ed36648fc6fd79bc7e9e8adc38aca1d2a69; manifesto 346793578fc5864afb4c617a393ad7534463bdf1; recuperados com igualdade textual. 20 linhas/20 cartões, 20 IDs e destinos únicos e correspondentes em ordem no módulo, 24 parágrafos em roundtrip textual após serialização e recuperação, 120/436 tags de abertura equilibradas por pilha, 47 links NA28 explícitos construídos segundo a sintaxe existente (referências abreviadas sem livro explícito mantidas textuais; sem teste HTTP individual). IDs seguem padrão dos módulos imediatamente anteriores, sem sufixo -bdag da regra antiga. Nenhum popup novo, bibliographicTerms não duplicado. Manifesto 2353→2354 caminhos, inclusão única após 0326; demais caminhos e ordem preservados.
+Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global, revisão semântica independente, teste CI/DOM/HTTP ou integração. Auditoria independente A–J não concluída; não alterar contador respectivo.
+Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0327, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6764/8287; antes 6744/8287. Sem PR, merge ou deploy.
+=== FIM LOTE 0327 ===
