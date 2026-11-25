@@ -12572,3 +12572,37 @@ Módulo c0f117c0f30c44ddaf3a168a313448ca72fcbfb7; manifesto e3951df0193cae699a65
 Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global dos cartões, revisão semântica independente ou integração. A auditoria independente A–J não está concluída; não alterar o contador respectivo.
 Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0311, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6444/8287; antes 6424/8287. Sem PR, merge ou deploy.
 === FIM LOTE 0311 ===
+
+
+=== LOTE 0312 — INCORPORAÇÃO / COLAÇÃO PRÉ-PUBLICAÇÃO — 2026-11-25 ===
+HEAD-base: 885a6da67cac0db74f122547d86dd06ea9eea379; árvore-base 726190c0799c4c732e6a2b5da227f548d1b1a7d8.
+Fonte exclusiva: file_00000000429c820eb5aa2bcab96f1572, HTML linhas 65820–65964; cabeçalhos 65821–65955. Recorte textual HTML: blob d51c5b0c80826f6489dda9c406ba3d47b6b92d6e (recuperado e comparado; não representa hash integral do HTML).
+20 artigos: πυκτεύω–πύρωσις, εως, ἡ. Próximo: πωλέω, linha 65966 (excluído).
+Checkpoints: 01–06 514df3c208ed4b98d6b3c4f407b731bfd0bcfce1; 07 e7648fbf4c87786ceb56761c613bc19e749fc8d0; 08–20 7d7d6927d8c47e7344c2f5743afe9b3004c97fe1; consolidado revisado ad5f04882658b78bf331cb057af57e7cc8df93d8. Recuperados com igualdade textual; objetos sem referência de árvore sujeitos à coleta.
+Colação editorial individual e revisão da tradução. Igualdade ordenada de tokens gregos (incluindo combinantes), grupos numéricos ASCII, marcadores circulados e tokens hebraicos por artigo e parágrafo: 37 parágrafos, 607/1168/17/0 tokens; zero divergências. Preservadas as distinções arquitetônicas de πύλη e πυλών; os usos terrestre, celestial e figurado de πῦρ e a incerteza relativa a Mt 3:11/Lk 3:16; a distinção lexical de πυρός (trigo) frente a πῦρ; as variantes e observações sobre πυρόω em Rv 1:15; e as alternativas de tradução de πύρωσις em 1 Pt 4:12. Mantidas as grafias e pontuação anômalas da fonte, inclusive πύρ nas remissões e o colchete não fechado em Iren. 5, 5, 2 [Harv. II 332, 2), sem emenda conjectural.
+Revisões da tradução preliminar (9 substituições): 02 busca de proscritos; 03 pátio anterior; 07 fusão de chumbo, predominância do Juízo Final, lugar de castigo pelo fogo; 11 acesso intenso de febre; 16 compaixão, tentativas de corrigir a expressão; 20 grau elevado de intensidade. Comparações de tokens não certificam equivalência semântica nem toda sigla latina.
+Evidências individuais (G/N/M/H):
+01 | πυκτεύω | HTML 65821 | 1 parágrafo(s) | G/N/M/H 4/14/0/0 | colação e roundtrip OK | entry-bdag-0312-01
+02 | πύλη, ης, ἡ | HTML 65826 | 3 parágrafo(s) | G/N/M/H 47/126/2/0 | colação e roundtrip OK | entry-bdag-0312-02
+03 | πυλών, ῶνος, ὁ | HTML 65838 | 3 parágrafo(s) | G/N/M/H 28/72/2/0 | colação e roundtrip OK | entry-bdag-0312-03
+04 | πυνθάνομαι | HTML 65850 | 3 parágrafo(s) | G/N/M/H 45/92/2/0 | colação e roundtrip OK | entry-bdag-0312-04
+05 | πυξίς, ίδος, ἡ | HTML 65861 | 1 parágrafo(s) | G/N/M/H 4/17/0/0 | colação e roundtrip OK | entry-bdag-0312-05
+06 | πύον, ου, τό | HTML 65865 | 1 parágrafo(s) | G/N/M/H 5/3/0/0 | colação e roundtrip OK | entry-bdag-0312-06
+07 | πῦρ, ός, τό | HTML 65870 | 4 parágrafo(s) | G/N/M/H 261/443/3/0 | colação e roundtrip OK | entry-bdag-0312-07
+08 | πυρά, ᾶς, ἡ | HTML 65884 | 1 parágrafo(s) | G/N/M/H 7/31/0/0 | colação e roundtrip OK | entry-bdag-0312-08
+09 | πύργος, ου, ὁ | HTML 65889 | 3 parágrafo(s) | G/N/M/H 14/63/2/0 | colação e roundtrip OK | entry-bdag-0312-09
+10 | πυρέσσω | HTML 65900 | 1 parágrafo(s) | G/N/M/H 2/15/0/0 | colação e roundtrip OK | entry-bdag-0312-10
+11 | πυρετός, οῦ, ὁ | HTML 65904 | 1 parágrafo(s) | G/N/M/H 48/85/0/0 | colação e roundtrip OK | entry-bdag-0312-11
+12 | πύρινος, η, ον | HTML 65908 | 1 parágrafo(s) | G/N/M/H 15/26/0/0 | colação e roundtrip OK | entry-bdag-0312-12
+13 | πυρκαϊά, ᾶς, ἡ | HTML 65912 | 1 parágrafo(s) | G/N/M/H 6/3/0/0 | colação e roundtrip OK | entry-bdag-0312-13
+14 | πυροειδής, ές | HTML 65916 | 1 parágrafo(s) | G/N/M/H 6/18/0/0 | colação e roundtrip OK | entry-bdag-0312-14
+15 | πυρός, οῦ, ὁ | HTML 65920 | 1 parágrafo(s) | G/N/M/H 10/9/0/0 | colação e roundtrip OK | entry-bdag-0312-15
+16 | πυρόω | HTML 65925 | 5 parágrafo(s) | G/N/M/H 45/88/4/0 | colação e roundtrip OK | entry-bdag-0312-16
+17 | πυρράζω | HTML 65942 | 1 parágrafo(s) | G/N/M/H 3/3/0/0 | colação e roundtrip OK | entry-bdag-0312-17
+18 | πυρρός, ά, όν | HTML 65946 | 1 parágrafo(s) | G/N/M/H 35/35/0/0 | colação e roundtrip OK | entry-bdag-0312-18
+19 | Πύρρος, ου, ὁ | HTML 65950 | 1 parágrafo(s) | G/N/M/H 3/2/0/0 | colação e roundtrip OK | entry-bdag-0312-19
+20 | πύρωσις, εως, ἡ | HTML 65955 | 3 parágrafo(s) | G/N/M/H 19/23/2/0 | colação e roundtrip OK | entry-bdag-0312-20
+Módulo 006b6bce76d195bd78ce9132bd6722f8cf507b8e; manifesto d403437edac31a06bd76ed892a8bfe3199156543; recuperados e comparados. 20 linhas/20 cartões, 20 IDs e destinos únicos e correspondentes em ordem, 37 parágrafos em roundtrip textual após serialização e recuperação, 120/946 tags equilibradas por pilha, 102 links NA28 sintaticamente válidos; sem teste HTTP individual, CI ou DOM. Nenhum popup novo; bibliographicTerms não duplicado. Manifesto 2338→2339 caminhos, inclusão única após 0311; ordem e demais caminhos preservados. IDs seguem convenção dos módulos vizinhos.
+Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global dos cartões, revisão semântica independente ou integração. A auditoria independente A–J não está concluída; não alterar o contador respectivo.
+Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0312, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6464/8287; antes 6444/8287. Sem PR, merge ou deploy.
+=== FIM LOTE 0312 ===
