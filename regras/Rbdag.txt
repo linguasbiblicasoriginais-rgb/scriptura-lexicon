@@ -12719,3 +12719,48 @@ Módulo 2a3a9bea8d9d7220bf8197acf8b46e14ab28346e; manifesto 09fc9eb87154d7b83141
 Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global, revisão semântica independente ou integração. A auditoria independente A–J não está concluída; não alterar contador respectivo.
 Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0315, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6524/8287; antes 6504/8287. Sem PR, merge ou deploy.
 === FIM LOTE 0315 ===
+
+
+=== LOTE 0316 — INCORPORAÇÃO / COLAÇÃO PRÉ-PUBLICAÇÃO — 2026-11-25 ===
+HEAD-base: 374af9961c956184003f6783a343817a487da67c; árvore-base a142fb4eb56202f3a3e02880690f80bc1c409794.
+Fonte exclusiva: file_00000000429c820eb5aa2bcab96f1572, HTML linhas 66355–66461, cabeçalhos 66355–66458. Recorte textual HTML: blob d520835ac4134ddab2f514a6d33450870a964f48 (recuperado com igualdade; não representa hash integral da fonte; inclui separador e abertura do bloco seguinte, sem conteúdo lexical deste).
+20 artigos: ῥιπίζω–ῥυπαρεύω. Próximo: ῥυπαρία, ας, ἡ, linha 66462 (excluído). Cabeçalho combinado ῥίπτω, ῥιπτέω conta uma vez; em ῥοῖζος, ου, ὁ and ἡ, o feminino ἡ encontra-se em elemento c72 adjacente ao c71 e integra o mesmo cabeçalho, traduzido com conjunção e. Remissão Ῥομφά, ὁ, preservada inclusive a vírgula final.
+Checkpoints: 01–10 994a28f59d7f17592450e8450f5575533125069e; 11–20 719ba29cd65650f0d8242d09d6127462ed4972fe; consolidado intermediário c00b683a6efb322c4353dea518657ffefba32b97; consolidado revisado 6696848c8291f7c9a2aeac6ed59675413cfd60ff; relatório estruturado d1a1c2234f30ca955e92ef770d50a2adaf6b652a. Recuperados com igualdade textual; objetos não vinculados à árvore sujeitos à coleta.
+Colação editorial individual e revisão da tradução. Comparação ordenada de tokens gregos com combinantes, grupos numéricos ASCII, marcadores circulados e hebraicos por artigo e parágrafo: 27 parágrafos, G/N/M/H 420/767/7/3; zero divergências. Preservadas formas e dois sentidos de ῥίπτω/ῥιπτέω, a distinção entre movimento veloz e possível som sibilante em ῥοῖζος, as construções de ῥύομαι e a distinção citada entre ῥύεσθαι e ἐρύεσθαι, e a alternativa de interpretação de Rv 22:11 em ῥυπαίνω. Grafias peculiares da fonte mantidas, inclusive ῤιφήσομαι, κίνδυνο, ῥοῖζο e θαμάρ. Não emendar conjecturalmente. Igualdade de tokens não certifica equivalência semântica nem toda sigla latina.
+Revisões da preparação (11 registros):
+10/0 | ῥοῖζος, ου, ὁ and ἡ → ῥοῖζος, ου, ὁ e ἡ
+2/1 | part. n. → part. neutro
+2/2 | Expor recém-nascidos → Abandonar recém-nascidos por exposição
+2/3 | José depôs seu machado → José lançou seu machado ao chão
+6/3 | proprietária de Hermas → senhora de Hermas
+10/1 | um som produzido por movimento rápido, um silvo ἤρχετο τὸ θηρίον ῥοίζῳ a fera vinha com um silvo → um som produzido por movimento rápido, um ruído sibilante ἤρχετο τὸ θηρίον ῥοίζῳ a fera vinha com um ruído sibilante
+12/1 | segundo Gen 3:24 → conforme Gen 3:24
+18/1 | méd. dep. → médio depoente
+18/1 | resgatar de perigo → resgatar do perigo
+18/1 | de um θεοσεβής de perigo extremo → de um θεοσεβής em perigo extremo
+10/1 | um ruído sibilante → um ruído de passagem veloz (duas ocorrências; distingue whoosh de hissing)
+Evidências individuais (G/N/M/H):
+01 | ῥιπίζω | HTML 66355 | 1 parágrafo(s) | G/N/M/H 28/16/0/0 | colação editorial e roundtrip OK | entry-bdag-0316-01
+02 | ῥίπτω, ῥιπτέω | HTML 66360 | 3 parágrafo(s) | G/N/M/H 122/206/2/0 | colação editorial e roundtrip OK | entry-bdag-0316-02
+03 | ῥίς, ῥινός, ἡ | HTML 66371 | 1 parágrafo(s) | G/N/M/H 11/4/0/0 | colação editorial e roundtrip OK | entry-bdag-0316-03
+04 | ῥιψοκινδύνως | HTML 66375 | 1 parágrafo(s) | G/N/M/H 4/26/0/0 | colação editorial e roundtrip OK | entry-bdag-0316-04
+05 | Ῥοβοάμ, ὁ | HTML 66379 | 1 parágrafo(s) | G/N/M/H 4/14/0/1 | colação editorial e roundtrip OK | entry-bdag-0316-05
+06 | Ῥόδη, ης, ἡ | HTML 66384 | 3 parágrafo(s) | G/N/M/H 3/20/2/0 | colação editorial e roundtrip OK | entry-bdag-0316-06
+07 | ῥόδον, ου, τό | HTML 66395 | 1 parágrafo(s) | G/N/M/H 6/31/0/0 | colação editorial e roundtrip OK | entry-bdag-0316-07
+08 | Ῥόδος, ου, ἡ | HTML 66399 | 1 parágrafo(s) | G/N/M/H 3/15/0/0 | colação editorial e roundtrip OK | entry-bdag-0316-08
+09 | ῥοιζηδόν | HTML 66403 | 1 parágrafo(s) | G/N/M/H 6/11/0/0 | colação editorial e roundtrip OK | entry-bdag-0316-09
+10 | ῥοῖζος, ου, ὁ and ἡ | HTML 66407 | 1 parágrafo(s) | G/N/M/H 11/28/0/0 | colação editorial e roundtrip OK | entry-bdag-0316-10
+11 | Ῥομφά, ὁ, | HTML 66411 | 1 parágrafo(s) | G/N/M/H 3/0/0/0 | colação editorial e roundtrip OK | entry-bdag-0316-11
+12 | ῥομφαία, ας, ἡ | HTML 66415 | 1 parágrafo(s) | G/N/M/H 23/42/0/0 | colação editorial e roundtrip OK | entry-bdag-0316-12
+13 | ῥοπή, ῆς, ἡ | HTML 66419 | 1 parágrafo(s) | G/N/M/H 24/48/0/0 | colação editorial e roundtrip OK | entry-bdag-0316-13
+14 | Ῥουβήν, ὁ | HTML 66423 | 1 parágrafo(s) | G/N/M/H 9/20/0/1 | colação editorial e roundtrip OK | entry-bdag-0316-14
+15 | Ῥούθ, ἡ | HTML 66427 | 1 parágrafo(s) | G/N/M/H 4/6/0/1 | colação editorial e roundtrip OK | entry-bdag-0316-15
+16 | Ῥοῦφος, ου, ὁ | HTML 66432 | 4 parágrafo(s) | G/N/M/H 3/20/3/0 | colação editorial e roundtrip OK | entry-bdag-0316-16
+17 | ῥύμη, ης, ἡ | HTML 66446 | 1 parágrafo(s) | G/N/M/H 11/28/0/0 | colação editorial e roundtrip OK | entry-bdag-0316-17
+18 | ῥύομαι | HTML 66450 | 1 parágrafo(s) | G/N/M/H 133/215/0/0 | colação editorial e roundtrip OK | entry-bdag-0316-18
+19 | ῥυπαίνω | HTML 66454 | 1 parágrafo(s) | G/N/M/H 10/15/0/0 | colação editorial e roundtrip OK | entry-bdag-0316-19
+20 | ῥυπαρεύω | HTML 66458 | 1 parágrafo(s) | G/N/M/H 2/2/0/0 | colação editorial e roundtrip OK | entry-bdag-0316-20
+Módulo 1aaca8107143a1735ee0929f04a5882082adced7; manifesto 4eb3462c679838174a1c34b81c45aea66664d7b6; recuperados e comparados. 20 linhas/20 cartões, 20 IDs e destinos únicos e correspondentes em ordem, 27 parágrafos em roundtrip textual após serialização e recuperação, 120/700 tags equilibradas por pilha (a última alteração foi exclusivamente textual), 50 links NA28 explícitos sintaticamente válidos (referências abreviadas sem livro explícito mantidas textuais; validação de padrão URL não comprova destino semântico ou HTTP). Sem teste HTTP individual, CI ou DOM. Nenhum popup novo; bibliographicTerms não duplicado. Manifesto 2342→2343 caminhos, inclusão única após 0315; demais caminhos e ordem preservados.
+Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada integralmente. Sem recontagem independente global, revisão semântica independente ou integração. A auditoria independente A–J não está concluída; não alterar contador respectivo.
+Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0316, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6544/8287; antes 6524/8287. Sem PR, merge ou deploy.
+=== FIM LOTE 0316 ===
