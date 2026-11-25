@@ -13626,3 +13626,31 @@ Tradução de 20 artigos, 39 parágrafos; comparação ordenada por artigo e par
 Módulo 299143c97216c80a3616a3fd5006ae4862cdbfcc; manifesto 08437d0ca1c777b42d002c331ee537a88c94e0c6. Roundtrip 39/39, JSON válido, 20 linhas/cartões, IDs únicos e destinos correspondentes, 240/1174 tags equilibradas, 39 links NA28 para referências explícitas conforme padrão anterior, sem HTTP individual; manifesto 2365→2366, inserção após módulo 0338. Sem bibliographicTerms duplicado. Classificações e glosas de índice editoriais. Sem divergências detectadas no controle de tokens; isso não equivale a prova independente de equivalência semântica. Sem DOM real, CI confirmado ou integração; auditoria independente A–J NÃO CONCLUÍDA. Recuperadas as normas vigentes e consultadas as seções operacionais pertinentes de Rbdag e Rauditoria; não releitura individual de todo o histórico.
 Publicação condicionada a comparação de árvores e proteção de concorrência expected_sha, force=false; exclusivamente lexicons/bdag-part-0339.js, lexicon-modules.json e regras/Rbdag.txt. Progresso de referência 6984→7004/8287 após confirmação remota; sem PR, merge ou deploy.
 === FIM LOTE 0339 ===
+
+=== LOTE 0340 — 25/11/2026 ===
+Base 695a41736215fa07c925bca5dee5251614f86f70; árvore 3913ce699a6599cdc98382b46b1d80319422716b. Fonte exclusiva HTML file_00000000429c820eb5aa2bcab96f1572 linhas 69809–70032; recorte a367c12eaf62d4c2d8e641357be54dc6345a961b. Primeiro συμφθείρω; último συναγωνίζομαι; próximo συναθλέω linha 70033.
+Checkpoints tradução A f0ab102696b169d2cdd7baa69496ebb4f06ee9b0; B 69504bf17f1e55b1909eec47c23dec1cc22bded8; consolidado d29c6bbbe0be0ef0e50dbb37b6b28f91c2d329b1; evidência estruturada 8b5d42e22a6abb73a2c840838f8833029bc3420c. Objetos Git não referenciados diretamente, sujeitos à retenção do servidor. Checkpoint B registrou discrepância de espírito em 69937, corrigida no consolidado.
+Tradução de 20 artigos, 64 parágrafos; comparação ordenada por artigo e parágrafo: 818 gregos, 1324 grupos numéricos, 35 marcadores circulados, 0 hebraicos; zero divergências finais. Regex grega e hebraica iniciadas por letra do respectivo alfabeto; subdivisões alfabéticas gregas incluídas nos tokens gregos. Cabeçalho συμφύγιον, ου, τό: dois spans c71 no mesmo artigo, reunidos apenas no lema de índice. Linha 69937: corrigida divergência introduzida na tradução preliminar υἱῷ → υἰῷ, conforme HTML; mantido αὐτου sem emenda. Conservados σύμφορο, σύν τῷ, ἔν τινι e demais grafias do HTML; syngagogue é possível gralha inglesa da fonte, traduzida conforme o sentido e registrada sem alteração do original. Mantidas as três interpretações de συμφωνία, as três acepções principais de σύν, as cinco de συνάγω e as cinco de συναγωγή; alternativas, hipóteses e bibliografia preservadas. Classificações/glosas de índice editoriais; links NA28 segundo siglas explícitas da fonte, sem HTTP individual; não houve DOM real nem integração. Evidências G/N/M/H por artigo e linha de parágrafo:
+1 | συμφθείρω | entry-bdag-0340-01 | 6/4/0/0 | 69809: 6/4/0/0
+2 | συμφορά, ᾶς, ἡ | entry-bdag-0340-02 | 11/6/0/0 | 69813: 11/6/0/0
+3 | σύμφορος, ον | entry-bdag-0340-03 | 19/36/0/0 | 69817: 19/36/0/0
+4 | συμφορτίζω | entry-bdag-0340-04 | 6/2/0/0 | 69821: 6/2/0/0
+5 | συμφύγιον, ου, τό | entry-bdag-0340-05 | 11/7/0/0 | 69825: 11/7/0/0
+6 | συμφυλέτης, ου, ὁ | entry-bdag-0340-06 | 5/14/0/0 | 69829: 5/14/0/0
+7 | συμφυρμός, οῦ, ὁ | entry-bdag-0340-07 | 9/5/0/0 | 69833: 9/5/0/0
+8 | σύμφυτος, ον | entry-bdag-0340-08 | 27/36/0/0 | 69837: 27/36/0/0
+9 | συμφύω | entry-bdag-0340-09 | 5/10/0/0 | 69841: 5/10/0/0
+10 | συμφωνέω | entry-bdag-0340-10 | 66/62/6/0 | 69846: 4/5/0/0; 69849: 0/0/1/0; 69852: 18/14/1/0; 69855: 15/12/1/0; 69858: 2/2/1/0; 69861: 3/6/1/0; 69864: 24/23/1/0
+11 | συμφώνησις, εως, ἡ | entry-bdag-0340-11 | 8/5/0/0 | 69869: 8/5/0/0
+12 | συμφωνία, ας, ἡ | entry-bdag-0340-12 | 20/37/3/0 | 69874: 4/8/0/0; 69877: 0/1/1/0; 69880: 4/7/1/0; 69883: 12/21/1/0
+13 | σύμφωνος, ον | entry-bdag-0340-13 | 8/31/2/0 | 69889: 4/8/0/0; 69892: 0/5/1/0; 69895: 4/18/1/0
+14 | συμψέλιον, ου, τό | entry-bdag-0340-14 | 5/31/0/0 | 69900: 5/31/0/0
+15 | συμψηφίζω | entry-bdag-0340-15 | 21/21/0/0 | 69904: 21/21/0/0
+16 | σύμψυχος, ον | entry-bdag-0340-16 | 6/10/0/0 | 69908: 6/10/0/0
+17 | σύν | entry-bdag-0340-17 | 273/309/8/0 | 69913: 6/8/0/0; 69916: 0/0/1/0; 69919: 0/0/1/0; 69922: 14/10/0/0; 69925: 9/37/0/0; 69928: 71/89/0/0; 69931: 8/5/0/0; 69934: 0/0/1/0; 69937: 30/19/0/0; 69940: 34/30/0/0; 69943: 22/14/0/0; 69946: 24/21/1/0; 69949: 0/0/1/0; 69952: 0/0/1/0; 69955: 23/12/0/0; 69958: 26/37/0/0; 69961: 5/16/1/0; 69964: 1/11/1/0
+18 | συνάγω | entry-bdag-0340-18 | 226/332/7/0 | 69970: 8/20/0/0; 69973: 0/0/1/0; 69976: 30/53/1/0; 69979: 164/218/1/0; 69982: 2/10/1/0; 69985: 5/2/1/0; 69988: 6/16/1/0; 69991: 11/13/1/0
+19 | συναγωγή, ῆς, ἡ | entry-bdag-0340-19 | 77/336/9/0 | 69997: 5/7/0/0; 70000: 7/9/1/0; 70003: 7/11/1/0; 70006: 7/184/1/0; 70009: 6/17/1/0; 70012: 0/8/1/0; 70015: 0/12/1/0; 70018: 11/21/1/0; 70021: 29/48/1/0; 70024: 5/19/1/0
+20 | συναγωνίζομαι | entry-bdag-0340-20 | 9/30/0/0 | 70029: 9/30/0/0
+Módulo 420edd8f7941e9735d5ac54834242951d274a848; manifesto 7cfd16c0253f3bbe0f18828b1a3a2e9d1fe52937. Roundtrip 64/64, JSON válido, 20 linhas/cartões, IDs únicos e destinos correspondentes, 240/2462 tags equilibradas, 149 links NA28 para referências explícitas conforme padrão anterior, sem HTTP individual; manifesto 2366→2367, inserção após módulo 0339. Sem bibliographicTerms duplicado. Sem divergências detectadas no controle de tokens; isso não equivale a prova independente de equivalência semântica. Sem DOM real, CI confirmado ou integração; auditoria independente A–J NÃO CONCLUÍDA. Recuperadas as normas vigentes e consultadas as seções operacionais pertinentes e histórico recente de Rbdag e Rauditoria; não releitura individual de todo o histórico. HTML localizado e lido por intervalo de linhas; materialização integral não autorizada pelo serviço de arquivos, sem substituição de fonte.
+Publicação condicionada a comparação integral de árvores e proteção de concorrência expected_sha, force=false; exclusivamente lexicons/bdag-part-0340.js, lexicon-modules.json e regras/Rbdag.txt. Progresso de referência 7004→7024/8287 após confirmação remota; sem PR, merge ou deploy.
+=== FIM LOTE 0340 ===
