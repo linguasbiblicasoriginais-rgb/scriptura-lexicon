@@ -12852,3 +12852,44 @@ Módulo be9b863bb21a03738d53be8929524f7b1949748b; manifesto b3afd225dd4f67f596f0
 Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada integralmente. Sem recontagem independente global, revisão semântica independente ou integração. A auditoria independente A–J não está concluída; não alterar contador respectivo.
 Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0318, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6584/8287; antes 6564/8287. Sem PR, merge ou deploy.
 === FIM LOTE 0318 ===
+
+
+=== LOTE 0319 — INCORPORAÇÃO / COLAÇÃO PRÉ-PUBLICAÇÃO — 2026-11-25 ===
+HEAD-base: b5a21ac9a46be69552ec289840f1551a1077f6ba; árvore-base 489a13314f773c730611a2ef36b66adcb752fd8f.
+Fonte exclusiva: file_00000000429c820eb5aa2bcab96f1572, HTML linhas 66711–66840, cabeçalhos 66711–66830. Recorte textual HTML: blob b3615587c12733d18c03a8ee72267494d70a5353 (recuperado com igualdade contra releitura da fonte; não representa hash integral do arquivo).
+20 artigos: Σαμοθρᾴκη, ης, ἡ–σάρκινος, η, ον. Próximo: σαρκίον, ου, τό, linha 66841 (excluído).
+Checkpoints: 01–10 7b3cf5750557d112b96daa10bc5295ab39fb791f; 11–20 d8455c1c0b01c682488745c853a90aeab9d8fa4d; consolidado revisado 260cc9baa5975e4c23e4a95f39366ca027e5abe9; relatório estruturado 6809e6df0e3dafb975e04f808a3dd5281834f479. Recuperados com igualdade textual; objetos não vinculados à árvore sujeitos à coleta.
+Colação editorial individual e revisão da tradução. Comparação ordenada de tokens gregos com combinantes, grupos numéricos ASCII, marcadores circulados e subdivisões α./β. no início de parágrafo, e tokens de escrita hebraica por artigo e parágrafo: 34 parágrafos, G/N/M/H 281/547/14/8; zero divergências. Preservadas a conjectura aramaica de Σαμφουριν, a distinção dos nomes de Saul em Σαούλ, as acepções literal/qualitativa/moral de σαπρός, as variantes de Σάπφιρα, a provável identificação antiga de σάπφιρος com lápis-lazúli, a remissão σάρδινος e a distinção morfológica/semântica de σαρκικός e σάρκινος, inclusive variantes e leituras do t.r. Grafias peculiares como B 6: l4 em σάρκινος mantidas sem emenda conjectural. Igualdade de tokens não certifica equivalência semântica nem toda sigla latina.
+Revisões da preparação (7 registros):
+9/3 | de peixe estragado → de peixes estragados
+9/5 | de matéria viva, peixes → de matéria viva: peixes
+9/6 | de pedras, imprestável, inadequado, ruim → de pedras: imprestável, inadequado, ruim
+16/1 | uma gema venada → uma gema com veios
+18/1 | na maior parte dos casos não observou essa distinção em todas as ocorrências da palavra → em grande parte não observou essa distinção em todas as ocorrências da palavra
+18/4 | dotação interior de espírito → dotação interior do espírito
+20/2 | qualificações físicas legais → qualificações físicas de ordem legal
+Evidências individuais (G/N/M/H):
+01 | Σαμοθρᾴκη, ης, ἡ | HTML 66711 | 1 parágrafo(s) | G/N/M/H 3/10/0/0 | colação editorial e roundtrip OK | entry-bdag-0319-01
+02 | Σάμος, ου, ἡ | HTML 66715 | 1 parágrafo(s) | G/N/M/H 4/21/0/0 | colação editorial e roundtrip OK | entry-bdag-0319-02
+03 | Σαμουήλ, ὁ | HTML 66719 | 1 parágrafo(s) | G/N/M/H 18/36/0/1 | colação editorial e roundtrip OK | entry-bdag-0319-03
+04 | Σαμφουριν | HTML 66723 | 1 parágrafo(s) | G/N/M/H 14/9/0/2 | colação editorial e roundtrip OK | entry-bdag-0319-04
+05 | Σαμψών, ὁ | HTML 66727 | 1 parágrafo(s) | G/N/M/H 4/13/0/1 | colação editorial e roundtrip OK | entry-bdag-0319-05
+06 | σανδάλιον, ου, τό | HTML 66731 | 1 parágrafo(s) | G/N/M/H 11/17/0/0 | colação editorial e roundtrip OK | entry-bdag-0319-06
+07 | σανίς, ίδος, ἡ | HTML 66735 | 1 parágrafo(s) | G/N/M/H 8/16/0/0 | colação editorial e roundtrip OK | entry-bdag-0319-07
+08 | Σαούλ, ὁ | HTML 66740 | 3 parágrafo(s) | G/N/M/H 10/35/2/1 | colação editorial e roundtrip OK | entry-bdag-0319-08
+09 | σαπρός, ά, όν | HTML 66752 | 7 parágrafo(s) | G/N/M/H 37/74/6/0 | colação editorial e roundtrip OK | entry-bdag-0319-09
+10 | Σάπφιρα | HTML 66775 | 1 parágrafo(s) | G/N/M/H 9/26/0/1 | colação editorial e roundtrip OK | entry-bdag-0319-10
+11 | σάπφιρος, ου, ἡ | HTML 66779 | 1 parágrafo(s) | G/N/M/H 7/29/0/1 | colação editorial e roundtrip OK | entry-bdag-0319-11
+12 | σαργάνη, ης, ἡ | HTML 66783 | 1 parágrafo(s) | G/N/M/H 6/23/0/0 | colação editorial e roundtrip OK | entry-bdag-0319-12
+13 | Σάρδεις, εων, αἱ | HTML 66787 | 1 parágrafo(s) | G/N/M/H 8/29/0/0 | colação editorial e roundtrip OK | entry-bdag-0319-13
+14 | σάρδινος, ου, ὁ | HTML 66791 | 1 parágrafo(s) | G/N/M/H 6/3/0/0 | colação editorial e roundtrip OK | entry-bdag-0319-14
+15 | σάρδιον, ου, τό | HTML 66795 | 1 parágrafo(s) | G/N/M/H 5/21/0/0 | colação editorial e roundtrip OK | entry-bdag-0319-15
+16 | σαρδόνυξ, υχος, ὁ | HTML 66799 | 1 parágrafo(s) | G/N/M/H 7/10/0/0 | colação editorial e roundtrip OK | entry-bdag-0319-16
+17 | Σάρεπτα | HTML 66803 | 1 parágrafo(s) | G/N/M/H 8/18/0/1 | colação editorial e roundtrip OK | entry-bdag-0319-17
+18 | σαρκικός, ή, όν | HTML 66808 | 5 parágrafo(s) | G/N/M/H 77/92/4/0 | colação editorial e roundtrip OK | entry-bdag-0319-18
+19 | σαρκικῶς | HTML 66825 | 1 parágrafo(s) | G/N/M/H 3/3/0/0 | colação editorial e roundtrip OK | entry-bdag-0319-19
+20 | σάρκινος, η, ον | HTML 66830 | 3 parágrafo(s) | G/N/M/H 36/62/2/0 | colação editorial e roundtrip OK | entry-bdag-0319-20
+Módulo 017077d4d37898413afb8dd467a2b00143a0cbed; manifesto 1ad87c4e06c897823c7a6222361c14c403f4471f; recuperados e comparados. 20 linhas/20 cartões, 20 IDs e destinos únicos e correspondentes em ordem no módulo, 34 parágrafos em roundtrip textual após serialização e recuperação, 120/563 tags de abertura equilibradas por pilha, 40 links NA28 explícitos construídos com códigos canônicos (referências abreviadas sem livro explícito mantidas textuais; sem verificação HTTP individual). IDs seguem o padrão dos módulos imediatamente anteriores, sem sufixo -bdag da regra antiga. Nenhum popup novo; bibliographicTerms não duplicado. Manifesto 2345→2346 caminhos, inclusão única após 0318; demais caminhos e ordem preservados.
+Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global, revisão semântica independente, teste CI/DOM/HTTP ou integração. A auditoria independente A–J não está concluída; não alterar contador respectivo.
+Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0319, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6604/8287; antes 6584/8287. Sem PR, merge ou deploy.
+=== FIM LOTE 0319 ===
