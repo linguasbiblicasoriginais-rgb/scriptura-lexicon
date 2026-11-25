@@ -12764,3 +12764,47 @@ Módulo 1aaca8107143a1735ee0929f04a5882082adced7; manifesto 4eb3462c679838174a1c
 Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada integralmente. Sem recontagem independente global, revisão semântica independente ou integração. A auditoria independente A–J não está concluída; não alterar contador respectivo.
 Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0316, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6544/8287; antes 6524/8287. Sem PR, merge ou deploy.
 === FIM LOTE 0316 ===
+
+
+=== LOTE 0317 — INCORPORAÇÃO / COLAÇÃO PRÉ-PUBLICAÇÃO — 2026-11-25 ===
+HEAD-base: 6bd110f14cbd8baab141e9d070da2ea87eea4b8e; árvore-base 55b44a63f436c9a284e9d6f51713d07f2efc8ff4.
+Fonte exclusiva: file_00000000429c820eb5aa2bcab96f1572, HTML linhas 66462–66598, cabeçalhos 66462–66588. Recorte textual HTML: blob 2e6661041ccca8df5fb7ba0c6fb15e820942b8fb (recuperado com igualdade; não representa hash integral da fonte; inclui separador e abertura do bloco seguinte, sem conteúdo lexical deste).
+20 artigos: ῥυπαρία, ας, ἡ–σαίνω. Próximo: σάκκος, ου, ὁ, linha 66599 (excluído). Cabeçalho alfabético Σ na linha 66525 (c69) preservado no recorte e excluído da contagem lexical.
+Checkpoints: 01–11 9b0222d994728ecb0f1d31794aaff18909b6c61c; 12–20 91bd9fe100544480fddd3474325c82720205afce; consolidado revisado be3188cca99539170b57d684327e118214bca6e5; relatório estruturado be2ef7dd4f42c64b78adbbb9ac59a72e8727af73. Recuperados com igualdade textual; objetos não vinculados à árvore sujeitos à coleta.
+Colação editorial individual e revisão da tradução. Comparação ordenada de tokens gregos com combinantes, grupos numéricos ASCII, marcadores circulados e subdivisões α./β. no início de parágrafo, e tokens de escrita hebraica por artigo e parágrafo: 35 parágrafos, G/N/M/H 357/915/15/9; zero divergências. Preservados os três sentidos de ῥύπος, a leitura erasmiana de ῥυπόω, as formas e usos de ῥώννυμι, os testemunhos aramaicos e hebraicos de σαβαχθάνι e Σαβαώθ, as distinções de σαββατισμός e σάββατον (sábado/semana, singular/plural), e as duas interpretações concorrentes de σαίνω. Grafias e referências peculiares da fonte mantidas sem emendas conjecturais. Igualdade de tokens não certifica equivalência semântica nem toda sigla latina.
+Revisões da preparação (10 registros):
+2/2 | uma área suja → um lugar sujo
+3/2 | sujeira como resíduo, em distinção da terra, sujeira → sujidade como matéria residual, distinta da terra, sujeira
+3/4 | sumo impuro do hissopo → sumo imundo do hissopo
+8/1 | No sentido de cristãos romanos Ro ins. → No sentido de cristãos romanos, Ro ins.
+11/1 | no imper. perf. pass. estar de boa saúde, passar bem, adeus → no imper. perf. pass.: estar de boa saúde, passar bem, adeus
+16/3 | caminho de um dia de sábado → distância de uma jornada sabática
+17/1 | rede de cerco, rede de arrasto → rede de arrasto, rede de cerco
+20/2 | um modo de agir lisonjeiro → uma atitude destinada a granjear simpatia
+20/2 | para que ninguém fosse enganado → para que ninguém seja enganado
+20/3 | para que ninguém fosse abalado ou perturbado → para que ninguém seja abalado ou perturbado
+Evidências individuais (G/N/M/H):
+01 | ῥυπαρία, ας, ἡ | HTML 66462 | 1 parágrafo(s) | G/N/M/H 17/18/0/0 | colação editorial e roundtrip OK | entry-bdag-0317-01
+02 | ῥυπαρός, ά, όν | HTML 66467 | 3 parágrafo(s) | G/N/M/H 21/46/2/0 | colação editorial e roundtrip OK | entry-bdag-0317-02
+03 | ῥύπος, ου, ὁ | HTML 66479 | 4 parágrafo(s) | G/N/M/H 18/34/3/0 | colação editorial e roundtrip OK | entry-bdag-0317-03
+04 | ῥυπόω | HTML 66493 | 1 parágrafo(s) | G/N/M/H 6/21/0/0 | colação editorial e roundtrip OK | entry-bdag-0317-04
+05 | ῥύσις, εως, ἡ | HTML 66497 | 1 parágrafo(s) | G/N/M/H 9/23/0/0 | colação editorial e roundtrip OK | entry-bdag-0317-05
+06 | ῥυτίς, ίδος, ἡ | HTML 66501 | 1 parágrafo(s) | G/N/M/H 8/3/0/0 | colação editorial e roundtrip OK | entry-bdag-0317-06
+07 | Ῥωμαϊκός, ή, όν | HTML 66505 | 1 parágrafo(s) | G/N/M/H 6/6/0/0 | colação editorial e roundtrip OK | entry-bdag-0317-07
+08 | Ῥωμαῖος, α, ον | HTML 66509 | 1 parágrafo(s) | G/N/M/H 20/45/0/0 | colação editorial e roundtrip OK | entry-bdag-0317-08
+09 | Ῥωμαϊστί | HTML 66513 | 1 parágrafo(s) | G/N/M/H 8/12/0/0 | colação editorial e roundtrip OK | entry-bdag-0317-09
+10 | Ῥώμη, ης, ἡ | HTML 66517 | 1 parágrafo(s) | G/N/M/H 11/62/0/0 | colação editorial e roundtrip OK | entry-bdag-0317-10
+11 | ῥώννυμι | HTML 66521 | 1 parágrafo(s) | G/N/M/H 14/55/0/0 | colação editorial e roundtrip OK | entry-bdag-0317-11
+12 | σαβαχθάνι | HTML 66529 | 1 parágrafo(s) | G/N/M/H 2/22/0/3 | colação editorial e roundtrip OK | entry-bdag-0317-12
+13 | Σαβαώθ | HTML 66533 | 1 parágrafo(s) | G/N/M/H 3/41/0/4 | colação editorial e roundtrip OK | entry-bdag-0317-13
+14 | σαββατίζω | HTML 66537 | 1 parágrafo(s) | G/N/M/H 13/14/0/0 | colação editorial e roundtrip OK | entry-bdag-0317-14
+15 | σαββατισμός, οῦ, ὁ | HTML 66541 | 1 parágrafo(s) | G/N/M/H 5/11/0/0 | colação editorial e roundtrip OK | entry-bdag-0317-15
+16 | σάββατον, ου, τό | HTML 66546 | 9 parágrafo(s) | G/N/M/H 152/362/8/1 | colação editorial e roundtrip OK | entry-bdag-0317-16
+17 | σαγήνη, ης, ἡ | HTML 66575 | 1 parágrafo(s) | G/N/M/H 13/23/0/0 | colação editorial e roundtrip OK | entry-bdag-0317-17
+18 | Σαδδουκαῖος, ου, ὁ | HTML 66579 | 1 parágrafo(s) | G/N/M/H 5/71/0/0 | colação editorial e roundtrip OK | entry-bdag-0317-18
+19 | Σαδώκ, ὁ | HTML 66583 | 1 parágrafo(s) | G/N/M/H 5/9/0/1 | colação editorial e roundtrip OK | entry-bdag-0317-19
+20 | σαίνω | HTML 66588 | 3 parágrafo(s) | G/N/M/H 21/37/2/0 | colação editorial e roundtrip OK | entry-bdag-0317-20
+Módulo efa788d4090bbfce6b3f6e14da356a427048b141; manifesto 11ab4be87a651525bce7453f3ca475eecb84556c; recuperados e comparados. 20 linhas/20 cartões, 20 IDs e destinos únicos e correspondentes em ordem no módulo, 35 parágrafos em roundtrip textual após serialização e recuperação, 120/682 tags de abertura equilibradas por pilha, 81 links NA28 explícitos sintaticamente válidos (referências abreviadas sem livro explícito mantidas textuais; validação de padrão URL não comprova destino semântico ou HTTP). IDs seguem o padrão dos módulos imediatamente anteriores, sem sufixo -bdag da regra antiga. Sem teste HTTP individual, CI ou DOM. Nenhum popup novo; bibliographicTerms não duplicado. Manifesto 2343→2344 caminhos, inclusão única após 0316; demais caminhos e ordem preservados.
+Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada integralmente. Sem recontagem independente global, revisão semântica independente ou integração. A auditoria independente A–J não está concluída; não alterar contador respectivo.
+Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0317, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6564/8287; antes 6544/8287. Sem PR, merge ou deploy.
+=== FIM LOTE 0317 ===
