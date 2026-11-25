@@ -13570,3 +13570,31 @@ Tradução de 20 artigos, 47 parágrafos; comparação ordenada por artigo e par
 Módulo b7258292209fbcf76be6ebb833b88d8379180567; manifesto 9f167f5eca94059cb4b6d8d2f70e7022da700b20. Roundtrip 47/47, JSON válido, 20 linhas/cartões, IDs únicos e destinos correspondentes, 240/1358 tags equilibradas, 61 links NA28 para referências explícitas conforme padrão anterior, sem HTTP individual; manifesto 2363→2364, inserção após módulo 0336. Sem bibliographicTerms duplicado. Classificações e glosas de índice editoriais. Sem divergências detectadas no controle de tokens; isso não equivale a prova independente de equivalência semântica. Sem DOM real, CI confirmado ou integração; auditoria independente A–J NÃO CONCLUÍDA. Recuperadas as normas vigentes e consultado o histórico recente de Rbdag; não releitura individual de todo o histórico.
 Publicação condicionada a comparação de árvores e proteção de concorrência expected_sha, force=false; exclusivamente lexicons/bdag-part-0337.js, lexicon-modules.json e regras/Rbdag.txt. Progresso de referência 6944→6964/8287 após confirmação remota; sem PR, merge ou deploy.
 === FIM LOTE 0337 ===
+
+=== LOTE 0338 — 25/11/2026 ===
+Base 702e44ebe4a8a087b701308a5b804e8f5827b209; árvore 44e1d1d7c2076e74582170446416c5739883b843. Fonte exclusiva HTML file_00000000429c820eb5aa2bcab96f1572 linhas 69542–69659; recorte 1536dff61f7524cf806676dfc4c55422d60f328f. Primeiro συμβούλιον, ου, τό; último συμπαραμένω; próximo συμπάρειμι linha 69660.
+Checkpoints tradução A 36b95550414e76ab2e0f8d1b5b94fd1dac49c989; B 2d5d80ee7599e160b553080d7d78786a88f03850; consolidado 5ffc7b65d48ce892447c7e765dcdb388ff34f5e8; evidência estruturada e57729d30d364e589d94447fff25ab31ed07dc60. Objetos Git não referenciados diretamente, sujeitos à retenção do servidor.
+Tradução de 20 artigos, 31 parágrafos; comparação ordenada por artigo e parágrafo: 237 gregos, 429 grupos numéricos, 11 marcadores, 1 hebraico; zero divergências nas sequências. Regex grega e hebraica iniciadas por letra do respectivo alfabeto. Nenhum cabeçalho agrupado; preservadas as grafias συμμείγνυμι/συμμίγνυμι e συμμορφίζω/συμμορφόω conforme estatuto na fonte. Mantidos [εἰς τὸ συμ]β[ο]ύ̣λιον, ὸ̔ς e שִׁמְעוֹן conforme HTML, sem emendas conjecturais. Preservadas as quatro acepções de συμβούλιον, as cinco identificações de Συμεών, a leitura erasmiana de συμμαρτυρέω em Rv 22:18 e as variantes δεσμοῖς/δεσμίοις em συμπαθέω. Evidências G/N/M/H por artigo e linha de parágrafo:
+1 | συμβούλιον, ου, τό | entry-bdag-0338-01 | 32/61/4/0 | 69542: 3/2/0/0; 69545: 4/4/1/0; 69548: 9/16/1/0; 69551: 11/24/1/0; 69554: 5/15/1/0
+2 | σύμβουλος, ου, ὁ | entry-bdag-0338-02 | 3/24/0/0 | 69559: 3/24/0/0
+3 | Συμεών, ὁ | entry-bdag-0338-03 | 10/49/5/1 | 69564: 5/11/0/1; 69567: 0/16/1/0; 69570: 0/2/1/0; 69573: 1/7/1/0; 69576: 0/2/1/0; 69579: 4/11/1/0
+4 | συμμαθητής, οῦ, ὁ | entry-bdag-0338-04 | 5/16/0/0 | 69584: 5/16/0/0
+5 | συμμαρτυρέω | entry-bdag-0338-05 | 33/28/0/0 | 69588: 33/28/0/0
+6 | συμμαχέω | entry-bdag-0338-06 | 11/20/0/0 | 69592: 11/20/0/0
+7 | συμμείγνυμι | entry-bdag-0338-07 | 6/11/0/0 | 69596: 6/11/0/0
+8 | συμμερίζω | entry-bdag-0338-08 | 12/12/0/0 | 69600: 12/12/0/0
+9 | συμμέτοχος, ον | entry-bdag-0338-09 | 12/15/0/0 | 69604: 12/15/0/0
+10 | συμμιμητής, οῦ, ὁ | entry-bdag-0338-10 | 8/2/0/0 | 69608: 8/2/0/0
+11 | συμμορφίζω | entry-bdag-0338-11 | 8/2/0/0 | 69612: 8/2/0/0
+12 | σύμμορφος, ον | entry-bdag-0338-12 | 23/24/0/0 | 69616: 23/24/0/0
+13 | συμμορφόω | entry-bdag-0338-13 | 2/8/0/0 | 69620: 2/8/0/0
+14 | συμμύστης, ου, ὁ | entry-bdag-0338-14 | 14/20/0/0 | 69624: 14/20/0/0
+15 | συμπαθέω | entry-bdag-0338-15 | 29/59/0/0 | 69628: 29/59/0/0
+16 | συμπαθής, ές | entry-bdag-0338-16 | 7/19/0/0 | 69632: 7/19/0/0
+17 | συμπαραγίνομαι | entry-bdag-0338-17 | 10/15/2/0 | 69637: 2/1/0/0; 69640: 4/6/1/0; 69643: 4/8/1/0
+18 | συμπαρακαλέω | entry-bdag-0338-18 | 4/5/0/0 | 69648: 4/5/0/0
+19 | συμπαραλαμβάνω | entry-bdag-0338-19 | 4/28/0/0 | 69652: 4/28/0/0
+20 | συμπαραμένω | entry-bdag-0338-20 | 4/11/0/0 | 69656: 4/11/0/0
+Módulo 5b3b23155494f60d5bb4a91ea575a3bee90b0b1a; manifesto 38797de80cc7204bc6e275c9e036e8f79e83a43d. Roundtrip 31/31, JSON válido, 20 linhas/cartões, IDs únicos e destinos correspondentes, 240/994 tags equilibradas, 28 links NA28 para referências explícitas conforme padrão anterior, sem HTTP individual; manifesto 2364→2365, inserção após módulo 0337. Sem bibliographicTerms duplicado. Classificações e glosas de índice editoriais. Sem divergências detectadas no controle de tokens; isso não equivale a prova independente de equivalência semântica. Sem DOM real, CI confirmado ou integração; auditoria independente A–J NÃO CONCLUÍDA. Recuperadas as normas vigentes e consultado o histórico recente de Rbdag; não releitura individual de todo o histórico.
+Publicação condicionada a comparação de árvores e proteção de concorrência expected_sha, force=false; exclusivamente lexicons/bdag-part-0338.js, lexicon-modules.json e regras/Rbdag.txt. Progresso de referência 6964→6984/8287 após confirmação remota; sem PR, merge ou deploy.
+=== FIM LOTE 0338 ===
