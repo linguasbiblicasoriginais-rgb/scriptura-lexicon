@@ -13402,3 +13402,31 @@ Módulo preparado 8b208346264861ac141c64eb667d53245c4b5729; manifesto preparado 
 Limitações: sem teste de navegador/DOM real, sem verificação HTTP dos destinos, sem confirmação de execução de CI e sem integração; auditoria independente A–J separada, NÃO CONCLUÍDA e sem incremento de total_auditoria_concluida. Nenhum PR, merge ou deploy autorizado.
 Publicação exclusivamente de lexicons/bdag-part-0331.js, lexicon-modules.json e regras/Rbdag.txt em um único commit, condicionada à comparação de árvores Git, HEAD idêntico à base, expected_sha e force=false. Progresso antes 6824/8287, após publicação e HEAD remoto confirmado 6844/8287. Sem merge.
 === FIM LOTE 0331 ===
+
+=== LOTE 0332 — 25/11/2026 ===
+Base dc29555f20e6ccb224bfb1891f03fcce9ba23566; árvore 19a364c274039e6cc301d1f8628cc2070856dbe1. Fonte exclusiva HTML file_00000000429c820eb5aa2bcab96f1572 linhas 68650–68801; recorte 768b191cfbff98848912892c2b2355455a8840f4, reconfrontado integralmente com a fonte. Primeiro στίγμα, ατος, τό; último στρατιώτης, ου, ὁ; próximo στρατιωτικός, ή, όν linha 68802.
+Checkpoints tradução A 1dbd6222d5cb94198b55b2c5e87f8b5c2e620323; B 962a92622d5f093c5e243999b70d3c0fb0b4489d; C af2d81469cd83953c041fd56067d711262480bf0; D b05ccc201ef9fc499f7ac50122463812861f8419; consolidado cc7ecdce3725b8d33e887fbd855c86d47d097603; evidência estruturada 1c52a5a0264c8ad0e70408e44b4bb449645a3ac1. Objetos Git não referenciados diretamente, sujeitos à retenção do servidor.
+Tradução integral de 20 artigos, 40 parágrafos; comparação ordenada por artigo e parágrafo: 504 gregos, 1045 grupos numéricos, 20 marcadores (circundados numéricos e alfabéticos), 0 hebraicos; zero divergências nas sequências. Evidências G/N/M/H por artigo e linha de parágrafo:
+1 | στίγμα, ατος, τό | entry-bdag-0332-01 | 24/68/0/0 | 68650: 24/68/0/0
+2 | στιγμή, ῆς, ἡ | entry-bdag-0332-02 | 9/18/0/0 | 68654: 9/18/0/0
+3 | στίλβω | entry-bdag-0332-03 | 15/15/0/0 | 68658: 15/15/0/0
+4 | στοά, ᾶς, ἡ | entry-bdag-0332-04 | 22/16/0/0 | 68662: 22/16/0/0
+5 | στοιβάς | entry-bdag-0332-05 | 2/0/0/0 | 68666: 2/0/0/0
+6 | Στοϊκός | entry-bdag-0332-06 | 7/19/0/0 | 68670: 7/19/0/0
+7 | στοιχεῖον, ου, τό | entry-bdag-0332-07 | 97/195/5/0 | 68675: 3/2/0/0; 68678: 0/0/1/0; 68681: 32/37/1/0; 68684: 13/23/1/0; 68687: 8/18/1/0; 68690: 41/115/1/0
+8 | στοιχέω | entry-bdag-0332-08 | 35/33/0/0 | 68695: 35/33/0/0
+9 | στοῖχος, ου, ὁ | entry-bdag-0332-09 | 4/10/0/0 | 68699: 4/10/0/0
+10 | στολή, ῆς, ἡ | entry-bdag-0332-10 | 19/65/0/0 | 68703: 19/65/0/0
+11 | στόμα, ατος, τό | entry-bdag-0332-11 | 143/286/7/0 | 68708: 3/0/0/0; 68711: 0/0/1/0; 68714: 97/197/1/0; 68717: 6/15/1/0; 68720: 5/38/1/0; 68723: 16/12/1/0; 68726: 6/4/1/0; 68729: 10/20/1/0
+12 | στόμαχος, ου, ὁ | entry-bdag-0332-12 | 4/16/0/0 | 68734: 4/16/0/0
+13 | στραγγαλιά, ᾶς, ἡ | entry-bdag-0332-13 | 7/15/0/0 | 68738: 7/15/0/0
+14 | στραγγαλόω | entry-bdag-0332-14 | 4/11/0/0 | 68742: 4/11/0/0
+15 | στρατεία, ας, ἡ | entry-bdag-0332-15 | 24/42/0/0 | 68746: 24/42/0/0
+16 | στράτευμα, ατος, τό | entry-bdag-0332-16 | 6/33/0/0 | 68750: 6/33/0/0
+17 | στρατεύω | entry-bdag-0332-17 | 17/68/2/0 | 68755: 4/8/0/0; 68758: 4/38/1/0; 68761: 9/22/1/0
+18 | στρατηγός, οῦ, ὁ | entry-bdag-0332-18 | 20/51/2/0 | 68767: 5/3/0/0; 68770: 1/26/1/0; 68773: 14/22/1/0
+19 | στρατιά, ᾶς, ἡ | entry-bdag-0332-19 | 33/52/2/0 | 68779: 3/0/0/0; 68782: 27/49/1/0; 68785: 3/3/1/0
+20 | στρατιώτης, ου, ὁ | entry-bdag-0332-20 | 12/32/2/0 | 68791: 3/0/0/0; 68794: 0/21/1/0; 68797: 9/11/1/0
+Módulo 69b662d448374596c99a484e83c24aca4ed947e0; manifesto b7c5cb68bfdd4bf90187d393dfa03f457f05bc6e. Roundtrip 40/40, JSON válido, 20 linhas/cartões, IDs únicos e destinos correspondentes, 240/1690 tags equilibradas, 101 links NA28 para referências explícitas conforme padrão anterior, sem HTTP individual; manifesto 2358→2359, inserção após módulo 0331. Sem bibliographicTerms duplicado. Classificações e glosas de índice editoriais. Sem divergências detectadas no controle de tokens; isso não equivale a prova independente de equivalência semântica. Sem DOM real, CI confirmado ou integração; auditoria independente A–J NÃO CONCLUÍDA. Consulta dirigida às normas vigentes e histórico recente; não releitura individual de todo o histórico de Rbdag.
+Publicação condicionada a comparação de árvores e proteção de concorrência expected_sha, force=false; exclusivamente lexicons/bdag-part-0332.js, lexicon-modules.json e regras/Rbdag.txt. Progresso de referência 6844→6864/8287 após confirmação remota; sem PR, merge ou deploy.
+=== FIM LOTE 0332 ===
