@@ -12893,3 +12893,46 @@ Módulo 017077d4d37898413afb8dd467a2b00143a0cbed; manifesto 1ad87c4e06c897823c7a
 Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global, revisão semântica independente, teste CI/DOM/HTTP ou integração. A auditoria independente A–J não está concluída; não alterar contador respectivo.
 Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0319, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6604/8287; antes 6584/8287. Sem PR, merge ou deploy.
 === FIM LOTE 0319 ===
+
+
+=== LOTE 0320 — INCORPORAÇÃO / COLAÇÃO PRÉ-PUBLICAÇÃO — 2026-11-25 ===
+HEAD-base: 6e9ff3e9b8dea187c39e4c0211f37ed064c2d40d; árvore-base f3c0d80ea867dfde0a56aa188ed010ab66bd64a0.
+Fonte exclusiva: file_00000000429c820eb5aa2bcab96f1572, HTML linhas 66841–66981; cabeçalhos 66841–66977. Recorte textual HTML 96c913c4185fca21a5e3b1f2c3dc5ef2333e2d07, recuperado com igualdade contra releitura; não representa hash integral do arquivo.
+20 artigos: σαρκίον, ου, τό–σεβαστός, ή, όν. Próximo: σέβω, linha 66982 (excluído).
+Checkpoints 01–09 899c02b7398e9b892126a5cf635acaba6daa9cd2; 10–20 938049876f252f4d2a347c2cddfe7a1172b3f1d8; consolidado revisado 82c39d4e27b0eb9da1b73b9e8095e0e9cc0cbc4e; relatório estruturado 316b86157dcd559d1d357bcf969262378d8cde6f. Recuperados com igualdade textual; objetos não vinculados à árvore sujeitos à coleta.
+Colação editorial individual e comparação ordenada de tokens gregos com combinantes, grupos numéricos ASCII, marcadores circulados e subdivisões α./β. no início dos parágrafos, e tokens de escrita hebraica por artigo e parágrafo: 38 parágrafos; G/N/M/H 779/1378/18/10; zero divergências. Preservados os cinco sentidos e as subdivisões de σάρξ, inclusive hipóteses e interpretações concorrentes em Jd 7; o artigo combinado σατάν/σατανᾶς, a variante Σαρούχ e a remissão σέ; a distinção literal/figurada de σβέννυμι; o título imperial em σεβαστός e a ressalva acerca de σπεῖρα Σεβαστή. A peculiar leitura a1. e a divergência aproximativa de volumes em σάτον permanecem como na fonte. Igualdade de tokens não comprova sozinha equivalência semântica nem cada sigla latina.
+Revisões da preparação (8 registros):
+1/1 | compartilhar alguns momentos com sua santa porção de carne → partilhar alguns momentos com sua santa porção de carne
+4/2 | carne em massa → carne em sua totalidade material
+4/11 | (os últimos Is 66:24) → (as duas últimas passagens Is 66:24)
+4/14 | dois em KStendahl → dois estudos em KStendahl
+10/1 | eu o vi cair → eu o observei cair
+11/1 | uma medida hebraica de secos → uma medida hebraica para produtos secos
+11/1 | Sobre a estimativa da capacidade da medida → Sobre a estimativa do tamanho da medida
+20/1 | seu nome é Augustus → seu nome é Augusto
+Preservada a voz passiva de 'is raised fr. the dead' em σάρξ 2a: revisão intermediária ativa descartada.
+Evidências individuais (G/N/M/H):
+01 | σαρκίον, ου, τό | HTML 66841 | 1 parágrafo(s) | 10/10/0/0 | colação editorial e roundtrip OK | entry-bdag-0320-01
+02 | σαρκοφάγος, ον | HTML 66845 | 1 parágrafo(s) | 7/4/0/0 | colação editorial e roundtrip OK | entry-bdag-0320-02
+03 | σαρκοφόρος, ον | HTML 66849 | 1 parágrafo(s) | 10/12/0/0 | colação editorial e roundtrip OK | entry-bdag-0320-03
+04 | σάρξ, σαρκός, ἡ | HTML 66854 | 14 parágrafo(s) | 441/753/13/2 | colação editorial e roundtrip OK | entry-bdag-0320-04
+05 | σάρος, ου, ὁ | HTML 66898 | 1 parágrafo(s) | 8/8/0/0 | colação editorial e roundtrip OK | entry-bdag-0320-05
+06 | Σαρούχ | HTML 66902 | 1 parágrafo(s) | 2/0/0/0 | colação editorial e roundtrip OK | entry-bdag-0320-06
+07 | σαρόω | HTML 66906 | 1 parágrafo(s) | 13/29/0/0 | colação editorial e roundtrip OK | entry-bdag-0320-07
+08 | Σάρρα, ας, ἡ | HTML 66910 | 1 parágrafo(s) | 3/22/0/1 | colação editorial e roundtrip OK | entry-bdag-0320-08
+09 | Σαρ(ρ)ων, ωνος, ὁ | HTML 66914 | 1 parágrafo(s) | 6/7/0/1 | colação editorial e roundtrip OK | entry-bdag-0320-09
+10 | σατάν, ὁ | HTML 66918 | 1 parágrafo(s) | 94/166/0/2 | colação editorial e roundtrip OK | entry-bdag-0320-10
+11 | σάτον, ου, τό | HTML 66922 | 1 parágrafo(s) | 15/13/0/2 | colação editorial e roundtrip OK | entry-bdag-0320-11
+12 | Σαῦλος, ου, ὁ | HTML 66926 | 1 parágrafo(s) | 8/25/0/1 | colação editorial e roundtrip OK | entry-bdag-0320-12
+13 | σαφῶς | HTML 66930 | 1 parágrafo(s) | 11/37/0/0 | colação editorial e roundtrip OK | entry-bdag-0320-13
+14 | σβέννυμι | HTML 66935 | 3 parágrafo(s) | 46/91/2/0 | colação editorial e roundtrip OK | entry-bdag-0320-14
+15 | σέ | HTML 66946 | 1 parágrafo(s) | 2/0/0/0 | colação editorial e roundtrip OK | entry-bdag-0320-15
+16 | σεαυτοῦ | HTML 66951 | 4 parágrafo(s) | 25/103/3/1 | colação editorial e roundtrip OK | entry-bdag-0320-16
+17 | σεβάζομαι | HTML 66965 | 1 parágrafo(s) | 23/18/0/0 | colação editorial e roundtrip OK | entry-bdag-0320-17
+18 | σέβασμα, ατος, τό | HTML 66969 | 1 parágrafo(s) | 12/24/0/0 | colação editorial e roundtrip OK | entry-bdag-0320-18
+19 | σεβάσμιος, ον | HTML 66973 | 1 parágrafo(s) | 7/9/0/0 | colação editorial e roundtrip OK | entry-bdag-0320-19
+20 | σεβαστός, ή, όν | HTML 66977 | 1 parágrafo(s) | 36/47/0/0 | colação editorial e roundtrip OK | entry-bdag-0320-20
+Módulo 1d8dfa77d1aeca2b77f4171188ba4b64cc93169f; manifesto 738842ae17cbd6fcc2a3fd32efa431b4e1cfb696; recuperados com igualdade textual. 20 linhas/20 cartões, 20 IDs e destinos únicos e correspondentes em ordem no módulo, 38 parágrafos em roundtrip textual após serialização e recuperação, 120/1211 tags de abertura equilibradas por pilha, 184 links NA28 explícitos com sintaxe verificada (referências abreviadas sem livro explícito mantidas textuais; sem teste HTTP individual). IDs seguem padrão dos módulos imediatamente anteriores, sem sufixo -bdag da regra antiga. Nenhum popup novo, bibliographicTerms não duplicado. Manifesto 2346→2347 caminhos, inclusão única após 0319; demais caminhos e ordem preservados.
+Limitações: Rbdag recuperado integralmente via blob, leitura dirigida às normas operacionais e checkpoint recente, não releitura integral do histórico; Rauditoria consultada. Sem recontagem independente global, revisão semântica independente, teste CI/DOM/HTTP ou integração. Auditoria independente A–J não concluída; não alterar contador respectivo.
+Publicação condicionada à comparação integral das árvores Git, commit pai igual ao HEAD-base, expected_sha e force=false. Somente módulo 0320, manifesto e este apêndice. Progresso de incorporação após confirmação remota: 6624/8287; antes 6604/8287. Sem PR, merge ou deploy.
+=== FIM LOTE 0320 ===
