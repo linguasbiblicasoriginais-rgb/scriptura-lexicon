@@ -7,7 +7,7 @@
   "source_module": "lexicons/bdbh-batch-001.js",
   "source_module_blob_sha": "02bfca678ac8b6f778306aaabd3f88fe0addd926",
   "registered_translation_drafts": 0,
-  "fully_collated": 1965,
+  "fully_collated": 1995,
   "validated": 0,
   "validated_published": 0,
   "audit_completed": 0,
@@ -35,21 +35,21 @@
     "pending_ordinals": []
   },
   "unintegrated": true,
-  "publication_note": "1965 traduções registradas/11015, PT015 99/100, PT016 100/100, PT017 99/100, PT018 100/100, PT019 100/100, PT020 67/100; lacunas 1422 e 1642 preservadas; próximo artigo independente 1968. Auditoria BLOQUEADA; integração pendente.",
+  "publication_note": "1995 traduções registradas/11015, PT015 99/100, PT016 100/100, PT017 99/100, PT018 100/100, PT019 100/100, PT020 97/100; lacunas 1422, 1642, 1981–1983 preservadas; próximo artigo independente 2001. Auditoria BLOQUEADA; integração pendente.",
   "untouched_original": true,
   "last_source_blob_verified": "22af911cb89cd542d7bfb5d6eb1134edb220222f",
-  "last_working_commit_parent": "256b9bcd63d2ead6d6decbc0ec764740333f1cf0",
-  "last_round_status": "BDBH_PT_01950_01967_18_INTEGRAIS",
-  "registered_translation_records": 1965,
-  "editorially_collated": 1965,
-  "validated_statically": 1965,
+  "last_working_commit_parent": "de7abeb1ea9bf581a2dde5c0eed15495cf92a240",
+  "last_round_status": "BDBH_PT_01968_02000_30_INTEGRAIS_3_BLOQUEADOS",
+  "registered_translation_records": 1995,
+  "editorially_collated": 1995,
+  "validated_statically": 1995,
   "last_round_source_sha": "22af911cb89cd542d7bfb5d6eb1134edb220222f",
-  "last_round_parent_head": "256b9bcd63d2ead6d6decbc0ec764740333f1cf0",
-  "last_round_evidence": "relatorios/bdbh-pt-2026-11-25-ordinais-01950-01967.md",
-  "last_completed_ordinal": 1967,
-  "last_completed_ref": "BDB, גֹּרֹתָיו",
-  "last_round_translated_count": 18,
-  "last_round_verified_scope": "18 artigos integrais, 249 referências, 165 elementos protegidos, 413 marcadores; regressão JS 100 pares, 82 inalterados; fonte 020 intacta; manifesto inalterado; DOM e fac-símile não testados.",
+  "last_round_parent_head": "de7abeb1ea9bf581a2dde5c0eed15495cf92a240",
+  "last_round_evidence": "relatorios/bdbh-pt-2026-11-25-ordinais-01968-02000.md",
+  "last_completed_ordinal": 2000,
+  "last_completed_ref": "BDB, דֹּ֫בֶא",
+  "last_round_translated_count": 30,
+  "last_round_verified_scope": "30 artigos integrais, 3 bloqueios documentais novos, 152 referências, 167 elementos protegidos, 318 marcadores; regressão JS 100 pares, 70 inalterados; fonte 020 intacta; manifesto inalterado; DOM e fac-símile não testados.",
   "presentation_canonical_version": "2026-11-15-bdbh-pt-02",
   "presentation_canonical_rule": "regras/Rbdbh-pt.txt",
   "last_fix_status": "BDBH_PT_00954_REMISSAO_ARAMAICA_FAIL_CLOSED",
@@ -59,7 +59,7 @@
   "last_failed_deployment_error": "BDB-H/PT: referência sem mapeamento certificado: I Samuel 4-5",
   "last_fix_source_ref": "BDB Aramaic, וְ",
   "last_fix_scope": "somente a remissão em 954; 953 anteriores idênticos, 163 links restantes e 69 spans/20 sup originais intocados; sem incremento de tradução",
-  "next_actionable_ordinal": 1968,
+  "next_actionable_ordinal": 2001,
   "first_unresolved_ordinal": 1422,
   "last_contiguous_translation_ordinal": 1421,
   "deferred_source_ordinals": [
@@ -76,6 +76,27 @@
       "status": "BLOQUEADO_FONTE_DIGITAL_TRUNCADA",
       "reason": "Registro fonte termina em n.[m. or f., com span vazio; não há definição nem fechamento de colchete. Não traduzido nem contabilizado. Continuidade nos artigos independentes, sem presumir autorização de substituição ou conclusão.",
       "evidence": "relatorios/bdbh-pt-2026-11-25-ordinais-01637-01656.md"
+    },
+    {
+      "ordinal": 1981,
+      "ref": "BDB, גַּת²",
+      "status": "BLOQUEADO_FONTE_DIGITAL_INSUFICIENTE",
+      "reason": "Registro contém apenas lema e classificação gramatical; nenhuma definição, identificação ou remissão explícita. Não presumir conteúdo compartilhado nem substituir por outra edição; requer confronto documental.",
+      "evidence": "relatorios/bdbh-pt-2026-11-25-ordinais-01968-02000.md"
+    },
+    {
+      "ordinal": 1982,
+      "ref": "BDB, גִּתִּי",
+      "status": "BLOQUEADO_FONTE_DIGITAL_INSUFICIENTE",
+      "reason": "Registro contém apenas lema e classificação gramatical; nenhuma definição, identificação ou remissão explícita. Não presumir conteúdo compartilhado nem substituir por outra edição; requer confronto documental.",
+      "evidence": "relatorios/bdbh-pt-2026-11-25-ordinais-01968-02000.md"
+    },
+    {
+      "ordinal": 1983,
+      "ref": "BDB, גִּתַּיִם",
+      "status": "BLOQUEADO_FONTE_DIGITAL_INSUFICIENTE",
+      "reason": "Registro contém apenas lema e classificação gramatical; nenhuma definição, identificação ou remissão explícita. Não presumir conteúdo compartilhado nem substituir por outra edição; requer confronto documental.",
+      "evidence": "relatorios/bdbh-pt-2026-11-25-ordinais-01968-02000.md"
     }
   ]
 }
