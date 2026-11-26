@@ -13822,3 +13822,31 @@ Tradução de 20 artigos, 31 parágrafos; comparação ordenada por artigo e par
 Módulo 7c169eaa441f746b8fc09ca8acf830dd69f575ad; manifesto 4c327e12b9348eaa722e7bd0b0a83adad5e68b87. Roundtrip 31/31, JSON válido, 20 linhas/cartões, IDs locais únicos e destinos correspondentes, sem colisão com módulo anterior e núcleo BDAG, 240/802 tags equilibradas, 13 links NA28; manifesto 2372→2373, inserção após módulo 0345. Sem bibliographicTerms duplicado, sem popups acrescentados. Comparação de tokens não equivale a prova independente de equivalência semântica. Sem DOM real, CI confirmado ou integração; auditoria independente A–J NÃO CONCLUÍDA. Recuperadas normas operacionais e histórico recente de Rbdag e Rauditoria; não releitura individual de todo o histórico. HTML consultado diretamente por intervalo de linhas, sem exportação integral dos bytes ou substituição de fonte. Contagem anterior de 7124 conforme registro do HEAD e módulo anterior; sem recontagem integral do corpus.
 Publicação condicionada a comparação integral de árvores e proteção de concorrência expected_sha, force=false; exclusivamente lexicons/bdag-part-0346.js, lexicon-modules.json e regras/Rbdag.txt. Progresso de referência 7124→7144/8287 após confirmação remota; sem PR, merge ou deploy.
 === FIM LOTE 0346 ===
+
+=== LOTE 0347 — 26/11/2026 ===
+Base 71e83da76524d1bbdfcd0fa2bf3cdbb1c5d3377c; árvore b51b3a0d5dff8deba63e9badbc916b85975d414b. Fonte exclusiva HTML file_00000000429c820eb5aa2bcab96f1572 linhas 70795–70945; recorte fa3af828a38a186ac7522f70635be1d1ab37d24a. Primeiro συνοχή, ῆς, ἡ; último σύντονος, ον; próximo συντρέχω linha 70946.
+Checkpoints tradução A 3d035f130d6f7b668a06d600af516fc3e72d7595; B 59852cbf979ad691c34b8b5e40faf7ce995d1d2b; consolidado 6663216bbe0aa84bead30785e3da8b6c8fe99a89; evidência estruturada 2bb097101159b7fbf90c2f60056745068fc2dccc. Objetos Git não referenciados diretamente, sujeitos à retenção do servidor.
+Tradução de 20 artigos, 39 parágrafos; comparação ordenada por artigo e parágrafo: 301 gregos, 586 grupos numéricos, 19 marcadores circulados, 0 hebraicos; zero divergências. Regex grega e hebraica iniciadas por letra do respectivo alfabeto com marcas combinantes subsequentes. Preservados cinco cabeçalhos remissivos de prefixos, inclusive συσς- como na fonte, além de συνταφείς. Não há homógrafos numerados ou cabeçalhos agrupados neste intervalo. συνοχή: dois sentidos; συνοψίζω: mantidas formas alternativas e asterisco de *ὀψίζω. σύνταξις e συντάσσω: preservados testemunhos de Papias e interpretação do BDAG acerca de hebraico/aramaico; preservados X., EpArist 186 e συνεταράχθν, M … . e demais particularidades do HTML, sem emendas conjecturais. συντέλεια: preservadas referências e variantes; συντελέω: quatro acepções, alternativas de Mk 13:4 e Hb 8:8, exemplos e bibliografia; συντέμνω: preservadas as interpretações de Ro 9:28 e respectivas atribuições e ressalvas textuais. συντηρέω: três acepções; συντίθημι: quatro; σύντομος e συντόμως: duas cada; σύντονος: usos substantivado e adverbial. Classes e glosas de índice editoriais; links NA28 para referências explícitas com capítulo e versículo conforme padrão anterior, sem HTTP individual. Evidências G/N/M/H por artigo e linha de parágrafo:
+1 | συνοχή, ῆς, ἡ | entry-bdag-0347-01 | 11/42/2/0 | 70795: 4/3/0/0; 70798: 3/8/1/0; 70801: 4/31/1/0
+2 | συνοψίζω | entry-bdag-0347-02 | 14/12/0/0 | 70806: 14/12/0/0
+3 | συνπ- | entry-bdag-0347-03 | 2/0/0/0 | 70810: 2/0/0/0
+4 | συνρ- | entry-bdag-0347-04 | 2/0/0/0 | 70814: 2/0/0/0
+5 | συνσ- | entry-bdag-0347-05 | 2/0/0/0 | 70818: 2/0/0/0
+6 | συνσπ- | entry-bdag-0347-06 | 2/0/0/0 | 70822: 2/0/0/0
+7 | συνστ- | entry-bdag-0347-07 | 2/0/0/0 | 70826: 2/0/0/0
+8 | σύνταξις, εως, ἡ | entry-bdag-0347-08 | 11/11/0/0 | 70830: 11/11/0/0
+9 | συνταράσσω | entry-bdag-0347-09 | 8/20/0/0 | 70834: 8/20/0/0
+10 | συντάσσω | entry-bdag-0347-10 | 18/53/2/0 | 70839: 7/21/0/0; 70842: 5/30/1/0; 70845: 6/2/1/0
+11 | συνταφείς | entry-bdag-0347-11 | 2/0/0/0 | 70850: 2/0/0/0
+12 | συντέλεια, ας, ἡ | entry-bdag-0347-12 | 37/82/0/0 | 70854: 37/82/0/0
+13 | συντελέω | entry-bdag-0347-13 | 78/155/4/0 | 70859: 9/10/0/0; 70862: 12/50/1/0; 70865: 46/63/1/0; 70868: 5/14/1/0; 70871: 6/18/1/0
+14 | συντέμνω | entry-bdag-0347-14 | 33/47/0/0 | 70876: 33/47/0/0
+15 | συντεχνίτης, ου, ὁ | entry-bdag-0347-15 | 6/4/0/0 | 70880: 6/4/0/0
+16 | συντηρέω | entry-bdag-0347-16 | 26/66/3/0 | 70885: 7/15/0/0; 70888: 2/21/1/0; 70891: 2/5/1/0; 70894: 15/25/1/0
+17 | συντίθημι | entry-bdag-0347-17 | 18/42/4/0 | 70900: 7/7/0/0; 70903: 6/9/1/0; 70906: 4/2/1/0; 70909: 1/12/1/0; 70912: 0/12/1/0
+18 | σύντομος, ον | entry-bdag-0347-18 | 6/20/2/0 | 70918: 2/6/0/0; 70921: 4/6/1/0; 70924: 0/8/1/0
+19 | συντόμως | entry-bdag-0347-19 | 7/18/2/0 | 70930: 3/0/0/0; 70933: 0/12/1/0; 70936: 4/6/1/0
+20 | σύντονος, ον | entry-bdag-0347-20 | 16/14/0/0 | 70941: 16/14/0/0
+Módulo 0de01e1a844c8e8dfabd8e39cddcfa2374f396b6; manifesto 9c0f1ce162e53a91d8b5c4a85fbef07bf1745775. Roundtrip 39/39, JSON válido, 20 linhas/cartões, IDs locais únicos e destinos correspondentes, sem colisão com módulo anterior e núcleo BDAG, 240/1134 tags equilibradas, 27 links NA28; manifesto 2373→2374, inserção após módulo 0346. Sem bibliographicTerms duplicado, sem popups acrescentados. Comparação de tokens não equivale a prova independente de equivalência semântica. Sem DOM real, CI confirmado ou integração; auditoria independente A–J NÃO CONCLUÍDA. Consultados trechos operacionais e histórico recente de Rbdag e Rauditoria, sem releitura individual de todo o histórico. HTML consultado diretamente por intervalo de linhas, sem exportação integral dos bytes ou substituição de fonte. Contagem anterior de 7144 conforme registro do HEAD e módulo anterior; sem recontagem integral do corpus.
+Publicação condicionada a comparação integral de árvores e proteção de concorrência expected_sha, force=false; exclusivamente lexicons/bdag-part-0347.js, lexicon-modules.json e regras/Rbdag.txt. Progresso de referência 7144→7164/8287 após confirmação remota; sem PR, merge ou deploy.
+=== FIM LOTE 0347 ===
