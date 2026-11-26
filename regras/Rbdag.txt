@@ -13710,3 +13710,31 @@ Tradução de 20 artigos, 43 parágrafos; comparação ordenada por artigo e par
 Módulo 0cab2820490fa69c85645f0ad0ec1b1002f84ff2; manifesto 1c872dae61716dd83ffc707d5e45437f46837e7f. Roundtrip 43/43, JSON válido, 20 linhas/cartões, IDs únicos e destinos correspondentes, 240/996 tags equilibradas, 27 links NA28 para referências explícitas conforme padrão anterior, sem HTTP individual; manifesto 2368→2369, inserção após módulo 0341. Sem bibliographicTerms duplicado. Comparação de tokens não equivale a prova independente de equivalência semântica. Sem DOM real, CI confirmado ou integração; auditoria independente A–J NÃO CONCLUÍDA. Recuperadas as normas vigentes e consultado o histórico recente de Rbdag e Rauditoria; não releitura individual de todo o histórico. HTML consultado por intervalo de linhas, sem substituição de fonte.
 Publicação condicionada a comparação integral de árvores e proteção de concorrência expected_sha, force=false; exclusivamente lexicons/bdag-part-0342.js, lexicon-modules.json e regras/Rbdag.txt. Progresso de referência 7044→7064/8287 após confirmação remota; sem PR, merge ou deploy.
 === FIM LOTE 0342 ===
+
+=== LOTE 0343 — 26/11/2026 ===
+Base fa1a112a9c436232a9a890775622e2e8a4104723; árvore c18d02c5fb99bbea0db51d8f3feec916b20ff42c. Fonte exclusiva HTML file_00000000429c820eb5aa2bcab96f1572 linhas 70304–70413; recorte d227153a5d3ed0da362fccc6c74061a8b53fc10d. Primeiro συνέδριον, ου, τό; último συνεπίσκοπος, ου, ὁ; próximo συνεπιτίθημι linha 70414.
+Checkpoints tradução A fbddedc8f20f1bbdf200a053f9ca4b11aa3d400c; B ad7d729264c0d99e6417adc9b190156d5fc427e7; consolidado 9cbe81c6cb8293d7a62224ace6ee1f6c4e735742; evidência estruturada c5bb020ac92d6aa764a044772b25a89e61f0ad00. Objetos Git não referenciados diretamente, sujeitos à retenção do servidor.
+Tradução de 20 artigos, 29 parágrafos; comparação ordenada por artigo e parágrafo: 283 gregos, 655 grupos numéricos, 9 marcadores circulados, 1 hebraicos; zero divergências. Regex grega e hebraica iniciadas por letra do respectivo alfabeto; subdivisões alfabéticas gregas incluídas nos tokens gregos. Mantidas três acepções de συνέδριον com subdivisões, hebraico סַנְהֶדְרִין, discussão histórica e jurídica atribuída ao BDAG e bibliografia; συνέδριος preservado como remissão autônoma, cuja frase termina em aberto antes de σύνεδρος. Mantidas três acepções de συνείδησις, genitivos objetivo/subjetivo, atributos, variantes, exemplos e extensa bibliografia. Preservados I. σύνειμι (de εἰμί) e II. σύνειμι (de εἶμι), incluindo algarismos romanos exteriores ao span c71 nos cabeçalhos de índice e cartão, com IDs distintos. Preservados συνεκλεκτός, ή, όν (acentos da fonte), συνέλευσις, εως ἡ (sem vírgula antes do artigo), FTillmam e demais leituras do HTML sem emendas conjecturais; mantida a interpretação de 1 Pt 5:13 atribuída ao BDAG. Classes e glosas de índice editoriais; links NA28 para referências explícitas conforme padrão anterior, sem HTTP individual; remissões textuais sem inventar URLs; sem DOM real ou integração. Evidências G/N/M/H por artigo e linha de parágrafo:
+1 | συνέδριον, ου, τό | entry-bdag-0343-01 | 35/180/6/1 | 70304: 4/5/0/0; 70307: 4/17/1/0; 70310: 0/4/1/0; 70313: 11/14/1/0; 70316: 6/104/1/1; 70319: 9/5/1/0; 70322: 1/31/1/0
+2 | συνέδριος | entry-bdag-0343-02 | 2/3/0/0 | 70327: 2/3/0/0
+3 | σύνεδρος, ου, ὁ | entry-bdag-0343-03 | 5/14/0/0 | 70331: 5/14/0/0
+4 | συνείδησις, εως, ἡ | entry-bdag-0343-04 | 149/308/3/0 | 70336: 4/0/0/0; 70339: 27/30/1/0; 70342: 104/153/1/0; 70345: 14/125/1/0
+5 | συνεῖδον | entry-bdag-0343-05 | 2/0/0/0 | 70350: 2/0/0/0
+6 | συνειδός, τό | entry-bdag-0343-06 | 3/1/0/0 | 70354: 3/1/0/0
+7 | συνειδυία | entry-bdag-0343-07 | 2/0/0/0 | 70358: 2/0/0/0
+8 | συνείληφα | entry-bdag-0343-08 | 2/0/0/0 | 70362: 2/0/0/0
+9 | I. σύνειμι | entry-bdag-0343-09 | 8/10/0/0 | 70366: 8/10/0/0
+10 | II. σύνειμι | entry-bdag-0343-10 | 5/7/0/0 | 70370: 5/7/0/0
+11 | συνεισέρχομαι | entry-bdag-0343-11 | 15/17/0/0 | 70374: 15/17/0/0
+12 | συνέκδημος, ου, ὁ | entry-bdag-0343-12 | 5/17/0/0 | 70378: 5/17/0/0
+13 | συνεκλεκτός, ή, όν | entry-bdag-0343-13 | 9/3/0/0 | 70382: 9/3/0/0
+14 | συνεκπορεύομαι | entry-bdag-0343-14 | 2/9/0/0 | 70386: 2/9/0/0
+15 | συνελαύνω | entry-bdag-0343-15 | 18/25/0/0 | 70390: 18/25/0/0
+16 | συνέλευσις, εως ἡ | entry-bdag-0343-16 | 4/14/0/0 | 70394: 4/14/0/0
+17 | συνεξέρχομαι | entry-bdag-0343-17 | 4/13/0/0 | 70398: 4/13/0/0
+18 | συνεπέρχομαι | entry-bdag-0343-18 | 3/11/0/0 | 70402: 3/11/0/0
+19 | συνεπιμαρτυρέω | entry-bdag-0343-19 | 4/21/0/0 | 70406: 4/21/0/0
+20 | συνεπίσκοπος, ου, ὁ | entry-bdag-0343-20 | 6/2/0/0 | 70410: 6/2/0/0
+Módulo 7f01440a05813f15221baa47bf3caa295c6d8c70; manifesto af1a0c7ed151f40c5ae7383ad69b9205ceec0ac1. Roundtrip 29/29, JSON válido, 20 linhas/cartões, IDs únicos e destinos correspondentes, 240/1138 tags equilibradas, 56 links NA28 para referências explícitas conforme padrão anterior, sem HTTP individual; manifesto 2369→2370, inserção após módulo 0342. Sem bibliographicTerms duplicado. Comparação de tokens não equivale a prova independente de equivalência semântica. Sem DOM real, CI confirmado ou integração; auditoria independente A–J NÃO CONCLUÍDA. Recuperadas as normas vigentes e consultado o histórico recente de Rbdag e Rauditoria; não releitura individual de todo o histórico. HTML consultado por intervalo de linhas, sem substituição de fonte.
+Publicação condicionada a comparação integral de árvores e proteção de concorrência expected_sha, force=false; exclusivamente lexicons/bdag-part-0343.js, lexicon-modules.json e regras/Rbdag.txt. Progresso de referência 7064→7084/8287 após confirmação remota; sem PR, merge ou deploy.
+=== FIM LOTE 0343 ===
