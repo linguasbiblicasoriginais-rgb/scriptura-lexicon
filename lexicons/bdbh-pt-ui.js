@@ -60,6 +60,15 @@
           +' data-meanings="'+encode(lexicalTip)+'" lang="he" dir="rtl">'
           +label+'</a>';
       }
+      if(ref==="BDB Aramaic, בַּת"){
+        const lemma=ref.slice("BDB Aramaic, ".length);
+        const lexicalTip="Remissão documental ao verbete BDB-A "+lemma+". Ativar para pesquisar a entrada no dicionário aramaico.";
+        return '<a class="reference-link bdbh-pt-link bdbh-pt-xref tooltip-trigger" href="#aramaico"'
+          +' data-ref="'+encode(ref)+'" data-bdbh-lemma="'+encode(lemma)+'" data-bdbh-dictionary="aramaico"'
+          +' data-bdbh-source-href="'+encode(sourceHref)+'"'
+          +' data-tooltip-type="hebrew" data-tooltip-label="'+encode(originalLabel)+'"'
+          +' data-meanings="'+encode(lexicalTip)+'" lang="arc" dir="rtl">'+label+'</a>';
+      }
       const crossChapterVerseRange=/^(.+?) (\d+):(\d+)-(\d+):(\d+)$/.exec(ref);
       const chapterRange=/^(.+?) (\d+)-(\d+)$/.exec(ref);
       const match=crossChapterVerseRange||/^(.+?) (\d+)(?::(\d+)(?:-(\d+))?)?$/.exec(ref)||chapterRange;

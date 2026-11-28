@@ -12,11 +12,13 @@
     const input=document.getElementById("search-input");
     const source=document.getElementById("source-filter");
     if(!lemma||!input||!source||!window.ScripturaRunSearch) return;
-    if(window.ScripturaGetActiveDictionary?.()!=="hebraico"){
-      document.querySelector('[data-dictionary-target="hebraico"]')?.click();
+    const dictionary=target.dataset.bdbhDictionary==="aramaico"?"aramaico":"hebraico";
+    const sourceId=dictionary==="aramaico"?"BDBA":"BDB";
+    if(window.ScripturaGetActiveDictionary?.()!==dictionary){
+      document.querySelector('[data-dictionary-target="'+dictionary+'"]')?.click();
     }
-    if(Array.from(source.options).some(option=>option.value==="BDB")&&source.value!=="BDB"){
-      source.value="BDB";
+    if(Array.from(source.options).some(option=>option.value===sourceId)&&source.value!==sourceId){
+      source.value=sourceId;
       source.dispatchEvent(new Event("change",{bubbles:true}));
     }
     input.value=lemma;
