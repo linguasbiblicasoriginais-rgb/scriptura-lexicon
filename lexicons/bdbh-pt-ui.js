@@ -29,9 +29,10 @@
     ["Habakkuk","HAB","Hc","Habacuque"],["Zephaniah","ZEP","Sf","Sofonias"],
     ["Haggai","HAG","Ag","Ageu"],["Zechariah","ZEC","Zc","Zacarias"],
     ["Malachi","MAL","Ml","Malaquias"],
-    ["The Book of Maccabees I (Kahana Translation)","1MA","1Mc","Primeiro Livro dos Macabeus"]
+    ["The Book of Maccabees I (Kahana Translation)","1MA","1Mc","Primeiro Livro dos Macabeus"],
+    ["The Book of Maccabees II","2MA","2Mc","Segundo Livro dos Macabeus"]
   ];
-  const books=new Map(bookEntries.map(row=>[row[0],{id:row[1],abbr:row[2],full:row[3],apocryphal:row[1]==="1MA"}]));
+  const books=new Map(bookEntries.map(row=>[row[0],{id:row[1],abbr:row[2],full:row[3],apocryphal:row[1]==="1MA"||row[1]==="2MA"}]));
   const encode=s=>String(s).replace(/&/g,"&amp;").replace(/"/g,"&quot;")
      .replace(/</g,"&lt;").replace(/>/g,"&gt;");
   const hebrewTip="Forma hebraica citada pelo BDB-H; examine a acepção e o contexto para determinar seu sentido.";
@@ -78,7 +79,7 @@
         :chapterEnd!==null?", capítulos "+chapter+" a "+chapterEnd
         :", capítulo "+chapter+(verse===null?"":verseEnd!==null?", versículos "+verse+" a "+verseEnd:", versículo "+verse+(subdivision?(subdivision==="f"?" e seguinte":subdivision==="ff"?" e seguintes":" (parte "+subdivision+")"):"")));
       const note=book.apocryphal
-        ? ". A passagem é aberta no leitor da Septuaginta, não na tradução de Kahana citada na fonte BDB."
+        ? (book.id==="1MA"?". A passagem é aberta no leitor da Septuaginta, não na tradução de Kahana citada na fonte BDB.":". A passagem é aberta no texto grego da Septuaginta (Brenton) do Scriptura Lexicon.")
         : chapterEnd!==null
           ? ". Ativar para abrir o início do intervalo no leitor hebraico UXLC do Scriptura Lexicon."
           : ". Ativar para abrir a passagem no leitor hebraico UXLC do Scriptura Lexicon.";
