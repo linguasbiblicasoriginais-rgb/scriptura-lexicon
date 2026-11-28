@@ -7,7 +7,7 @@
   "source_module": "lexicons/bdbh-batch-001.js",
   "source_module_blob_sha": "02bfca678ac8b6f778306aaabd3f88fe0addd926",
   "registered_translation_drafts": 0,
-  "fully_collated": 3093,
+  "fully_collated": 3108,
   "validated": 0,
   "validated_published": 0,
   "audit_completed": 0,
@@ -35,21 +35,21 @@
     "pending_ordinals": []
   },
   "unintegrated": true,
-  "publication_note": "3093 traduções registradas/11015; PT031 100/100; sete bloqueios documentais preservados; próximo 3101. Auditoria BLOQUEADA; integração pendente.",
+  "publication_note": "3108 traduções registradas/11015; PT032 15/100; sete bloqueios preservados; próximo 3116. Auditoria BLOQUEADA; integração deste lote pendente. Lote anterior integrado e READY.",
   "untouched_original": true,
-  "last_source_blob_verified": "336719180440e6f72b6d98739d988371de648acc",
-  "last_working_commit_parent": "ae37eaf39ff8100d1303212095e4f47bcab0d975",
-  "last_round_status": "BDBH_PT_03056_03100_45_INTEGRAIS",
-  "registered_translation_records": 3093,
-  "editorially_collated": 3093,
-  "validated_statically": 3093,
-  "last_round_source_sha": "336719180440e6f72b6d98739d988371de648acc",
-  "last_round_parent_head": "ae37eaf39ff8100d1303212095e4f47bcab0d975",
-  "last_round_evidence": "relatorios/bdbh-pt-2026-11-27-ordinais-03056-03100.md",
-  "last_completed_ordinal": 3100,
-  "last_completed_ref": "BDB, חָלִיל",
-  "last_round_translated_count": 45,
-  "last_round_verified_scope": "45 artigos integrais; 480 referências data-ref; 907 marcadores a/span/sup e 1 sub; regressão JS 100 pares, 55 inalterados; DOM e fac-símile não testados.",
+  "last_source_blob_verified": "a90c64142017daba5072be57711fffae80358fb8",
+  "last_working_commit_parent": "ad5c34b9581eec71c5535018d2764dd20cec8191",
+  "last_round_status": "BDBH_PT_03101_03115_15_INTEGRAIS",
+  "registered_translation_records": 3108,
+  "editorially_collated": 3108,
+  "validated_statically": 3108,
+  "last_round_source_sha": "a90c64142017daba5072be57711fffae80358fb8",
+  "last_round_parent_head": "ad5c34b9581eec71c5535018d2764dd20cec8191",
+  "last_round_evidence": "relatorios/bdbh-pt-2026-11-28-ordinais-03101-03115.md",
+  "last_completed_ordinal": 3115,
+  "last_completed_ref": "BDB, חֵלֹן²",
+  "last_round_translated_count": 15,
+  "last_round_verified_scope": "15 artigos integrais; 370 data-ref; 569 a/span/sup e 0 sub; regressão JS 100 pares, 85 inalterados; DOM e fac-símile não testados.",
   "presentation_canonical_version": "2026-11-15-bdbh-pt-02",
   "presentation_canonical_rule": "regras/Rbdbh-pt.txt",
   "last_fix_status": "BDBH_PT_00954_REMISSAO_ARAMAICA_FAIL_CLOSED",
@@ -59,7 +59,7 @@
   "last_failed_deployment_error": "BDB-H/PT: referência sem mapeamento certificado: I Samuel 4-5",
   "last_fix_source_ref": "BDB Aramaic, וְ",
   "last_fix_scope": "somente a remissão em 954; 953 anteriores idênticos, 163 links restantes e 69 spans/20 sup originais intocados; sem incremento de tradução",
-  "next_actionable_ordinal": 3101,
+  "next_actionable_ordinal": 3116,
   "first_unresolved_ordinal": 1422,
   "last_contiguous_translation_ordinal": 1421,
   "deferred_source_ordinals": [
@@ -112,5 +112,13 @@
       "reason": "A fonte contém a transição anômala '(v. Di). perhaps proposes 4, of gold' entre Qal e exemplos de ouro, prata e vinho; possível lacuna interna de classificação e paradigma. Não reconstruir por conjectura nem contabilizar; requer confronto com impresso.",
       "evidence": "relatorios/bdbh-pt-2026-11-27-ordinais-02717-02745.md"
     }
-  ]
+  ],
+  "last_confirmed_integration": {
+    "editorial_sha": "ad5c34b9581eec71c5535018d2764dd20cec8191",
+    "integrated_sha": "608e1bed95b268605a001c048fdc9a92b2b33242",
+    "pr": 585,
+    "deployment": "dpl_8iV4Ff83oPszHNU6YeZWMVbmtDar",
+    "deployment_state": "READY",
+    "registered_translation_records": 3093
+  }
 }
